@@ -5,8 +5,8 @@
     <description>这里是 @PXZHANG张培歆 的个人网站</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 29 Sep 2018 22:01:58 +0800</pubDate>
-    <lastBuildDate>Sat, 29 Sep 2018 22:01:58 +0800</lastBuildDate>
+    <pubDate>Sat, 29 Sep 2018 22:09:14 +0800</pubDate>
+    <lastBuildDate>Sat, 29 Sep 2018 22:09:14 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -29,7 +29,8 @@
         <description>&lt;h2 id=&quot;随机测试random-testing&quot;&gt;随机测试（Random Testing）&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;使用随机生成的测试输入执行程序，然后观察是否会出现错误状态&lt;/li&gt;
-  &lt;li&gt;对于高可能性的错误，随机测试的代价很低，反之很高（比如说👇的第3行判断语句，对于随机测试来说，几乎不可能覆盖到其True分支）
+  &lt;li&gt;对于高可能性的错误，随机测试的代价很低，反之很高&lt;br /&gt;
+比如说👇的第3行判断语句，对于随机测试来说，几乎不可能覆盖到其True分支
     &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
 3
@@ -49,7 +50,7 @@
 &lt;h2 id=&quot;符号执行symbolic-execution&quot;&gt;符号执行（Symbolic Execution）&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;利用符号变量来代替输入执行程序，然后使用约束求解器求解路径约束从而获得测试输入&lt;/li&gt;
-  &lt;li&gt;符号执行的代价很高，但是可以“保证”到达给定节点
+  &lt;li&gt;符号执行的代价很高，但是可以“保证”到达给定节点&lt;br /&gt;
 同样是上面那个程序，我们可以通过求解👇的路径约束：
     &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 &lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;y == 42342531 &amp;amp;&amp;amp; (x&amp;lt;0 || x &amp;gt;= 10)
@@ -68,13 +69,25 @@
   &lt;li&gt;集成了具体执行和符号执行两种策略&lt;/li&gt;
   &lt;li&gt;决定选择随机测试还是符号执行&lt;/li&gt;
   &lt;li&gt;如果选择符号执行，决定选择的程序执行路径&lt;/li&gt;
-  &lt;li&gt;常见的动态符号执行测试工具：Microsoft SAGE and JDart
+  &lt;li&gt;常见的动态符号执行测试工具：Microsoft SAGE和JDart等&lt;br /&gt;
 比如说如下程序：
-```
-int h(int x, int y) {
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;int h(int x, int y) {
   if (x != y) { 
-      if (2&lt;em&gt;x == x + 10) { 
-          abort(); /&lt;/em&gt;error*/
+      if (2*x == x + 10) { 
+          abort(); /*error*/
       }
       else {
           return 2x+y; 
@@ -83,13 +96,13 @@ int h(int x, int y) {
   else{
       return 2x;
   } 
-}&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;```
-其抽象语法树为：
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;p&gt;其抽象语法树为：
 &lt;img src=&quot;http://pxzhang94.github.io/img/posts/concolic_testing_1.png&quot; alt=&quot;抽象语法树&quot; /&gt;
-如👆图所示，黑色箭头表示随机测试，蓝色箭头表示符号执行&lt;/p&gt;
+如👆图所示，黑色箭头表示随机测试，蓝色箭头表示符号执行.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;常见动态符号执行策略&quot;&gt;常见动态符号执行策略&lt;/h2&gt;
 &lt;p&gt;事实上，绝大多数动态符号执行测试策略仅执行一遍随机测试，更多的是关注随后符号执行路径的调度，这导致相关算法性能距离&lt;a href=&quot;http://pxzhang94.github.io/2018/10/01/concolic_testing_2&quot;&gt;最优调度策略&lt;/a&gt;有极大的差距。&lt;/p&gt;
