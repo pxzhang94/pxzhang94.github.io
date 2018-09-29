@@ -5,8 +5,8 @@
     <description>这里是 @PXZHANG张培歆 的个人网站</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 29 Sep 2018 21:58:07 +0800</pubDate>
-    <lastBuildDate>Sat, 29 Sep 2018 21:58:07 +0800</lastBuildDate>
+    <pubDate>Sat, 29 Sep 2018 22:01:58 +0800</pubDate>
+    <lastBuildDate>Sat, 29 Sep 2018 22:01:58 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -88,11 +88,11 @@ int h(int x, int y) {
 
 &lt;p&gt;```
 其抽象语法树为：
-&lt;img src=&quot;http://pxzhang.cn/_posts/images/concolic_testing_1.png&quot; alt=&quot;抽象语法树&quot; /&gt;
+&lt;img src=&quot;http://pxzhang94.github.io/img/posts/concolic_testing_1.png&quot; alt=&quot;抽象语法树&quot; /&gt;
 如👆图所示，黑色箭头表示随机测试，蓝色箭头表示符号执行&lt;/p&gt;
 
 &lt;h2 id=&quot;常见动态符号执行策略&quot;&gt;常见动态符号执行策略&lt;/h2&gt;
-&lt;p&gt;事实上，绝大多数动态符号执行测试策略仅执行一遍随机测试，更多的是关注随后符号执行路径的调度，这导致相关算法性能距离&lt;a href=&quot;&quot;&gt;最优调度策略&lt;/a&gt;有极大的差距。&lt;/p&gt;
+&lt;p&gt;事实上，绝大多数动态符号执行测试策略仅执行一遍随机测试，更多的是关注随后符号执行路径的调度，这导致相关算法性能距离&lt;a href=&quot;http://pxzhang94.github.io/2018/10/01/concolic_testing_2&quot;&gt;最优调度策略&lt;/a&gt;有极大的差距。&lt;/p&gt;
 &lt;h3 id=&quot;directed-automated-random-testing&quot;&gt;Directed Automated Random Testing&lt;/h3&gt;
 &lt;h3 id=&quot;coverage-optimized-search&quot;&gt;Coverage-Optimized Search&lt;/h3&gt;
 &lt;h3 id=&quot;generational-search&quot;&gt;Generational Search&lt;/h3&gt;
