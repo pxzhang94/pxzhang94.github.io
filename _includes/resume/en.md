@@ -80,7 +80,7 @@ A total of 8 batches and more than 100 students participated in the activity
 
 - Reading (Literature, Philosophy, History, Net Literature and etc)
 - Basketball (Point Guard, participated in school and court basketball competitions many times)
-- Travels (writing travel notes on [Mafengwo](http://www.mafengwo.cn))
+- Travels (writing travel notes on [Mafengwo](http://www.mafengwo.cn/u/93458083.html))
 - Collection (Stamps, Commemorative Coins)
 - Go Chess (Amateur Second Class)
 
