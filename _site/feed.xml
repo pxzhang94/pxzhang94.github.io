@@ -5,8 +5,8 @@
     <description>这里是 @PXZHANG张培歆 的个人网站</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 29 Sep 2018 21:55:46 +0800</pubDate>
-    <lastBuildDate>Sat, 29 Sep 2018 21:55:46 +0800</lastBuildDate>
+    <pubDate>Sat, 29 Sep 2018 21:58:07 +0800</pubDate>
+    <lastBuildDate>Sat, 29 Sep 2018 21:58:07 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -16,8 +16,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 01 Oct 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2018/10/01/concolic_testing_2/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/10/01/concolic_testing_2/</guid>
+        <link>http://localhost:4000/2018/10/01/concolic-testing-2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/10/01/concolic-testing-2/</guid>
         
         <category>计算机科学</category>
         
@@ -100,8 +100,8 @@ int h(int x, int y) {
 
 </description>
         <pubDate>Sat, 29 Sep 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2018/09/29/concolic_testing_1/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/09/29/concolic_testing_1/</guid>
+        <link>http://localhost:4000/2018/09/29/concolic-testing-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/09/29/concolic-testing-1/</guid>
         
         <category>Software Engineering</category>
         
