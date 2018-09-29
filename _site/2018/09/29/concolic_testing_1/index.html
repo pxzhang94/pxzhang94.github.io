@@ -11,28 +11,38 @@
     <meta name="theme-color" content="#000000">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="This is a test 2 - 张培歆 | PXZHANG">
+    <meta property="og:title" content="Concolic Testing 1 - 张培歆 | PXZHANG">
     
     <meta property="og:type" content="article">
-    <meta property="og:description" content="
-  Hello World!
+    <meta property="og:description" content="随机测试（Random Testing）
 
-">
+  使用随机生成的测试输入执行程序，然后观察是否会出现错误状态
+  对于高可能性的错误，随机测试的代价很低，反之很高（比如说👇的第3行判断语句，对于随机测试来说，几乎不可能覆盖到其True分支）
+    1
+2
+3
+4
+5
+6
+public static void example(int x, int y) {
+  int[] array = ne...">
     
-    <meta property="article:published_time" content="2016-12-12T00:00:00Z">
+    <meta property="article:published_time" content="2018-09-29T00:00:00Z">
     
     
     <meta property="article:author" content="pxzhang">
     
     
-    <meta property="article:tag" content="计算机科学">
+    <meta property="article:tag" content="Software Engineering">
+    
+    <meta property="article:tag" content="Concolic Testing">
     
     
     <meta property="og:image" content="http://localhost:4000/img/pxzhang_icse2018.jpg">
-    <meta property="og:url" content="http://localhost:4000/2016/12/12/halting-problem/">
+    <meta property="og:url" content="http://localhost:4000/2018/09/29/concolic_testing_1/">
     <meta property="og:site_name" content="张培歆 | PXZHANG">
     
-    <title>This is a test 2 - 张培歆 | PXZHANG</title>
+    <title>Concolic Testing 1 - 张培歆 | PXZHANG</title>
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="/pwa/manifest.json">
@@ -41,7 +51,7 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://localhost:4000/2016/12/12/halting-problem/">
+    <link rel="canonical" href="http://localhost:4000/2018/09/29/concolic_testing_1/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -210,13 +220,15 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/archive/?tag=%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6" title="计算机科学">计算机科学</a>
+                        <a class="tag" href="/archive/?tag=Software+Engineering" title="Software Engineering">Software Engineering</a>
+                        
+                        <a class="tag" href="/archive/?tag=Concolic+Testing" title="Concolic Testing">Concolic Testing</a>
                         
                     </div>
-                    <h1>This is a test 2</h1>
+                    <h1>Concolic Testing 1</h1>
                     
-                    <h2 class="subheading">Testing 2</h2>
-                    <span class="meta">Posted by pxzhang on December 12, 2016</span>
+                    <h2 class="subheading">Introduction</h2>
+                    <span class="meta">Posted by pxzhang on September 29, 2018</span>
                 </div>
             </div>
         </div>
@@ -242,9 +254,78 @@
                 <!-- Multi-Lingual -->
                 
 
-				<blockquote>
-  <p>Hello World!</p>
-</blockquote>
+				<h2 id="随机测试random-testing">随机测试（Random Testing）</h2>
+<ul>
+  <li>使用随机生成的测试输入执行程序，然后观察是否会出现错误状态</li>
+  <li>对于高可能性的错误，随机测试的代价很低，反之很高（比如说👇的第3行判断语句，对于随机测试来说，几乎不可能覆盖到其True分支）
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre>public static void example(int x, int y) {
+  int[] array = new int[10];
+  if (y == 42342531) {
+      array[x] = y; 
+  }
+}
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="符号执行symbolic-execution">符号执行（Symbolic Execution）</h2>
+<ul>
+  <li>利用符号变量来代替输入执行程序，然后使用约束求解器求解路径约束从而获得测试输入</li>
+  <li>符号执行的代价很高，但是可以“保证”到达给定节点
+同样是上面那个程序，我们可以通过求解👇的路径约束：
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>y == 42342531 &amp;&amp; (x&lt;0 || x &gt;= 10)
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+    <p>生成一个特定的测试输入来覆盖我们指定的路径，比如：</p>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>x == 10 and y == 42342531
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+    <p>但是目前符号执行面临两个问题，第一：由于需要利用符号变量来构建路径约束，所以显然其比随机测试需要更多的时间；第二：目前最常见的约束求解器（如Z3等）的求解能力仍十分有限，对于稍复杂的路径约束就束手无策。
+所以自动化测试领域提出了concolic testing，我翻译为动态符号执行测试，也可以翻译为具体符号执行，因为concolic是concrete和symbolic的合成词。</p>
+  </li>
+</ul>
+
+<h2 id="动态符号执行测试concolic-testing">动态符号执行测试（Concolic Testing）</h2>
+<ul>
+  <li>集成了具体执行和符号执行两种策略</li>
+  <li>决定选择随机测试还是符号执行</li>
+  <li>如果选择符号执行，决定选择的程序执行路径</li>
+  <li>常见的动态符号执行测试工具：Microsoft SAGE and JDart
+比如说如下程序：
+```
+int h(int x, int y) {
+  if (x != y) { 
+      if (2<em>x == x + 10) { 
+          abort(); /</em>error*/
+      }
+      else {
+          return 2x+y; 
+      }
+  }
+  else{
+      return 2x;
+  } 
+}</li>
+</ul>
+
+<p>```
+其抽象语法树为：
+<img src="http://pxzhang.cn/_posts/images/concolic_testing_1.png" alt="抽象语法树" />
+如👆图所示，黑色箭头表示随机测试，蓝色箭头表示符号执行</p>
+
+<h2 id="常见动态符号执行策略">常见动态符号执行策略</h2>
+<p>事实上，绝大多数动态符号执行测试策略仅执行一遍随机测试，更多的是关注随后符号执行路径的调度，这导致相关算法性能距离<a href="">最优调度策略</a>有极大的差距。</p>
+<h3 id="directed-automated-random-testing">Directed Automated Random Testing</h3>
+<h3 id="coverage-optimized-search">Coverage-Optimized Search</h3>
+<h3 id="generational-search">Generational Search</h3>
+<h3 id="context-guided-search">Context-Guided Search</h3>
+
 
 
                 <hr style="visibility: hidden;">
@@ -252,9 +333,9 @@
                     
                     
                     <li class="next">
-                        <a href="/2017/12/12/halting-problem/" data-toggle="tooltip" data-placement="top" title="This is a test">
+                        <a href="/2018/10/01/concolic_testing_2/" data-toggle="tooltip" data-placement="top" title="This is a test 2">
                         Next<br>
-                        <span>This is a test</span>
+                        <span>This is a test 2</span>
                         </a>
                     </li>
                     
@@ -294,14 +375,8 @@
         
         
         
-        </a>
         
         
-                <a data-sort="0000" 
-                    href="/archive/?tag=%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6"
-                    title="计算机科学"
-                    rel="2">计算机科学
-                
 </div>
 </section>
 
@@ -311,6 +386,8 @@
 <hr>
 <h5>FRIENDS</h5>
 <ul class="list-inline">
+  
+  <li><a href="http://www.shichaohao.com">Shichaohao</a></li>
   
 </ul>
 
@@ -330,8 +407,8 @@
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "pxzhang";
-    var disqus_identifier = "/2016/12/12/halting-problem";
-    var disqus_url = "http://localhost:4000/2016/12/12/halting-problem/";
+    var disqus_identifier = "/2018/09/29/concolic_testing_1";
+    var disqus_url = "http://localhost:4000/2018/09/29/concolic_testing_1/";
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
