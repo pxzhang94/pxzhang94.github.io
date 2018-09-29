@@ -63,7 +63,7 @@ int h(int x, int y) {
 如👆图所示，黑色箭头表示随机测试，蓝色箭头表示符号执行.
 
 ## 常见动态符号执行策略
-事实上，绝大多数动态符号执行测试策略仅执行一遍随机测试，更多的是关注随后符号执行路径的调度，这导致相关算法性能距离[最优调度策略](http://pxzhang94.github.io/2018/10/01/concolic_testing_2)有极大的差距。
+事实上，绝大多数动态符号执行测试策略仅执行一遍随机测试，更多的是关注随后符号执行路径的调度，这导致相关算法性能距离[最优调度策略](http://pxzhang94.github.io/2018/10/01/concolic-testing-2)有极大的差距。
 ### Directed Automated Random Testing
 ### Coverage-Optimized Search
 ### Generational Search
