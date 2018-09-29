@@ -104,6 +104,10 @@ page-mathjax: false
 
 # Friends
 friends: [
+  {
+        title: "Shichaohao",
+        href: "http://www.shichaohao.com"
+    }
     #{
     #     title: "Su",
     #     href: "http://su.gallery/"
