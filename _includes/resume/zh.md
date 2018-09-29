@@ -1,0 +1,123 @@
+### 个人简介
+我目前是浙江大学软件工程实验室（超大规模信息系统实验室）的在读研究生，现阶段的研究方向是软件工程以及人工智能系统分析与测试。
+
+### 教育背景
+
+| 就读时间 | 学校 | 学院 | 专业 | 学位 | 成绩 |
+| ------- | --- | --- | --- | --- | --- |
+| 2016.09至今 | 浙江大学 | 计算机科学与技术 | 计算机技术 | 硕士 | 88.6/100 |
+| 2012.09-2016.06 | 浙江大学 | 计算机科学与技术 | 软件工程 | 学士 | 3.87/5 |
+
+### 实习经历
+
+> [浙江邦盛科技有限公司](https://www.bsfit.com.cn)，2015.08-2015.10，软件工程师
+>> 数据抓取：使用java语言及HttpClient、jsoup开源库，爬取对象包括P2P、电商、政府部门、银行及学业系统等网站<br/><br/>
+数据分析与清洗
+
+> [浙江邦盛科技有限公司](https://www.bsfit.com.cn)，2016.02-2016.09，算法工程师
+>> 机器学习算法库：代码结构设计与重构，算法开发，性能调优，模型功能开发等<br/><br/>
+模型训练管理平台：功能测试（JIRA）；撰写需求文档、操作手册、软件著作权、专利申请书等<br/><br/>
+数据分析：携程、易宝、苏宁<br/><br/>
+调研：征信行业，神经网络开源项目
+
+> [杭州魔蝎数据科技有限公司](http://www.91moxie.com)，2016.09-2017.02，数据工程师
+>> 项目结构设计：组织，文档，流程，技术<br/><br/>
+用户画像设计：公积金，网上银行，电子商务<br/><br/>
+用户画像开发：使用SQL和流式处理引擎<br/><br/>
+文档：用户画像报告样例，指标开发描述
+
+### 项目经历
+
+> [新加坡科技设计大学系统分析与验证小组](http://sav.sutd.edu.sg)，2017.07-2017.10，软件测试方向
+>> 研究内容：动态符号执行测试，符号执行测试，机器学习生成测试用例等 <br/><br/>
+开源项目：[Ziyuan](https://github.com/sunjun-group/Ziyuan)<br/><br/>
+论文发表：[“Towards Optimal Concolic Testing”](https://dl.acm.org/citation.cfm?id=3180177), Xinyu Wang, Jun Sun, Zhenbang Chen, **Peixin Zhang**, Jingyi Wang and Yun Lin, Proceedings of the 40th International Conference on Software Engineering(ICSE), Gothenburg, Sweden, 2018 (**学生一作，国际计算机协会软件工程专业杰出论文奖**)
+
+> [浙江大学软件工程实验室](http://www.vlis.zju.edu.cn)，2018.03至今，人工智能系统分析与测试方向
+>> 合作方：新加坡科技设计大学，华为（新加坡），巴黎高等师范学院<br/><br/>
+研究内容：攻击样本生成，攻击样本检测，结合信息安全原理的模型训练<br/><br/>
+<!-- 开源项目： <br/><br/> -->
+在投论文：“A New Baseline for Detecting Adversarial Samples of Deep Neural Networks”, Jingyi Wang, Jun Sun, **Peixin Zhang**, Xinyu Wang, ICLR, 2019（**学生一作**）<br/>
+“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”, Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, ICSE, 2019
+
+### 奖项荣誉
+
+| 获奖时间 | 奖项 |
+| ------- | --- |
+| 2018.09 | 浙江大学优秀团员 |
+| 2018.06 | **国际计算机协会软件工程专业杰出论文(ACM SIGSOFT Distinguished Paper)** |
+| 2016.06 | **浙江大学卓越工程师奖学金** |
+| 2016.06 | 浙江大学计算机科学与技术学院三等实习奖学金 |
+| 2016.05 | 浙江大学外汇交易大赛第一名 |
+| 2015.09 | 浙江大学二等学业奖学金 |
+| 2015.07 | 中国外汇交易中心一等奖学金 |
+| 2013.12 | 浙江省大学生物理创新竞赛三等奖 |
+
+### 专业技能
+
+> 计算机：擅长JAVA与PYTHON，熟悉tensorfow，了解C/C++、JSP、HTML，了解操作系统原理、网络，有使用MagicDraw、Git、MySQL以及Office等工具的经历<br/><br/>
+英语：雅思 6.5<br/><br/>
+其它：中国证券业协会证券从业资格(证券市场基础知识，证券交易，证券投资基金，证券投资分析)
+
+### 社会活动
+
+> 浙江大学篮球联盟，2013.09-2014.06，副社长
+>> 协会日常管理工作，负责定期组织会员球赛<br/><br/>
+组织了2013年“新生杯”篮球赛，全校最有影响力的体育赛事之一，负责赛事裁判的管理
+
+> 浙江大学寒假返乡社会实践团，2014.01-2014.02，副团长
+>> 对温州市柳市镇电器行业发展现状进行实地调研，并撰写研究报告<br/><br/>
+与多家500强企业的高级管理人员进行面对面的交流讨论<br/><br/>
+调研内容涵盖电子商务、物联网以及企业管理等多个领域
+
+> 乐清市“梦想导师计划”志愿者活动，2015.02-2015.08，合作发起人
+>> 关注在乐务工人员子女的心理健康发展<br/><br/>
+为乐籍大学生回报家乡社会搭桥牵线<br/><br/>
+与乐清市教育局、城南二小、乐清市志愿者协会、乐清市青少年宫进行深度合作<br/><br/>
+共有8批100余学生参与活动
+
+### 兴趣爱好
+
+- 阅读（文学、哲学、历史学及网络文学等）
+- 篮球（司职组织后卫，多次参加校级与院级篮球赛）
+- 旅行（在[马蜂窝](http://www.mafengwo.cn)上撰写相关游记）
+- 收藏（主要为邮票、纪念币）
+- 围棋（业余二段）
+
+### 联系方式
+
+Email1：<pxzhang94@zju.edu.cn><br/>
+Email2：<pxzhang94@qq.com>
+
+
+<!-- > 写写代码，做做设计，  
+> 离开世界之前，一切都是过程。
+
+Hey，我是黄玄，病毒种，进化程度不明，多出没于[博客](https://huangxuan.me)、[微博](weibo.com/huxpro)、[知乎](https://www.zhihu.com/people/huxpro/pins/posts)、[Twitter](https://twitter.com/Huxpro/)、[Github](http://github.com/huxpro)、[Medium](https://medium.com/@Huxpro) 等地带，绝招尚在开发中。
+
+职业是软件工程师，[Web 工会](https://medium.com/ben-and-dion/team-web-3315aa447fb2#.359a9c6cl)活跃成员。目前在 [Facebook](https://www.facebook.com/) 写 [Reason](https://reasonml.github.io/) 与 [Messenger.com](http://messenger.com/) ，曾被招募为淘宝网 · [阿里旅行](http://alitrip.com)前端工程师、微影时代 · [微票儿](http://www.wepiao.com/?r=movie)前端基础工程团队负责人、[饿了么](https://ele.me/) · 大前端团队 · [PWA 顾问](https://medium.com/elemefe/upgrading-ele-me-to-progressive-web-app-2a446832e509)。
+
+一些作品和开源软件项目，👉 戳 [Portfolio](/portfolio)、[Github](http://github.com/huxpro)、[演说.io](https://zhuanlan.zhihu.com/p/21280918)。 
+
+
+##### Talks
+
+- [Upgrading to Progressive Web Apps][9] · [JSConf CN 上海 2017](http://2017.jsconf.cn/)
+- Building Progressive Web Apps · [CSDI 广州 2017](http://www.csdisummit.com/)
+- The State of Progressive Web App · GDG IO Redux 北京 2017
+- 炒冷饭 · PWA 到底是个什么玩意？· Baidu HQ 北京 2017
+- [Service Worker 101][5] · GDG DevFest 北京 2016
+- [Progressive Web App，复兴序章][4] · [QCon 上海 2016](http://2016.qconshanghai.com/presentation/3111)
+- Progressive Web App 之我见 · GDG IO Redux 北京 2016
+- [CSS Still Sucks 2015][2] · 2015
+- [JavaScript 模块化七日谈][1] · 2015
+
+[1]: //huangxuan.me/2015/07/09/js-module-7day/
+[2]: //huangxuan.me/2015/12/28/css-sucks-2015/
+[3]: //huangxuan.me/2016/06/05/pwa-in-my-pov/
+[4]: //huangxuan.me/2016/10/20/pwa-qcon2016/
+[5]: //huangxuan.me/2016/11/20/sw-101-gdgdf/
+[6]: https://yanshuo.io/assets/player/?deck=58ac8598b123db0067292f92 "PWA Rehashing"
+[7]: https://yanshuo.io/assets/player/?deck=593ad6fbfe88c2006a0a0d6d "The State of PWA"
+[8]: https://yanshuo.io/assets/player/?deck=594d673d570c357d0698a950 "Building PWA"
+[9]: //huangxuan.me/jsconfcn2017/ -->

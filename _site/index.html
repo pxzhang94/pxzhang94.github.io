@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="这里是 @PXZHANG张培歆 的个人网站">
+    <meta name="keywords"  content="张培歆, PXZHANG, PXZHANG张培歆, 个人网站，软件测试，深度学习，旅游, 收藏">
+    <meta name="theme-color" content="#000000">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="张培歆 | PXZHANG">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="我是谁">
+    
+    <meta property="og:image" content="http://localhost:4000/img/pxzhang_icse2018.jpg">
+    <meta property="og:url" content="http://localhost:4000/">
+    <meta property="og:site_name" content="张培歆 | PXZHANG">
+    
+    <title>张培歆 | PXZHANG</title>
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/pwa/manifest.json">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://localhost:4000/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">PXZHANG</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li>
+                        <a href="/about/">Biography</a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="/archive/">Archive</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li>
+                        <a href="/travel/">Travel</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    var __HuxNav__ = {
+        close: function(){
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        },
+        open: function(){
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+
+    // Bind Event
+    $toggle.addEventListener('click', function(e){
+        if ($navbar.className.indexOf('in') > 0) {
+            __HuxNav__.close()
+        }else{
+            __HuxNav__.open()
+        }
+    })
+
+    /**
+     * Since Fastclick is used to delegate 'touchstart' globally
+     * to hack 300ms delay in iOS by performing a fake 'click',
+     * Using 'e.stopPropagation' to stop 'touchstart' event from 
+     * $toggle/$collapse will break global delegation.
+     * 
+     * Instead, we use a 'e.target' filter to prevent handler
+     * added to document close HuxNav.  
+     *
+     * Also, we use 'click' instead of 'touchstart' as compromise
+     */
+    document.addEventListener('click', function(e){
+        if(e.target == $toggle) return;
+        if(e.target.className == 'icon-bar') return;
+        __HuxNav__.close();
+    })
+</script>
+
+
+    <!-- Page Header -->
+
+
+
+
+
+
+
+<header class="intro-header" style="background-image: url('/img/about-bg-walle.jpg')">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+        <div class="site-heading">
+        
+          <h1>PXZHANG</h1>
+          <span class="subheading">我是谁</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+        
+
+<!-- USE SIDEBAR -->
+    <!-- PostList Container -->
+    		<div class="
+                col-lg-8 col-lg-offset-1
+                col-md-8 col-md-offset-1
+                col-sm-12
+                col-xs-12
+                postlist-container
+            ">
+    			<!-- Language Selector -->
+<select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" selected> 中文 Chinese </option>
+    <option value="1"> 英文 English </option>
+</select>
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+    
+    <h3 id="个人简介">个人简介</h3>
+<p>我目前是浙江大学软件工程实验室（超大规模信息系统实验室）的在读研究生，现阶段的研究方向是软件工程以及人工智能系统分析与测试。</p>
+
+<h3 id="教育背景">教育背景</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>就读时间</th>
+      <th>学校</th>
+      <th>学院</th>
+      <th>专业</th>
+      <th>学位</th>
+      <th>成绩</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2016.09至今</td>
+      <td>浙江大学</td>
+      <td>计算机科学与技术</td>
+      <td>计算机技术</td>
+      <td>硕士</td>
+      <td>88.6/100</td>
+    </tr>
+    <tr>
+      <td>2012.09-2016.06</td>
+      <td>浙江大学</td>
+      <td>计算机科学与技术</td>
+      <td>软件工程</td>
+      <td>学士</td>
+      <td>3.87/5</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="实习经历">实习经历</h3>
+
+<blockquote>
+  <p><a href="https://www.bsfit.com.cn">浙江邦盛科技有限公司</a>，2015.08-2015.10，软件工程师</p>
+  <blockquote>
+    <p>数据抓取：使用java语言及HttpClient、jsoup开源库，爬取对象包括P2P、电商、政府部门、银行及学业系统等网站<br /><br />
+数据分析与清洗</p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <p><a href="https://www.bsfit.com.cn">浙江邦盛科技有限公司</a>，2016.02-2016.09，算法工程师</p>
+  <blockquote>
+    <p>机器学习算法库：代码结构设计与重构，算法开发，性能调优，模型功能开发等<br /><br />
+模型训练管理平台：功能测试（JIRA）；撰写需求文档、操作手册、软件著作权、专利申请书等<br /><br />
+数据分析：携程、易宝、苏宁<br /><br />
+调研：征信行业，神经网络开源项目</p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <p><a href="http://www.91moxie.com">杭州魔蝎数据科技有限公司</a>，2016.09-2017.02，数据工程师</p>
+  <blockquote>
+    <p>项目结构设计：组织，文档，流程，技术<br /><br />
+用户画像设计：公积金，网上银行，电子商务<br /><br />
+用户画像开发：使用SQL和流式处理引擎<br /><br />
+文档：用户画像报告样例，指标开发描述</p>
+  </blockquote>
+</blockquote>
+
+<h3 id="项目经历">项目经历</h3>
+
+<blockquote>
+  <p><a href="http://sav.sutd.edu.sg">新加坡科技设计大学系统分析与验证小组</a>，2017.07-2017.10，软件测试方向</p>
+  <blockquote>
+    <p>研究内容：动态符号执行测试，符号执行测试，机器学习生成测试用例等 <br /><br />
+开源项目：<a href="https://github.com/sunjun-group/Ziyuan">Ziyuan</a><br /><br />
+论文发表：<a href="https://dl.acm.org/citation.cfm?id=3180177">“Towards Optimal Concolic Testing”</a>, Xinyu Wang, Jun Sun, Zhenbang Chen, <strong>Peixin Zhang</strong>, Jingyi Wang and Yun Lin, Proceedings of the 40th International Conference on Software Engineering(ICSE), Gothenburg, Sweden, 2018 (<strong>学生一作，国际计算机协会软件工程专业杰出论文奖</strong>)</p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <p><a href="http://www.vlis.zju.edu.cn">浙江大学软件工程实验室</a>，2018.03至今，人工智能系统分析与测试方向</p>
+  <blockquote>
+    <p>合作方：新加坡科技设计大学，华为（新加坡），巴黎高等师范学院<br /><br />
+研究内容：攻击样本生成，攻击样本检测，结合信息安全原理的模型训练<br /><br />
+<!-- 开源项目： <br/><br/> -->
+在投论文：“A New Baseline for Detecting Adversarial Samples of Deep Neural Networks”, Jingyi Wang, Jun Sun, <strong>Peixin Zhang</strong>, Xinyu Wang, ICLR, 2019（<strong>学生一作</strong>）<br />
+“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”, Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, <strong>Peixin Zhang</strong>, ICSE, 2019</p>
+  </blockquote>
+</blockquote>
+
+<h3 id="奖项荣誉">奖项荣誉</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>获奖时间</th>
+      <th>奖项</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2018.09</td>
+      <td>浙江大学优秀团员</td>
+    </tr>
+    <tr>
+      <td>2018.06</td>
+      <td><strong>国际计算机协会软件工程专业杰出论文(ACM SIGSOFT Distinguished Paper)</strong></td>
+    </tr>
+    <tr>
+      <td>2016.06</td>
+      <td><strong>浙江大学卓越工程师奖学金</strong></td>
+    </tr>
+    <tr>
+      <td>2016.06</td>
+      <td>浙江大学计算机科学与技术学院三等实习奖学金</td>
+    </tr>
+    <tr>
+      <td>2016.05</td>
+      <td>浙江大学外汇交易大赛第一名</td>
+    </tr>
+    <tr>
+      <td>2015.09</td>
+      <td>浙江大学二等学业奖学金</td>
+    </tr>
+    <tr>
+      <td>2015.07</td>
+      <td>中国外汇交易中心一等奖学金</td>
+    </tr>
+    <tr>
+      <td>2013.12</td>
+      <td>浙江省大学生物理创新竞赛三等奖</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="专业技能">专业技能</h3>
+
+<blockquote>
+  <p>计算机：擅长JAVA与PYTHON，熟悉tensorfow，了解C/C++、JSP、HTML，了解操作系统原理、网络，有使用MagicDraw、Git、MySQL以及Office等工具的经历<br /><br />
+英语：雅思 6.5<br /><br />
+其它：中国证券业协会证券从业资格(证券市场基础知识，证券交易，证券投资基金，证券投资分析)</p>
+</blockquote>
+
+<h3 id="社会活动">社会活动</h3>
+
+<blockquote>
+  <p>浙江大学篮球联盟，2013.09-2014.06，副社长</p>
+  <blockquote>
+    <p>协会日常管理工作，负责定期组织会员球赛<br /><br />
+组织了2013年“新生杯”篮球赛，全校最有影响力的体育赛事之一，负责赛事裁判的管理</p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <p>浙江大学寒假返乡社会实践团，2014.01-2014.02，副团长</p>
+  <blockquote>
+    <p>对温州市柳市镇电器行业发展现状进行实地调研，并撰写研究报告<br /><br />
+与多家500强企业的高级管理人员进行面对面的交流讨论<br /><br />
+调研内容涵盖电子商务、物联网以及企业管理等多个领域</p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <p>乐清市“梦想导师计划”志愿者活动，2015.02-2015.08，合作发起人</p>
+  <blockquote>
+    <p>关注在乐务工人员子女的心理健康发展<br /><br />
+为乐籍大学生回报家乡社会搭桥牵线<br /><br />
+与乐清市教育局、城南二小、乐清市志愿者协会、乐清市青少年宫进行深度合作<br /><br />
+共有8批100余学生参与活动</p>
+  </blockquote>
+</blockquote>
+
+<h3 id="兴趣爱好">兴趣爱好</h3>
+
+<ul>
+  <li>阅读（文学、哲学、历史学及网络文学等）</li>
+  <li>篮球（司职组织后卫，多次参加校级与院级篮球赛）</li>
+  <li>旅行（在<a href="http://www.mafengwo.cn">马蜂窝</a>上撰写相关游记）</li>
+  <li>收藏（主要为邮票、纪念币）</li>
+  <li>围棋（业余二段）</li>
+</ul>
+
+<h3 id="联系方式">联系方式</h3>
+
+<p>Email1：<a href="mailto:pxzhang94@zju.edu.cn">pxzhang94@zju.edu.cn</a><br />
+Email2：<a href="mailto:pxzhang94@qq.com">pxzhang94@qq.com</a></p>
+
+<!-- > 写写代码，做做设计，  
+> 离开世界之前，一切都是过程。
+
+Hey，我是黄玄，病毒种，进化程度不明，多出没于[博客](https://huangxuan.me)、[微博](weibo.com/huxpro)、[知乎](https://www.zhihu.com/people/huxpro/pins/posts)、[Twitter](https://twitter.com/Huxpro/)、[Github](http://github.com/huxpro)、[Medium](https://medium.com/@Huxpro) 等地带，绝招尚在开发中。
+
+职业是软件工程师，[Web 工会](https://medium.com/ben-and-dion/team-web-3315aa447fb2#.359a9c6cl)活跃成员。目前在 [Facebook](https://www.facebook.com/) 写 [Reason](https://reasonml.github.io/) 与 [Messenger.com](http://messenger.com/) ，曾被招募为淘宝网 · [阿里旅行](http://alitrip.com)前端工程师、微影时代 · [微票儿](http://www.wepiao.com/?r=movie)前端基础工程团队负责人、[饿了么](https://ele.me/) · 大前端团队 · [PWA 顾问](https://medium.com/elemefe/upgrading-ele-me-to-progressive-web-app-2a446832e509)。
+
+一些作品和开源软件项目，👉 戳 [Portfolio](/portfolio)、[Github](http://github.com/huxpro)、[演说.io](https://zhuanlan.zhihu.com/p/21280918)。 
+
+
+##### Talks
+
+- [Upgrading to Progressive Web Apps][9] · [JSConf CN 上海 2017](http://2017.jsconf.cn/)
+- Building Progressive Web Apps · [CSDI 广州 2017](http://www.csdisummit.com/)
+- The State of Progressive Web App · GDG IO Redux 北京 2017
+- 炒冷饭 · PWA 到底是个什么玩意？· Baidu HQ 北京 2017
+- [Service Worker 101][5] · GDG DevFest 北京 2016
+- [Progressive Web App，复兴序章][4] · [QCon 上海 2016](http://2016.qconshanghai.com/presentation/3111)
+- Progressive Web App 之我见 · GDG IO Redux 北京 2016
+- [CSS Still Sucks 2015][2] · 2015
+- [JavaScript 模块化七日谈][1] · 2015
+
+[1]: //huangxuan.me/2015/07/09/js-module-7day/
+[2]: //huangxuan.me/2015/12/28/css-sucks-2015/
+[3]: //huangxuan.me/2016/06/05/pwa-in-my-pov/
+[4]: //huangxuan.me/2016/10/20/pwa-qcon2016/
+[5]: //huangxuan.me/2016/11/20/sw-101-gdgdf/
+[6]: https://yanshuo.io/assets/player/?deck=58ac8598b123db0067292f92 "PWA Rehashing"
+[7]: https://yanshuo.io/assets/player/?deck=593ad6fbfe88c2006a0a0d6d "The State of PWA"
+[8]: https://yanshuo.io/assets/player/?deck=594d673d570c357d0698a950 "Building PWA"
+[9]: //huangxuan.me/jsconfcn2017/ -->
+
+</div>
+
+<!-- English Version -->
+<div class="en post-container">
+    
+    <h3 id="introduction">Introduction</h3>
+<p>I am a graduate student studying in the software engineering laboratory of Zhejiang University, my recent research areas are software engineering and analysis of AI systems.</p>
+
+<h3 id="education">Education</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Period</th>
+      <th>School</th>
+      <th>College</th>
+      <th>Major</th>
+      <th>Degree</th>
+      <th>Grades</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2016.09-Now</td>
+      <td>Zhejiang University</td>
+      <td>Computer Science and Technology</td>
+      <td>Computer Technology</td>
+      <td>Master</td>
+      <td>88.6/100</td>
+    </tr>
+    <tr>
+      <td>2012.09-2016.06</td>
+      <td>Zhejiang University</td>
+      <td>Computer Science and Technology</td>
+      <td>Software Engineering</td>
+      <td>Bachelor</td>
+      <td>3.87/5</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="internship">Internship</h3>
+
+<blockquote>
+  <p><a href="https://www.bsfit.com.cn">Zhejiang Bangsun Technology Ltd.</a>，2015.08-2015.10，Software Engineer</p>
+  <blockquote>
+    <p>Web Crawler: Grab the information from website of government and enterprise by HttpClient and jsoup<br /><br />
+Data Analysis and Cleaning</p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <p><a href="https://www.bsfit.com.cn">Zhejiang Bangsun Technology Ltd.</a>，2016.02-2016.09，Algorithm Engineer</p>
+  <blockquote>
+    <p>Machine Learning Algorithm Library: Design the code structure and integrate the code, algorithm development, performance tuning, Model’s  function development，etc<br /><br />
+Management platform: Requirement document, operation manual, software copyright, patent application, etc; Testing<br /><br />
+Data Analysis: Ctrip, Yeepay, Suning, etc<br /><br />
+Survey: Credit checking industry, neural network open source project</p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <p><a href="http://www.91moxie.com">Hangzhou Moxie Data Science Technology Ltd.</a>，2016.09-2017.02，Data Engineer</p>
+  <blockquote>
+    <p>Project Architecture Design: Organization, document, process, technology<br /><br />
+User Portrait Design: Accumulation fund, cyber bank, e-commerce<br /><br />
+User Portrait Development: By SQL and streaming engine<br /><br />
+Document：Example of user portrait report, index development description</p>
+  </blockquote>
+</blockquote>
+
+<h3 id="projects">Projects</h3>
+
+<blockquote>
+  <p><a href="http://sav.sutd.edu.sg">System Analysis and Verification Group of SUTD</a>，2017.07-2017.10，Testing</p>
+  <blockquote>
+    <p>Research Contents: Concolic testing, symbolic execution, generate test case by deep neural network<br /><br />
+Open Source Project: <a href="https://github.com/sunjun-group/Ziyuan">Ziyuan</a><br /><br />
+Publication: <a href="https://dl.acm.org/citation.cfm?id=3180177">“Towards Optimal Concolic Testing”</a>, Xinyu Wang, Jun Sun, Zhenbang Chen, <strong>Peixin Zhang</strong>, Jingyi Wang and Yun Lin, Proceedings of the 40th International Conference on Software Engineering(ICSE), Gothenburg, Sweden, 2018 (<strong>first student, ACM SIGSOFT Distinguished Paper</strong>)</p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <p><a href="http://www.vlis.zju.edu.cn">Software Engineering Laboratory of Zhejiang University</a>，2018.03-Now，Testing and Analysis of AI Aystems</p>
+  <blockquote>
+    <p>Partners: Singapore University of Technology and Design, Huawei(Singapore), Ecole Normale Superieure<br /><br />
+Research Contents: Generate adversarial samples, detect adversarial samples, train model by information security technology <br /><br />
+<!-- Open Source Project: <br/><br/> -->
+Paper in submission: “A New Baseline for Detecting Adversarial Samples of Deep Neural Networks”, Jingyi Wang, Jun Sun, <strong>Peixin Zhang</strong>, Xinyu Wang, ICLR, 2019（<strong>first student</strong>）<br />
+“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”, Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, <strong>Peixin Zhang</strong>, ICSE, 2019</p>
+  </blockquote>
+</blockquote>
+
+<h3 id="awards">Awards</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Honor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2018.09</td>
+      <td>Excellent League Member of Zhejiang University</td>
+    </tr>
+    <tr>
+      <td>2018.06</td>
+      <td><strong>ACM SIGSOFT Distinguished Paper</strong></td>
+    </tr>
+    <tr>
+      <td>2016.06</td>
+      <td><strong>Excellent Engineer Scholarship of Zhejiang University</strong></td>
+    </tr>
+    <tr>
+      <td>2016.06</td>
+      <td>Third Internship Scholarship of College of Computer Science and Technology</td>
+    </tr>
+    <tr>
+      <td>2016.05</td>
+      <td>First Place of Zhejiang University Foreign Exchange Competition</td>
+    </tr>
+    <tr>
+      <td>2015.09</td>
+      <td>Second Study Scholarship of Zhejiang University</td>
+    </tr>
+    <tr>
+      <td>2015.07</td>
+      <td>China Foreign Exchange Trade System First Scholarship</td>
+    </tr>
+    <tr>
+      <td>2013.12</td>
+      <td>Third Prize of Physics Innovation Competition in Zhejiang</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="skills">Skills</h3>
+
+<blockquote>
+  <p>Computer: Good at JAVA and PYTHON, familiar with tensorfow, know C/C++, JSP and HTML, know OS and network, experience with tools such as MagicDraw, Git, MySQL and Office<br /><br />
+English: IELTS 6.5<br /><br />
+Others: Securities qualification of the Securities Association of China</p>
+</blockquote>
+
+<h3 id="activities">Activities</h3>
+
+<blockquote>
+  <p>Basketball Association of Zhejiang University, 2013.09-2014.06, Deputy Head</p>
+  <blockquote>
+    <p>Daily management of the association and organizing regular games<br /><br />
+Organizing the “2013 Freshman Cup” basketball match, responsible for the management of referees</p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <p>Winter Social Practice Group of Zhejiang University，2014.01-2014.02，Deputy Chief</p>
+  <blockquote>
+    <p>Field research on the development of electrical industry in Liushi, Wenzhou, write research reports<br /><br />
+Discuss face-to-face with senior managers of several top 500 companies<br /><br />
+Research focus on e-commerce, internet of things and enterprise management</p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <p>“Dream Mentor Program” Volunteering Activities in City Yueqing，2015.02-2015.08，Co-Sponsors</p>
+  <blockquote>
+    <p>Focus on the mental health development of the workers’ children<br /><br />
+Help undergraduate born in Yueqing to repay their hometown<br /><br />
+Build deep cooperation with government, schools and volunteer association<br /><br />
+A total of 8 batches and more than 100 students participated in the activity</p>
+  </blockquote>
+</blockquote>
+
+<h3 id="hobbies">Hobbies</h3>
+
+<ul>
+  <li>Reading (Literature, Philosophy, History, Net Literature and etc)</li>
+  <li>Basketball (Point Guard, participated in school and court basketball competitions many times)</li>
+  <li>Travels (writing travel notes on <a href="http://www.mafengwo.cn">Mafengwo</a>)</li>
+  <li>Collection (Stamps, Commemorative Coins)</li>
+  <li>Go Chess (Amateur Second Class)</li>
+</ul>
+
+<h3 id="contact">Contact</h3>
+
+<p>Email1：<a href="mailto:pxzhang94@zju.edu.cn">pxzhang94@zju.edu.cn</a><br />
+Email2：<a href="mailto:pxzhang94@qq.com">pxzhang94@qq.com</a></p>
+
+<!-- > Yet another man.
+
+
+Hi, I am *@huxpro* (Huang, Xuan), a software engineer & a designer. I am currently working on [Reason](https://reasonml.github.io/) and [Messenger.com](http://messenger.com/) at [Facebook](https://www.facebook.com/). I previously worked as Web Front-End Engineer at [Alibaba Trip](https://www.alitrip.com/); Web Front-End Infrastructure Team Lead at [Wepiao.com](https://www.crunchbase.com/organization/wepiao#/entity); And [Invited Consultant on PWA]((https://medium.com/elemefe/upgrading-ele-me-to-progressive-web-app-2a446832e509)) at [Ele.me](https://github.com/elemefe/).
+
+I studied Digital Media Art and graduated from [Communication University of China](https://en.wikipedia.org/wiki/Communication_University_of_China) by 2016, and am studying Computer Science at [Rochester Institute of Technology](https://en.wikipedia.org/wiki/Rochester_Institute_of_Technology) from 2017.
+
+
+##### Talks
+
+- [Upgrading to Progressive Web Apps][9] · [JSConf China Shanghai 2017](http://2017.jsconf.cn/)
+- Building Progressive Web Apps · [CSDI Guangzhou 2017](http://www.csdisummit.com/)
+- The State of Progressive Web App · GDG IO Redux Beijing 2017
+- PWA Rehashing · Baidu HQ Beijing 2017
+- [Service Worker 101][5] · GDG DevFest Beijing 2016
+- [Progressive Web Apps][4] · QCon Shanghai 2016
+- Progressive Web App in my POV · GDG IO Redux Beijing 2016
+- [CSS Still Sucks 2015][2] · 2015
+- [JavaScript Modularization Journey][1] · 2015
+
+
+
+[1]: //huangxuan.me/2015/07/09/js-module-7day/
+[2]: //huangxuan.me/2015/12/28/css-sucks-2015/
+[3]: //huangxuan.me/2016/06/05/pwa-in-my-pov/
+[4]: //huangxuan.me/2016/10/20/pwa-qcon2016/
+[5]: //huangxuan.me/2016/11/20/sw-101-gdgdf/
+[6]: https://yanshuo.io/assets/player/?deck=58ac8598b123db0067292f92 "PWA Rehashing"
+[7]: https://yanshuo.io/assets/player/?deck=593ad6fbfe88c2006a0a0d6d "The State of PWA"
+[8]: https://yanshuo.io/assets/player/?deck=594d673d570c357d0698a950 "Building PWA"
+[9]: //huangxuan.me/jsconfcn2017/ -->
+
+
+</div>
+
+
+
+<!-- disqus 评论框 start -->
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread">
+
+    </div>
+</div>
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "pxzhang";
+    var disqus_identifier = "pxzhang//";
+    var disqus_url = "http://localhost:4000/";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+
+
+    		</div>
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-3 col-lg-offset-0
+                col-md-3 col-md-offset-0
+                col-sm-12
+                col-xs-12
+                sidebar-container
+            ">
+                <!-- Featured Tags -->
+                
+
+
+<section>
+    
+    <h5><a href="/archive/">FEATURED TAGS</a></h5>
+    <div class="tags">
+        
+        
+        
+        </a>
+        
+        
+                <a data-sort="0000" 
+                    href="/archive/?tag=%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6"
+                    title="计算机科学"
+                    rel="2">计算机科学
+                
+</div>
+</section>
+
+
+                <!-- Short About -->
+                <section class="visible-md visible-lg">
+  <hr>
+  <h5><a href="/about/">ABOUT ME</a></h5>
+  <div class="short-about">
+    
+    <img src="/img/pxzhang_icse2018.jpg" />
+    
+    
+    <p>For the next quantum leap<br>当你的生活变成一坨屎的时候，通常都是因为你当时做的傻逼决定</p>
+    
+    <!-- SNS Link -->
+    
+
+
+<ul class="list-inline">
+
+
+  
+  
+  <li>
+    <a target="_blank" href="https://github.com/pxzhang94">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="../img/wechat.jpg">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.linkedin.com/in/培歆-张-08ba3312b">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.facebook.com/peixin.zhang.180">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a href="https://twitter.com/PXZHANG94">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="../img/qq.jpg">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-qq fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.zhihu.com/people/python-95-16">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa  fa-stack-1x fa-inverse">知</i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="http://weibo.com/3030786647">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+</ul>
+  </div>
+</section>
+
+                <!-- Friends Blog -->
+                
+<hr>
+<h5>FRIENDS</h5>
+<ul class="list-inline">
+  
+</ul>
+
+    		</div>
+        
+	</div>
+</div>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <!-- SNS Link -->
+                
+
+
+<ul class="list-inline text-center">
+
+
+  
+  
+  <li>
+    <a target="_blank" href="https://github.com/pxzhang94">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="../img/wechat.jpg">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.linkedin.com/in/培歆-张-08ba3312b">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.facebook.com/peixin.zhang.180">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a href="https://twitter.com/PXZHANG94">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="../img/qq.jpg">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-qq fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.zhihu.com/people/python-95-16">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa  fa-stack-1x fa-inverse">知</i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="http://weibo.com/3030786647">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+</ul>
+
+                <p class="copyright text-muted">
+                    Copyright &copy; PXZHANG 2018
+<!--                     <br>
+                    Powered by <a href="https://pxzhang94.github.io">PXZHANG</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" >
+                    </iframe> -->
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<!-- Currently, only navbar scroll-down effect at desktop still depends on this -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+<!-- Service Worker -->
+
+<script src="/js/snackbar.js "></script>
+<script src="/js/sw-registration.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!--
+     Because of the native support for backtick-style fenced code blocks
+     right within the Markdown is landed in Github Pages,
+     From V1.6, There is no need for Highlight.js,
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+
+
+
+<!--fastClick.js -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+<script>
+    // dynamic User by Hux
+    var _gaId = 'UA-49627206-1';
+    var _gaDomain = 'pxzhang94.github.io';
+
+    // Originial
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', _gaId, _gaDomain);
+    ga('send', 'pageview');
+</script>
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+<!-- Side Catalog -->
+
+
+
+<!-- Multi-Lingual -->
+
+<!-- Handle Language Change -->
+<script type="text/javascript">
+    // get nodes
+    var $zh = document.querySelector(".zh");
+    var $en = document.querySelector(".en");
+    var $select = document.querySelector("select");
+
+    // bind hashchange event
+    // Changes at v1.7.2: change the language flag from hash-basing to in-memory basing
+    // due to its confliction with catalog anchors.
+    // window.addEventListener('hashchange', _render);
+
+    // handle render
+    function _render(_hash){
+        var _hash = _hash || window.location.hash;
+        // en
+        if(_hash == "#en"){
+            $select.selectedIndex = 1;
+            $en.style.display = "block";
+            $en.classList.add("active");
+            $zh.style.display = "none";
+            $zh.classList.remove("active");
+        // zh by default
+        }else{
+            // not trigger onChange, otherwise cause a loop call.
+            $select.selectedIndex = 0;
+            $zh.style.display = "block";
+            $zh.classList.add("active");
+            $en.style.display = "none";
+            $en.classList.remove("active");
+        }
+        // interop with catalog 
+        if ("") generateCatalog(".catalog-body");
+    }
+
+    // handle select change
+    function onLanChange(index){
+        if(index == 0){
+            _hash = "#zh"
+        }else{
+            _hash = "#en"
+        }
+        _render(_hash)
+    }
+
+    // init
+    _render();
+</script>
+
+
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

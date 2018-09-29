@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="这里是 @PXZHANG张培歆 的个人网站">
+    <meta name="keywords"  content="张培歆, PXZHANG, PXZHANG张培歆, 个人网站，软件测试，深度学习，旅游, 收藏">
+    <meta name="theme-color" content="#000000">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Travel - 张培歆 | PXZHANG">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="这里是 @PXZHANG张培歆 的个人网站">
+    
+    <meta property="og:image" content="http://localhost:4000/img/pxzhang_icse2018.jpg">
+    <meta property="og:url" content="http://localhost:4000/travel/">
+    <meta property="og:site_name" content="张培歆 | PXZHANG">
+    
+    <title>Travel - 张培歆 | PXZHANG</title>
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/pwa/manifest.json">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://localhost:4000/travel/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">PXZHANG</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li>
+                        <a href="/about/">Biography</a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="/archive/">Archive</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li>
+                        <a href="/travel/">Travel</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    var __HuxNav__ = {
+        close: function(){
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        },
+        open: function(){
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+
+    // Bind Event
+    $toggle.addEventListener('click', function(e){
+        if ($navbar.className.indexOf('in') > 0) {
+            __HuxNav__.close()
+        }else{
+            __HuxNav__.open()
+        }
+    })
+
+    /**
+     * Since Fastclick is used to delegate 'touchstart' globally
+     * to hack 300ms delay in iOS by performing a fake 'click',
+     * Using 'e.stopPropagation' to stop 'touchstart' event from 
+     * $toggle/$collapse will break global delegation.
+     * 
+     * Instead, we use a 'e.target' filter to prevent handler
+     * added to document close HuxNav.  
+     *
+     * Also, we use 'click' instead of 'touchstart' as compromise
+     */
+    document.addEventListener('click', function(e){
+        if(e.target == $toggle) return;
+        if(e.target.className == 'icon-bar') return;
+        __HuxNav__.close();
+    })
+</script>
+
+
+    <!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Hux - Timeline</title>
+		<link rel="stylesheet" type="text/css" href="css/timeline.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container" style="margin:0;padding:0;width:100%;">
+			<header>
+				<img width="175" height="175" style="border-radius:50%;" src="/img/pxzhang_icse2018.jpg">
+				<h1>PXZHANG</h1>
+			</header>
+			<div class="main">
+				<ul class="cbp_tmtimeline">
+
+					<li>
+						<div class="cbp_tmlabel">
+							<h2 id="boxoffice">嘉兴</h2>
+							<time>2018.09</time>
+							<img src="images/jiaxing.jpg">
+							<ul>
+								<li>
+									嘉兴自古为繁华富庶之地，素有“鱼米之乡”、“丝绸之府”美誉，具有典型的江南水乡风情。近代以来大师辈出，如茅盾、徐志摩、金庸、陈省身、王国维、丰子恺、张乐平等。旅游资源多集中于辖区古镇，市区作为中国共产党的诞生地，以红色旅游为主。
+								</li>
+								<li class="skill">
+									<span><b>ZJ</b></span>
+									<span class="i-couple"></span>
+									<span class="link"><a target="_blank" href="../404.html">游记</a></span>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="cbp_tmlabel">
+							<h2 id="boxoffice">哥德堡</h2>
+							<time>2018.05</time>
+							<img src="images/goteborg.jpg">
+							<ul>
+								<li>
+									哥德堡(Göteborg)为瑞典第二大城市，坐落在瑞典的西海岸卡特加特海峡，瑞典最大的河流-约塔河从此出海，是一座风光秀丽的海港城。哥德堡港终年不冻，成为瑞典和西欧通航的主要港埠。又因其地处哥本哈根、奥斯陆和斯德哥尔摩三个北欧国家首都的中心，故为北欧咽喉，方圆300公里以内是北欧三国的工业中心。
+								</li>
+								<li class="skill">
+									<span><b>SE</b></span>
+									<span class="i-team"></span>
+									<span class="link"><a target="_blank" href="http://www.mafengwo.cn/i/9530693.html">游记</a></span>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="cbp_tmlabel">
+							<h2 id="boxoffice">郑洛</h2>
+							<time>2018.04</time>
+							<img src="images/zhengluo.jpg">
+							<ul>
+								<li>
+									郑州是华夏文明重要发祥地之一，为中华人文始祖轩辕黄帝的故里，历史上曾五次为都，是中国八大古都之一，境内登封市以“天下第一名刹”少林寺及“峻极于天”嵩山闻名。
+									洛阳，因地处洛河之阳而得名，是华夏文明和中华民族的发源地之一，中国四大古都之一，又因牡丹而闻名于世，有“洛阳牡丹甲天下”之称，被誉为“千年帝都，牡丹花城”。
+								</li>
+								<li class="skill">
+									<span><b>HN</b></span>
+									<span class="i-single"></span>
+									<span class="link"><a target="_blank" href="../404.html">游记</a></span>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="cbp_tmlabel">
+							<h2 id="boxoffice">新加坡</h2>
+							<time>2017.07</time>
+							<img src="images/singapore.jpg">
+							<ul>
+								<li>
+									新加坡位于马六甲海峡咽喉地带，是继纽约、伦敦、香港之后的第四大国际金融中心，也是亚洲重要的服务和航运中心之一。新加坡是一个移民国家，多民族、多语言、多宗教共同组成了其独特的多元文化体系。由于地处热带，又三面环海，导致其终年恒温31摄氏度，环境舒适，但过快的城市节奏与繁重的生活压力反倒使其并不适宜定居。
+								</li>
+								<li class="skill">
+									<span><b>SG</b></span>
+									<span class="i-single"></span>
+									<span class="link"><a target="_blank" href="http://www.mafengwo.cn/i/9027517.html">游记</a></span>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="cbp_tmlabel">
+							<h2 id="boxoffice">润扬</h2>
+							<time>2017.06</time>
+							<img src="images/runyang.jpg">
+							<ul>
+								<li>
+									镇江，素有“天下第一江山”之美誉，长江和京杭大运河在此交汇，使得其成为“东南咽喉，南北门户”，历代皆为军事要地。
+									扬州，江苏省陆域地理几何中心，有“淮左名都，竹西佳处”，“中国运河第一城”之称，自隋朝以来，成为南方经济中心，有"天下之盛,扬为首"之说。
+								</li>
+								<li class="skill">
+									<span><b>JS</b></span>
+									<span class="i-couple"></span>
+									<span class="link"><a target="_blank" href="http://www.mafengwo.cn/i/7301297.html">游记</a></span>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="cbp_tmlabel">
+							<h2 id="boxoffice">西安</h2>
+							<time>2017.04</time>
+							<img src="images/xian.jpg">
+							<ul>
+								<li>
+									西安，古称长安、镐京，是中华文明和中华民族重要发祥地，丝绸之路起点，十三朝古都使其成为中国四大古都之一，亦是世界十大古都之一，北濒渭河，南依秦岭，八水润长安。汉唐盛世造就了其丰富的历史文化旅游资源，两项六处遗产被列入《世界遗产名录》，秦始皇陵及兵马俑更被誉为“世界第八大奇迹”。
+								</li>
+								<li class="skill">
+									<span><b>SX</b></span>
+									<span class="i-friend"></span>
+									<span class="link"><a target="_blank" href="http://www.mafengwo.cn/i/7180403.html">游记</a></span>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="cbp_tmlabel">
+							<h2 id="boxoffice">曼芭</h2>
+							<time>2017.02</time>
+							<img src="images/thailand.jpg">
+							<ul>
+								<li>
+									曼谷，别名“天使之城”，又被誉为“佛教之都”，是世界上名字最长的首都。因为其低廉的消费水平、较高的生活水平以及开放的生活态度，所以成为了全球最受欢迎旅游城市。
+									芭提雅，一座海滩度假、房产投资、旅游、养老圣地，享有“东方夏威夷”之誉，凭借着美丽的海景、新奇的乐园、还有最负盛名的人妖表演，缤纷无休的夜文化，吸引着全世界的游客。
+								</li>
+								<li class="skill">
+									<span><b>TH</b></span>
+									<span class="i-friend"></span>
+									<span class="link"><a target="_blank" href="http://www.mafengwo.cn/i/6674861.html">游记</a></span>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="cbp_tmlabel">
+							<h2 id="boxoffice">南京</h2>
+							<time>2016.10</time>
+							<img src="images/nanjing.jpg">
+							<ul>
+								<li>
+									南京是中国四大古都，是中华文明的重要发祥地，历史上曾数次庇佑华夏之正朔，是四大古都中唯一未做过异族政权首都的古都，长期是中国南方的政治、经济、文化中心，有“六朝古都”、“十朝都会”之称。其自古以来崇文重教，有“天下文枢”、“东南第一学”的美誉，明清时期中国一半以上的状元均出自南京江南贡院。
+								</li>
+								<li class="skill">
+									<span><b>JS</b></span>
+									<span class="i-friend"></span>
+									<span class="link"><a target="_blank" href="http://www.mafengwo.cn/i/6168767.html">游记</a></span>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <!-- SNS Link -->
+                
+
+
+<ul class="list-inline text-center">
+
+
+  
+  
+  <li>
+    <a target="_blank" href="https://github.com/pxzhang94">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="../img/wechat.jpg">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.linkedin.com/in/培歆-张-08ba3312b">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.facebook.com/peixin.zhang.180">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a href="https://twitter.com/PXZHANG94">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="../img/qq.jpg">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-qq fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.zhihu.com/people/python-95-16">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa  fa-stack-1x fa-inverse">知</i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="http://weibo.com/3030786647">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+</ul>
+
+                <p class="copyright text-muted">
+                    Copyright &copy; PXZHANG 2018
+<!--                     <br>
+                    Powered by <a href="https://pxzhang94.github.io">PXZHANG</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" >
+                    </iframe> -->
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<!-- Currently, only navbar scroll-down effect at desktop still depends on this -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+<!-- Service Worker -->
+
+<script src="/js/snackbar.js "></script>
+<script src="/js/sw-registration.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!--
+     Because of the native support for backtick-style fenced code blocks
+     right within the Markdown is landed in Github Pages,
+     From V1.6, There is no need for Highlight.js,
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+
+
+
+<!--fastClick.js -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+<script>
+    // dynamic User by Hux
+    var _gaId = 'UA-49627206-1';
+    var _gaDomain = 'pxzhang94.github.io';
+
+    // Originial
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', _gaId, _gaDomain);
+    ga('send', 'pageview');
+</script>
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+<!-- Side Catalog -->
+
+
+
+<!-- Multi-Lingual -->
+
+
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>
