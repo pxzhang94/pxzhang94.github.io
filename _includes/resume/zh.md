@@ -31,7 +31,7 @@
 > [新加坡科技设计大学系统分析与验证小组](http://sav.sutd.edu.sg)，2017.07-2017.10，软件测试方向
 >> 研究内容：动态符号执行测试，符号执行测试，机器学习生成测试用例等 <br/><br/>
 开源项目：[Ziyuan](https://github.com/sunjun-group/Ziyuan)<br/><br/>
-论文发表：[“Towards Optimal Concolic Testing”](https://dl.acm.org/citation.cfm?id=3180177), Xinyu Wang, Jun Sun, Zhenbang Chen, **Peixin Zhang**, Jingyi Wang and Yun Lin, Proceedings of the 40th International Conference on Software Engineering(ICSE), Gothenburg, Sweden, 2018 (**学生一作，国际计算机协会软件工程专业杰出论文奖**)
+论文发表：[“Towards Optimal Concolic Testing”](http://pxzhang94.github.io/paper/concolic_testing/icse2018.pdf), Xinyu Wang, Jun Sun, Zhenbang Chen, **Peixin Zhang**, Jingyi Wang and Yun Lin, Proceedings of the 40th International Conference on Software Engineering(ICSE), Gothenburg, Sweden, 2018 (**学生一作，国际计算机协会软件工程专业杰出论文奖**)
 
 > [浙江大学软件工程实验室](http://www.vlis.zju.edu.cn)，2018.03至今，人工智能系统分析与测试方向
 >> 合作方：新加坡科技设计大学，华为（新加坡），巴黎高等师范学院<br/><br/>
@@ -45,7 +45,7 @@
 | 获奖时间 | 奖项 |
 | ------- | --- |
 | 2018.09 | 浙江大学优秀团员 |
-| 2018.06 | **国际计算机协会软件工程专业杰出论文(ACM SIGSOFT Distinguished Paper)** |
+| 2018.06 | **[国际计算机协会软件工程专业杰出论文(ACM SIGSOFT Distinguished Paper)](https://www.icse2018.org/info/awards)** |
 | 2016.06 | **浙江大学卓越工程师奖学金** |
 | 2016.06 | 浙江大学计算机科学与技术学院三等实习奖学金 |
 | 2016.05 | 浙江大学外汇交易大赛第一名 |

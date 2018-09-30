@@ -31,7 +31,7 @@ Document：Example of user portrait report, index development description
 > [System Analysis and Verification Group of SUTD](http://sav.sutd.edu.sg)，2017.07-2017.10，Testing
 >> Research Contents: Concolic testing, symbolic execution, generate test case by deep neural network<br/><br/>
 Open Source Project: [Ziyuan](https://github.com/sunjun-group/Ziyuan)<br/><br/>
-Publication: [“Towards Optimal Concolic Testing”](https://dl.acm.org/citation.cfm?id=3180177), Xinyu Wang, Jun Sun, Zhenbang Chen, **Peixin Zhang**, Jingyi Wang and Yun Lin, Proceedings of the 40th International Conference on Software Engineering(ICSE), Gothenburg, Sweden, 2018 (**first student, ACM SIGSOFT Distinguished Paper**)
+Publication: [“Towards Optimal Concolic Testing”](http://pxzhang94.github.io/paper/concolic_testing/icse2018.pdf), Xinyu Wang, Jun Sun, Zhenbang Chen, **Peixin Zhang**, Jingyi Wang and Yun Lin, Proceedings of the 40th International Conference on Software Engineering(ICSE), Gothenburg, Sweden, 2018 (**first student, ACM SIGSOFT Distinguished Paper**)
 
 > [Software Engineering Laboratory of Zhejiang University](http://www.vlis.zju.edu.cn)，2018.03-Now，Testing and Analysis of AI Aystems
 >> Partners: Singapore University of Technology and Design, Huawei(Singapore), Ecole Normale Superieure<br/><br/>
@@ -45,7 +45,7 @@ Paper in submission: “A New Baseline for Detecting Adversarial Samples of Deep
 | Time | Honor |
 | ------- | --- |
 | 2018.09 | Excellent League Member of Zhejiang University  |
-| 2018.06 | **ACM SIGSOFT Distinguished Paper** |
+| 2018.06 | **[ACM SIGSOFT Distinguished Paper](https://www.icse2018.org/info/awards)** |
 | 2016.06 | **Excellent Engineer Scholarship of Zhejiang University** |
 | 2016.06 | Third Internship Scholarship of College of Computer Science and Technology |
 | 2016.05 | First Place of Zhejiang University Foreign Exchange Competition |
