@@ -34,7 +34,13 @@ y == 42342531 && (x<0 || x >= 10)
 ```
 x == 10 and y == 42342531
 ```
-但是目前符号执行面临两个问题，第一：由于需要利用符号变量来构建路径约束，所以显然其比随机测试需要更多的时间；第二：目前最常见的约束求解器（如Z3等）的求解能力仍十分有限，对于稍复杂的路径约束就束手无策。
+但是目前符号执行面临两个问题，第一：由于需要利用符号变量来构建路径约束，所以显然其比随机测试需要更多的时间；第二：目前最常见的约束求解器（如Z3等）的求解能力仍十分有限，对于稍复杂的路径约束就束手无策。<br/>
+常见的符号执行策略有：
+- Random State Search
+- Random Path Selection
+- Depth First Search
+- Subpath-Guided Search
+
 所以自动化测试领域提出了concolic testing，我翻译为动态符号执行测试，也可以翻译为具体符号执行，因为concolic是concrete和symbolic的合成词。
 
 ## 动态符号执行测试（Concolic Testing）
@@ -59,11 +65,16 @@ int h(int x, int y) {
 }
 ```
 其抽象语法树为：
-![抽象语法树](http://pxzhang94.github.io/img/posts/concolic_testing_1/1.png)
-如上图所示，黑色箭头表示随机测试，蓝色箭头表示符号执行.
+![抽象语法树](http://pxzhang94.github.io/img/posts/concolic_testing/1.png)
+如上图所示，黑色箭头表示随机测试，蓝色箭头表示符号执行.<br/>
+常见的动态符号执行策略有：
+- Directed Automated Random Testing
+- Coverage-Optimized Search
+- Generational Search
+- Context-Guided Search
 
-## 常见动态符号执行策略
-事实上，绝大多数动态符号执行测试策略仅执行一遍随机测试，更多的是关注随后符号执行路径的调度，这导致相关算法性能距离[最优调度策略](http://pxzhang94.cn/2018/10/01/concolic-testing-2)有极大的差距。我将使用以下函数作为例子简单阐述几种常见动态符号执行以及符号执行策略。
+## 部分常见测试策略
+事实上，绝大多数动态符号执行测试策略仅执行一遍随机测试，更多的是关注随后符号执行路径的调度，这导致相关算法性能距离[最优调度策略](http://pxzhang94.cn/2018/10/08/concolic-testing-2)有极大的差距。我将使用以下函数作为例子简单阐述几种常见动态符号执行以及符号执行策略。
 ```
 void myfunc(int x, int y){
 1.    if(x==y){
@@ -81,7 +92,7 @@ void myfunc(int x, int y){
 }
 ```
 其抽象语法树为：
-![抽象语法树](http://pxzhang94.github.io/img/posts/concolic_testing_1/2.png)
+![抽象语法树](http://pxzhang94.github.io/img/posts/concolic_testing/2.png)
 
 ### [Subpath-Guided Search](http://pxzhang94.github.io/paper/concolic_testing/oopsla13-pgse.pdf)
 该方法是符号执行测试调度策略，首先给出两个关键的定义：
@@ -162,7 +173,7 @@ void myfunc(int x, int y){
 - 选择路径<1, 3, 5, 6>的测试用例 
 - ..... 
 下图来源于原论文，较为清晰的阐述了该算法调度顺序：
-![Generational Search](http://pxzhang94.github.io/img/posts/concolic_testing_1/3.png)
+![Generational Search](http://pxzhang94.github.io/img/posts/concolic_testing/3.png)
 
 ### [Context-Guided Search](http://pxzhang94.github.io/paper/concolic_testing/seo-fse2014.pdf)
 该方法是动态符号执行测试调度策略。首先给出一个关键的定义
