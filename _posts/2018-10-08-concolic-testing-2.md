@@ -10,9 +10,8 @@ tags:
   - Concolic Testing
 ---
 
-这篇博客的核心内容来源于本人发表于软件工程顶级会议ICSE2018并获得“ACM SIGSOFT Distinguished Paper Award”的[同名论文](http://pxzhang94.github.io/paper/concolic_testing/icse2018.pdf)<br/>
-在后面的内容中，若未做特殊说明，本文将使用以下抽象语法树作为例子：
-![抽象语法树](http://pxzhang94.github.io/img/posts/concolic_testing/1.png)
+这篇博客的核心内容来源于本人发表于软件工程顶级会议ICSE2018并获得“ACM SIGSOFT Distinguished Paper Award”的[同名论文](http://pxzhang94.github.io/paper/concolic_testing/icse2018.pdf)，在后面的内容中，若未做特殊说明，本文将使用以下抽象语法树作为例子：
+![抽象语法树](http://pxzhang94.github.io/img/posts/concolic_testing/2.png)
 
 ## 研究问题
 1. 给定程序的最优动态符号执行测试策略是什么？
@@ -31,11 +30,13 @@ tags:
 - P的一条程序路径就是一个转移序列π = ⟨(c1, gc1, c2), (c2, gc2, c3), · · · , (ck, gck, ck+1)⟩
 
 ## 马尔可夫链抽象
-由于之后将使用马尔可夫决策过程来求解最优策略，所以需要形式化的说明P能够转换为对应的马尔可夫链，虽然这是显而易见的
+本文将使用马尔可夫决策过程来求解最优策略，首先需要形式化的说明P能够转换为对应的马尔可夫链，由于这是显而易见的，所以这里对原作中相关定义不做翻译，截图如下：
+![定义3.2](http://pxzhang94.github.io/img/posts/concolic_testing/13.png)
+![定义3.3](http://pxzhang94.github.io/img/posts/concolic_testing/14.png)
 
 ## 最优策略
 问题可以被定义为：
-- 测试用例生成方法的搜索空间是{𝑅𝑇}∪{𝑆𝐸(P)|P ∈ 𝑝𝑎𝑡ℎ(𝑃)}
+- 测试用例生成方法的搜索空间是{𝑅𝑇}∪{𝑆𝐸(P)\|P ∈ 𝑝𝑎𝑡ℎ(𝑃)}
 - 一个策略是一个测试用例生成方法的序列<t1, t2, t3, ...>
 - 使用测试用例生成方法t的代价是cost(t)
 - 找到达到100%覆盖率并具有最小总代价的策略<br/>
@@ -52,7 +53,9 @@ tags:
 
 事实上，寻找最优策略的问题可以简化为基于带代价的马尔可夫决策过程的模型检测问题，比如说下面这个极其简单的程序的相关抽象：
 ![程序](http://pxzhang94.github.io/img/posts/concolic_testing/4.png)
+其抽象语法树为：
 ![抽象语法树](http://pxzhang94.github.io/img/posts/concolic_testing/5.png)
+相对应的马尔可夫决策过程为：
 ![马尔可夫决策过程](http://pxzhang94.github.io/img/posts/concolic_testing/6.png)
 
 显然，根据带代价的马尔可夫决策过程可以很轻松地回答研究问题1和2：
@@ -66,6 +69,7 @@ tags:
 - 每种情况有50个模型，每个方法运行1000次<br/>
 
 相应的实验结果如下：
+
 |  | 5 states | 10 states | 15 states | 20 states |
 | --- | --- | --- | --- | --- |
 | Optimal | 1 | 1 | 1 | 1 |
@@ -86,24 +90,24 @@ tags:
 算法的核心想法为根据单位时间(cost)所能覆盖的期望节点数(reward)选择局部最优策略和路径
 
 ### 离散时间马尔可夫链估计
-- 拉普拉斯估计方法
-	- 如果在P中从s到t是不可能的，置Pr(s, t)=0
-	- 否则，置Pr(s,t) = (#(s, t)+1) / (#s+n)<br/>
+使用拉普拉斯估计方法来估计离散时间马尔可夫链
+- 如果在P中从s到t是不可能的，置Pr(s, t)=0
+- 否则，置Pr(s,t) = (#(s, t)+1) / (#s+n)<br/>
 举例说明：
 ![拉普拉斯估计方法](http://pxzhang94.github.io/img/posts/concolic_testing/7.png)	 
 
 ### cost估计
-- 函数拟合
-	- 假设cost是基础操作的加权和
-	- 根据收集的cost来估计权值
-	- 给定一个约束，利用其所有基础操作的加权和来估计cost<br/>
+使用函数拟合来估计cost：
+- 假设cost是基础操作的加权和
+- 根据收集的cost来估计权值
+- 给定一个约束，利用其所有基础操作的加权和来估计cost<br/>
 举例说明： 约束c是a * b > 0，所以SC(c) = WC(\*) + WC(>)
 
 ### 算法
-首先，根据实证研究做如下假设
-	- 求解一个线性（不）等式及其结合的cost是4
-	- 求解一个非线性（不）等式的cost是10
-	- 求解一个非线性（不）等式的布尔组合的cost是50<br/>
+首先，根据实证研究做如下假设：
+- 求解一个线性（不）等式及其结合的cost是4
+- 求解一个非线性（不）等式的cost是10
+- 求解一个非线性（不）等式的布尔组合的cost是50<br/>
 
 具体相关步骤如下：
 1. 根据下图公式计算每个节点的reward
@@ -169,7 +173,6 @@ tags:
 
 以及对于每个程序，实际执行的SE以及RT的次数统计如下：
 ![测试方法统计](http://pxzhang94.github.io/img/posts/concolic_testing/12.png)
-
 
 ## 贡献
 - 定义了基于程序行为概率抽象的最优动态符号执行测试策略

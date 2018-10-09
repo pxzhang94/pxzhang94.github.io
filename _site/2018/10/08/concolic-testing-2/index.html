@@ -14,8 +14,7 @@
     <meta property="og:title" content="Concolic Testing 2 - 张培歆 | PXZHANG">
     
     <meta property="og:type" content="article">
-    <meta property="og:description" content="这篇博客的核心内容来源于本人发表于软件工程顶级会议ICSE2018并获得“ACM SIGSOFT Distinguished Paper Award”的同名论文
-在后面的内容中，若未做特殊说明，本文将使用以下抽象语法树作为例子：
+    <meta property="og:description" content="这篇博客的核心内容来源于本人发表于软件工程顶级会议ICSE2018并获得“ACM SIGSOFT Distinguished Paper Award”的同名论文，在后面的内容中，若未做特殊说明，本文将使用以下抽象语法树作为例子：
 
 
 ">
@@ -247,9 +246,8 @@
                 <!-- Multi-Lingual -->
                 
 
-				<p>这篇博客的核心内容来源于本人发表于软件工程顶级会议ICSE2018并获得“ACM SIGSOFT Distinguished Paper Award”的<a href="http://pxzhang94.github.io/paper/concolic_testing/icse2018.pdf">同名论文</a><br />
-在后面的内容中，若未做特殊说明，本文将使用以下抽象语法树作为例子：
-<img src="http://pxzhang94.github.io/img/posts/concolic_testing/1.png" alt="抽象语法树" /></p>
+				<p>这篇博客的核心内容来源于本人发表于软件工程顶级会议ICSE2018并获得“ACM SIGSOFT Distinguished Paper Award”的<a href="http://pxzhang94.github.io/paper/concolic_testing/icse2018.pdf">同名论文</a>，在后面的内容中，若未做特殊说明，本文将使用以下抽象语法树作为例子：
+<img src="http://pxzhang94.github.io/img/posts/concolic_testing/2.png" alt="抽象语法树" /></p>
 
 <h2 id="研究问题">研究问题</h2>
 <ol>
@@ -275,21 +273,14 @@
 </ul>
 
 <h2 id="马尔可夫链抽象">马尔可夫链抽象</h2>
-<p>由于之后将使用马尔可夫决策过程来求解最优策略，所以需要形式化的说明P能够转换为对应的马尔可夫链，虽然这是显而易见的</p>
+<p>本文将使用马尔可夫决策过程来求解最优策略，首先需要形式化的说明P能够转换为对应的马尔可夫链，由于这是显而易见的，所以这里对原作中相关定义不做翻译，截图如下：
+<img src="http://pxzhang94.github.io/img/posts/concolic_testing/13.png" alt="定义3.2" />
+<img src="http://pxzhang94.github.io/img/posts/concolic_testing/14.png" alt="定义3.3" /></p>
 
 <h2 id="最优策略">最优策略</h2>
 <p>问题可以被定义为：</p>
 <ul>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td>测试用例生成方法的搜索空间是{𝑅𝑇}∪{𝑆𝐸(P)</td>
-          <td>P ∈ 𝑝𝑎𝑡ℎ(𝑃)}</td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
+  <li>测试用例生成方法的搜索空间是{𝑅𝑇}∪{𝑆𝐸(P)|P ∈ 𝑝𝑎𝑡ℎ(𝑃)}</li>
   <li>一个策略是一个测试用例生成方法的序列&lt;t1, t2, t3, …&gt;</li>
   <li>使用测试用例生成方法t的代价是cost(t)</li>
   <li>找到达到100%覆盖率并具有最小总代价的策略<br /></li>
@@ -311,7 +302,9 @@
 
 <p>事实上，寻找最优策略的问题可以简化为基于带代价的马尔可夫决策过程的模型检测问题，比如说下面这个极其简单的程序的相关抽象：
 <img src="http://pxzhang94.github.io/img/posts/concolic_testing/4.png" alt="程序" />
+其抽象语法树为：
 <img src="http://pxzhang94.github.io/img/posts/concolic_testing/5.png" alt="抽象语法树" />
+相对应的马尔可夫决策过程为：
 <img src="http://pxzhang94.github.io/img/posts/concolic_testing/6.png" alt="马尔可夫决策过程" /></p>
 
 <p>显然，根据带代价的马尔可夫决策过程可以很轻松地回答研究问题1和2：</p>
@@ -328,19 +321,91 @@
   <li>每种情况有50个模型，每个方法运行1000次<br /></li>
 </ul>
 
-<p>相应的实验结果如下：
-|  | 5 states | 10 states | 15 states | 20 states |
-| — | — | — | — | — |
-| Optimal | 1 | 1 | 1 | 1 |
-| RT | 138.9 | 11.3 | 44.2 | 114.7 |
-| RCN | 1.7 | 14.4 | 15.1 | 12.7 |
-| RSS | 12.8 | 50.7 | 64.0 | 68.1 |
-| RPS | 12.8 | 50.6 | 63.9 | 68.5 |
-| DFS | 7.1 | 27.4 | 21.8 | 18.6 |
-| DART | 1.8 | 13.0 | 12.8 | 13.0 |
-| GS | 1.9 | 13.5 | 13.9 | 13.3 |
-| CGS | 1.8 | 12.6 | 13.6 | 13.8 |
-| SGS | 11.2 | 32.4 | 29.4 | 25.5 |</p>
+<p>相应的实验结果如下：</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>5 states</th>
+      <th>10 states</th>
+      <th>15 states</th>
+      <th>20 states</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Optimal</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>RT</td>
+      <td>138.9</td>
+      <td>11.3</td>
+      <td>44.2</td>
+      <td>114.7</td>
+    </tr>
+    <tr>
+      <td>RCN</td>
+      <td>1.7</td>
+      <td>14.4</td>
+      <td>15.1</td>
+      <td>12.7</td>
+    </tr>
+    <tr>
+      <td>RSS</td>
+      <td>12.8</td>
+      <td>50.7</td>
+      <td>64.0</td>
+      <td>68.1</td>
+    </tr>
+    <tr>
+      <td>RPS</td>
+      <td>12.8</td>
+      <td>50.6</td>
+      <td>63.9</td>
+      <td>68.5</td>
+    </tr>
+    <tr>
+      <td>DFS</td>
+      <td>7.1</td>
+      <td>27.4</td>
+      <td>21.8</td>
+      <td>18.6</td>
+    </tr>
+    <tr>
+      <td>DART</td>
+      <td>1.8</td>
+      <td>13.0</td>
+      <td>12.8</td>
+      <td>13.0</td>
+    </tr>
+    <tr>
+      <td>GS</td>
+      <td>1.9</td>
+      <td>13.5</td>
+      <td>13.9</td>
+      <td>13.3</td>
+    </tr>
+    <tr>
+      <td>CGS</td>
+      <td>1.8</td>
+      <td>12.6</td>
+      <td>13.6</td>
+      <td>13.8</td>
+    </tr>
+    <tr>
+      <td>SGS</td>
+      <td>11.2</td>
+      <td>32.4</td>
+      <td>29.4</td>
+      <td>25.5</td>
+    </tr>
+  </tbody>
+</table>
 
 <p>说明：这里RCN对应前文中的Coverage-Optimized Search<br /> 
 显然，现在可以回答研究问题3：<em>现有算法还有很大的改进空间</em></p>
@@ -349,34 +414,30 @@
 <p>算法的核心想法为根据单位时间(cost)所能覆盖的期望节点数(reward)选择局部最优策略和路径</p>
 
 <h3 id="离散时间马尔可夫链估计">离散时间马尔可夫链估计</h3>
+<p>使用拉普拉斯估计方法来估计离散时间马尔可夫链</p>
 <ul>
-  <li>拉普拉斯估计方法
-    <ul>
-      <li>如果在P中从s到t是不可能的，置Pr(s, t)=0</li>
-      <li>否则，置Pr(s,t) = (#(s, t)+1) / (#s+n)<br />
+  <li>如果在P中从s到t是不可能的，置Pr(s, t)=0</li>
+  <li>否则，置Pr(s,t) = (#(s, t)+1) / (#s+n)<br />
 举例说明：
 <img src="http://pxzhang94.github.io/img/posts/concolic_testing/7.png" alt="拉普拉斯估计方法" /></li>
-    </ul>
-  </li>
 </ul>
 
 <h3 id="cost估计">cost估计</h3>
+<p>使用函数拟合来估计cost：</p>
 <ul>
-  <li>函数拟合
-    <ul>
-      <li>假设cost是基础操作的加权和</li>
-      <li>根据收集的cost来估计权值</li>
-      <li>给定一个约束，利用其所有基础操作的加权和来估计cost<br />
+  <li>假设cost是基础操作的加权和</li>
+  <li>根据收集的cost来估计权值</li>
+  <li>给定一个约束，利用其所有基础操作的加权和来估计cost<br />
 举例说明： 约束c是a * b &gt; 0，所以SC(c) = WC(*) + WC(&gt;)</li>
-    </ul>
-  </li>
 </ul>
 
 <h3 id="算法">算法</h3>
-<p>首先，根据实证研究做如下假设
-	- 求解一个线性（不）等式及其结合的cost是4
-	- 求解一个非线性（不）等式的cost是10
-	- 求解一个非线性（不）等式的布尔组合的cost是50<br /></p>
+<p>首先，根据实证研究做如下假设：</p>
+<ul>
+  <li>求解一个线性（不）等式及其结合的cost是4</li>
+  <li>求解一个非线性（不）等式的cost是10</li>
+  <li>求解一个非线性（不）等式的布尔组合的cost是50<br /></li>
+</ul>
 
 <p>具体相关步骤如下：</p>
 <ol>
