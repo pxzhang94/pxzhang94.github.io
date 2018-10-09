@@ -5,8 +5,8 @@
     <description>这里是 @PXZHANG张培歆 的个人网站</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 09 Oct 2018 12:50:08 +0800</pubDate>
-    <lastBuildDate>Tue, 09 Oct 2018 12:50:08 +0800</lastBuildDate>
+    <pubDate>Tue, 09 Oct 2018 12:53:21 +0800</pubDate>
+    <lastBuildDate>Tue, 09 Oct 2018 12:53:21 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -459,7 +459,7 @@
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;部分常见测试策略&quot;&gt;部分常见测试策略&lt;/h2&gt;
-&lt;p&gt;事实上，绝大多数动态符号执行测试策略仅执行一遍随机测试，更多的是关注随后符号执行路径的调度，这导致相关算法性能距离&lt;a href=&quot;http://pxzhang94.cn/2018/10/08/concolic-testing-2&quot;&gt;最优调度策略&lt;/a&gt;有极大的差距。我将使用以下函数作为例子简单阐述几种常见动态符号执行以及符号执行策略。&lt;/p&gt;
+&lt;p&gt;事实上，绝大多数动态符号执行测试策略仅执行一遍随机测试，更多的是关注随后符号执行路径的调度，这导致相关算法性能距离&lt;a href=&quot;http://pxzhang94.github.io/2018/10/08/concolic-testing-2&quot;&gt;最优调度策略&lt;/a&gt;有极大的差距。我将使用以下函数作为例子简单阐述几种常见动态符号执行以及符号执行策略。&lt;/p&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
 3
