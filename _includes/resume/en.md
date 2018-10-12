@@ -44,6 +44,9 @@ Paper in submission: “A New Baseline for Detecting Adversarial Samples of Deep
 
 | Time | Honor |
 | ------- | --- |
+| 2018.10 | **Master's National Scholarship of Zhejiang University** |
+| 2018.10 | Triple-A Graduate Students of Zhejiang University |
+| 2018.10 | Outstanding Graduate Student of Zhejiang University |
 | 2018.09 | Excellent League Member of Zhejiang University  |
 | 2018.06 | **[ACM SIGSOFT Distinguished Paper](https://www.icse2018.org/info/awards)** |
 | 2016.06 | **Excellent Engineer Scholarship of Zhejiang University** |
