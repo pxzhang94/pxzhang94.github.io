@@ -3,7 +3,7 @@ layout: post
 title: "Concolic Testing 1"
 subtitle: "Introduction"
 author: "pxzhang"
-header-img: "img/post-bg-halting.jpg"
+header-img: "img/post-bg-flower.jpg"
 header-mask: 0.3
 tags:
   - Software Engineering

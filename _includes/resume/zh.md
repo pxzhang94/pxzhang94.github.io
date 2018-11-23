@@ -34,10 +34,10 @@
 论文发表：[“Towards Optimal Concolic Testing”](http://pxzhang94.github.io/paper/concolic_testing/icse2018.pdf), Xinyu Wang, Jun Sun, Zhenbang Chen, **Peixin Zhang**, Jingyi Wang and Yun Lin, Proceedings of the 40th International Conference on Software Engineering(ICSE), Gothenburg, Sweden, 2018 (**学生一作，[国际计算机协会软件工程专业杰出论文奖](https://www.icse2018.org/info/awards)**)
 
 > [浙江大学软件工程实验室](http://www.vlis.zju.edu.cn)，2018.03至今，人工智能系统分析与测试方向
->> 合作方：新加坡科技设计大学，华为（新加坡），巴黎高等师范学院<br/><br/>
+>> 合作方：新加坡科技设计大学，华为（新加坡）<br/><br/>
 研究内容：攻击样本生成，攻击样本检测，结合信息安全原理的模型训练<br/><br/>
-<!-- 开源项目： <br/><br/> -->
-在投论文：“A New Baseline for Detecting Adversarial Samples of Deep Neural Networks”, Jingyi Wang, Jun Sun, **Peixin Zhang**, Xinyu Wang, ICLR, 2019（**学生一作**）<br/>
+开源项目：SafeDNN<br/><br/>
+在投论文：“Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”, Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, Xinyu Wang, TACAS, 2019（**学生一作**）<br/>
 “Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”, Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, ICSE, 2019
 
 ### 奖项荣誉
