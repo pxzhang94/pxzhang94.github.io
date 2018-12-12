@@ -11,24 +11,14 @@
     <meta name="theme-color" content="#000000">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="Concolic Testing 1 - 张培歆 | PXZHANG">
+    <meta property="og:title" content="Security Analysis of Deep Learning Model - 张培歆 | PXZHANG">
     
     <meta property="og:type" content="article">
-    <meta property="og:description" content="随机测试（Random Testing）
+    <meta property="og:description" content="这篇博客的核心内容来源于IEEE Symposium on Security and Privacy 2019 (S&amp;P)的”DEEPSEC: A Uniform Platform for Security Analysis of Deep Learning Model”
 
-  使用随机生成的测试输入执行程序，然后观察是否会出现错误状态
-  对于高可能性的错误，随机测试的代价很低，反之很高
-比如说下面的第3行判断语句，对于随机测试来说，几乎不可能覆盖到其True分支
-    1
-2
-3
-4
-5
-6
-public static void example(int x, int y) {
-  int[] array = ne...">
+">
     
-    <meta property="article:published_time" content="2018-09-29T00:00:00Z">
+    <meta property="article:published_time" content="2018-10-12T00:00:00Z">
     
     
     <meta property="article:author" content="pxzhang">
@@ -36,14 +26,16 @@ public static void example(int x, int y) {
     
     <meta property="article:tag" content="Software Engineering">
     
-    <meta property="article:tag" content="Concolic Testing">
+    <meta property="article:tag" content="Security">
+    
+    <meta property="article:tag" content="Deep Learning">
     
     
     <meta property="og:image" content="http://localhost:4000/img/pxzhang_icse2018.jpg">
-    <meta property="og:url" content="http://localhost:4000/2018/09/29/concolic-testing-1/">
+    <meta property="og:url" content="http://localhost:4000/2018/10/12/security-analysis-deep-learning-model/">
     <meta property="og:site_name" content="张培歆 | PXZHANG">
     
-    <title>Concolic Testing 1 - 张培歆 | PXZHANG</title>
+    <title>Security Analysis of Deep Learning Model - 张培歆 | PXZHANG</title>
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="/pwa/manifest.json">
@@ -52,7 +44,7 @@ public static void example(int x, int y) {
     <link rel="shortcut icon" href="/img/favicon.ico">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://localhost:4000/2018/09/29/concolic-testing-1/">
+    <link rel="canonical" href="http://localhost:4000/2018/10/12/security-analysis-deep-learning-model/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -192,7 +184,7 @@ public static void example(int x, int y) {
 
     <!-- Image to hack wechat -->
 <!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
-<!-- <img src="/img/post-bg-flower.jpg" width="0" height="0"> -->
+<!-- <img src="/img/post-bg-dl.jpg" width="0" height="0"> -->
 
 <!-- Post Header -->
 
@@ -201,7 +193,7 @@ public static void example(int x, int y) {
 <style type="text/css">
     header.intro-header{
         position: relative;
-        background-image: url('/img/post-bg-flower.jpg')
+        background-image: url('/img/post-bg-dl.jpg')
     }
 
     
@@ -223,13 +215,15 @@ public static void example(int x, int y) {
                         
                         <a class="tag" href="/archive/?tag=Software+Engineering" title="Software Engineering">Software Engineering</a>
                         
-                        <a class="tag" href="/archive/?tag=Concolic+Testing" title="Concolic Testing">Concolic Testing</a>
+                        <a class="tag" href="/archive/?tag=Security" title="Security">Security</a>
+                        
+                        <a class="tag" href="/archive/?tag=Deep+Learning" title="Deep Learning">Deep Learning</a>
                         
                     </div>
-                    <h1>Concolic Testing 1</h1>
+                    <h1>Security Analysis of Deep Learning Model</h1>
                     
-                    <h2 class="subheading">Introduction</h2>
-                    <span class="meta">Posted by pxzhang on September 29, 2018</span>
+                    <h2 class="subheading">Overview (till 2018.10)</h2>
+                    <span class="meta">Posted by pxzhang on October 12, 2018</span>
                 </div>
             </div>
         </div>
@@ -255,309 +249,350 @@ public static void example(int x, int y) {
                 <!-- Multi-Lingual -->
                 
 
-				<h2 id="随机测试random-testing">随机测试（Random Testing）</h2>
-<ul>
-  <li>使用随机生成的测试输入执行程序，然后观察是否会出现错误状态</li>
-  <li>对于高可能性的错误，随机测试的代价很低，反之很高<br />
-比如说下面的第3行判断语句，对于随机测试来说，几乎不可能覆盖到其True分支
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-</pre></td><td class="rouge-code"><pre>public static void example(int x, int y) {
-  int[] array = new int[10];
-  if (y == 42342531) {
-      array[x] = y; 
-  }
-}
-</pre></td></tr></tbody></table></code></pre></div>    </div>
-  </li>
-</ul>
+				<p>这篇博客的核心内容来源于IEEE Symposium on Security and Privacy 2019 (S&amp;P)的”<a href="http://pxzhang94.github.io/paper/deeplearning_security/DEEPSEC.pdf">DEEPSEC: A Uniform Platform for Security Analysis of Deep Learning Model</a>”</p>
 
-<h2 id="符号执行symbolic-execution">符号执行（Symbolic Execution）</h2>
-<ul>
-  <li>利用符号变量来代替输入执行程序，然后使用约束求解器求解路径约束从而获得测试输入</li>
-  <li>符号执行的代价很高，但是可以“保证”到达给定节点<br />
-同样是上面那个程序，我们可以通过求解下面的路径约束：
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>y == 42342531 &amp;&amp; (x&lt;0 || x &gt;= 10)
-</pre></td></tr></tbody></table></code></pre></div>    </div>
-    <p>生成一个特定的测试输入来覆盖我们指定的路径，比如：</p>
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>x == 10 and y == 42342531
-</pre></td></tr></tbody></table></code></pre></div>    </div>
-    <p>但是目前符号执行面临两个问题，第一：由于需要利用符号变量来构建路径约束，所以显然其比随机测试需要更多的时间；第二：目前最常见的约束求解器（如Z3等）的求解能力仍十分有限，对于稍复杂的路径约束就束手无策。<br />
-常见的符号执行策略有：</p>
-  </li>
-  <li>Random State Search</li>
-  <li>Random Path Selection</li>
-  <li>Depth First Search</li>
-  <li>Subpath-Guided Search</li>
-</ul>
-
-<p>所以自动化测试领域提出了concolic testing，我翻译为动态符号执行测试，也可以翻译为具体符号执行，因为concolic是concrete和symbolic的合成词。</p>
-
-<h2 id="动态符号执行测试concolic-testing">动态符号执行测试（Concolic Testing）</h2>
-<ul>
-  <li>集成了具体执行和符号执行两种策略</li>
-  <li>决定选择随机测试还是符号执行</li>
-  <li>如果选择符号执行，决定选择的程序执行路径</li>
-  <li>常见的动态符号执行测试工具：Microsoft SAGE和JDart等<br />
-比如说如下程序：
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-</pre></td><td class="rouge-code"><pre>int h(int x, int y) {
-  if (x != y) { 
-      if (2*x == x + 10) { 
-          abort(); /*error*/
-      }
-      else {
-          return 2x+y; 
-      }
-  }
-  else{
-      return 2x;
-  } 
-}
-</pre></td></tr></tbody></table></code></pre></div>    </div>
-    <p>其抽象语法树为：
-<img src="http://pxzhang94.github.io/img/posts/concolic_testing/1.png" alt="抽象语法树" />
-如上图所示，黑色箭头表示随机测试，蓝色箭头表示符号执行.<br />
-常见的动态符号执行策略有：</p>
-  </li>
-  <li>Directed Automated Random Testing</li>
-  <li>Coverage-Optimized Search</li>
-  <li>Generational Search</li>
-  <li>Context-Guided Search</li>
-</ul>
-
-<h2 id="部分常见测试策略">部分常见测试策略</h2>
-<p>事实上，绝大多数动态符号执行测试策略仅执行一遍随机测试，更多的是关注随后符号执行路径的调度，这导致相关算法性能距离<a href="http://pxzhang.cn/2018/10/08/concolic-testing-2/">最优调度策略</a>有极大的差距。我将使用以下函数作为例子简单阐述几种常见动态符号执行以及符号执行策略。</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-</pre></td><td class="rouge-code"><pre>void myfunc(int x, int y){
-1.    if(x==y){
-2.        x++;
-       }
-3.    if ((x*x)%10==9){
-4.        return;
-       }
-5.    if (x*y+3*y-5*x==15){  
-6.        if (x%2==1 ||y%2==1){
-7.           x = x-y;
-           } 
-       }
-8.    return;
-}
-</pre></td></tr></tbody></table></code></pre></div></div>
-<p>其抽象语法树为：
+<p>，在后面的内容中，若未做特殊说明，本文将使用以下抽象语法树作为例子：
 <img src="http://pxzhang94.github.io/img/posts/concolic_testing/2.png" alt="抽象语法树" /></p>
 
-<h3 id="subpath-guided-search"><a href="http://pxzhang94.github.io/paper/concolic_testing/oopsla13-pgse.pdf">Subpath-Guided Search</a></h3>
-<p>该方法是符号执行测试调度策略，首先给出两个关键的定义：</p>
+<h2 id="研究问题">研究问题</h2>
+<ol>
+  <li>给定程序的最优动态符号执行测试策略是什么？</li>
+  <li>能不能有效的得到最优策略?</li>
+  <li>现有算法是否很好的逼近最优策略?</li>
+  <li>是否能设计一个可用算法来逼近最优策略?</li>
+  <li>如果4的回答是肯定的，那么该算法与现有算法的相比如何?</li>
+</ol>
+
+<h2 id="程序抽象">程序抽象</h2>
 <ul>
-  <li>Length-n子路径：给定一条路径&lt;s1, s2,…, sk&gt;，那么其length-n 子路径就是&lt;sk-n+1, sk-n+2, …, sk&gt;</li>
-  <li>统计分析结构：结构e = (π, f) 用于统计分析，其中π是length-n 子路径，f是π被探索过的频率<br />
-基于以上定义，该调度策略可以总结为以下步骤：
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td><td class="rouge-code"><pre>初始化 
-  结构e的优先队列
-重复 
-  1.随机选择一个具有最低子路径计数的节点继续
-  2.如果下一个节点是终节点，求解路径条件获得测试用例
-  3.用下一个节点来更新优先队列
-直到 所有节点被覆盖 
-</pre></td></tr></tbody></table></code></pre></div>    </div>
-    <p>用一个案例来进一步说明该算法（优先队列中带*结构表示有包含相应子路径的未终结状态）：</p>
+  <li>程序是带标签的转移系统P=(C,init,V,φ,T)
+    <ul>
+      <li>C是控制节点的有限集合</li>
+      <li>init ∈ C是唯一入口</li>
+      <li>V是变量的有限集合</li>
+      <li>φ是捕获V初始取值集合的断言</li>
+      <li>T : C × GC → C是转移函数</li>
+    </ul>
   </li>
+  <li>P的一条程序路径就是一个转移序列π = ⟨(c1, gc1, c2), (c2, gc2, c3), · · · , (ck, gck, ck+1)⟩</li>
 </ul>
+
+<h2 id="马尔可夫链抽象">马尔可夫链抽象</h2>
+<p>本文将使用马尔可夫决策过程来求解最优策略，首先需要形式化的说明P能够转换为对应的马尔可夫链，由于这是显而易见的，所以这里对原作中相关定义不做翻译，截图如下：
+<img src="http://pxzhang94.github.io/img/posts/concolic_testing/13.png" alt="定义3.2" />
+<img src="http://pxzhang94.github.io/img/posts/concolic_testing/14.png" alt="定义3.3" /></p>
+
+<h2 id="最优策略">最优策略</h2>
+<p>问题可以被定义为：</p>
+<ul>
+  <li>测试用例生成方法的搜索空间是{𝑅𝑇}∪{𝑆𝐸(P)|P ∈ 𝑝𝑎𝑡ℎ(𝑃)}</li>
+  <li>一个策略是一个测试用例生成方法的序列&lt;t1, t2, t3, …&gt;</li>
+  <li>使用测试用例生成方法t的代价是cost(t)</li>
+  <li>找到达到100%覆盖率并具有最小总代价的策略<br /></li>
+</ul>
+
+<p>这里通过举例来说明最优策略的选择，首先作如下假设：</p>
+<ul>
+  <li>随机测试的cost是1</li>
+  <li>求解n边路径的代价为10n<br /></li>
+</ul>
+
+<p>那么有就会有以下策略：</p>
+<ul>
+  <li>完全随机测试：期望cost: 5*(2^32)/4 = 5368709120</li>
+  <li>完全符号执行：对&lt;1,2,3,4&gt;和&lt;1,3,5,6,7,8&gt;执行符号执行，相关Cost：30+50=80</li>
+  <li>最优策略：对&lt;1,2&gt;和&lt;1,3,5,6&gt;执行符号执行，其余执行随机测试，相关Cost：10+30+5=45<br />
+注意：随机测试的期望数目决定于具有最小到达概率的节点!<br /></li>
+</ul>
+
+<p>事实上，寻找最优策略的问题可以简化为基于带代价的马尔可夫决策过程的模型检测问题，比如说下面这个极其简单的程序的相关抽象：
+<img src="http://pxzhang94.github.io/img/posts/concolic_testing/4.png" alt="程序" />
+其抽象语法树为：
+<img src="http://pxzhang94.github.io/img/posts/concolic_testing/5.png" alt="抽象语法树" />
+相对应的马尔可夫决策过程为：
+<img src="http://pxzhang94.github.io/img/posts/concolic_testing/6.png" alt="马尔可夫决策过程" /></p>
+
+<p>显然，根据带代价的马尔可夫决策过程可以很轻松地回答研究问题1和2：</p>
+<ol>
+  <li><em>最优策略是具有最小期望成本的策略</em></li>
+  <li><em>其求解复杂性随着P中的控制节点数量指数级增长</em></li>
+</ol>
+
+<h2 id="模拟实验">模拟实验</h2>
+<p>该部分实验主要是为了验证现有算法（相关算法的理论可以参考<a href="http://pxzhang.cn/2018/09/29/concolic-testing-1/">前一篇</a>)的性能，实验基于随机生成的马尔可夫链，而非现有程序，实验设置如下：</p>
+<ul>
+  <li>随机生成抽象表示程序的DTMC模型（分支密度50%；低概率分支密度0.2（10，15，20），0.8（5），低概率程度1.0E-4）</li>
+  <li>随机生成表示每条分支符号执行代价的cost（不超过1000）</li>
+  <li>每种情况有50个模型，每个方法运行1000次<br /></li>
+</ul>
+
+<p>相应的实验结果如下：</p>
 
 <table>
   <thead>
     <tr>
-      <th>步骤</th>
-      <th>候选路径</th>
-      <th>优先队列</th>
-      <th>生成用例</th>
+      <th> </th>
+      <th>5 states</th>
+      <th>10 states</th>
+      <th>15 states</th>
+      <th>20 states</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td>Optimal</td>
       <td>1</td>
-      <td>1:1t<br />2:1f</td>
-      <td>(*1t, 0), (*1f, 0)</td>
-      <td> </td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
     </tr>
     <tr>
-      <td>2</td>
-      <td>1:1t<br />2:1f3t<br />3:1f3f</td>
-      <td>(*1t, 0), (*3t, 0), (*3f, 0), (1f, 1)</td>
-      <td>1f3t4</td>
+      <td>RT</td>
+      <td>138.9</td>
+      <td>11.3</td>
+      <td>44.2</td>
+      <td>114.7</td>
     </tr>
     <tr>
-      <td>3</td>
-      <td>1:1t<br />2:1f3f</td>
-      <td>(*1t, 0), (*3f, 0), (3t, 1), (1f, 1)</td>
-      <td> </td>
+      <td>RCN</td>
+      <td>1.7</td>
+      <td>14.4</td>
+      <td>15.1</td>
+      <td>12.7</td>
     </tr>
     <tr>
-      <td>…</td>
-      <td>…</td>
-      <td>…</td>
-      <td>…</td>
+      <td>RSS</td>
+      <td>12.8</td>
+      <td>50.7</td>
+      <td>64.0</td>
+      <td>68.1</td>
+    </tr>
+    <tr>
+      <td>RPS</td>
+      <td>12.8</td>
+      <td>50.6</td>
+      <td>63.9</td>
+      <td>68.5</td>
+    </tr>
+    <tr>
+      <td>DFS</td>
+      <td>7.1</td>
+      <td>27.4</td>
+      <td>21.8</td>
+      <td>18.6</td>
+    </tr>
+    <tr>
+      <td>DART</td>
+      <td>1.8</td>
+      <td>13.0</td>
+      <td>12.8</td>
+      <td>13.0</td>
+    </tr>
+    <tr>
+      <td>GS</td>
+      <td>1.9</td>
+      <td>13.5</td>
+      <td>13.9</td>
+      <td>13.3</td>
+    </tr>
+    <tr>
+      <td>CGS</td>
+      <td>1.8</td>
+      <td>12.6</td>
+      <td>13.6</td>
+      <td>13.8</td>
+    </tr>
+    <tr>
+      <td>SGS</td>
+      <td>11.2</td>
+      <td>32.4</td>
+      <td>29.4</td>
+      <td>25.5</td>
     </tr>
   </tbody>
 </table>
 
-<h3 id="directed-automated-random-testing"><a href="http://pxzhang94.github.io/paper/concolic_testing/pldi2005.pdf">Directed Automated Random Testing</a></h3>
-<p>该方法是动态符号执行测试调度策略，也是目前广泛使用的JAVA自动化测试工具JDart的算法基础。该调度策略可以总结为以下步骤：</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td><td class="rouge-code"><pre>初始化 
-	一个具体执行的测试用例
-重复 
-	1.执行该测试用例
-	2.深度优先搜索获取未覆盖的分支
-	3.求解访问未覆盖分支的路径条件获得测试用例
-直到 所有节点被覆盖 
-</pre></td></tr></tbody></table></code></pre></div></div>
-<p>用一个案例来进一步说明该算法：</p>
+<p>说明：这里RCN对应前文中的Coverage-Optimized Search<br /> 
+显然，现在可以回答研究问题3：<em>现有算法还有很大的改进空间</em></p>
+
+<h2 id="贪婪算法">贪婪算法</h2>
+<p>算法的核心想法为根据单位时间(cost)所能覆盖的期望节点数(reward)选择局部最优策略和路径</p>
+
+<h3 id="离散时间马尔可夫链估计">离散时间马尔可夫链估计</h3>
+<p>使用拉普拉斯估计方法来估计离散时间马尔可夫链</p>
 <ul>
-  <li>假设第一个测试用例是x = 0, y = 100,其访问了节点1, 3, 5, 8</li>
-  <li>对路径&lt;1, 3, 5, 6&gt;通过求解下面的条件 x!=y &amp;&amp; (x<em>x)%10!=9 &amp;&amp; x</em>y+3y-5x==15执行符号执行</li>
-  <li>假设测试用例是x=4, y = 5 ,其访问了节点1, 3, 5, 6, 8</li>
-  <li>对路径&lt;1, 3, 5, 6, 7&gt;执行符号执行</li>
-  <li>…..</li>
+  <li>如果在P中从s到t是不可能的，置Pr(s, t)=0</li>
+  <li>否则，置Pr(s,t) = (#(s, t)+1) / (#s+n)<br />
+举例说明：
+<img src="http://pxzhang94.github.io/img/posts/concolic_testing/7.png" alt="拉普拉斯估计方法" /></li>
 </ul>
 
-<h3 id="coverage-optimized-search"><a href="http://pxzhang94.github.io/paper/concolic_testing/klee-osdi-08.pdf">Coverage-Optimized Search</a></h3>
-<p>该方法是动态符号执行测试调度策略,也是目前广泛使用的C/C++自动化测试工具KLEE的算法基础。该调度策略可以总结为以下步骤：</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-</pre></td><td class="rouge-code"><pre>初始化
-	一个具体执行的测试用例
-重复
-	1.执行该测试用例
-	2.计算未覆盖节点与已覆盖节点间的最小距离
-	3.从最小距离中随机选择一条路径
-	4.求解该路径条件获得一个测试用例
-直到 所有节点被覆盖
-</pre></td></tr></tbody></table></code></pre></div></div>
-<p>用一个案例来进一步说明该算法：</p>
+<h3 id="cost估计">cost估计</h3>
+<p>使用函数拟合来估计cost：</p>
 <ul>
-  <li>假设第一个测试用例是x = 0, y = 100,其访问了节点1, 3, 5, 8</li>
-  <li>对于 &lt;1, 2&gt;, &lt;1, 3, 4&gt;和&lt;1, 3, 5, 6&gt;最小距离是1, &lt;1, 3, 5, 6, 7&gt;是2</li>
-  <li>从&lt;1, 2&gt;, &lt;1, 3, 4&gt;和&lt;1, 3, 5, 6&gt;随机选择一条路径,假设是&lt;1, 3, 4&gt;</li>
-  <li>对路径&lt;1, 3, 4&gt;执行符号执行</li>
-  <li>…..</li>
+  <li>假设cost是基础操作的加权和</li>
+  <li>根据收集的cost来估计权值</li>
+  <li>给定一个约束，利用其所有基础操作的加权和来估计cost<br />
+举例说明： 约束c是a * b &gt; 0，所以SC(c) = WC(*) + WC(&gt;)</li>
 </ul>
 
-<h3 id="generational-search"><a href="http://pxzhang94.github.io/paper/concolic_testing/FuzzTesting.pdf">Generational Search</a></h3>
-<p>该方法是动态符号执行测试调度策略。该调度策略可以总结为以下步骤：</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td><td class="rouge-code"><pre>初始化
-	带有一个测试用例的测试套件
-重复
-	1.执行该测试用例
-	2.给定该测试用例的路径，其上所有分支条件系统地用未被访问的另一分支替换
-	3.求解每个约束获得相应的测试用例
-直到 所有节点被覆盖
-</pre></td></tr></tbody></table></code></pre></div></div>
-<p>用一个案例来进一步说明该算法：</p>
+<h3 id="算法">算法</h3>
+<p>首先，根据实证研究做如下假设：</p>
 <ul>
-  <li>假设第一个测试用例是x = 0, y = 100,其访问了节点1, 3, 5, 8</li>
-  <li>对路径&lt;1, 2&gt;, &lt;1,3,4&gt;和&lt;1,3,5,6&gt;的路径条件求解并将相应的测试用例添加到测试套件中</li>
-  <li>选择路径&lt;1, 2&gt;的测试用例</li>
-  <li>选择路径&lt;1, 3, 4&gt;的测试用例</li>
-  <li>选择路径&lt;1, 3, 5, 6&gt;的测试用例</li>
-  <li>….. 
-下图来源于原论文，较为清晰的阐述了该算法调度顺序：
-<img src="http://pxzhang94.github.io/img/posts/concolic_testing/3.png" alt="Generational Search" /></li>
+  <li>求解一个线性（不）等式及其结合的cost是4</li>
+  <li>求解一个非线性（不）等式的cost是10</li>
+  <li>求解一个非线性（不）等式的布尔组合的cost是50<br /></li>
 </ul>
 
-<h3 id="context-guided-search"><a href="http://pxzhang94.github.io/paper/concolic_testing/seo-fse2014.pdf">Context-Guided Search</a></h3>
-<p>该方法是动态符号执行测试调度策略。首先给出一个关键的定义</p>
-<ul>
-  <li>K-Context：定义分支b的k-context为一条执行路径上之前k个分支的序列
-比如路径&lt;1,2,3,5,8&gt;包含分支(1,3,5)，那么：</li>
-  <li>5的1-context为(5)</li>
-  <li>5的2-context为(3,5)</li>
-  <li>5的3-context为(1,3,5)
-该调度策略可以总结为以下步骤：
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-</pre></td><td class="rouge-code"><pre>初始化
-  一个具体执行的测试用例和k = 1
-重复
-  1.重复广度优先搜索
-      a.检查在执行树上给定深度的每个节点的k-context是否是新的
-      b.求解访问未覆盖分支的路径条件获得测试用例
-      c.用测试用例更新执行树
-  2.递增k
-直到 所有节点被覆盖
-</pre></td></tr></tbody></table></code></pre></div>    </div>
-    <p>用一个案例来进一步说明该算法：</p>
+<p>具体相关步骤如下：</p>
+<ol>
+  <li>根据下图公式计算每个节点的reward
+<img src="http://pxzhang94.github.io/img/posts/concolic_testing/8.png" alt="reward计算" />
+比如对于下面这种情况：
+<img src="http://pxzhang94.github.io/img/posts/concolic_testing/9.png" alt="reward例子" />
+可以获得以下方程组：
+    <ul>
+      <li>𝑅1 = 1/3*𝑅2+2/3*𝑅3</li>
+      <li>𝑅2 = 1+𝑅3</li>
+      <li>𝑅3 = 1/3*𝑅4+2/3*𝑅5</li>
+      <li>𝑅4 = 1</li>
+      <li>𝑅5 = 1/3*𝑅6+2/3*𝑅8</li>
+      <li>𝑅6 = 1+1/2*𝑅7+1/2*𝑅8</li>
+      <li>𝑅7 = 1+𝑅8</li>
+      <li>𝑅8 = 0<br />
+相应的部分解为：</li>
+      <li>𝑅1 = 1</li>
+      <li>𝑅2 = 5/3</li>
+      <li>𝑅4 = 1</li>
+      <li>𝑅6 = 1.5</li>
+    </ul>
   </li>
-  <li>假设第一个测试用例是x = 0, y = 100,其访问了节点1, 3, 5, 8</li>
-  <li>对路径&lt;1, 2&gt;执行符号测试</li>
-  <li>假设测试用例是x=0, y=0,其访问了节点1, 2, 3, 5, 8</li>
-  <li>对路径&lt;1, 3, 4&gt;执行符号测试</li>
-  <li>…..</li>
+  <li>随机测试的期望收益：∑𝑠∈𝑆 {𝜇(𝑠)×𝑅𝑠}
+    <ul>
+      <li>随机测试：cost 1, reward 1</li>
+    </ul>
+  </li>
+  <li>
+    <p>选择只有结束节点未被覆盖的路径</p>
+  </li>
+  <li>SE(π)的期望收益：𝑅𝑠，如果last(π)是s
+    <ul>
+      <li>路径&lt;1, 2&gt;：cost 4, reward 5/3</li>
+      <li>路径&lt;1, 3, 4&gt;：cost 50, reward 1</li>
+      <li>路径&lt;1, 3, 5, 6&gt;：cost 50, reward 3/2</li>
+    </ul>
+  </li>
+  <li>
+    <p>选择其中最大的reward/cost</p>
+  </li>
+  <li>更新离散时间马尔可夫链</li>
+</ol>
+
+<h3 id="模拟实验结果">模拟实验结果</h3>
+<p>该部分实验仍使用上文中提到的模拟马尔可夫链，结果如下：</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>5 states</th>
+      <th>10 states</th>
+      <th>15 states</th>
+      <th>20 states</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Optimal</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>G</td>
+      <td>2.1</td>
+      <td>4.8</td>
+      <td>3.1</td>
+      <td>4.8</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>显然，现在可以回答研究问题4：<em>这里提出的贪婪算法更接近最优策略</em></p>
+
+<h2 id="klee实验">KLEE实验</h2>
+<p>该部分实验针对的是实际程序，而非之前的模拟马尔可夫链，实验设置如下：</p>
+<ul>
+  <li>测试平台：KLEE</li>
+  <li>测试对象：GNU科学库中的程序集</li>
+  <li>测试目标：测量不同策略实现的覆盖率随时间的变化
+<img src="http://pxzhang94.github.io/img/posts/concolic_testing/10.png" alt="程序集" /></li>
+</ul>
+
+<p>实验结果如下:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>时间</th>
+      <th>G</th>
+      <th>RCN</th>
+      <th>RSS</th>
+      <th>RPS</th>
+      <th>DFS</th>
+      <th>RT</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>5 min (%)</td>
+      <td>72.6</td>
+      <td>28.1</td>
+      <td>22.5</td>
+      <td>29.7</td>
+      <td>17.9</td>
+      <td>65.5</td>
+    </tr>
+    <tr>
+      <td>15 min (%)</td>
+      <td>73.9</td>
+      <td>30.1</td>
+      <td>24.3</td>
+      <td>34.3</td>
+      <td>21.0</td>
+      <td>72.7</td>
+    </tr>
+    <tr>
+      <td>30 min (%)</td>
+      <td>76.9</td>
+      <td>32.6</td>
+      <td>25.0</td>
+      <td>36.5</td>
+      <td>22.3</td>
+      <td>74.0</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>更直观的折线图如下：
+<img src="http://pxzhang94.github.io/img/posts/concolic_testing/11.png" alt="折线图" /></p>
+
+<p>以及对于每个程序，实际执行的SE以及RT的次数统计如下：
+<img src="http://pxzhang94.github.io/img/posts/concolic_testing/12.png" alt="测试方法统计" /></p>
+
+<h2 id="贡献">贡献</h2>
+<ul>
+  <li>定义了基于程序行为概率抽象的最优动态符号执行测试策略</li>
+  <li>将确定最优策略的问题简化为基于带代价的马尔可夫决策过程的模型检测问题</li>
+  <li>使用模拟实验验证了现有算法并揭示它们还有很大的改进空间</li>
+  <li>提出了一种接近最优策略的贪婪算法</li>
+</ul>
+
+<h2 id="未来工作">未来工作</h2>
+<ul>
+  <li>研究其它用于估算概率以及求解代价的方法</li>
+  <li>把该框架扩展到其它的测试用例生成方法中（注意到有人工智能系统分析与测试方向的论文引用了本文）</li>
 </ul>
 
 
@@ -565,13 +600,13 @@ public static void example(int x, int y) {
                 <hr style="visibility: hidden;">
                 <ul class="pager">
                     
-                    
-                    <li class="next">
+                    <li class="previous">
                         <a href="/2018/10/08/concolic-testing-2/" data-toggle="tooltip" data-placement="top" title="Concolic Testing 2">
-                        Next<br>
+                        Previous<br>
                         <span>Concolic Testing 2</span>
                         </a>
                     </li>
+                    
                     
                 </ul>
                 <hr style="visibility: hidden;">
@@ -655,8 +690,8 @@ public static void example(int x, int y) {
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "pxzhang";
-    var disqus_identifier = "/2018/09/29/concolic-testing-1";
-    var disqus_url = "http://localhost:4000/2018/09/29/concolic-testing-1/";
+    var disqus_identifier = "/2018/10/12/security-analysis-deep-learning-model";
+    var disqus_url = "http://localhost:4000/2018/10/12/security-analysis-deep-learning-model/";
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

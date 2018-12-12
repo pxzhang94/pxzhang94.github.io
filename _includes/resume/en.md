@@ -37,8 +37,8 @@ Publication: [“Towards Optimal Concolic Testing”](http://pxzhang94.github.io
 >> Partners: Singapore University of Technology and Design, Huawei(Singapore)<br/><br/>
 Research Contents: Generate adversarial samples, detect adversarial samples, train model by information security technology <br/><br/>
 Open Source Project: SafeDNN<br/><br/>
-Paper in submission: “Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”, Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, Xinyu Wang, TACAS, 2019（**first student**）<br/>
-“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”, Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, ICSE, 2019
+Publication: “Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”, Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
+Paper in submission: “Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”, Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, Xinyu Wang, TACAS, 2019（**first student**）
 
 ### Awards
 

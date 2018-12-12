@@ -37,8 +37,9 @@
 >> 合作方：新加坡科技设计大学，华为（新加坡）<br/><br/>
 研究内容：攻击样本生成，攻击样本检测，结合信息安全原理的模型训练<br/><br/>
 开源项目：SafeDNN<br/><br/>
-在投论文：“Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”, Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, Xinyu Wang, TACAS, 2019（**学生一作**）<br/>
-“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”, Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, ICSE, 2019
+论文发表：“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”, Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
+在投论文：“Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”, Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, Xinyu Wang, TACAS, 2019（**学生一作**）
+
 
 ### 奖项荣誉
 

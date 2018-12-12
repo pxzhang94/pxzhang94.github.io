@@ -105,13 +105,13 @@ page-mathjax: false
 # Friends
 friends: [
   {
-        title: "Shi Chaohao",
+        title: "Chaohao Shi",
         href: "http://www.shichaohao.com"
+    },{
+        title: "Jingyi Wang",
+        href: "https://wang-jingyi.github.io"
     }
-    #{
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
+    # ,{
     #    title: "乱序",
     #    href: "http://mida.re/"
     #},{
