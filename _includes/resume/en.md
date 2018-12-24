@@ -3,10 +3,10 @@ I am a graduate student studying in the software engineering laboratory of Zheji
 
 ### Education
 
-| Period | School | College | Major | Degree | Grades |
-| ------- | --- | --- | --- | --- | --- |
-| 2016.09-Now | Zhejiang University | Computer Science and Technology | Computer Technology | Master | 88.6/100 |
-| 2012.09-2016.06 | Zhejiang University | Computer Science and Technology | Software Engineering | Bachelor | 3.87/5 |
+| Period | School | College | Major | Supervisor | Degree | Grades |
+| ------- | --- | --- | --- | --- | --- | --- |
+| 2016.09-Now | Zhejiang University | Computer Science and Technology | Computer Technology | [Prof. Wang Xinyu](https://person.zju.edu.cn/en/wangxinyu_en) | Master | 88.6/100 |
+| 2012.09-2016.06 | Zhejiang University | Computer Science and Technology | Software Engineering | [Prof. Wang Xinyu](https://person.zju.edu.cn/en/wangxinyu_en) | Bachelor | 3.87/5 |
 
 ### Internship
 
