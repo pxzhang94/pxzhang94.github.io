@@ -200,7 +200,7 @@ table th:nth-of-type(2) {
 | 2008 | An Error Model for Pointing Based on Fitts' Law | Jacob Wobbrock, University of Washington<br>Edward Cutrell, Microsoft Research<br>Susumu Harada, University of Washington<br>I. Scott MacKenzie, York University |
 | 2007 | Multiview: improving trust in group video conferencing through spatial faithfulness | David T. Nguyen & John Canny, University of California Berkeley |
 | 2007 | Software or wetware?: discovering when and why people use digital prosthetic memory | Vaiva Kalnikaité & Steve Whittaker, University of Sheffield |
-| 2007 | Shift: a technique for operating pen-based interfaces using touch	Daniel Vogel, University of Toronto<br>Patrick Baudisch, Microsoft Research |
+| 2007 | Shift: a technique for operating pen-based interfaces using touch | Daniel Vogel, University of Toronto<br>Patrick Baudisch, Microsoft Research |
 | 2007 | Authoring sensor-based interactions by demonstration with direct manipulation and pattern recognition | Björn Hartmann, Stanford University<br>Leith Abdulla, Stanford University<br>Manas Mittal, Massachusetts Institute of Technology<br>Scott R. Klemmer, Stanford University |
 | 2007 | Sustainable interaction design: invention & disposal, renewal & reuse | Eli Blevis, Indiana University at Bloomington |
 | 2007 | Consuming video on Mobile devices | Kenton O'Hara, Hewlett-Packard Labs<br>April Slayden Mitchell, Hewlett-Packard Labs<br>Alex Vorbau, Hewlett-Packard Labs |
