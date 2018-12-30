@@ -1,0 +1,1562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="这里是 @PXZHANG张培歆 的个人网站">
+    <meta name="keywords"  content="张培歆, PXZHANG, PXZHANG张培歆, 个人网站，软件测试，深度学习，旅游, 收藏">
+    <meta name="theme-color" content="#000000">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Best Paper Awards (2005-2018) - 张培歆 | PXZHANG">
+    
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="
+">
+    
+    <meta property="article:published_time" content="2018-12-30T00:00:00Z">
+    
+    
+    <meta property="article:author" content="pxzhang">
+    
+    
+    <meta property="article:tag" content="Best Paper">
+    
+    <meta property="article:tag" content="Human-Computer Interaction">
+    
+    
+    <meta property="og:image" content="http://localhost:4000/img/pxzhang_icse2018.jpg">
+    <meta property="og:url" content="http://localhost:4000/2018/12/30/best-paper-awards-CHI/">
+    <meta property="og:site_name" content="张培歆 | PXZHANG">
+    
+    <title>Best Paper Awards (2005-2018) - 张培歆 | PXZHANG</title>
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/pwa/manifest.json">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://localhost:4000/2018/12/30/best-paper-awards-CHI/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">PXZHANG</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li>
+                        <a href="/about/">Biography</a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="/archive/">Archive</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li>
+                        <a href="/travel/">Travel</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    var __HuxNav__ = {
+        close: function(){
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        },
+        open: function(){
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+
+    // Bind Event
+    $toggle.addEventListener('click', function(e){
+        if ($navbar.className.indexOf('in') > 0) {
+            __HuxNav__.close()
+        }else{
+            __HuxNav__.open()
+        }
+    })
+
+    /**
+     * Since Fastclick is used to delegate 'touchstart' globally
+     * to hack 300ms delay in iOS by performing a fake 'click',
+     * Using 'e.stopPropagation' to stop 'touchstart' event from 
+     * $toggle/$collapse will break global delegation.
+     * 
+     * Instead, we use a 'e.target' filter to prevent handler
+     * added to document close HuxNav.  
+     *
+     * Also, we use 'click' instead of 'touchstart' as compromise
+     */
+    document.addEventListener('click', function(e){
+        if(e.target == $toggle) return;
+        if(e.target.className == 'icon-bar') return;
+        __HuxNav__.close();
+    })
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/post-best-paper.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+
+
+
+<style type="text/css">
+    header.intro-header{
+        position: relative;
+        background-image: url('/img/post-best-paper.jpg')
+    }
+
+    
+    header.intro-header .header-mask{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: rgba(0,0,0, 0.3);
+    }
+    
+</style>
+<header class="intro-header" >
+    <div class="header-mask"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/archive/?tag=Best+Paper" title="Best Paper">Best Paper</a>
+                        
+                        <a class="tag" href="/archive/?tag=Human-Computer+Interaction" title="Human-Computer Interaction">Human-Computer Interaction</a>
+                        
+                    </div>
+                    <h1>Best Paper Awards (2005-2018)</h1>
+                    
+                    <h2 class="subheading">CHI</h2>
+                    <span class="meta">Posted by pxzhang on December 30, 2018</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                <!-- Multi-Lingual -->
+                
+
+				<style>
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Title</th>
+      <th>Authors</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2018</td>
+      <td>Examining Wikipedia With a Broader Lens: Quantifying the Value of Wikipedia’s Relationships with Other Large Scale Online Communities</td>
+      <td>Nicholas Vincent, Northwestern University<br />Isaac Johnson, Northwestern University<br />Brent Hecht, Northwestern University</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Keeping a Low Profile? Technology, Risk and Privacy among Undocumented Immigrants</td>
+      <td>Tamy Guberek, University of Michigan<br />Allison McDonald, University of Michigan<br />Sylvia Simioni, University of Michigan<br />Abraham H. Mhaidli, University of Michigan<br />Kentaro Toyama, University of Michigan<br />Florian Schaub, University of Michigan</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Addressing Age-Related Bias in Sentiment Analysis</td>
+      <td>Mark Diaz, Northwestern University<br />Isaac Johnson, Northwestern University<br />Amanda Lazar, University of Maryland<br />Anne Marie Piper, Northwestern University<br />Darren Gergle, Northwestern University</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Wall++: Room-Scale Interactive and Context-Aware Sensing</td>
+      <td>Yang Zhang, Carnegie Mellon University<br />Chouchang (Jack) Yang, Disney Research<br />Scott E. Hudson, Carnegie Mellon University<br />Chris Harrison, Carnegie Mellon University<br />Alanson Sample, Disney Research</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Design for Collaborative Survival: An Inquiry into Human-Fungi Relationships</td>
+      <td>Jen Liu, University of Colorado Boulder<br />Daragh Byrne, Carnegie Mellon University<br />Laura Devendorf, University of Colorado Boulder</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Expressive Time Series Querying with Hand-Drawn Scale-Free Sketches</td>
+      <td>Miro Mannino &amp; Azza Abouzied, New York University</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Pinpointing: Precise Head- and Eye-Based Target Selection for Augmented Reality</td>
+      <td>Mikko Kytö, Aalto University<br />Barrett Ens, University of South Australia<br />Thammathip Piumsomboon, University of South Australia<br />Gun A. Lee, University of South Australia<br />Mark Billinghurst, University of South Australia</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Streets for People: Engaging Children in Placemaking Through a Socio-technical Process</td>
+      <td>Sean Peacock, Newcastle University<br />Robert Anderson, Newcastle University<br />Clara Crivellaro, Newcastle University</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Let’s Talk About Race: Identity, Chatbots, and AI</td>
+      <td>Ari Schlesinger, Georgia Institute of Technology<br />Kenton P. O’Hara, Microsoft Research<br />Alex S. Taylor, City University of London</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>“A Stalker’s Paradise”: How Intimate Partner Abusers Exploit Technology</td>
+      <td>Diana Freed, Cornell Tech<br />Jackeline Palmer, Hunter College<br />Diana Minchala, City College of New York<br />Karen Levy, Cornell University<br />Thomas Ristenpart, Cornell Tech<br />Nicola Dell, Cornell Tech</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>HARK No More: On the Preregistration of CHI Experiments</td>
+      <td>Andy Cockburn, University of Canterbury<br />Carl Gutwin, University of Saskatchewan<br />Alan Dix, University of Birmingham</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Hoarding and Minimalism: Tendencies in Digital Data Preservation</td>
+      <td>Francesco Vitale, University of British Columbia<br />Izabelle Janzen, University of British Columbia<br />Joanna McGrenere, University of British Columbia</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Semi-Automated Coding for Qualitative Research: A User-Centered Inquiry and Initial Prototypes</td>
+      <td>Megh Marathe &amp; Kentaro Toyama, University of Michigan</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Making as Expression: Informing Design with People with Complex Communication Needs through Art Therapy</td>
+      <td>Amanda Lazar, University of Maryland<br />Jessica L. Feuston, Northwestern University<br />Caroline Edasis, Mather LifeWays<br />Anne Marie Piper, Northwestern University</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>How Relevant are Incidental Power Poses for HCI?</td>
+      <td>Yvonne Jansen, Sorbonne Université<br />Kasper Hornbæk, University of Copenhagen</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Data Illustrator: Augmenting Vector Design Tools with Lazy Data Binding for Expressive Visualization Authoring</td>
+      <td>Zhicheng Liu, Adobe Research<br />John Thompson, Georgia Institute of Technology<br />Alan Wilson, Adobe Systems Inc.<br />Mira Dontcheva, Adobe Research<br />James Delorey, Adobe Systems Inc.<br />Sam Grigg, Adobe Systems Inc.<br />Bernard Kerr, Adobe Systems Inc.<br />John Stasko, Georgia Institute of Technology</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Extending Manual Drawing Practices with Artist-Centric Programming Tools</td>
+      <td>Jennifer, Jacobs Massachusetts Institute of Technology<br />Joel Brandt, Adobe Research<br />Radomír Mech, Adobe Research<br />Mitchel Resnick, Massachusetts Institute of Technology</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Experiencing the Body as Play</td>
+      <td>Florian ‘Floyd’ Mueller, RMIT University<br />Richard Byrne, RMIT University<br />Josh Andres, RMIT University<br />Rakesh Patibanda, RMIT University</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Gender Recognition or Gender Reductionism?: The Social Implications of Embedded Gender Recognition Systems</td>
+      <td>Foad Hamidi, University of Maryland<br />Morgan Klaus Scheuerman, University of Maryland<br />Stacy M. Branham, University of Maryland</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Voice Interfaces in Everyday Life</td>
+      <td>Martin Porcheron, University of Nottingham<br />Joel E. Fischer, University of Nottingham<br />Stuart Reeves, The University of Nottingham<br />Sarah Sharples, University of Nottingham</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Project Zanzibar: A Portable and Flexible Tangible Interaction Platform</td>
+      <td>Nicolas Villar, Microsoft Research<br />Daniel Cletheroe, Microsoft Research<br />Greg Saul, Microsoft Research<br />Christian Holz, Microsoft Research<br />Tim Regan, Microsoft Research<br />Oscar Salandin, Microsoft Researcch<br />Misha Sra, Microsoft Research<br />Hui-Shyong Yeo, Microsoft Research<br />William Field, Microsoft Research<br />Haiyan Zhang, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Design Within a Patriarchal Society: Opportunities and Challenges in Designing for Rural Women in Bangladesh</td>
+      <td>Sharifa Sultana, Cornell University<br />François Guimbretière, Cornell University<br />Phoebe Sengers, Cornell University<br />Nicola Dell, Cornell Tech</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Agile 3D Sketching with Air Scaffolding</td>
+      <td>Yongkwan Kim, KAIST<br />Sang-Gyun An, KAIST<br />Joon Hyub Lee, KAIST<br />Seok-Hyung Bae, KAIST</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Making Core Memory: Design Inquiry into Gendered Legacies of Engineering and Craftwork</td>
+      <td>Daniela K. Rosner, University of Washington<br />Samantha Shorey, University of Washington<br />Brock R. Craft, University of Washington<br />Helen Remick, Self-employed</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Illumination Aesthetics: Light as a Creative Material within Computational Design</td>
+      <td>Cesar Torres, University of California Berkeley<br />Jasper O’Leary, University of California Berkeley<br />Molly Nicholas, University of California Berkeley<br />Eric Paulos, University of California Berkeley</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Organic Primitives: Synthesis and Design of pH-Reactive Materials using Molecular I/O for Sensing Actuation and Interaction</td>
+      <td>Viirj Kan, Massachusetts Institute of Technology<br />Emma Vargo, Massachusetts Institute of Technology<br />Noa Machover, Massachusetts Institute of Technology<br />Hiroshi Ishii, Massachusetts Institute of Technology<br />Serena Pan, Massachusetts Institute of Technology<br />Weixuan Chen, Massachusetts Institute of Technology<br />Yasuaki Kakehi, Massachusetts Institute of Technology</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>ShareVR: Enabling Co-Located Experiences for Virtual Reality between HMD and Non-HMD Users</td>
+      <td>Jan Gugenheimer, Ulm University<br />Evgeny Stemasov, Ulm University<br />Julian Frommel, Ulm University<br />Enrico Rukzio, Ulm University</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>You Want Me to Work with Who?: Stakeholder Perceptions of Automated Team Formation in Project-based Courses</td>
+      <td>Farnaz Jahanbakhsh, University of Illinois at Urbana-Champaign<br />Wai-Tat Fu, University of Illinois at Urbana-Champaign<br />Karrie Karahalios, University of Illinois at Urbana-Champaign<br />Darko Marinov, University of Illinois at Urbana-Champaign<br />Brian Bailey, University of Illinois at Urbana-Champaign</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Stories from Survivors: Privacy &amp; Security Practices when Coping with Intimate Partner Abuse</td>
+      <td>Tara Matthews, Google<br />Kathleen O’Leary, University of Washington<br />Anna Turner, Google<br />Manya Sleeper, Google<br />Jill Palzkill Woelfer, Google<br />Martin Shelton, Google<br />Cori Manthorne, Community Overcoming Relationship Abuse<br />Elizabeth F. Churchill, Google<br />Sunny Consolvo, Google</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>A Critical Lens on Dementia and Design in HCI</td>
+      <td>Amanda Lazar, Northwestern University<br />Caroline Edasis, Mather LifeWays<br />Anne Marie Piper, Northwestern University</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Modelling Learning of New Keyboard Layouts</td>
+      <td>Jussi P. P. Jokinen, Aalto University<br />Sayan Sarcar, Kochi University of Technology<br />Antti Oulasvirta, Aalto University<br />Chaklam Silpasuwanchai, Kochi University of Technology<br />Zhenxin Wang, Kochi University of Technology<br />Xiangshi Ren, Kochi University of Technology</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Designing Gamified Applications that Make Safe Driving More Engaging</td>
+      <td>Fabius Steinberger, Queensland University of Technology<br />Ronald Schroeter, Queensland University of Technology<br />Marcus Foth, Queensland University of Technology<br />Daniel Johnson, Queensland University of Technology</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>mHealth for Maternal Mental Health: Everyday Wisdom in Ethical Design</td>
+      <td>Marguerite Barry, Trinity College Dublin<br />Kevin Doherty, Trinity College Dublin<br />Jose Marcano Belisario, Imperial College London<br />Josip Car, Imperial College London<br />Cecily Morrison, Imperial College London<br />Gavin Doherty, Trinity College Dublin</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Explaining the Gap: Visualizing One’s Predictions Improves Recall and Comprehension of Data</td>
+      <td>Yea-Seul Kim, University of Washington<br />Katharina Reinecke, University of Washington<br />Jessica Hullman, University of Washington</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Reflective Practicum: A Framework of Sensitising Concepts to Design for Transformative Reflection</td>
+      <td>Petr Slovák, Vienna University of Technology<br />Christopher Frauenberger, Vienna University of Technology<br />Geraldine Fitzpatrick, Vienna University of Technology</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>What Can Be Predicted from Six Seconds of Driver Glances?</td>
+      <td>Lex Fridman, Massachusetts Institute of Technology<br />Heishiro, Toyoda Toyota Collaborative Safety Research Center<br />Sean Seaman, Touchstone Evaluations<br />Bobbie Seppelt, Touchstone Evaluations<br />Linda Angell, Touchstone Evaluations<br />Joonbum Lee, Massachusetts Institute of Technology<br />Bruce Mehler, Massachusetts Institute of Technology<br />Bryan Reimer, Massachusetts Institute of Technology</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Flash Organizations: Crowdsourcing Complex Work by Structuring Crowds As Organizations</td>
+      <td>Melissa A. Valentine, Stanford University<br />Daniela Retelny, Stanford University<br />Alexandra To, Carnegie Mellon University<br />Negar Rahmati, Stanford University<br />Tulsee Doshi, Stanford University<br />Michael S. Bernstein, Stanford University</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Design and Evaluation of a Data-Driven Password Meter</td>
+      <td>Blase Ur, University of Chicago<br />Felicia Alfieri, Carnegie Mellon University<br />Maung Aung, Carnegie Mellon University<br />Lujo Bauer, Carnegie Mellon University<br />Nicolas Christin, Carnegie Mellon University<br />Jessica Colnago, Carnegie Mellon University<br />Lorrie Faith Cranor, Carnegie Mellon University<br />Henry Dixon, Carnegie Mellon University<br />Pardis Emami Naeini, Carnegie Mellon University<br />Hana Habib, Carnegie Mellon University<br />Noah Johnson, Carnegie Mellon University<br />William Melicher, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Understanding Public Evaluation: Quantifying Experimenter Intervention</td>
+      <td>Julie R. Williamson &amp; John Williamson, University of Glasgow</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>What Is Interaction?</td>
+      <td>Kasper Hornbæk, University of Copenhagen<br />Antti Oulasvirta, Aalto University</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>BIGnav: Bayesian Information Gain for Guiding Multiscale Navigation</td>
+      <td>Wanyu Liu, Université Paris-Saclay<br />Rafael Lucas D’Oliveira, University of Campinas<br />Michel Beaudouin-Lafon, Université Paris-Saclay<br />Olivier Rioul, Université Paris-Saclay</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Examining Menstrual Tracking to Inform the Design of Personal Informatics Tools</td>
+      <td>Daniel A. Epstein, University of Washington<br />Nicole B. Lee, Independent Researcher<br />Jennifer H. Kang, University of Washington<br />Elena Agapie, University of Washington<br />Jessica Schroeder, University of Washington<br />Laura R. Pina, University of Washington<br />James Fogarty, University of Washington<br />Julie A. Kientz, University of Washington<br />Sean Munson, University of Washington</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Building a Personalized, Auto-Calibrating Eye Tracker from User Interactions</td>
+      <td>Michael Xuelin Huang, Hong Kong Polytechnic University<br />Tiffany C.K. Kwok, Hong Kong Polytechnic University<br />Grace Ngai, Hong Kong Polytechnic University<br />Stephen C.F. Chan, Hong Kong Polytechnic University<br />Hong Va Leong, Hong Kong Polytechnic University</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Finding Email in a Multi-Account, Multi-Device World</td>
+      <td>Marta E. Cecchinato, University College London<br />Abigail Sellen, Microsoft Research<br />Milad Shokouhi, Microsoft Research<br />Gavin Smyth, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>On Looking at the Vagina through Labella</td>
+      <td>Teresa Almeida, Newcastle University<br />Rob Comber, Newcastle University<br />Gavin Wood, Newcastle University<br />Dean Saraf, Newcastle University<br />Madeline Balaam, Newcastle University</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Enhancing Cross-Device Interaction Scripting with Interactive Illustrations</td>
+      <td>Pei-Yu (Peggy) Chi, University of California Berkeley<br />Yang Li, Google<br />Björn Hartmann, University of California Berkeley</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Empath: Understanding Topic Signals in Large-Scale Text</td>
+      <td>Ethan Fast, Stanford University<br />Binbin Chen, Stanford University<br />Michael Bernstein, Stanford University</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>The Effect of Visual Appearance on the Performance of Continuous Sliders and Visual Analogue Scales</td>
+      <td>Justin Matejka, Autodesk Research<br />Michael Glueck, Autodesk Research<br />Tovi Grossman, Autodesk Research<br />George Fitzmaurice, Autodesk Research</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>HCI Research as Problem-Solving</td>
+      <td>Antti Oulasvirta, Aalto University<br />Kasper Hornbæk, University of Copenhagen</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>RapID: A Framework for Fabricating Low-Latency Interactive Objects with RFID Tags</td>
+      <td>Andrew Spielberg, Massachusetts Institute of Technology<br />Alanson Sample, Disney Research<br />Scott E. Hudson, Carnegie Mellon University<br />Jennifer Mankoff, Carnegie Mellon University<br />James McCann, Disney Research</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Enabling Designers to Foresee Which Colors Users Cannot See</td>
+      <td>Katharina Reinecke, University of Washington<br />David R. Flatla, University of Dundee<br />Christopher Brooks, University of Michigan</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Designing Movement-based Play With Young People Using Powered Wheelchairs</td>
+      <td>Kathrin Gerling, University of Lincoln<br />Kieran Hicks, University of Lincoln<br />Michael Kalyn, University of Lincoln<br />Adam Evans, University of Copenhagen<br />Conor Linehan, University College Cork</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Developing and Validating the User Burden Scale: A Tool for Assessing User Burden in Computing Systems</td>
+      <td>Hyewon Suh, University of Washington<br />Nina Shahriaree, University of Washington<br />Eric B. Hekler, Arizona State University<br />Julie A. Kientz, University of Washington</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Momentary Pleasure or Lasting Meaning?: Distinguishing Eudaimonic and Hedonic User Experiences</td>
+      <td>Elisa D. Mekler, University of Basel<br />Kasper Hornbæk, University of Copenhagen</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Understanding and Mitigating the Effects of Device and Cloud Service Design Decisions on the Environmental Footprint of Digital Infrastructure</td>
+      <td>Chris Preist, University of Bristol<br />Daniel Schien, University of Bristol<br />Eli Blevis, Indiana University Bloomington</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Haptic Wave: A Cross-Modal Interface for Visually Impaired Audio Producers</td>
+      <td>Atau Tanaka &amp; Adam Parkinson, Goldsmiths</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>“I don’t Want to Wear a Screen”: Probing Perceptions of and Possibilities for Dynamic Displays on Clothing Laura Devendorf</td>
+      <td>Laura Devendorf, University of California Berkeley<br />Joanne Lo, University of California Berkeley<br />Noura Howell, University of California Berkeley<br />Jung Lin Lee, University of California Berkeley<br />Nan-Wei Gong, Google<br />M. Emre Karagozler, Google<br />Shiho Fukuhara, Google<br />Ivan Poupyrev, Google<br />Eric Paulos, University of California Berkeley<br />Kimiko Ryokai, University of California Berkeley</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Dear Diary: Teens Reflect on Their Weekly Online Risk Experiences</td>
+      <td>Pamela Wisniewski, University of Central Florida<br />Heng Xu, Pennsylvania State University<br />Mary Beth Rosson, Pennsylvania State University<br />Daniel F. Perkins, Pennsylvania State University<br />John M. Carroll, Pennsylvania State University</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Object-Oriented Drawing</td>
+      <td>Haijun Xia, University of Toronto<br />Bruno Araujo, University of Toronto<br />Tovi Grossman, Autodesk Research<br />Daniel Wigdor, University of Toronto</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Foraging Among an Overabundance of Similar Variants</td>
+      <td>Sruti Srinivasa Ragavan, Oregon State University<br />Sandeep Kaur Kuttal, Oregon State University<br />Charles Hill, Oregon State University<br />Anita Sarma, Oregon State University<br />David Piorkowski, Oregon State University<br />Margaret Burnett, Oregon State University</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Lock n’ LoL: Group-based Limiting Assistance App to Mitigate Smartphone Distractions in Group Activities</td>
+      <td>Minsam Ko, KAIST<br />Seungwoo Choi, KAIST<br />Koji Yatani, University of Tokyo<br />Uichin Lee, KAIST</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Learn Piano with BACh: An Adaptive Learning Interface that Adjusts Task Difficulty Based on Brain State</td>
+      <td>Beste F. Yuksel, Tufts University<br />Kurt B. Oleson, Tufts University<br />Lane Harrison, Worcester Polytechnic Institute<br />Evan M. Peck, Bucknell University<br />Daniel Afergan, Tufts University<br />Remco Chang, Tufts University<br />Robert JK Jacob, Tufts University</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>FlexCase: Enhancing Mobile Interaction with a Flexible Sensing and Display Cover</td>
+      <td>Christian Rendl, University of Applied Sciences Upper Austria<br />David Kim, Microsoft Research<br />Patrick Parzer, University of Applied Sciences Upper Austria<br />Sean Fanello, Microsoft Research<br />Martin Zirkl, Institute of Surface Technologies and Photonics<br />Gregor Scheipl, Joanneum Research Forschungsgesellschaft m.b.H<br />Michael Haller, University of Applied Sciences Upper Austria<br />Shahram Izadi, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Project Jacquard: Interactive Digital Textiles at Scale</td>
+      <td>Ivan Poupyrev, Google<br />Nan-Wei Gong, Google<br />Shiho Fukuhara, Google<br />Mustafa Emre Karagozler, Google<br />Carsten Schwesig, Google<br />Karen E. Robinson, Google</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Smart Touch: Improving Touch Accuracy for People with Motor Impairments with Template Matching</td>
+      <td>Martez E. Mott, University of Washington<br />Radu-Daniel Vatavu, University Stefan cel Mare of Suceava<br />Shaun K. Kane, University of Colorado Boulder<br />Jacob O. Wobbrock, University of Washington</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>What Makes Interruptions Disruptive?: A Process-Model Account of the Effects of the Problem State Bottleneck on Task Interruption and Resumption</td>
+      <td>Jelmer P. Borst, University of Groningen<br />Niels A. Taatgen, University of Groningen<br />Hedderik van Rijn, University of Groningen</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>VelociTap: Investigating Fast Mobile Text Entry using Sentence-Based Decoding of Touchscreen Keyboard Input</td>
+      <td>Keith Vertanen, Montana Tech<br />Haythem Memmi, Montana Tech<br />Justin Emge, Montana Tech<br />Shyam Reyal, University of St Andrews<br />Per Ola Kristensson, University of Cambridge</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Sharing is Caring: Assistive Technology Designs on Thingiverse</td>
+      <td>Erin Buehler, University of Maryland Baltimore County<br />Stacy Branham, University of Maryland Baltimore County<br />Abdullah Ali, University of Maryland Baltimore County<br />Jeremy J. Chang, University of Maryland Baltimore County<br />Megan Kelly Hofmann, Colorado State University<br />Amy Hurst, University of Maryland Baltimore County<br />Shaun K. Kane, University of Maryland Baltimore County</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Tiree Energy Pulse: Exploring Renewable Energy Forecasts on the Edge of the Grid</td>
+      <td>Will Simm, Lancaster University<br />Maria Angela Ferrario, Lancaster University<br />Adrian Friday, Lancaster University<br />Peter Newman, Lancaster University<br />Stephen Forshaw, Lancaster University<br />Mike Hazas, Lancaster University<br />Alan Dix, Lancaster University</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Unequal Representation and Gender Stereotypes in Image Search Results for Occupations</td>
+      <td>Matthew Kay, University of Washington<br />Cynthia Matuszek, University of Maryland Baltimore County<br />Sean A. Munson, University of Washington</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Resilience Mitigates the Negative Effects of Adolescent Internet Addiction and Online Risk Exposure</td>
+      <td>Pamela Wisniewski, Pennsylvania State University<br />Haiyan Jia, Pennsylvania State University<br />Na Wang, Pennsylvania State University<br />Saijing Zheng, Pennsylvania State University<br />Heng Xu, Pennsylvania State University<br />Mary Beth Rosson, Pennsylvania State University<br />John Carroll, Pennsylvania State University</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Affordance++: Allowing Objects to Communicate Dynamic Use</td>
+      <td>Pedro Lopes, Hasso Plattner Institute<br />Patrik Jonell, Hasso Plattner Institute<br />Patrick Baudisch, Hasso Plattner Institute</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Designing Political Deliberation Environments to Support Interactions in the Public Sphere</td>
+      <td>Bryan Semaan, Syracuse University<br />Heather Faucett, University of California Irvine<br />Scott P. Robertson, University of Hawaii at Manoa<br />Misa Maruyama, University of Hawaii at Manoa<br />Sara Douglas, University of Hawaii at Manoa</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>ColourID: Improving Colour Identification for People with Impaired Colour Vision</td>
+      <td>David R. Flatla, University of Dundee<br />Alan R. Andrade, University of Dundee<br />Ross D. Teviotdale, University of Dundee<br />Dylan L. Knowles, University of Saskatchewan<br />Craig Stewart, University of Dundee</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Fluid Grouping: Quantifying Group Engagement around Interactive Tabletop Exhibits in the Wild</td>
+      <td>Florian Block, Harvard University<br />James Hammerman, TERC<br />Michael Horn, Northwestern University<br />Amy Spiegel, University of Nebraska-Lincoln<br />Jonathan Christiansen, TERC<br />Brenda Phillips, Harvard University<br />Judy Diamond, University of Nebraska State Museum<br />E. Margaret Evans, University of Michigan<br />Chia Shen, Harvard University</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Sangeet Swara: A Community-Moderated Voice Forum in Rural India</td>
+      <td>Aditya Vashistha, University of Washington<br />Edward Cutrell, Microsoft Research<br />Gaetano Borriello, University of Washington<br />William Thies, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Acoustruments: Passive, Acoustically-Driven, Interactive Controls for Handheld Devices	Gierad</td>
+      <td>Laput, Carnegie Mellon University<br />Eric Brockmeyer, Disney Research<br />Scott E. Hudson, Carnegie Mellon University<br />Chris Harrison, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>iSkin: Flexible, Stretchable and Visually Customizable On-Body Touch Sensors for Mobile Computing</td>
+      <td>Martin Weigel, Max Planck Institut<br />Tong Lu, Carnegie Mellon University<br />Gilles Bailly, Telecom ParisTech<br />Antti Oulasvirta, Aalto University<br />Carmel Majidi, Carnegie Mellon University<br />Jürgen Steimle, Max Planck Institut</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Patina Engraver: Visualizing Activity Logs as Patina in Fashionable Trackers</td>
+      <td>Moon-Hwan Lee, KAIST<br />Seijin Cha, KAIST<br />Tek-Jin Nam, KAIST</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>BaseLase: An Interactive Focus+Context Laser Floor</td>
+      <td>Jörg Müller, Aarhus University<br />Dieter Eberle, Technische Universität Berlin<br />Constantin Schmidt, Technische Universität Berlin</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>The Social Impact of a Robot Co-Worker in Industrial Settings</td>
+      <td>Allison Sauppé &amp; Bilge Mutlu, University of Wisconsin</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>“I always assumed that I wasn’t really that close to [her]”: Reasoning about Invisible Algorithms in the News Feed</td>
+      <td>Motahhare Eslami, University of Illinois at Urbana-Champaign<br />Aimee Rickman, California State University<br />Kristen Vaccaro, University of Illinois at Urbana-Champaign<br />Amirhossein Aleyasen, University of Illinois at Urbana-Champaign<br />Andy Vuong, University of Illinois at Urbana-Champaign<br />Karrie Karahalios, University of Illinois at Urbana-Champaign<br />Kevin Hamilton, University of Illinois at Urbana-Champaign<br />Christian Sandvig, University of Michigan</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Understanding and Supporting Fathers and Fatherhood on Social Media Sites</td>
+      <td>Tawfiq Ammari &amp; Sarita Schoenebeck, University of Michigan</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Lightweight Relief Shearing for Enhanced Terrain Perception on Interactive Maps</td>
+      <td>Wesley Willett, INRIA<br />Bernhard Jenny, Oregon State University<br />Tobias Isenberg, INRIA<br />Pierre Dragicevic, INRIA</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>From User-Centered to Adoption-Centered Design: A Case Study of an HCI Research Innovation Becoming a Product</td>
+      <td>Parmit K. Chilana, University of Waterloo<br />Andrew J. Ko, University of Washington<br />Jacob Wobbrock, University of Washington</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Growing Closer on Facebook: Changes in Tie Strength Through Social Network Site Use</td>
+      <td>Moira Burke, Facebook<br />Robert Kraut, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Duet: Exploring Joint Interactions on a Smart Phone and a Smart Watch</td>
+      <td>Xiang Anthony Chen, Carnegie Mellon University<br />Tovi Grossman, Autodesk Research<br />Daniel Wigdor, University of Toronto<br />George Fitzmaurice, Autodesk Research</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>RetroDepth: 3D Silhouette Sensing for High-Precision Input On and Above Physical Surfaces</td>
+      <td>David Kim, Microsoft Research<br />Shahram Izadi, Microsoft Research<br />Jakub Dostal, University of St Andrews<br />Christoph Rhemann, Microsoft Research<br />Cem Keskin, Microsoft Research<br />Christopher Zach, Microsoft Research<br />Jamie Shotton, Microsoft Research<br />Timothy Large, Microsoft Research<br />Steven Bathiche, Microsoft<br />Matthias Niessner, Stanford University<br />D. Alex Butler, Microsoft Research<br />Sean Fanello, Istituto Italiano di Tecnologia<br />Vivek Pradeep, Microsoft</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Estimating the Social Costs of Friendsourcing</td>
+      <td>Jeffrey Rzeszotarski &amp; Meredith Morris, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Human Values in Curating a Human Rights Media Archive</td>
+      <td>Abigail Durrant, Newcastle University<br />David Kirk, Newcastle University<br />Stuart Reeves, University of Nottingham</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Emerging Sites of HCI Innovation: Hackerspaces, Hardware Startups &amp; Incubators</td>
+      <td>Silvia Lindtner, University of California Irvine<br />Garnet Hertz, University of California Irvine<br />Paul Dourish, University of California Irvine</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Effects of Display Size and Navigation Type on a Classification Task</td>
+      <td>Can Liu, Université Paris-Sud<br />Olivier Chapuis, Université Paris-Sud<br />Michel Beaudouin-Lafon, Université Paris-Sud<br />Eric Lecolinet, Telecom ParisTech<br />Wendy Mackay, INRIA<br />George Fitzmaurice, Autodesk Research</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Towards Accurate and Practical Predictive Models of Active-Vision-Based Visual Search</td>
+      <td>David Kieras, University of Michigan<br />Anthony Hornof, University of Oregon</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Real-time Feedback for Improving Medication Taking</td>
+      <td>Matthew Lee, Philips Research<br />Anind Dey, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Making Sustainability Sustainable: Challenges in the Design of Eco-Interaction Technologies</td>
+      <td>Rayoung Yang, University of Michigan<br />Mark Newman, University of Michigan<br />Jodi Forlizzi, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Consumed Endurance: A Metric to Quantify Arm Fatigue of Mid-Air Interactions</td>
+      <td>Anders Markussen, University of Copenhagen<br />Mikkel Jakobsen, University of Copenhagen<br />Kasper Hornbaek, University of Copenhagen</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Type-Hover-Swipe in 96 Bytes: A Motion Sensing Mechanical Keyboard</td>
+      <td>Stuart A Taylor, Microsoft Research<br />Cem Keskin, Microsoft Research<br />Otmar Hilliges, ETH Zurich<br />Shahram Izadi, Microsoft Research<br />John Helmes, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Structured Labeling for Facilitating Concept Evolution in Machine Learning</td>
+      <td>Todd Kulesza, Oregon State University<br />Saleema Amershi, Microsoft Research<br />Rich Caruana, Microsoft Research<br />Danyel Fisher, Microsoft Research<br />Denis Charles, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>MixFab: a Mixed-Reality Environment for Personal Fabrication</td>
+      <td>Christian Weichel, Lancaster University<br />Manfred Lau, Lancaster University<br />David Kim, Microsoft Research<br />Nicolas Villar, Microsoft Research<br />Hans W Gellersen, Lancaster University</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Designing for Slowness, Anticipation and Re-visitation: A Long Term Field Study of the Photobox</td>
+      <td>William Odom, Carnegie Mellon University<br />Abigail Sellen, Microsoft Research<br />Richard Banks, Microsoft Research<br />David Kirk, Newcastle University<br />Tim Regan, Microsoft<br />Mark Selby, University of Nottingham<br />Jodi Forlizzi, Carnegie Mellon University<br />John Zimmerman, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>“Narco” Emotions: Affect and Desensitization in Social Media during the Mexican Drug War</td>
+      <td>Munmun De Choudhury, Microsoft Research<br />Andres Monroy-Hernandez, Microsoft Research<br />Gloria Mark, University of California Irvine</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Understanding Multitasking Through Parallelized Strategy Exploration and Individualized Cognitive Modeling</td>
+      <td>Yunfeng Zhang &amp; Anthony Hornof, University of Oregon</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Labor Dynamics in a Mobile Micro-Task Market</td>
+      <td>Mohamed Musthag &amp; Deepak Ganesan, University of Massachusetts Amherst</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>What is “Critical” About Critical Design?</td>
+      <td>Jeffrey Bardzell &amp; Shaowen Bardzell, Indiana University at Bloomington</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>SPRWeb: Preserving Subjective Responses to Website Colour Schemes through Automatic Recolouring</td>
+      <td>David R. Flatla, University of Saskatchewan<br />Katharina Reinecke, Harvard University<br />Carl Gutwin, University of Saskatchewan<br />Krzysztof Z. Gajos, Harvard University</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>LaserOrigami: Laser-Cutting 3D Objects	Stefanie Mueller, Hasso Plattner Institute</td>
+      <td>Bastian Kruck, Hasso Plattner Institute<br />Patrick Baudisch, Hasso Plattner Institute</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Mind the Theoretical Gap: Interpreting, Using, and Developing Behavioral Theory in HCI Research</td>
+      <td>Eric B. Hekler, Arizona State University<br />Predrag Klasnja, University of Michigan<br />Jon Froehlich, University of Maryland<br />Matthew P. Buman, University of Maryland</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Screenfinity: Extending the Perception Area of Content on Very Large Public Displays</td>
+      <td>Constantin Schmidt, Technische Universität Berlin<br />Jörg Müller, Technische Universität Berlin<br />Gilles Bailly, Technische Universität Berlin</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Reasons to Question Seven Segment Displays</td>
+      <td>Harold Thimbleby, Swansea University</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Improving Navigation-Based File Retrieval</td>
+      <td>Stephen Fitchett, University of Canterbury<br />Andy Cockburn, University of Canterbury<br />Carl Gutwin, University of Saskatchewan</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>The Dubuque Electricity Portal: Evaluation of a City-Scale Residential Electricity Consumption Feedback System</td>
+      <td>Tom Erickson, IBM Research<br />Ming Li, IBM Research<br />Younghun Kim, IBM Research<br />Ajay Deshpande, IBM Research<br />Sambit Sahu, IBM Research<br />Tian Chao, IBM Research<br />Piyawadee Sukaviriya, IBM Research<br />Milind Naphade, IBM Research</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>At Home with Agents: Exploring Attitudes Towards Future Smart Energy Infrastructures</td>
+      <td>Tom Rodden, University of Nottingham<br />Joel E. Fischer, University of Nottingham<br />Nadia Pantidi, University of Nottingham<br />Khaled Bachour, University of Nottingham<br />Stuart Moran, University of Nottingham</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Job Opportunities through Entertainment: Virally Spread Speech-Based Services for Low-Literate Users</td>
+      <td>Agha Ali Raza, Carnegie Mellon University<br />Farhan Ul Haq, Lahore University of Management Sciences<br />Zain Tariq, Lahore University of Management Sciences<br />Mansoor Pervaiz, Northeastern University<br />Samia Razaq, Lahore University of Management Sciences<br />Umar Saif, Lahore University of Management Sciences<br />Roni Rosenfeld, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>IllumiRoom: Peripheral Projected Illusions for Interactive Experiences</td>
+      <td>Brett Jones, University of Illinois at Urbana-Champaign<br />Hrvoje Benko, Microsoft Research<br />Eyal Ofek, Microsoft Research<br />Andrew D. Wilson, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>The Efficacy of Human Post-Editing for Language Translation</td>
+      <td>Spence Green, Stanford University<br />Jeffrey Heer, Stanford University<br />Christopher D. Manning, Stanford University</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Analyzing User-Generated YouTube Videos to Understand Touchscreen Use by People with Motor Impairments</td>
+      <td>Lisa Anthony, University of Maryland Baltimore County<br />YooJin Kim, University of Maryland<br />Leah Findlater, University of Maryland</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Turkopticon: Interrupting Worker Invisibility in Amazon Mechanical Turk</td>
+      <td>Lilly Irani, University of California Irvine<br />M. Six Silberman, Bureau of Economic Interpretation</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Webzeitgeist: Design Mining the Web</td>
+      <td>Ranjitha Kumar, Stanford University<br />Arvind Satyanarayan, Stanford University<br />Cesar Torres, Stanford University<br />Maxine Lim, Stanford University<br />Salman Ahmad, Massachusetts Institute of Technology<br />Scott R. Klemmer, Stanford University<br />Jerry O. Talton, Intel</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Weighted Graph Comparison Techniques for Brain Connectivity Analysis</td>
+      <td>Basak Alper, University of California Santa Barbara<br />Benjamin Bach, INRIA<br />Nathalie Riche, Microsoft Research<br />Tobias Isenberg, INRIA<br />Jean-Daniel Fekete, INRIA</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>The Many Faces of Facebook: Experiencing Social Media as Performance, Exhibition, and Personal Archive</td>
+      <td>Xuan Zhao, Cornell University<br />Niloufar Salehi, Cornell University<br />Sasha Naranjit, Cornell University<br />Sara Alwaalan, Cornell University<br />Stephen Voida, Cornell University<br />Dan Cosley, Cornell University</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Uncomfortable Interactions</td>
+      <td>Steve Benford, University of Nottingham<br />Chris Greenhalgh, University of Nottingham<br />Gabriella Giannachi, University of Exeter<br />Brendan Walker, University of Nottingham<br />Joe Marshall, University of Nottingham<br />Tom Rodden, University of Nottingham</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>ClayVision: The (Elastic) Image of the City</td>
+      <td>Yuichiro Takeuchi, Sony Computer Science Laboratories<br />Ken Perlin, New York University</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Revisiting the Jacquard Loom: Threads of History and Current Patterns in HCI</td>
+      <td>Ylva Fernaeus, KTH Royal Institute of Technology<br />Martin Jonssonm, Södertörn University<br />Jakob Tholanderm, Stockholm University</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Personas and Decision Making in the Design Process: An Ethnographic Case Study</td>
+      <td>Erin Friess, University of North Texas</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Detecting Error-Related Negativity for Interaction Design</td>
+      <td>Chi Vi &amp; Sriram Subramanian, University of Bristol</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Observational and Experimental Investigation of Typing Behaviour using Virtual Keyboards for Mobile Devices</td>
+      <td>Niels Henze, University of Oldenburg<br />Enrico Rukzio, University of Duisburg-Essen<br />Susanne Boll, University of Oldenburg</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Looking Glass: A Field Study on Noticing Interactivity of Shop Windows</td>
+      <td>Jörg Müller, Technische Universität Berlin<br />Robert Walter, Technische Universität Berlin<br />Gilles Bailly, Technische Universität Berlin<br />Michael Nischt, Technische Universität Berlin<br />Florian Alt, University of Stuttgart</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Touché: Enhancing Touch Interaction on Humans, Screens, Liquids, and Everyday Objects</td>
+      <td>Munehiko Sato, Disney Research<br />Ivan Poupyrev, Disney Research<br />Chris Harrison, Disney Research</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Affordances in HCI: Toward a Mediated Action Perspective</td>
+      <td>Victor Kaptelinin, University of Bergen<br />Bonnie Nardi, University of California Irvine</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Using Rhythmic Patterns as an Input Method</td>
+      <td>Emilien Ghomi, Université Paris-Sud<br />Guillaume Faure, Université Paris-Sud<br />Stephane Huot, Université Paris-Sud<br />Olivier Chapuis, Université Paris-Sud<br />Michel Beaudouin-Lafon, Université Paris-Sud</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>The Normal Natural Troubles of Driving with GPS</td>
+      <td>Barry Brown, Stockholm University<br />Eric Laurier, University of Edinburgh</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Communitysourcing: Engaging Local Crowds to Perform Expert Work Via Physical Kiosks</td>
+      <td>Kurtis Heimerl, University of California Berkeley<br />Brian Gawalt, University of California Berkeley<br />Kuang Chen, University of California Berkeley<br />Tapan S. Parikh, University of California Berkeley<br />Björn Hartmann, University of California Berkeley</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Improving Command Selection with CommandMaps</td>
+      <td>Joey Scarr, University of Canterbury<br />Andy Cockburn, University of Canterbury<br />Carl Gutwin, University of Saskatchewan<br />Andrea Bunt, University of Manitoba</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Empathy, Participatory Design and People with Dementia</td>
+      <td>Stephen Lindsay, Newcastle University<br />Katie Britain, Newcastle University<br />Daniel Jackson, Newcastle University<br />Cassim Ladha, Newcastle University<br />Karim Ladha, Newcastle University<br />Patrick Olivier, Newcastle University</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Usable Gestures for Blind People: Understanding Preference and Performance</td>
+      <td>Shaun K. Kane, University of Washington<br />Jacob Wobbrock, University of Washington<br />Richard E. Ladner, University of Washington</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Effects of Community Size and Contact Rate in Synchronous Social Q&amp;A</td>
+      <td>Ryen W. White, Microsoft Research<br />Matthew Richardson, Microsoft Research<br />Yandong Liu, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Teenagers and Their Virtual Possessions: Design Opportunities and Issues</td>
+      <td>William Odom, Carnegie Mellon University<br />John Zimmerman, Carnegie Mellon University<br />Jodi Forlizzi, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Enhancing Physicality in Touch Interaction with Programmable Friction</td>
+      <td>Vincent Levesque, University of British Columbia<br />Louise Oram, University of British Columbia<br />Karon MacLean, University of British Columbia<br />Andy Cockburn, University of Canterbury<br />Nicholas D. Marchuk, Northwestern University<br />Dan Johnson, Northwestern University<br />J. Edward Colgate, Northwestern University</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Mid-air Pan-and-Zoom on Wall-sized Displays</td>
+      <td>Mathieu Nancel, Université Paris-Sud<br />Julie Wagner, INRIA<br />Emmanuel Pietriga, INRIA<br />Olivier Chapuis, Université Paris-Sud<br />Wendy Mackay, INRIA</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Bricolage: Example-Based Retargeting for Web Design</td>
+      <td>Ranjitha Kumar, Stanford University<br />Jerry Talton, Stanford University<br />Salman Ahmad, Stanford University<br />Scott Klemmer, Stanford University</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Synchronous Interaction Among Hundreds: An Evaluation of a Conference in an Avatar-based Virtual Environment</td>
+      <td>Thomas Erickson, IBM Research<br />N. Sadat Shami, IBM Research<br />Wendy A. Kellogg, IBM Research<br />David W. Levine, IBM Research</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>In the Shadow of Misperception: Assistive Technology Use and Social Interactions</td>
+      <td>Kristen Shinohara &amp; Jacob Wobbrock, University of Washington</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Why is My Internet Slow?: Making Network Speeds Visible</td>
+      <td>Marshini Chetty, Georgia Institute of Technology<br />David Haslem, Orange Sparkle Ball<br />Andrew Baird, Amazon<br />Ugochi Ofoha, Georgia Institute of Technology<br />Bethany Sumner, Georgia Institute of Technology<br />Rebecca Grinter, Georgia Institute of Technology</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Ease of Juggling: Studying the Effects of Manual Multitasking</td>
+      <td>Antti Oulasvirta &amp; Joanna Bergstrom-Lehtovirta, Aalto University</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Automics: souvenir generating photoware for theme parks</td>
+      <td>Abigail Durrant, University of Nottingham<br />Duncan Rowland, University of Lincoln<br />David Kirk, University of Nottingham<br />Steve Benford, University of Nottingham<br />Joel E. Fischer, University of Nottingham<br />Derek McAuley, University of Nottingham<br />Michael A. Peshkin, Northwestern University</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Your Noise is My Command: Sensing Gestures Using the Body as an Antenna</td>
+      <td>Gabe Cohn, University of Washington<br />Daniel Morris, Microsoft Research<br />Shwetak N. Patel, University of Washington<br />Desney Tan, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Review Spotlight: A User Interface for Summarizing User-generated Reviews Using Adjective-Noun Word Pairs</td>
+      <td>Koji Yatani, University of Toronto<br />Michael Novati, University of Toronto<br />Andrew Trusty, University of Toronto<br />Khai N. Truong, University of Toronto</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Lumino: Tangible Blocks for Tabletop Computers Based on Glass Fiber Bundles</td>
+      <td>Patrick Baudisch, Hasso Plattner Institute<br />Torsten Becker, Hasso Plattner Institute<br />Frederik Rudeck, Hasso Plattner Institute</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Mapping the Landscape of Sustainable HCI</td>
+      <td>Carl DiSalvo, Georgia Institute of Technology<br />Phoebe Sengers, Cornell University<br />Hrönn Brynjarsdóttir, Cornell University</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Occlusion-Aware Interfaces</td>
+      <td>Daniel Vogel &amp; Ravin Balakrishnan, University of Toronto</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Avaaj Otalo — A Field Study of an Interactive Voice Forum for Small Farmers in Rural India</td>
+      <td>Neil Patel, Stanford University<br />Deepti Chittamuru, University of California Berkeley<br />Anupam Jain, IBM Research<br />Paresh Dave, Development Support Center<br />Tapan S. Parikh, University of California Berkeley</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>How does search behavior change as search becomes more difficult?</td>
+      <td>Anne Aula, Google<br />Rehan M. Khan, Google<br />Zhiwei Guan, Google</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>The Tower of Babel Meets Web 2.0: User-Generated Content and its Applications in a Multilingual Context</td>
+      <td>Brent Hecht &amp; Darren Gergle, Northwestern University</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Skinput: Appropriating the Body as an Input Surface</td>
+      <td>Chris Harrison, Carnegie Mellon University<br />Desney Tan, Microsoft Research<br />Dan Morris, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Mobile-izing Health Workers in Rural India</td>
+      <td>Divya Ramachandran, University of California Berkeley<br />John Canny, University of California Berkeley<br />Prabhu Dutta Das, Dhirubhai Ambani Institute of Information and Communications Technology<br />Edward Cutrell, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>The Design of Eco-Feedback Technology</td>
+      <td>Jon Froehlich, University of Washington<br />Leah Findlater, University of Washington<br />James Landay, University of Washington</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Feminist HCI: Taking Stock and Outlining an Agenda for Design</td>
+      <td>Shaowen Bardzell, Indiana University at Bloomington</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Prefab: Implementing Advanced Behaviors Using Pixel-Based Reverse Engineering of Interface Structure</td>
+      <td>Morgan Dixon &amp; James Fogarty, University of Washington</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Useful Junk? The Effects of Visual Embellishment on Comprehension and Memorability of Charts</td>
+      <td>Scott Bateman, University of Saskatchewan<br />Regan L. Mandryk, University of Saskatchewan<br />Carl Gutwin, University of Saskatchewan<br />Aaron Genest, University of Saskatchewan<br />David McDine, University of Saskatchewan<br />Christopher Brooks, University of Saskatchewan</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>From Interaction to Trajectories: Designing Coherent Journeys Through User Experiences</td>
+      <td>Steve Benford, University of Nottingham<br />Gabriella Giannachi, University of Exeter<br />Boriana Koleva, University of Nottingham<br />Tom Rodden, University of Nottingham</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Sizing the Horizon: The Effects of Chart Size and Layering on the Graphical Perception of Time Series Visualization</td>
+      <td>Jeffrey Heer, Stanford University<br />Nicholas Kong, University of California Berkeley<br />Maneesh Agrawala, University of California Berkeley</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Predicting Tie Strength With Social Media</td>
+      <td>Eric Gilbert &amp; Karrie Karahalios, University of Illinois at Urbana-Champaign</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Musink: Composing Music through Augmented Drawing</td>
+      <td>Theophanis Tsandilas, Université Paris-Sud<br />Catherine Letondal, Université Paris-Sud<br />Wendy Mackay, Université Paris-Sud</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Social Immersive Media: Pursuing Best Practices for Multi-user Interactive Camera/Projector Exhibits</td>
+      <td>Scott S. Snibbe, Sona Research<br />Hayes S. Raffle, Massachusetts Institute of Technology</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Ephemeral Adaptation: The Use of Gradual Onset to Improve Menu Selection Performance</td>
+      <td>Leah Findlater, University of British Columbia<br />Karyn Moffatt, University of British Columbia<br />Joanna McGrenere, University of British Columbia<br />Jessica Dawson, University of British Columbia</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Undo and Erase Events as Indicators of Usability Problems</td>
+      <td>David Akers, Stanford University<br />Matthew Simpson, Google<br />Robin Jeffries, Google<br />Terry Winograd, Stanford University</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>In-Car GPS Navigation: Engagement with and Disengagement from the Environment</td>
+      <td>Gilly Leshed, Cornell University<br />Theresa Velden, Cornell University<br />Oya Rieger, Cornell University<br />Blazej Kot, Cornell University<br />Phoebe Sengers, Cornell University</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Improving the Performance of Motor-Impaired Users with Automatically-Generated, Ability-Based Interfaces</td>
+      <td>Krzysztof Z. Gajos, University of Washington<br />Jacob Wobbrock, University of Washington<br />Daniel S. Weld, University of Washington</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Large Scale Analysis of Web Revisitation Patterns</td>
+      <td>Eytan Adar, University of Washington<br />Jaime Teevan, Microsoft Research<br />Susan T. Dumais, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Designs on Dignity: Perceptions of Technology Among the Homeless</td>
+      <td>Christopher A. Le Dantec &amp; W. Keith Edwards, Georgia Institute of Technology</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>The Network in the Garden: An Empirical Analysis of Social Media in Rural Life</td>
+      <td>Eric Gilbert, University of Illinois at Urbana-Champaign<br />Karrie Karahalios, University of Illinois at Urbana-Champaign<br />Christian Sandvig, University of Illinois at Urbana-Champaign</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Multimodal collaborative handwriting training for visually-impaired people</td>
+      <td>Beryl Plimmer, University of Auckland<br />Andrew Crossan, University of Glasgow<br />Stephen A. Brewster, University of Glasgow<br />Rachel Blagojevic, University of Auckland</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>An Error Model for Pointing Based on Fitts’ Law</td>
+      <td>Jacob Wobbrock, University of Washington<br />Edward Cutrell, Microsoft Research<br />Susumu Harada, University of Washington<br />I. Scott MacKenzie, York University</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Multiview: improving trust in group video conferencing through spatial faithfulness</td>
+      <td>David T. Nguyen &amp; John Canny, University of California Berkeley</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Software or wetware?: discovering when and why people use digital prosthetic memory</td>
+      <td>Vaiva Kalnikaité &amp; Steve Whittaker, University of Sheffield</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Shift: a technique for operating pen-based interfaces using touch	Daniel Vogel, University of Toronto<br />Patrick Baudisch, Microsoft Research</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Authoring sensor-based interactions by demonstration with direct manipulation and pattern recognition</td>
+      <td>Björn Hartmann, Stanford University<br />Leith Abdulla, Stanford University<br />Manas Mittal, Massachusetts Institute of Technology<br />Scott R. Klemmer, Stanford University</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Sustainable interaction design: invention &amp; disposal, renewal &amp; reuse</td>
+      <td>Eli Blevis, Indiana University at Bloomington</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Consuming video on Mobile devices</td>
+      <td>Kenton O’Hara, Hewlett-Packard Labs<br />April Slayden Mitchell, Hewlett-Packard Labs<br />Alex Vorbau, Hewlett-Packard Labs</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>Trackball text entry for people with motor impairments</td>
+      <td>Jacob Wobbrock &amp; Brad Myers, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>Embedded phenomena: supporting science learning with classroom-sized distributed simulations</td>
+      <td>Tom Moher, University of Illinois at Chicago</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>A role for haptics in mobile interaction: initial design using a handheld tactile display prototype</td>
+      <td>Joseph Luk, University of British Columbia<br />Jérôme Pasquero, McGill University<br />Shannon Little, University of British Columbia<br />Karon MacLean, University of British Columbia<br />Vincent Lévesque, McGill University<br />Vincent Hayward, McGill University</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>Making space for stories: ambiguity in the design of personal communication systems</td>
+      <td>Paul M. Aoki, Palo Alto Research Center<br />Allison Woodruff, Intel Research</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>Examining Task Engagement in Sensor-Based Statistical Models of Human Interruptibility</td>
+      <td>James Fogarty, Carnegie Mellon University<br />Andrew J. Ko, Carnegie Mellon University<br />Htet Htet Aung, Carnegie Mellon University<br />Elspeth Golden, Carnegie Mellon University<br />Karen P. Tang, Carnegie Mellon University<br />Scott E. Hudson, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>Designing the spectator experience</td>
+      <td>Stuart Reeves, University of Nottingham<br />Steve Benford, University of Nottingham<br />Claire O’Malley, University of Nottingham<br />Mike Fraser, University of Bristol</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>The bubble cursor: enhancing target acquisition by dynamic resizing of the cursor’s activation area</td>
+      <td>Tovi Grossman &amp; Ravin Balakrishnan, University of Toronto</td>
+    </tr>
+  </tbody>
+</table>
+
+
+                <hr style="visibility: hidden;">
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2018/12/30/best-paper-awards-ACL/" data-toggle="tooltip" data-placement="top" title="Best Paper Awards (2001-2018)">
+                        Previous<br>
+                        <span>Best Paper Awards (2001-2018)</span>
+                        </a>
+                    </li>
+                    
+                    
+                </ul>
+                <hr style="visibility: hidden;">
+
+                
+                <!-- disqus 评论框 start -->
+                <div class="comment">
+                    <div id="disqus_thread" class="disqus-thread"></div>
+                </div>
+                <!-- disqus 评论框 end -->
+                
+
+                
+            </div>  
+
+    <!-- Side Catalog Container -->
+        
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+
+
+<section>
+    
+        <hr class="hidden-sm hidden-xs">
+    
+    <h5><a href="/archive/">FEATURED TAGS</a></h5>
+    <div class="tags">
+        
+        
+        
+        </a>
+        
+        
+                <a data-sort="0003" 
+                    href="/archive/?tag=Software+Engineering"
+                    title="Software Engineering"
+                    rel="2">Software Engineering
+                </a>
+        
+                <a data-sort="0002" 
+                    href="/archive/?tag=Best+Paper"
+                    title="Best Paper"
+                    rel="3">Best Paper
+                </a>
+        
+                <a data-sort="0003" 
+                    href="/archive/?tag=Concolic+Testing"
+                    title="Concolic Testing"
+                    rel="2">Concolic Testing
+                
+</div>
+</section>
+
+
+                <!-- Friends Blog -->
+                
+<hr>
+<h5>FRIENDS</h5>
+<ul class="list-inline">
+  
+  <li><a href="http://www.shichaohao.com">Chaohao Shi</a></li>
+  
+  <li><a href="https://wang-jingyi.github.io">Jingyi Wang</a></li>
+  
+  <li><a href="http://linyun.info">Yun Lin</a></li>
+  
+</ul>
+
+            </div>
+        </div>
+    </div>
+</article>
+
+<!-- add support for mathjax by voleking-->
+
+
+
+
+
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "pxzhang";
+    var disqus_identifier = "/2018/12/30/best-paper-awards-CHI";
+    var disqus_url = "http://localhost:4000/2018/12/30/best-paper-awards-CHI/";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <!-- SNS Link -->
+                
+
+
+<ul class="list-inline text-center">
+
+
+  
+  
+  <li>
+    <a target="_blank" href="https://github.com/pxzhang94">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="../img/wechat.jpg">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.linkedin.com/in/培歆-张-08ba3312b">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.facebook.com/peixin.zhang.180">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a href="https://twitter.com/PXZHANG94">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="../img/qq.jpg">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-qq fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.zhihu.com/people/python-95-16">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa  fa-stack-1x fa-inverse">知</i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="http://weibo.com/3030786647">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+</ul>
+
+                <p class="copyright text-muted">
+                    Copyright &copy; PXZHANG 2018
+<!--                     <br>
+                    Powered by <a href="https://pxzhang94.github.io">PXZHANG</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" >
+                    </iframe> -->
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<!-- Currently, only navbar scroll-down effect at desktop still depends on this -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+<!-- Service Worker -->
+
+<script src="/js/snackbar.js "></script>
+<script src="/js/sw-registration.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!--
+     Because of the native support for backtick-style fenced code blocks
+     right within the Markdown is landed in Github Pages,
+     From V1.6, There is no need for Highlight.js,
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+
+
+
+<!--fastClick.js -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+<script>
+    // dynamic User by Hux
+    var _gaId = 'UA-49627206-1';
+    var _gaDomain = 'pxzhang94.github.io';
+
+    // Originial
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', _gaId, _gaDomain);
+    ga('send', 'pageview');
+</script>
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+<!-- Side Catalog -->
+
+
+
+<!-- Multi-Lingual -->
+
+
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

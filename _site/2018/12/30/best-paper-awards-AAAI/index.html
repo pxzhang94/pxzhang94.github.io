@@ -11,39 +11,28 @@
     <meta name="theme-color" content="#000000">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="Concolic Testing 1 - 张培歆 | PXZHANG">
+    <meta property="og:title" content="Best Paper Awards (1996-2018) - 张培歆 | PXZHANG">
     
     <meta property="og:type" content="article">
-    <meta property="og:description" content="随机测试（Random Testing）
-
-  使用随机生成的测试输入执行程序，然后观察是否会出现错误状态
-  对于高可能性的错误，随机测试的代价很低，反之很高
-比如说下面的第3行判断语句，对于随机测试来说，几乎不可能覆盖到其True分支
-    1
-2
-3
-4
-5
-6
-public static void example(int x, int y) {
-  int[] array = ne...">
+    <meta property="og:description" content="
+">
     
-    <meta property="article:published_time" content="2018-09-29T00:00:00Z">
+    <meta property="article:published_time" content="2018-12-30T00:00:00Z">
     
     
     <meta property="article:author" content="pxzhang">
     
     
-    <meta property="article:tag" content="Software Engineering">
+    <meta property="article:tag" content="Best Paper">
     
-    <meta property="article:tag" content="Concolic Testing">
+    <meta property="article:tag" content="Artificial Intelligence">
     
     
     <meta property="og:image" content="http://localhost:4000/img/pxzhang_icse2018.jpg">
-    <meta property="og:url" content="http://localhost:4000/2018/09/29/concolic-testing-1/">
+    <meta property="og:url" content="http://localhost:4000/2018/12/30/best-paper-awards-AAAI/">
     <meta property="og:site_name" content="张培歆 | PXZHANG">
     
-    <title>Concolic Testing 1 - 张培歆 | PXZHANG</title>
+    <title>Best Paper Awards (1996-2018) - 张培歆 | PXZHANG</title>
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="/pwa/manifest.json">
@@ -52,7 +41,7 @@ public static void example(int x, int y) {
     <link rel="shortcut icon" href="/img/favicon.ico">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://localhost:4000/2018/09/29/concolic-testing-1/">
+    <link rel="canonical" href="http://localhost:4000/2018/12/30/best-paper-awards-AAAI/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -192,7 +181,7 @@ public static void example(int x, int y) {
 
     <!-- Image to hack wechat -->
 <!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
-<!-- <img src="/img/post-bg-flower.jpg" width="0" height="0"> -->
+<!-- <img src="/img/post-best-paper.jpg" width="0" height="0"> -->
 
 <!-- Post Header -->
 
@@ -201,7 +190,7 @@ public static void example(int x, int y) {
 <style type="text/css">
     header.intro-header{
         position: relative;
-        background-image: url('/img/post-bg-flower.jpg')
+        background-image: url('/img/post-best-paper.jpg')
     }
 
     
@@ -221,15 +210,15 @@ public static void example(int x, int y) {
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/archive/?tag=Software+Engineering" title="Software Engineering">Software Engineering</a>
+                        <a class="tag" href="/archive/?tag=Best+Paper" title="Best Paper">Best Paper</a>
                         
-                        <a class="tag" href="/archive/?tag=Concolic+Testing" title="Concolic Testing">Concolic Testing</a>
+                        <a class="tag" href="/archive/?tag=Artificial+Intelligence" title="Artificial Intelligence">Artificial Intelligence</a>
                         
                     </div>
-                    <h1>Concolic Testing 1</h1>
+                    <h1>Best Paper Awards (1996-2018)</h1>
                     
-                    <h2 class="subheading">Introduction</h2>
-                    <span class="meta">Posted by pxzhang on September 29, 2018</span>
+                    <h2 class="subheading">AAAI</h2>
+                    <span class="meta">Posted by pxzhang on December 30, 2018</span>
                 </div>
             </div>
         </div>
@@ -255,321 +244,217 @@ public static void example(int x, int y) {
                 <!-- Multi-Lingual -->
                 
 
-				<h2 id="随机测试random-testing">随机测试（Random Testing）</h2>
-<ul>
-  <li>使用随机生成的测试输入执行程序，然后观察是否会出现错误状态</li>
-  <li>对于高可能性的错误，随机测试的代价很低，反之很高<br />
-比如说下面的第3行判断语句，对于随机测试来说，几乎不可能覆盖到其True分支
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-</pre></td><td class="rouge-code"><pre>public static void example(int x, int y) {
-  int[] array = new int[10];
-  if (y == 42342531) {
-      array[x] = y; 
-  }
+				<style>
+.table {
+	font-size:12px;
 }
-</pre></td></tr></tbody></table></code></pre></div>    </div>
-  </li>
-</ul>
-
-<h2 id="符号执行symbolic-execution">符号执行（Symbolic Execution）</h2>
-<ul>
-  <li>利用符号变量来代替输入执行程序，然后使用约束求解器求解路径约束从而获得测试输入</li>
-  <li>符号执行的代价很高，但是可以“保证”到达给定节点<br />
-同样是上面那个程序，我们可以通过求解下面的路径约束：
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>y == 42342531 &amp;&amp; (x&lt;0 || x &gt;= 10)
-</pre></td></tr></tbody></table></code></pre></div>    </div>
-    <p>生成一个特定的测试输入来覆盖我们指定的路径，比如：</p>
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>x == 10 and y == 42342531
-</pre></td></tr></tbody></table></code></pre></div>    </div>
-    <p>但是目前符号执行面临两个问题，第一：由于需要利用符号变量来构建路径约束，所以显然其比随机测试需要更多的时间；第二：目前最常见的约束求解器（如Z3等）的求解能力仍十分有限，对于稍复杂的路径约束就束手无策。<br />
-常见的符号执行策略有：</p>
-  </li>
-  <li>Random State Search</li>
-  <li>Random Path Selection</li>
-  <li>Depth First Search</li>
-  <li>Subpath-Guided Search</li>
-</ul>
-
-<p>所以自动化测试领域提出了concolic testing，我翻译为动态符号执行测试，也可以翻译为具体符号执行，因为concolic是concrete和symbolic的合成词。</p>
-
-<h2 id="动态符号执行测试concolic-testing">动态符号执行测试（Concolic Testing）</h2>
-<ul>
-  <li>集成了具体执行和符号执行两种策略</li>
-  <li>决定选择随机测试还是符号执行</li>
-  <li>如果选择符号执行，决定选择的程序执行路径</li>
-  <li>常见的动态符号执行测试工具：Microsoft SAGE和JDart等<br />
-比如说如下程序：
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-</pre></td><td class="rouge-code"><pre>int h(int x, int y) {
-  if (x != y) { 
-      if (2*x == x + 10) { 
-          abort(); /*error*/
-      }
-      else {
-          return 2x+y; 
-      }
-  }
-  else{
-      return 2x;
-  } 
+table td {
+	vertical-align: middle;
 }
-</pre></td></tr></tbody></table></code></pre></div>    </div>
-    <p>其抽象语法树为：
-<img src="http://pxzhang94.github.io/img/posts/concolic_testing/1.png" alt="抽象语法树" />
-如上图所示，黑色箭头表示随机测试，蓝色箭头表示符号执行.<br />
-常见的动态符号执行策略有：</p>
-  </li>
-  <li>Directed Automated Random Testing</li>
-  <li>Coverage-Optimized Search</li>
-  <li>Generational Search</li>
-  <li>Context-Guided Search</li>
-</ul>
-
-<h2 id="部分常见测试策略">部分常见测试策略</h2>
-<p>事实上，绝大多数动态符号执行测试策略仅执行一遍随机测试，更多的是关注随后符号执行路径的调度，这导致相关算法性能距离<a href="http://pxzhang.cn/2018/10/08/concolic-testing-2/">最优调度策略</a>有极大的差距。我将使用以下函数作为例子简单阐述几种常见动态符号执行以及符号执行策略。</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-</pre></td><td class="rouge-code"><pre>void myfunc(int x, int y){
-1.    if(x==y){
-2.        x++;
-       }
-3.    if ((x*x)%10==9){
-4.        return;
-       }
-5.    if (x*y+3*y-5*x==15){  
-6.        if (x%2==1 ||y%2==1){
-7.           x = x-y;
-           } 
-       }
-8.    return;
+table th:nth-of-type(2) {
+    width: 240px;
 }
-</pre></td></tr></tbody></table></code></pre></div></div>
-<p>其抽象语法树为：
-<img src="http://pxzhang94.github.io/img/posts/concolic_testing/2.png" alt="抽象语法树" /></p>
 
-<h3 id="subpath-guided-search"><a href="http://pxzhang94.github.io/paper/concolic_testing/oopsla13-pgse.pdf">Subpath-Guided Search</a></h3>
-<p>该方法是符号执行测试调度策略，首先给出两个关键的定义：</p>
-<ul>
-  <li>Length-n子路径：给定一条路径&lt;s1, s2,…, sk&gt;，那么其length-n 子路径就是&lt;sk-n+1, sk-n+2, …, sk&gt;</li>
-  <li>统计分析结构：结构e = (π, f) 用于统计分析，其中π是length-n 子路径，f是π被探索过的频率<br />
-基于以上定义，该调度策略可以总结为以下步骤：
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td><td class="rouge-code"><pre>初始化 
-  结构e的优先队列
-重复 
-  1.随机选择一个具有最低子路径计数的节点继续
-  2.如果下一个节点是终节点，求解路径条件获得测试用例
-  3.用下一个节点来更新优先队列
-直到 所有节点被覆盖 
-</pre></td></tr></tbody></table></code></pre></div>    </div>
-    <p>用一个案例来进一步说明该算法（优先队列中带*结构表示有包含相应子路径的未终结状态）：</p>
-  </li>
-</ul>
+</style>
 
 <table>
   <thead>
     <tr>
-      <th>步骤</th>
-      <th>候选路径</th>
-      <th>优先队列</th>
-      <th>生成用例</th>
+      <th>Year</th>
+      <th>Title</th>
+      <th>Authors</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
-      <td>1:1t<br />2:1f</td>
-      <td>(*1t, 0), (*1f, 0)</td>
-      <td> </td>
+      <td>2018</td>
+      <td>Memory-Augmented Monte Carlo Tree Search</td>
+      <td>Chenjun Xiao, University of Alberta<br />Jincheng Mei, University of Alberta<br />Martin Müller, University of Alberta</td>
     </tr>
     <tr>
-      <td>2</td>
-      <td>1:1t<br />2:1f3t<br />3:1f3f</td>
-      <td>(*1t, 0), (*3t, 0), (*3f, 0), (1f, 1)</td>
-      <td>1f3t4</td>
+      <td>2017</td>
+      <td>Label-Free Supervision of Neural Networks with Physics and Domain Knowledge</td>
+      <td>Russell Stewart &amp; Stefano Ermon, Stanford University</td>
     </tr>
     <tr>
-      <td>3</td>
-      <td>1:1t<br />2:1f3f</td>
-      <td>(*1t, 0), (*3f, 0), (3t, 1), (1f, 1)</td>
-      <td> </td>
+      <td>2016</td>
+      <td>Bidirectional Search That Is Guaranteed to Meet in the Middle</td>
+      <td>Robert C. Holte, University of Alberta<br />Ariel Felner, Ben-Gurion University<br />Guni Sharon, Ben-Gurion University<br />Nathan R. Sturtevant, University of Denver</td>
     </tr>
     <tr>
-      <td>…</td>
-      <td>…</td>
-      <td>…</td>
-      <td>…</td>
+      <td>2015</td>
+      <td>From Non-Negative to General Operator Cost Partitioning</td>
+      <td>Florian Pommerening, University of Basel<br />Malte Helmert, University of Basel<br />Gabriele Röger, University of Basel<br />Jendrik Seipp, University of Basel</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Recovering from Selection Bias in Causal and Statistical Inference</td>
+      <td>Elias Bareinboim, University of California Los Angeles<br />Jin Tian, Iowa State University<br />Judea Pearl, University of California Los Angeles</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>HC-Search: Learning Heuristics and Cost Functions for Structured Prediction</td>
+      <td>Janardhan Rao Doppa, Oregon State University<br />Alan Fern, Oregon State University<br />Prasad Tadepalli, Oregon State University</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>SMILe: Shufﬂed Multiple-Instance Learning</td>
+      <td>Gary Doran &amp; Soumya Ray, Case Western Reserve University</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Learning SVM Classifiers with Indefinite Kernels</td>
+      <td>Suicheng Gu &amp; Yuhong Guo, Temple University</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Document Summarization Based on Data Reconstruction</td>
+      <td>Zhanying He, Zhejiang University<br />Chun Chen, Zhejiang University<br />Jiajun Bu, Zhejiang University<br />Can Wang, Zhejiang University<br />Lijan Zhang, Zhejiang University<br />Deng Cai, Zhejiang University<br />Xiaofei He, Zhejiang University</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Dynamic Resource Allocation in Conservation Planning</td>
+      <td>Daniel Golovin, California Institute of Technology<br />Andreas Krause, ETH Zurich<br />Beth Gardner, North Carolina State University<br />Sarah J. Converse, Patuxent Wildlife Research Center<br />Steve Morey, U.S. Fish and Wildlife Service</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Complexity of and Algorithms for Borda Manipulation</td>
+      <td>Jessica Davies, University of Toronto<br />George Katsirelos, Université Paris-Sud<br />Nina Narodytska, University of New South Wales<br />Toby Walsh, NICTA</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>How Incomplete Is Your Semantic Web Reasoner? Systematic Analysis of the Completeness of Query Answering Systems</td>
+      <td>Giorgos Stoilos, Oxford University<br />Bernardo Cuenca Grau, Oxford University<br />Ian Horrocks, Oxford University</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>A Novel Transition Based Encoding Scheme for Planning as Satisfiability</td>
+      <td>Ruoyun Huang, Washington University in St. Louis<br />Yixin Chen, Washington University in St. Louis<br />Weixiong Zhang, Washington University in St. Louis</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>How Good is Almost Perfect?</td>
+      <td>Malte Helmert &amp; Gabriele Röger, Albert-Ludwigs-Universität Freiburg</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Optimal False-Name-Proof Voting Rules with Costly Voting</td>
+      <td>Liad Wagman &amp; Vincent Conitzer, Duke University</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>PLOW: A Collaborative Task Learning Agent</td>
+      <td>James Allen, Institute for Human and Machine Cognition<br />Nathanael Chambers, Stanford University<br />George Ferguson, University of Rochester<br />Lucian Galescu, Institute for Human and Machine Cognition<br />Hyuckchul Jung, Institute for Human and Machine Cognition<br />Mary Swift, University of Rochester<br />William Taysom, Institute for Human and Machine Cognition</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Thresholded Rewards: Acting Optimally in Timed, Zero-Sum Games</td>
+      <td>Colin McMillen &amp; Manuela Veloso, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>Model Counting: A New Strategy for Obtaining Good Bounds</td>
+      <td>Carla P. Gomes, Cornell University<br />Ashish Sabharwal, Cornell University<br />Bart Selman, Cornell University</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>Towards an Axiom System for Default Logic</td>
+      <td>Gerhard Lakemeyer, RWTH Aachen University<br />Hector J. Levesque, University of Toronto</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>The Max K- Armed Bandit: A New Model of Exploration Applied to Search Heuristic Selection</td>
+      <td>Vincent A. Cicirello, Drexel University<br />Stephen F. Smith, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>Learning and Inferring Transportation Routines</td>
+      <td>Lin Liao, University of Washington<br />Dieter Fox, University of Washington<br />Henry Kautz, University of Washington</td>
+    </tr>
+    <tr>
+      <td>2002</td>
+      <td>On Computing All Abductive Explanations</td>
+      <td>Thomas Eiter, Technische Universität Wien<br />Kazuhisa Makino, Osaka University</td>
+    </tr>
+    <tr>
+      <td>2000</td>
+      <td>The Game of Hex: An Automatic Theorem-Proving Approach to Game Programming</td>
+      <td>Vadim V. Anshelevich, Vanshel Consulting</td>
+    </tr>
+    <tr>
+      <td>1999</td>
+      <td>PROVERB: The Probabilistic Cruciverbalist</td>
+      <td>Greg A. Keim, Duke University<br />Noam M. Shazeer, Duke University<br />Michael L. Littman, Duke University<br />Sushant Agarwal, Duke University<br />Catherine M. Cheves, Duke University<br />Joseph Fitzgerald, Duke University<br />Jason Grosland, Duke University<br />Fan Jiang, Duke University<br />Shannon Pollard, Duke University<br />Karl Weinmeister, Duke University</td>
+    </tr>
+    <tr>
+      <td>1998</td>
+      <td>Learning Evaluation Functions for Global Optimization and Boolean Satisfiability</td>
+      <td>Justin A. Boyan &amp; Andrew W. Moore, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>1998</td>
+      <td>Acceleration Methods for Numeric CSPs</td>
+      <td>Yahia Lebbah &amp; Olivier Lhomme, Ecole des Mines de Nantes</td>
+    </tr>
+    <tr>
+      <td>1998</td>
+      <td>The Interactive Museum Tour-Guide Robot</td>
+      <td>Wolfram Burgard, University of Bonn<br />Armin B. Cremers, University of Bonn<br />Dieter Fox, University of Bonn<br />Dirk Hähnel, University of Bonn<br />Gerhard Lakemeyer, Aachen University of Technology<br />Dirk Schulz, University of Bonn<br />Walter Steiner, University of Bonn<br />Sebastian Thrun, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>1997</td>
+      <td>Statistical Parsing with a Context-Free Grammar and Word Statistics</td>
+      <td>Eugene Charniak, Brown University</td>
+    </tr>
+    <tr>
+      <td>1997</td>
+      <td>A Practical Algorithm for Finding Optimal Triangulations</td>
+      <td>Krill Shoikhet &amp; Dan Geiger, Technion</td>
+    </tr>
+    <tr>
+      <td>1997</td>
+      <td>Fast Context Switching in Real-Time Propositional Reasoning</td>
+      <td>P. Pandurang Nayak &amp; Brian C. Williams, NASA Ames Research Center</td>
+    </tr>
+    <tr>
+      <td>1997</td>
+      <td>Building Concept Representations from Reusable Components</td>
+      <td>Peter Clark, Boeing<br />Bruce Porter, University of Texas at Austin</td>
+    </tr>
+    <tr>
+      <td>1996</td>
+      <td>Verification of Knowledge Bases Based on Containment Checking</td>
+      <td>Alon Y. Levy, AT&amp;T Laboratories<br />Marie-Christine Rousset, Université Paris-Sud</td>
+    </tr>
+    <tr>
+      <td>1996</td>
+      <td>A Novel Application of Theory Refinement to Student Modeling</td>
+      <td>Paul T. Baffes, SciComp<br />Raymond J. Mooney, University of Texas at Austin</td>
+    </tr>
+    <tr>
+      <td>1996</td>
+      <td>Pushing the Envelope: Planning, Propositional Logic, and Stochastic Search</td>
+      <td>Henry Kautz &amp; Bart Selman, AT&amp;T Laboratories</td>
     </tr>
   </tbody>
 </table>
-
-<h3 id="directed-automated-random-testing"><a href="http://pxzhang94.github.io/paper/concolic_testing/pldi2005.pdf">Directed Automated Random Testing</a></h3>
-<p>该方法是动态符号执行测试调度策略，也是目前广泛使用的JAVA自动化测试工具JDart的算法基础。该调度策略可以总结为以下步骤：</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td><td class="rouge-code"><pre>初始化 
-	一个具体执行的测试用例
-重复 
-	1.执行该测试用例
-	2.深度优先搜索获取未覆盖的分支
-	3.求解访问未覆盖分支的路径条件获得测试用例
-直到 所有节点被覆盖 
-</pre></td></tr></tbody></table></code></pre></div></div>
-<p>用一个案例来进一步说明该算法：</p>
-<ul>
-  <li>假设第一个测试用例是x = 0, y = 100,其访问了节点1, 3, 5, 8</li>
-  <li>对路径&lt;1, 3, 5, 6&gt;通过求解下面的条件 x!=y &amp;&amp; (x<em>x)%10!=9 &amp;&amp; x</em>y+3y-5x==15执行符号执行</li>
-  <li>假设测试用例是x=4, y = 5 ,其访问了节点1, 3, 5, 6, 8</li>
-  <li>对路径&lt;1, 3, 5, 6, 7&gt;执行符号执行</li>
-  <li>…..</li>
-</ul>
-
-<h3 id="coverage-optimized-search"><a href="http://pxzhang94.github.io/paper/concolic_testing/klee-osdi-08.pdf">Coverage-Optimized Search</a></h3>
-<p>该方法是动态符号执行测试调度策略,也是目前广泛使用的C/C++自动化测试工具KLEE的算法基础。该调度策略可以总结为以下步骤：</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-</pre></td><td class="rouge-code"><pre>初始化
-	一个具体执行的测试用例
-重复
-	1.执行该测试用例
-	2.计算未覆盖节点与已覆盖节点间的最小距离
-	3.从最小距离中随机选择一条路径
-	4.求解该路径条件获得一个测试用例
-直到 所有节点被覆盖
-</pre></td></tr></tbody></table></code></pre></div></div>
-<p>用一个案例来进一步说明该算法：</p>
-<ul>
-  <li>假设第一个测试用例是x = 0, y = 100,其访问了节点1, 3, 5, 8</li>
-  <li>对于 &lt;1, 2&gt;, &lt;1, 3, 4&gt;和&lt;1, 3, 5, 6&gt;最小距离是1, &lt;1, 3, 5, 6, 7&gt;是2</li>
-  <li>从&lt;1, 2&gt;, &lt;1, 3, 4&gt;和&lt;1, 3, 5, 6&gt;随机选择一条路径,假设是&lt;1, 3, 4&gt;</li>
-  <li>对路径&lt;1, 3, 4&gt;执行符号执行</li>
-  <li>…..</li>
-</ul>
-
-<h3 id="generational-search"><a href="http://pxzhang94.github.io/paper/concolic_testing/FuzzTesting.pdf">Generational Search</a></h3>
-<p>该方法是动态符号执行测试调度策略。该调度策略可以总结为以下步骤：</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td><td class="rouge-code"><pre>初始化
-	带有一个测试用例的测试套件
-重复
-	1.执行该测试用例
-	2.给定该测试用例的路径，其上所有分支条件系统地用未被访问的另一分支替换
-	3.求解每个约束获得相应的测试用例
-直到 所有节点被覆盖
-</pre></td></tr></tbody></table></code></pre></div></div>
-<p>用一个案例来进一步说明该算法：</p>
-<ul>
-  <li>假设第一个测试用例是x = 0, y = 100,其访问了节点1, 3, 5, 8</li>
-  <li>对路径&lt;1, 2&gt;, &lt;1,3,4&gt;和&lt;1,3,5,6&gt;的路径条件求解并将相应的测试用例添加到测试套件中</li>
-  <li>选择路径&lt;1, 2&gt;的测试用例</li>
-  <li>选择路径&lt;1, 3, 4&gt;的测试用例</li>
-  <li>选择路径&lt;1, 3, 5, 6&gt;的测试用例</li>
-  <li>….. 
-下图来源于原论文，较为清晰的阐述了该算法调度顺序：
-<img src="http://pxzhang94.github.io/img/posts/concolic_testing/3.png" alt="Generational Search" /></li>
-</ul>
-
-<h3 id="context-guided-search"><a href="http://pxzhang94.github.io/paper/concolic_testing/seo-fse2014.pdf">Context-Guided Search</a></h3>
-<p>该方法是动态符号执行测试调度策略。首先给出一个关键的定义</p>
-<ul>
-  <li>K-Context：定义分支b的k-context为一条执行路径上之前k个分支的序列
-比如路径&lt;1,2,3,5,8&gt;包含分支(1,3,5)，那么：</li>
-  <li>5的1-context为(5)</li>
-  <li>5的2-context为(3,5)</li>
-  <li>5的3-context为(1,3,5)
-该调度策略可以总结为以下步骤：
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-</pre></td><td class="rouge-code"><pre>初始化
-  一个具体执行的测试用例和k = 1
-重复
-  1.重复广度优先搜索
-      a.检查在执行树上给定深度的每个节点的k-context是否是新的
-      b.求解访问未覆盖分支的路径条件获得测试用例
-      c.用测试用例更新执行树
-  2.递增k
-直到 所有节点被覆盖
-</pre></td></tr></tbody></table></code></pre></div>    </div>
-    <p>用一个案例来进一步说明该算法：</p>
-  </li>
-  <li>假设第一个测试用例是x = 0, y = 100,其访问了节点1, 3, 5, 8</li>
-  <li>对路径&lt;1, 2&gt;执行符号测试</li>
-  <li>假设测试用例是x=0, y=0,其访问了节点1, 2, 3, 5, 8</li>
-  <li>对路径&lt;1, 3, 4&gt;执行符号测试</li>
-  <li>…..</li>
-</ul>
-
 
 
                 <hr style="visibility: hidden;">
                 <ul class="pager">
                     
+                    <li class="previous">
+                        <a href="/2018/10/08/concolic-testing-2/" data-toggle="tooltip" data-placement="top" title="Concolic Testing 2">
+                        Previous<br>
+                        <span>Concolic Testing 2</span>
+                        </a>
+                    </li>
+                    
                     
                     <li class="next">
-                        <a href="/2018/10/08/concolic-testing-2/" data-toggle="tooltip" data-placement="top" title="Concolic Testing 2">
+                        <a href="/2018/12/30/best-paper-awards-ACL/" data-toggle="tooltip" data-placement="top" title="Best Paper Awards (2001-2018)">
                         Next<br>
-                        <span>Concolic Testing 2</span>
+                        <span>Best Paper Awards (2001-2018)</span>
                         </a>
                     </li>
                     
@@ -663,8 +548,8 @@ public static void example(int x, int y) {
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "pxzhang";
-    var disqus_identifier = "/2018/09/29/concolic-testing-1";
-    var disqus_url = "http://localhost:4000/2018/09/29/concolic-testing-1/";
+    var disqus_identifier = "/2018/12/30/best-paper-awards-AAAI";
+    var disqus_url = "http://localhost:4000/2018/12/30/best-paper-awards-AAAI/";
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
