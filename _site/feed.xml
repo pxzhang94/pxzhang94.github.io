@@ -5,9 +5,756 @@
     <description>这里是 @PXZHANG张培歆 的个人网站</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 31 Dec 2018 09:28:11 +0800</pubDate>
-    <lastBuildDate>Mon, 31 Dec 2018 09:28:11 +0800</lastBuildDate>
+    <pubDate>Mon, 31 Dec 2018 22:25:30 +0800</pubDate>
+    <lastBuildDate>Mon, 31 Dec 2018 22:25:30 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Best Paper Awards (1998-2018)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;HighLife: Higher-arity Fact Harvesting&lt;/td&gt;
+      &lt;td&gt;Patrick Ernst, Saarland Informatics CampusSaarbrücken&lt;br /&gt;Amy Siu, Saarland Informatics CampusSaarbrücken&lt;br /&gt;Gerhard Weikum, Saarland Informatics CampusSaarbrücken&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Social Networks Under Stress&lt;/td&gt;
+      &lt;td&gt;Daniel Romero, University of Michigan&lt;br /&gt;Brian Uzzi, Northwestern University&lt;br /&gt;Jon Kleinberg, Cornell University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;HypTrails: A Bayesian Approach for Comparing Hypotheses About Human Trails on the Web&lt;/td&gt;
+      &lt;td&gt;Philipp Singer, GESIS - Leibniz Institute for the Social Sciences&lt;br /&gt;Denis Helic, Graz University of Technology&lt;br /&gt;Andreas Hotho, University of Würzburg&lt;br /&gt;Markus Strohmaier, GESIS - Leibniz Institute for the Social Sciences&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Efficient Estimation for High Similarities using Odd Sketches&lt;/td&gt;
+      &lt;td&gt;Michael Mitzenmacher, Harvard University&lt;br /&gt;Rasmus Pagh, IT University of Copenhagen&lt;br /&gt;Ninh Pham, IT University of Copenhagen&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;No Country for Old Members: User Lifecycle and Linguistic Change in Online Communities&lt;/td&gt;
+      &lt;td&gt;Cristian Danescu-Niculescu-Mizil, Stanford University&lt;br /&gt;Robert West, Stanford University&lt;br /&gt;Dan Jurafsky, Stanford University&lt;br /&gt;Jure Leskovec, Stanford University&lt;br /&gt;Christopher Potts, Stanford University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Counting Beyond a Yottabyte, or how SPARQL 1.1 Property Paths will Prevent Adoption of the Standard&lt;/td&gt;
+      &lt;td&gt;Marcelo Arenas, Pontificia Universidad Católica de Chile&lt;br /&gt;Sebastián Conca, Pontificia Universidad Católica de Chile&lt;br /&gt;Jorge Pérez, Universidad de Chile&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;Towards a theory model for product search&lt;/td&gt;
+      &lt;td&gt;Beibei Li, New York University&lt;br /&gt;Anindya Ghose, New York University&lt;br /&gt;Panagiotis G. Ipeirotis, New York University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;Factorizing personalized Markov chains for next-basket recommendation&lt;/td&gt;
+      &lt;td&gt;Steffen Rendle, Osaka University&lt;br /&gt;Christoph Freudenthaler, University of Hildesheim&lt;br /&gt;Lars Schmidt-Thieme, University of Hildesheim&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;Hybrid keyword search auctions&lt;/td&gt;
+      &lt;td&gt;Ashish Goel, Stanford University&lt;br /&gt;Kamesh Munagala, Duke University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;IRLbot: Scaling to 6 billion pages and beyond&lt;/td&gt;
+      &lt;td&gt;Hsin-Tsang Lee, Texas A&amp;amp;M University&lt;br /&gt;Derek Leonard, Texas A&amp;amp;M University&lt;br /&gt;Xiaoming Wang, Texas A&amp;amp;M University&lt;br /&gt;Dmitri Loguinov, Texas A&amp;amp;M University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;Wherefore art thou r3579x?: anonymized social networks, hidden patterns, and structural steganography&lt;/td&gt;
+      &lt;td&gt;Lars Backstrom, Cornell University&lt;br /&gt;Cynthia Dwork, Microsoft Research&lt;br /&gt;Jon Kleinberg, Cornell University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2006&lt;/td&gt;
+      &lt;td&gt;Random Sampling from a Search Engine’s Index&lt;/td&gt;
+      &lt;td&gt;Ziv Bar-Yossef &amp;amp; Maxim Gurevich, Technion&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;Three-level caching for efficient query processing in large Web search engines&lt;/td&gt;
+      &lt;td&gt;Xiaohui Long &amp;amp; Torsten Suel, Polytechnic Institute of New York University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;Automatic detection of fragments in dynamically generated web pages&lt;/td&gt;
+      &lt;td&gt;Lakshmish Ramaswamy, Georgia Institute of Technology&lt;br /&gt;Arun Iyengar, IBM Research&lt;br /&gt;Ling Liu, Georgia Institute of Technology&lt;br /&gt;Fred Douglis, IBM Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2003&lt;/td&gt;
+      &lt;td&gt;Scaling personalized web search&lt;/td&gt;
+      &lt;td&gt;Glen Jeh &amp;amp; Jennifer Widom, Stanford University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2003&lt;/td&gt;
+      &lt;td&gt;SemTag and seeker: bootstrapping the semantic web via automated semantic annotation&lt;/td&gt;
+      &lt;td&gt;Stephen Dill, IBM Research&lt;br /&gt;Nadav Eiron, IBM Research&lt;br /&gt;David Gibson, IBM Research&lt;br /&gt;Daniel Gruhl, IBM Research&lt;br /&gt;R. Guha, IBM Research&lt;br /&gt;Anant Jhingran, IBM Research&lt;br /&gt;Tapas Kanungo, IBM Research&lt;br /&gt;Sridhar Rajagopalan, IBM Research&lt;br /&gt;Andrew Tomkins, IBM Research&lt;br /&gt;John A. Tomlin, IBM Research&lt;br /&gt;Jason Y. Zien, IBM Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2002&lt;/td&gt;
+      &lt;td&gt;Abstracting application-level web security&lt;/td&gt;
+      &lt;td&gt;David Scott &amp;amp; Richard Sharp, University of Cambridge&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2001&lt;/td&gt;
+      &lt;td&gt;Engineering Server Driven Consistency for Large Scale Dynamic Web Services&lt;/td&gt;
+      &lt;td&gt;Jian Yin, University of Texas at Austin&lt;br /&gt;Lorenzo Alvisi, University of Texas at Austin&lt;br /&gt;Mike Dahlin, University of Texas at Austin&lt;br /&gt;Arun Iyengar, IBM Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2000&lt;/td&gt;
+      &lt;td&gt;Graph Structure in the Web&lt;/td&gt;
+      &lt;td&gt;Andrei Broder, AltaVista&lt;br /&gt;Ravi Kumar, IBM Research&lt;br /&gt;Farzin Maghoul, AltaVista&lt;br /&gt;Prabhakar Raghavan, IBM Research&lt;br /&gt;Sridhar Rajagopalan, IBM Research&lt;br /&gt;Raymie Stata, Compaq Systems Research Center&lt;br /&gt;Andrew Tomkins, IBM Research&lt;br /&gt;Janet Wiener, Compaq Systems Research Center&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1999&lt;/td&gt;
+      &lt;td&gt;Focused Crawling: A New Approach to Topic-Specific Web Resource Discovery&lt;/td&gt;
+      &lt;td&gt;Soumen Chakrabarti, Indian Institute of Technology&lt;br /&gt;Martin van den Berg, FX Palo Alto Lab&lt;br /&gt;Byron Dom, IBM Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1998&lt;/td&gt;
+      &lt;td&gt;The Interactive Multimedia Jukebox (IMJ): a new paradigm for the on-demand delivery of audio/video&lt;/td&gt;
+      &lt;td&gt;Kevin C. Almeroth, University of California Santa Barbara&lt;br /&gt;Mostafa H. Ammar, Georgia Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/01/best-paper-awards-WWW/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/01/best-paper-awards-WWW/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>World Wide Web</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Best Paper Awards (1999-2018)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Delayed Impact of Fair Machine Learning&lt;/td&gt;
+      &lt;td&gt;Lydia T. Liu, University of California Berkeley&lt;br /&gt;Sarah Dean, University of California Berkeley&lt;br /&gt;Esther Rolf, University of California Berkeley&lt;br /&gt;Max Simchowitz, University of California Berkeley&lt;br /&gt;Moritz Hardt, University of California Berkeley&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples&lt;/td&gt;
+      &lt;td&gt;Anish Athalye, Massachusetts Institute of Technology&lt;br /&gt;Nicholas Carlini, University of California Berkeley&lt;br /&gt;David Wagner, University of California Berkeley&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Understanding Black-box Predictions via Influence Functions&lt;/td&gt;
+      &lt;td&gt;Pang Wei Koh &amp;amp; Percy Liang, Stanford University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Ensuring Rapid Mixing and Low Bias for Asynchronous Gibbs Sampling&lt;/td&gt;
+      &lt;td&gt;Christopher De Sa, Stanford University&lt;br /&gt;Chris Re, Stanford University&lt;br /&gt;Kunle Olukotun, Stanford University&lt;br /&gt;Pixel Recurrent Neural Networks&lt;br /&gt;Aaron Van den Oord, Google&lt;br /&gt;Nal Kalchbrenner, Google&lt;br /&gt;Koray Kavukcuoglu, Google&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Dueling Network Architectures for Deep Reinforcement Learning&lt;/td&gt;
+      &lt;td&gt;Ziyu Wang, Google&lt;br /&gt;Tom Schaul, Google&lt;br /&gt;Matteo Hessel, Google&lt;br /&gt;Hado van Hasselt, Google&lt;br /&gt;Marc Lanctot, Google&lt;br /&gt;Nando de Freitas, University of Oxford&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;A Nearly-Linear Time Framework for Graph-Structured Sparsity&lt;/td&gt;
+      &lt;td&gt;Chinmay Hegde, Massachusetts Institute of Technology&lt;br /&gt;Piotr Indyk, Massachusetts Institute of Technology&lt;br /&gt;Ludwig Schmid, Massachusetts Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Optimal and Adaptive Algorithms for Online Boosting&lt;/td&gt;
+      &lt;td&gt;Alina Beygelzimer, Yahoo! Research&lt;br /&gt;Satyen Kale, Yahoo! Research&lt;br /&gt;Haipeng Luo, Princeton University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Understanding the Limiting Factors of Topic Modeling via Posterior Contraction Analysis&lt;/td&gt;
+      &lt;td&gt;Jian Tang, Peking University&lt;br /&gt;Zhaoshi Meng, University of Michigan&lt;br /&gt;XuanLong Nguyen, University of Michigan&lt;br /&gt;Qiaozhu Mei, University of Michigan&lt;br /&gt;Ming Zhang, Peking University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;Vanishing Component Analysis&lt;/td&gt;
+      &lt;td&gt;Roi Livni, The Hebrew University of Jerusalum&lt;br /&gt;David Lehavi, Hewlett-Packard Labs&lt;br /&gt;Sagi Schein, Hewlett-Packard Labs&lt;br /&gt;Hila Nachlieli, Hewlett-Packard Labs&lt;br /&gt;Shai Shalev Shwartz, The Hebrew University of Jerusalum&lt;br /&gt;Amir Globerson, The Hebrew University of Jerusalum&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;Fast Semidifferential-based Submodular Function Optimization&lt;/td&gt;
+      &lt;td&gt;Rishabh Iyer, University of Washington&lt;br /&gt;Stefanie Jegelka, University of California Berkeley&lt;br /&gt;Jeff Bilmes, University of Washington&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Bayesian Posterior Sampling via Stochastic Gradient Fisher Scoring&lt;/td&gt;
+      &lt;td&gt;Sungjin Ahn, University of California Irvine&lt;br /&gt;Anoop Korattikara, University of California Irvine&lt;br /&gt;Max Welling, University of California Irvine&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;Computational Rationalization: The Inverse Equilibrium Problem&lt;/td&gt;
+      &lt;td&gt;Kevin Waugh, Carnegie Mellon University&lt;br /&gt;Brian Ziebart, Carnegie Mellon University&lt;br /&gt;Drew Bagnell, Carnegie Mellon University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;Hilbert Space Embeddings of Hidden Markov Models&lt;/td&gt;
+      &lt;td&gt;Le Song, Carnegie Mellon University&lt;br /&gt;Byron Boots, Carnegie Mellon University&lt;br /&gt;Sajid M. Siddiqi, Google&lt;br /&gt;Geoffrey Gordon, Carnegie Mellon University&lt;br /&gt;Alex Smola, Yahoo! Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;Structure preserving embedding&lt;/td&gt;
+      &lt;td&gt;Blake Shaw &amp;amp; Tony Jebara, Columbia University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;SVM Optimization: Inverse Dependence on Training Set Size&lt;/td&gt;
+      &lt;td&gt;Shai Shalev-Shwartz &amp;amp; Nathan Srebro, Toyota Technological Institute at Chicago&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;Information-theoretic metric learning&lt;/td&gt;
+      &lt;td&gt;Jason V. Davis, University of Texas at Austin&lt;br /&gt;Brian Kulis, University of Texas at Austin&lt;br /&gt;Prateek Jain, University of Texas at Austin&lt;br /&gt;Suvrit Sra, University of Texas at Austin&lt;br /&gt;Inderjit S. Dhillon, University of Texas at Austin&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2006&lt;/td&gt;
+      &lt;td&gt;Trading convexity for scalability&lt;/td&gt;
+      &lt;td&gt;Ronan Collobert, NEC Labs America&lt;br /&gt;Fabian Sinz, NEC Labs America&lt;br /&gt;Jason Weston, NEC Labs America&lt;br /&gt;Léon Bottou, NEC Labs America&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;A support vector method for multivariate performance measures&lt;/td&gt;
+      &lt;td&gt;Thorsten Joachims, Cornell University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1999&lt;/td&gt;
+      &lt;td&gt;Least-Squares Temporal Difference Learning&lt;/td&gt;
+      &lt;td&gt;Justin A. Boyan, NASA Ames Research Center&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/01/best-paper-awards-ICML/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/01/best-paper-awards-ICML/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>Machine Learning</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Best Paper Awards (1998-2018)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Mask R-CNN&lt;/td&gt;
+      &lt;td&gt;Kaiming He, Facebook AI Research&lt;br /&gt;Georgia Gkioxari, Facebook AI Research&lt;br /&gt;Piotr Dollar, Facebook AI Research&lt;br /&gt;Ross Girshick, Facebook AI Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Deep Neural Decision Forests&lt;/td&gt;
+      &lt;td&gt;Peter Kontschieder, Microsoft Research&lt;br /&gt;Madalina Fiterau, Carnegie Mellon University&lt;br /&gt;Antonio Criminisi, Microsoft Research&lt;br /&gt;Samuel Rota Bulò, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;From Large Scale Image Categorization to Entry-Level Categories&lt;/td&gt;
+      &lt;td&gt;Vicente Ordonez, University of North Carolina at Chapel Hill&lt;br /&gt;Jia Deng, Stanford University&lt;br /&gt;Yejin Choi, Stony Brook University&lt;br /&gt;Alexander Berg, University of North Carolina at Chapel Hill&lt;br /&gt;Tamara Berg, University of North Carolina at Chapel Hill&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;Relative Attributes&lt;/td&gt;
+      &lt;td&gt;Devi Parikh, Toyota Technological Institute at Chicago&lt;br /&gt;Kristen Grauman, University of Texas at Austin&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;Discriminative models for multi-class object layout&lt;/td&gt;
+      &lt;td&gt;Chaitanya Desai, University of California Irvine&lt;br /&gt;Deva Ramanan, University of California Irvine&lt;br /&gt;Charless Fowlkes, University of California Irvine&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;Population Shape Regression From Random Design Data&lt;/td&gt;
+      &lt;td&gt;Bradley Davis, University of North Carolina at Chapel Hill&lt;br /&gt;P. Thomas Fletcher, University of Utah&lt;br /&gt;Elizabeth Bullitt, University of North Carolina at Chapel Hill&lt;br /&gt;Sarang Joshi, University of Utah&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;Globally Optimal Estimates for Geometric Reconstruction Problems&lt;/td&gt;
+      &lt;td&gt;Fredrik Kahl, Lund University&lt;br /&gt;Didier Henrion, LAAS-CNRS&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2003&lt;/td&gt;
+      &lt;td&gt;Detecting Pedestrians using Patterns of Motion and Appearance&lt;/td&gt;
+      &lt;td&gt;Paul Viola, Microsoft Research&lt;br /&gt;Michael J. Jones, Mitsubishi Electric Research Laboratories&lt;br /&gt;Daniel Snow, Mitsubishi Electric Research Laboratories&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2003&lt;/td&gt;
+      &lt;td&gt;Image Parsing: Unifying Segmentation, Detection and Recognition&lt;/td&gt;
+      &lt;td&gt;Zhuowen Tu, University of California Los Angeles&lt;br /&gt;Xiangrong Chen, University of California Los Angeles&lt;br /&gt;Alan L. Yuille, University of California Los Angeles&lt;br /&gt;Song-Chun Zhu, University of California Los Angeles&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2003&lt;/td&gt;
+      &lt;td&gt;Image-based Rendering using Image-based Priors&lt;/td&gt;
+      &lt;td&gt;Andrew Fitzgibbon, University of Oxford&lt;br /&gt;Yonatan Wexler, Weizmann Institute of Science&lt;br /&gt;Andrew Zisserman, University of Oxford&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2001&lt;/td&gt;
+      &lt;td&gt;Probabilistic Tracking with Exemplars in a Metric Space&lt;/td&gt;
+      &lt;td&gt;Kentaro Toyama &amp;amp; Andrew Blake, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2001&lt;/td&gt;
+      &lt;td&gt;The Space of All Stereo Images&lt;/td&gt;
+      &lt;td&gt;Steven Seitz, University of Washington&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1999&lt;/td&gt;
+      &lt;td&gt;Euclidean Reconstruction and Reprojection up to Subgroups&lt;/td&gt;
+      &lt;td&gt;Yi Ma, University of California Berkeley&lt;br /&gt;Stefano Soatto, Washington University in St. Louis&lt;br /&gt;Jana Kosecka, University of California Berkeley&lt;br /&gt;Shankar Sastry, University of California Berkeley&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1999&lt;/td&gt;
+      &lt;td&gt;A Theory of Shape by Space Carving&lt;/td&gt;
+      &lt;td&gt;Kiriakos Kutulakos, University of Rochester&lt;br /&gt;Steven Seitz, Carnegie Mellon University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1998&lt;/td&gt;
+      &lt;td&gt;Self-Calibration and Metric Reconstruction in spite of Varying and Unknown Internal Camera Parameters&lt;/td&gt;
+      &lt;td&gt;Marc Pollefeys, Katholieke Universiteit Leuven&lt;br /&gt;Reinhard Koch, Katholieke Universiteit Leuven&lt;br /&gt;Luc Van Gool, Katholieke Universiteit Leuven&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1998&lt;/td&gt;
+      &lt;td&gt;The Problem of Degeneracy in Structure and Motion Recovery from Uncalibrated Image Sequences&lt;/td&gt;
+      &lt;td&gt;Phil Torr, Microsoft Research&lt;br /&gt;Andrew Fitzgibbon, University of Oxford&lt;br /&gt;Andrew Zisserman, University of Oxford&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/01/best-paper-awards-ICCV/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/01/best-paper-awards-ICCV/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>Computer Vision</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Best Paper Awards (2002-2018)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Adversarial Symbolic Execution for Detecting Concurrency-Related Cache Timing Leaks&lt;/td&gt;
+      &lt;td&gt;Shengjian (Daniel) Guo, Virginia Tech&lt;br /&gt;Meng Wu, Virginia Tech&lt;br /&gt;Chao Wang, University of Southern California&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;An Empirical Study on Crash Recovery Bugs in Large-Scale Distributed Systems&lt;/td&gt;
+      &lt;td&gt;Yu Gao, Chinese Academy of Sciences&lt;br /&gt;Wensheng Dou, Chinese Academy of Sciences&lt;br /&gt;Feng Qin, Ohio State University&lt;br /&gt;Chushu Gao, Chinese Academy of Sciences&lt;br /&gt;Dong Wang, Chinese Academy of Sciences&lt;br /&gt;Jun Wei, Chinese Academy of Sciences&lt;br /&gt;Ruirui Huang, Alibaba Group&lt;br /&gt;Li Zhou, Alibaba Group&lt;br /&gt;Yongming Wu, Alibaba Group&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Data Race Detection on Compressed Traces&lt;/td&gt;
+      &lt;td&gt;Dileep Kini, University of Illinois at Urbana-Champaign&lt;br /&gt;Umang Mathur, University of Illinois at Urbana-Champaign&lt;br /&gt;Mahesh Viswanathan, University of Illinois at Urbana-Champaign&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Oreo: Detection of Clones in the Twilight Zone&lt;/td&gt;
+      &lt;td&gt;Vaibhav Saini, University of California Irvine&lt;br /&gt;Farima Farmahinifarahani, University of California Irvine&lt;br /&gt;Yadong Lu, University of California Irvine&lt;br /&gt;Pierre Baldi, University of California Irvine&lt;br /&gt;Crista Lopes, University of California Irvine&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;The Impact of Regular Expression Denial of Service (ReDoS) in Practice: An Empirical Study at the Ecosystem Scale&lt;/td&gt;
+      &lt;td&gt;James C. Davis, Virginia Tech&lt;br /&gt;Christy A. Coghlan, Virginia Tech&lt;br /&gt;Francisco Servant, Virginia Tech&lt;br /&gt;Dongyoon Lee, Virginia Tech&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Do Android Taint Analysis Tools Keep Their Promises?&lt;/td&gt;
+      &lt;td&gt;Felix Pauck, Paderborn University&lt;br /&gt;Eric Bodden, Paderborn University&lt;br /&gt;Heike Wehrheim, Paderborn University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;The Power of “Why” and “Why Not”: Enriching Scenario Exploration with Provenance&lt;/td&gt;
+      &lt;td&gt;Tim Nelson, Brown University&lt;br /&gt;Natasha Danas, Brown University&lt;br /&gt;Daniel J. Dougherty, Worcester Polytechnic Institute&lt;br /&gt;Shriram Krishnamurthi, Brown University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Cooperative Kernels: GPU Multitasking for Blocking Algorithms&lt;/td&gt;
+      &lt;td&gt;Tyler Sorensen, Imperial College London&lt;br /&gt;Hugues Evrard, Imperial College London&lt;br /&gt;Alastair F. Donaldson, Imperial College London&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Understanding Misunderstandings in Source Code&lt;/td&gt;
+      &lt;td&gt;Dan Gopstein, New York University&lt;br /&gt;Jake Iannacone, New York University&lt;br /&gt;Yu Yan, Pennsylvania State University&lt;br /&gt;Lois DeLong, New York University&lt;br /&gt;Yanyan Zhuang, University of Colorado&lt;br /&gt;Martin K.-C. Yeh, Pennsylvania State University&lt;br /&gt;Justin Cappos, New York University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Trade-Offs in Continuous Integration: Assurance, Security, and Flexibility&lt;/td&gt;
+      &lt;td&gt;Michael Hilton, Oregon State University&lt;br /&gt;Nicholas Nelson, Oregon State University&lt;br /&gt;Timothy Tunnell, University of Illinois at Urbana-Champaign&lt;br /&gt;Darko Marinov, University of Illinois at Urbana-Champaign&lt;br /&gt;Danny Dig, Oregon State University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Discovering Relational Specifications&lt;/td&gt;
+      &lt;td&gt;Calvin Smith, University of Wisconsin-Madison&lt;br /&gt;Gabriel Ferns, University of Wisconsin-Madison&lt;br /&gt;Aws Albarghouthi, University of Wisconsin-Madison&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Automatically Diagnosing and Repairing Error Handling Bugs in C&lt;/td&gt;
+      &lt;td&gt;Yuchi Tian &amp;amp; Baishakhi Ray, University of Virginia&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Fairness Testing: Testing Software for Discrimination&lt;/td&gt;
+      &lt;td&gt;Sainyam Galhotra, University of Massachusetts Amherst&lt;br /&gt;Yuriy Brun, University of Massachusetts Amherst&lt;br /&gt;Alexandra Meliou, University of Massachusetts Amherst&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Foraging and Navigations Fundamentally: Developers’ Predictions of Value and Cost&lt;/td&gt;
+      &lt;td&gt;David Piorkowski, Oregon State University&lt;br /&gt;Austin Z. Henley, University of Memphis&lt;br /&gt;Tahmid Nabi, Oregon State University&lt;br /&gt;Scott D. Fleming, University of Memphis&lt;br /&gt;Christopher Scaffidi, Oregon State University&lt;br /&gt;Margaret Burnett, Oregon State University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Multi-Representational Security Analysis&lt;/td&gt;
+      &lt;td&gt;Eunsuk Kang, University of California Berkeley&lt;br /&gt;Aleksandar Milicevic, Microsoft&lt;br /&gt;Daniel Jackson, Massachusetts Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Factors Influencing Code Review Processes in Industry&lt;/td&gt;
+      &lt;td&gt;Tobias Baum, Leibniz Universität Hannover&lt;br /&gt;Olga Liskin, Leibniz Universität Hannover&lt;br /&gt;Kai Niklas, Leibniz Universität Hannover&lt;br /&gt;Kurt Schneider, Leibniz Universität Hannover&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;API Code Recommendation Using Statistical Learning from Fine-grained Changes&lt;/td&gt;
+      &lt;td&gt;Anh Tuan Nguyen, Iowa State University&lt;br /&gt;Michael Hilton, Oregon State University&lt;br /&gt;Mihai Codoban, Microsoft&lt;br /&gt;Hoan Anh Nguyen, Iowa State University&lt;br /&gt;Lily Mast, University of Evansville&lt;br /&gt;Eli Rademacher, Oregon State University&lt;br /&gt;Tien N. Nguyen, Iowa State University&lt;br /&gt;Danny Dig, Oregon State University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Proteus: Computing Disjunctive Loop Summary via Path Dependency Analysis&lt;/td&gt;
+      &lt;td&gt;Xiaofei Xie, Tianjin University&lt;br /&gt;Bihuan Chen, Nanyang Technological University&lt;br /&gt;Yang Liu, Nanyang Technological University&lt;br /&gt;Wei Le, Iowa State University&lt;br /&gt;Xiaohong Li, Tianjin University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Why We Refactor? Confessions of GitHub Contributors&lt;/td&gt;
+      &lt;td&gt;Danilo Silva, Federal University of Minas Gerais&lt;br /&gt;Nikolaos Tsantalis, Concordia University&lt;br /&gt;Marco Tulio Valente, Federal University of Minas Gerais&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Detecting Sensitive Data Disclosure via Bi-directional Text Correlation Analysis&lt;/td&gt;
+      &lt;td&gt;Jianjun Huang, Purdue University&lt;br /&gt;Xiangyu Zhang, Purdue University&lt;br /&gt;Lin Tan, University of Waterloo&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Optimizing energy consumption of GUIs in Android apps: a multi-objective approach&lt;/td&gt;
+      &lt;td&gt;Mario Linares-Vásquez, College of William and Mary&lt;br /&gt;Gabriele Bavota, Free University of Bolzano&lt;br /&gt;Carlos Eduardo Bernal Cárdenas, College of William and Mary&lt;br /&gt;Rocco Oliveto, University of Molise&lt;br /&gt;Massimiliano Di Penta, University of Sannio&lt;br /&gt;Denys Poshyvanyk, College of William and Mary&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;How Practitioners Perceive the Relevance of Software Engineering Research&lt;/td&gt;
+      &lt;td&gt;David Lo, Singapore Management University&lt;br /&gt;Nachiappan Nagappan, Microsoft Research&lt;br /&gt;Thomas Zimmermann, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Effective Test Suites for Mixed Discrete-Continuous Stateflow Controllers&lt;/td&gt;
+      &lt;td&gt;Reza Matinnejad, University of Luxembourg&lt;br /&gt;Shiva Nejati, University of Luxembourg&lt;br /&gt;Lionel C. Briand, University of Luxembourg&lt;br /&gt;Thomas Bruckmann, Delphi Automotive Systems&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Modeling Readability to Improve Unit Tests&lt;/td&gt;
+      &lt;td&gt;Ermira Daka, University of Sheffield&lt;br /&gt;José Campos, University of Sheffield&lt;br /&gt;Gordon Fraser, University of Sheffield&lt;br /&gt;Jonathan Dorn, University of Virginia&lt;br /&gt;Westley Weimer, University of Virginia&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Measure It? Manage It? Ignore It? Software Practitioners and Technical Debt&lt;/td&gt;
+      &lt;td&gt;Neil A. Ernst, Carnegie Mellon University&lt;br /&gt;Stephany Bellomo, Carnegie Mellon University&lt;br /&gt;Ipek Ozkaya, Carnegie Mellon University&lt;br /&gt;Robert L. Nord, Carnegie Mellon University&lt;br /&gt;Ian Gorton, Carnegie Mellon University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;A User-Guided Approach to Program Analysis&lt;/td&gt;
+      &lt;td&gt;Ravi Mangal, Georgia Institute of Technology&lt;br /&gt;Xin Zhang, Georgia Institute of Technology&lt;br /&gt;Aditya V. Nori, Microsoft Research&lt;br /&gt;Mayur Naik, Georgia Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;MultiSE: Multi-path Symbolic Execution using Value Summaries&lt;/td&gt;
+      &lt;td&gt;Koushik Sen, University of California Berkeley&lt;br /&gt;George Necula, University of California Berkeley&lt;br /&gt;Liang Gong, University of California Berkeley&lt;br /&gt;Wontae Choi, University of California Berkeley&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Users Beware: Preference Inconsistencies Ahead&lt;/td&gt;
+      &lt;td&gt;Farnaz Behrang, Georgia Institute of Technology&lt;br /&gt;Myra B. Cohen, University of Nebraska-Lincoln&lt;br /&gt;Alessandro Orso, Georgia Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Selection and Presentation Practices for Code Example Summarization&lt;/td&gt;
+      &lt;td&gt;Annie Ying &amp;amp; Martin Robillard, McGill University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Are Mutants a Valid Substitute for Real Faults in Software Testing?&lt;/td&gt;
+      &lt;td&gt;René Just, University of Washington&lt;br /&gt;Darioush Jalali, University of Washington&lt;br /&gt;Laura Inozemtseva, University of Waterloo&lt;br /&gt;Michael Ernst, University of Washington&lt;br /&gt;Reid Holmes, University of Waterloo&lt;br /&gt;Gordon Fraser, University of Sheffield&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;AI: A Lightweight System for Tolerating Concurrency Bugs&lt;/td&gt;
+      &lt;td&gt;Mingxing Zhang, Tsinghua University&lt;br /&gt;Yongwei Wu, Tsinghua University&lt;br /&gt;Shan Lu, University of Wisconsin&lt;br /&gt;Shanxiang Qi, University of Illinois at Urbana-Champaign&lt;br /&gt;Jinglei Ren, Tsinghua University&lt;br /&gt;Weimin Zheng, Tsinghua University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Powering the Static Driver Verifier using Corral&lt;/td&gt;
+      &lt;td&gt;Akash Lal &amp;amp; Shaz Qadeer, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Learning Natural Coding Conventions&lt;/td&gt;
+      &lt;td&gt;Miltiadis Allamanis, University of Edinburgh&lt;br /&gt;Earl T. Barr, University College London&lt;br /&gt;Christian Bird, Microsoft Research&lt;br /&gt;Charles Sutton, University of Edinburgh&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Architecture Challenges for Internal Software Ecosystems: A Large-Scale Industry Case Study&lt;/td&gt;
+      &lt;td&gt;Klaus-Benedikt Schultis, Siemens Corporate Technology&lt;br /&gt;Christoph Elsner, Siemens Corporate Technology&lt;br /&gt;Daniel Lohmann, Friedrich-Alexander University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Seeking the Ground Truth: A Retroactive Study on the Evolution and Migration of Software Libraries&lt;/td&gt;
+      &lt;td&gt;Bradley Cossette &amp;amp; Robert Walker, University of Calgary&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Scalable Test Data Generation from Multidimensional Models&lt;/td&gt;
+      &lt;td&gt;Emina Torlak, University of California Berkeley&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Assessing the Value of Branches with What-if Analysis&lt;/td&gt;
+      &lt;td&gt;Christian Bird &amp;amp; Thomas Zimmermann, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;Proactive Detection of Collaboration Conflicts&lt;/td&gt;
+      &lt;td&gt;Yuriy Brun, University of Washington&lt;br /&gt;Reid Holmes, University of Waterloo&lt;br /&gt;Michael D. Ernst, University of Washington&lt;br /&gt;David Notkin, University of Washington&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;How Do Fixes Become Bugs?&lt;/td&gt;
+      &lt;td&gt;Zuoning Yin, University of Illinois at Urbana-Champaign&lt;br /&gt;Ding Yuan, University of Illinois at Urbana-Champaign&lt;br /&gt;Yuanyuan Zhou, University of California San Diego&lt;br /&gt;Shankar Pasupathy, NetApp&lt;br /&gt;Lakshmi Bairavasundaram, NetApp&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;Proving programs robust&lt;/td&gt;
+      &lt;td&gt;Swarat Chaudhuri, Rice University&lt;br /&gt;Sumit Gulwani, Microsoft Research&lt;br /&gt;Roberto Lublinerman, Pennsylvania State University&lt;br /&gt;Sara Navidpour, Pennsylvania State University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;Creating and evolving developer documentation: understanding the decisions of open source contributors&lt;/td&gt;
+      &lt;td&gt;Barthélémy Dagenais &amp;amp; Martin P. Robillard, McGill University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;Developer Fluency: Achieving True Mastery in Software Projects&lt;/td&gt;
+      &lt;td&gt;Minghui Zhou, Peking University&lt;br /&gt;Audris Mockus, Avaya Labs&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;Staged Concurrent Program Analysis&lt;/td&gt;
+      &lt;td&gt;Nishant Sinha &amp;amp; Chao Wang, NEC Labs America&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;Asserting and checking determinism for multithreaded programs&lt;/td&gt;
+      &lt;td&gt;Jacob Burnim &amp;amp; Koushik Sen, University of California Berkeley&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;Darwin: an approach for debugging evolving programs&lt;/td&gt;
+      &lt;td&gt;Dawei Qi, National University of Singapore&lt;br /&gt;Abhik Roychoudhury, National University of Singapore&lt;br /&gt;Zhenkai Liang, National University of Singapore&lt;br /&gt;Kapil Vaswani, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;Graph-based Mining of Multiple Object Usage Patterns&lt;/td&gt;
+      &lt;td&gt;Tung Thanh Nguyen, Iowa State University&lt;br /&gt;Hoan Anh Nguyen, Iowa State University&lt;br /&gt;Nam H. Pham, Iowa State University&lt;br /&gt;Jafar M. Al-Kofahi, Iowa State University&lt;br /&gt;Tien N. Nguyen, Iowa State University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;What makes a good bug report?&lt;/td&gt;
+      &lt;td&gt;Nicolas Bettenburg, Saarland University&lt;br /&gt;Sascha Just, Saarland University&lt;br /&gt;Adrian Schröter, University of Victoria&lt;br /&gt;Cathrin Weiss, University of Zurich&lt;br /&gt;Rahul Premraj, Saarland University&lt;br /&gt;Thomas Zimmermann, University of Calgary&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;Efficient online monitoring of web-service SLAs&lt;/td&gt;
+      &lt;td&gt;Franco Raimondi, University College London&lt;br /&gt;James Skene, University College London&lt;br /&gt;Wolfgang Emmerich, University College London&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;Automatic consistency assessment for query results in dynamic environments&lt;/td&gt;
+      &lt;td&gt;Jamie Payton, University of North Carolina at Charlotte&lt;br /&gt;Christine Julien, University of Texas at Austin&lt;br /&gt;Gruia-Catalin Roman, Washington University in St. Louis&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;Globally distributed software development project performance: an empirical analysis&lt;/td&gt;
+      &lt;td&gt;Narayan Ramasubbu &amp;amp; Rajesh Krishna Balan, Singapore Management University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;Mining specifications of malicious behavior&lt;/td&gt;
+      &lt;td&gt;Mihai Christodorescu, University of Wisconsin&lt;br /&gt;Somesh Jha, University of Wisconsin&lt;br /&gt;Christopher Kruegel, Vienna University of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;Object and reference immutability using Java generics&lt;/td&gt;
+      &lt;td&gt;Yoav Zibin, Massachusetts Institute of Technology&lt;br /&gt;Alex Potanin, Victoria University of Wellington&lt;br /&gt;Mahmood Ali, Massachusetts Institute of Technology&lt;br /&gt;Shay Artzi, Massachusetts Institute of Technology&lt;br /&gt;Adam Kieżun, Massachusetts Institute of Technology&lt;br /&gt;Michael D. Ernst, Massachusetts Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2006&lt;/td&gt;
+      &lt;td&gt;Controlling factors in evaluating path-sensitive error detection techniques&lt;/td&gt;
+      &lt;td&gt;Matthew B. Dwyer, University of Nebraska-Lincoln&lt;br /&gt;Suzette Person, University of Nebraska-Lincoln&lt;br /&gt;Sebastian Elbaum, University of Nebraska-Lincoln&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2006&lt;/td&gt;
+      &lt;td&gt;SYNERGY: a new algorithm for property checking&lt;/td&gt;
+      &lt;td&gt;Bhargav S. Gulavani, Indian Institute of Technology&lt;br /&gt;Thomas A. Henzinger, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Yamini Kannan, Microsoft Research&lt;br /&gt;Aditya V. Nori, Microsoft Research&lt;br /&gt;Sriram K. Rajamani, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;Automatic Generation of Suggestions for Program Investigation&lt;/td&gt;
+      &lt;td&gt;Martin P. Robillard, McGill University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;CUTE: a concolic unit testing engine for C&lt;/td&gt;
+      &lt;td&gt;Koushik Sen, University of Illinois at Urbana-Champaign&lt;br /&gt;Darko Marinov, University of Illinois at Urbana-Champaign&lt;br /&gt;Gul Agha, University of Illinois at Urbana-Champaign&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;Context- and path-sensitive memory leak detection&lt;/td&gt;
+      &lt;td&gt;Yichen Xie &amp;amp; Alex Aiken, Stanford University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;Reasoning about partial goal satisfaction for requirements and design engineering&lt;/td&gt;
+      &lt;td&gt;Emmanuel Letier &amp;amp; Axel van Lamsweerde, Université catholique de Louvain&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;A classification system and analysis for aspect-oriented programs&lt;/td&gt;
+      &lt;td&gt;Martin Rinard, Massachusetts Institute of Technology&lt;br /&gt;Alexandru Salcianu, Massachusetts Institute of Technology&lt;br /&gt;Suhabe Bugrara, Massachusetts Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2003&lt;/td&gt;
+      &lt;td&gt;Eliminating redundancies with a “composition with adaptation” meta-programming technique&lt;/td&gt;
+      &lt;td&gt;Stan Jarzabek, National University of Singapore&lt;br /&gt;Li Shubiao, Xi’an Jiaotong University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2003&lt;/td&gt;
+      &lt;td&gt;A Family of Test Adequacy Criteria for Database-Driven Applications&lt;/td&gt;
+      &lt;td&gt;Gregory M. Kapfhammer &amp;amp; Mary Lou Soffa, University of Pittsburgh&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2003&lt;/td&gt;
+      &lt;td&gt;Predicting problems caused by component upgrades&lt;/td&gt;
+      &lt;td&gt;Stephen McCamant &amp;amp; Michael D. Ernst, Massachusetts Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2002&lt;/td&gt;
+      &lt;td&gt;Isolating Cause-Effect Chains from Computer Programs&lt;/td&gt;
+      &lt;td&gt;Andreas Zeller, Saarland University&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/01/best-paper-awards-FSE/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/01/best-paper-awards-FSE/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>Software Engineering</category>
+        
+        
+      </item>
     
       <item>
         <title>Best Paper Awards (2000-2018)</title>
@@ -1788,683 +2535,6 @@ table th:nth-of-type(2) {
         <category>Best Paper</category>
         
         <category>Artificial Intelligence</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Concolic Testing 2</title>
-        <description>&lt;p&gt;这篇博客的核心内容来源于本人发表于软件工程顶级会议ICSE2018并获得“ACM SIGSOFT Distinguished Paper Award”的&lt;a href=&quot;http://pxzhang94.github.io/paper/concolic_testing/icse2018.pdf&quot;&gt;同名论文&lt;/a&gt;，在后面的内容中，若未做特殊说明，本文将使用以下抽象语法树作为例子：
-&lt;img src=&quot;http://pxzhang94.github.io/img/posts/concolic_testing/2.png&quot; alt=&quot;抽象语法树&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;研究问题&quot;&gt;研究问题&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;给定程序的最优动态符号执行测试策略是什么？&lt;/li&gt;
-  &lt;li&gt;能不能有效的得到最优策略?&lt;/li&gt;
-  &lt;li&gt;现有算法是否很好的逼近最优策略?&lt;/li&gt;
-  &lt;li&gt;是否能设计一个可用算法来逼近最优策略?&lt;/li&gt;
-  &lt;li&gt;如果4的回答是肯定的，那么该算法与现有算法的相比如何?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;程序抽象&quot;&gt;程序抽象&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;程序是带标签的转移系统P=(C,init,V,φ,T)
-    &lt;ul&gt;
-      &lt;li&gt;C是控制节点的有限集合&lt;/li&gt;
-      &lt;li&gt;init ∈ C是唯一入口&lt;/li&gt;
-      &lt;li&gt;V是变量的有限集合&lt;/li&gt;
-      &lt;li&gt;φ是捕获V初始取值集合的断言&lt;/li&gt;
-      &lt;li&gt;T : C × GC → C是转移函数&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;P的一条程序路径就是一个转移序列π = ⟨(c1, gc1, c2), (c2, gc2, c3), · · · , (ck, gck, ck+1)⟩&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;马尔可夫链抽象&quot;&gt;马尔可夫链抽象&lt;/h2&gt;
-&lt;p&gt;本文将使用马尔可夫决策过程来求解最优策略，首先需要形式化的说明P能够转换为对应的马尔可夫链，由于这是显而易见的，所以这里对原作中相关定义不做翻译，截图如下：
-&lt;img src=&quot;http://pxzhang94.github.io/img/posts/concolic_testing/13.png&quot; alt=&quot;定义3.2&quot; /&gt;
-&lt;img src=&quot;http://pxzhang94.github.io/img/posts/concolic_testing/14.png&quot; alt=&quot;定义3.3&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;最优策略&quot;&gt;最优策略&lt;/h2&gt;
-&lt;p&gt;问题可以被定义为：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;测试用例生成方法的搜索空间是{𝑅𝑇}∪{𝑆𝐸(P)|P ∈ 𝑝𝑎𝑡ℎ(𝑃)}&lt;/li&gt;
-  &lt;li&gt;一个策略是一个测试用例生成方法的序列&amp;lt;t1, t2, t3, …&amp;gt;&lt;/li&gt;
-  &lt;li&gt;使用测试用例生成方法t的代价是cost(t)&lt;/li&gt;
-  &lt;li&gt;找到达到100%覆盖率并具有最小总代价的策略&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这里通过举例来说明最优策略的选择，首先作如下假设：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;随机测试的cost是1&lt;/li&gt;
-  &lt;li&gt;求解n边路径的代价为10n&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;那么有就会有以下策略：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;完全随机测试：期望cost: 5*(2^32)/4 = 5368709120&lt;/li&gt;
-  &lt;li&gt;完全符号执行：对&amp;lt;1,2,3,4&amp;gt;和&amp;lt;1,3,5,6,7,8&amp;gt;执行符号执行，相关Cost：30+50=80&lt;/li&gt;
-  &lt;li&gt;最优策略：对&amp;lt;1,2&amp;gt;和&amp;lt;1,3,5,6&amp;gt;执行符号执行，其余执行随机测试，相关Cost：10+30+5=45&lt;br /&gt;
-注意：随机测试的期望数目决定于具有最小到达概率的节点!&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;事实上，寻找最优策略的问题可以简化为基于带代价的马尔可夫决策过程的模型检测问题，比如说下面这个极其简单的程序的相关抽象：
-&lt;img src=&quot;http://pxzhang94.github.io/img/posts/concolic_testing/4.png&quot; alt=&quot;程序&quot; /&gt;
-其抽象语法树为：
-&lt;img src=&quot;http://pxzhang94.github.io/img/posts/concolic_testing/5.png&quot; alt=&quot;抽象语法树&quot; /&gt;
-相对应的马尔可夫决策过程为：
-&lt;img src=&quot;http://pxzhang94.github.io/img/posts/concolic_testing/6.png&quot; alt=&quot;马尔可夫决策过程&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;显然，根据带代价的马尔可夫决策过程可以很轻松地回答研究问题1和2：&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;em&gt;最优策略是具有最小期望成本的策略&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;其求解复杂性随着P中的控制节点数量指数级增长&lt;/em&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;模拟实验&quot;&gt;模拟实验&lt;/h2&gt;
-&lt;p&gt;该部分实验主要是为了验证现有算法（相关算法的理论可以参考&lt;a href=&quot;http://pxzhang.cn/2018/09/29/concolic-testing-1/&quot;&gt;前一篇&lt;/a&gt;)的性能，实验基于随机生成的马尔可夫链，而非现有程序，实验设置如下：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;随机生成抽象表示程序的DTMC模型（分支密度50%；低概率分支密度0.2（10，15，20），0.8（5），低概率程度1.0E-4）&lt;/li&gt;
-  &lt;li&gt;随机生成表示每条分支符号执行代价的cost（不超过1000）&lt;/li&gt;
-  &lt;li&gt;每种情况有50个模型，每个方法运行1000次&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;相应的实验结果如下：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt; &lt;/th&gt;
-      &lt;th&gt;5 states&lt;/th&gt;
-      &lt;th&gt;10 states&lt;/th&gt;
-      &lt;th&gt;15 states&lt;/th&gt;
-      &lt;th&gt;20 states&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Optimal&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;RT&lt;/td&gt;
-      &lt;td&gt;138.9&lt;/td&gt;
-      &lt;td&gt;11.3&lt;/td&gt;
-      &lt;td&gt;44.2&lt;/td&gt;
-      &lt;td&gt;114.7&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;RCN&lt;/td&gt;
-      &lt;td&gt;1.7&lt;/td&gt;
-      &lt;td&gt;14.4&lt;/td&gt;
-      &lt;td&gt;15.1&lt;/td&gt;
-      &lt;td&gt;12.7&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;RSS&lt;/td&gt;
-      &lt;td&gt;12.8&lt;/td&gt;
-      &lt;td&gt;50.7&lt;/td&gt;
-      &lt;td&gt;64.0&lt;/td&gt;
-      &lt;td&gt;68.1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;RPS&lt;/td&gt;
-      &lt;td&gt;12.8&lt;/td&gt;
-      &lt;td&gt;50.6&lt;/td&gt;
-      &lt;td&gt;63.9&lt;/td&gt;
-      &lt;td&gt;68.5&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;DFS&lt;/td&gt;
-      &lt;td&gt;7.1&lt;/td&gt;
-      &lt;td&gt;27.4&lt;/td&gt;
-      &lt;td&gt;21.8&lt;/td&gt;
-      &lt;td&gt;18.6&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;DART&lt;/td&gt;
-      &lt;td&gt;1.8&lt;/td&gt;
-      &lt;td&gt;13.0&lt;/td&gt;
-      &lt;td&gt;12.8&lt;/td&gt;
-      &lt;td&gt;13.0&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GS&lt;/td&gt;
-      &lt;td&gt;1.9&lt;/td&gt;
-      &lt;td&gt;13.5&lt;/td&gt;
-      &lt;td&gt;13.9&lt;/td&gt;
-      &lt;td&gt;13.3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;CGS&lt;/td&gt;
-      &lt;td&gt;1.8&lt;/td&gt;
-      &lt;td&gt;12.6&lt;/td&gt;
-      &lt;td&gt;13.6&lt;/td&gt;
-      &lt;td&gt;13.8&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;SGS&lt;/td&gt;
-      &lt;td&gt;11.2&lt;/td&gt;
-      &lt;td&gt;32.4&lt;/td&gt;
-      &lt;td&gt;29.4&lt;/td&gt;
-      &lt;td&gt;25.5&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;说明：这里RCN对应前文中的Coverage-Optimized Search&lt;br /&gt; 
-显然，现在可以回答研究问题3：&lt;em&gt;现有算法还有很大的改进空间&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;贪婪算法&quot;&gt;贪婪算法&lt;/h2&gt;
-&lt;p&gt;算法的核心想法为根据单位时间(cost)所能覆盖的期望节点数(reward)选择局部最优策略和路径&lt;/p&gt;
-
-&lt;h3 id=&quot;离散时间马尔可夫链估计&quot;&gt;离散时间马尔可夫链估计&lt;/h3&gt;
-&lt;p&gt;使用拉普拉斯估计方法来估计离散时间马尔可夫链&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;如果在P中从s到t是不可能的，置Pr(s, t)=0&lt;/li&gt;
-  &lt;li&gt;否则，置Pr(s,t) = (#(s, t)+1) / (#s+n)&lt;br /&gt;
-举例说明：
-&lt;img src=&quot;http://pxzhang94.github.io/img/posts/concolic_testing/7.png&quot; alt=&quot;拉普拉斯估计方法&quot; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;cost估计&quot;&gt;cost估计&lt;/h3&gt;
-&lt;p&gt;使用函数拟合来估计cost：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;假设cost是基础操作的加权和&lt;/li&gt;
-  &lt;li&gt;根据收集的cost来估计权值&lt;/li&gt;
-  &lt;li&gt;给定一个约束，利用其所有基础操作的加权和来估计cost&lt;br /&gt;
-举例说明： 约束c是a * b &amp;gt; 0，所以SC(c) = WC(*) + WC(&amp;gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;算法&quot;&gt;算法&lt;/h3&gt;
-&lt;p&gt;首先，根据实证研究做如下假设：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;求解一个线性（不）等式及其结合的cost是4&lt;/li&gt;
-  &lt;li&gt;求解一个非线性（不）等式的cost是10&lt;/li&gt;
-  &lt;li&gt;求解一个非线性（不）等式的布尔组合的cost是50&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;具体相关步骤如下：&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;根据下图公式计算每个节点的reward
-&lt;img src=&quot;http://pxzhang94.github.io/img/posts/concolic_testing/8.png&quot; alt=&quot;reward计算&quot; /&gt;
-比如对于下面这种情况：
-&lt;img src=&quot;http://pxzhang94.github.io/img/posts/concolic_testing/9.png&quot; alt=&quot;reward例子&quot; /&gt;
-可以获得以下方程组：
-    &lt;ul&gt;
-      &lt;li&gt;𝑅1 = 1/3*𝑅2+2/3*𝑅3&lt;/li&gt;
-      &lt;li&gt;𝑅2 = 1+𝑅3&lt;/li&gt;
-      &lt;li&gt;𝑅3 = 1/3*𝑅4+2/3*𝑅5&lt;/li&gt;
-      &lt;li&gt;𝑅4 = 1&lt;/li&gt;
-      &lt;li&gt;𝑅5 = 1/3*𝑅6+2/3*𝑅8&lt;/li&gt;
-      &lt;li&gt;𝑅6 = 1+1/2*𝑅7+1/2*𝑅8&lt;/li&gt;
-      &lt;li&gt;𝑅7 = 1+𝑅8&lt;/li&gt;
-      &lt;li&gt;𝑅8 = 0&lt;br /&gt;
-相应的部分解为：&lt;/li&gt;
-      &lt;li&gt;𝑅1 = 1&lt;/li&gt;
-      &lt;li&gt;𝑅2 = 5/3&lt;/li&gt;
-      &lt;li&gt;𝑅4 = 1&lt;/li&gt;
-      &lt;li&gt;𝑅6 = 1.5&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;随机测试的期望收益：∑𝑠∈𝑆 {𝜇(𝑠)×𝑅𝑠}
-    &lt;ul&gt;
-      &lt;li&gt;随机测试：cost 1, reward 1&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;选择只有结束节点未被覆盖的路径&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;SE(π)的期望收益：𝑅𝑠，如果last(π)是s
-    &lt;ul&gt;
-      &lt;li&gt;路径&amp;lt;1, 2&amp;gt;：cost 4, reward 5/3&lt;/li&gt;
-      &lt;li&gt;路径&amp;lt;1, 3, 4&amp;gt;：cost 50, reward 1&lt;/li&gt;
-      &lt;li&gt;路径&amp;lt;1, 3, 5, 6&amp;gt;：cost 50, reward 3/2&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;选择其中最大的reward/cost&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;更新离散时间马尔可夫链&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;模拟实验结果&quot;&gt;模拟实验结果&lt;/h3&gt;
-&lt;p&gt;该部分实验仍使用上文中提到的模拟马尔可夫链，结果如下：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt; &lt;/th&gt;
-      &lt;th&gt;5 states&lt;/th&gt;
-      &lt;th&gt;10 states&lt;/th&gt;
-      &lt;th&gt;15 states&lt;/th&gt;
-      &lt;th&gt;20 states&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Optimal&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;G&lt;/td&gt;
-      &lt;td&gt;2.1&lt;/td&gt;
-      &lt;td&gt;4.8&lt;/td&gt;
-      &lt;td&gt;3.1&lt;/td&gt;
-      &lt;td&gt;4.8&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;显然，现在可以回答研究问题4：&lt;em&gt;这里提出的贪婪算法更接近最优策略&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;klee实验&quot;&gt;KLEE实验&lt;/h2&gt;
-&lt;p&gt;该部分实验针对的是实际程序，而非之前的模拟马尔可夫链，实验设置如下：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;测试平台：KLEE&lt;/li&gt;
-  &lt;li&gt;测试对象：GNU科学库中的程序集&lt;/li&gt;
-  &lt;li&gt;测试目标：测量不同策略实现的覆盖率随时间的变化
-&lt;img src=&quot;http://pxzhang94.github.io/img/posts/concolic_testing/10.png&quot; alt=&quot;程序集&quot; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;实验结果如下:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;时间&lt;/th&gt;
-      &lt;th&gt;G&lt;/th&gt;
-      &lt;th&gt;RCN&lt;/th&gt;
-      &lt;th&gt;RSS&lt;/th&gt;
-      &lt;th&gt;RPS&lt;/th&gt;
-      &lt;th&gt;DFS&lt;/th&gt;
-      &lt;th&gt;RT&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;5 min (%)&lt;/td&gt;
-      &lt;td&gt;72.6&lt;/td&gt;
-      &lt;td&gt;28.1&lt;/td&gt;
-      &lt;td&gt;22.5&lt;/td&gt;
-      &lt;td&gt;29.7&lt;/td&gt;
-      &lt;td&gt;17.9&lt;/td&gt;
-      &lt;td&gt;65.5&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;15 min (%)&lt;/td&gt;
-      &lt;td&gt;73.9&lt;/td&gt;
-      &lt;td&gt;30.1&lt;/td&gt;
-      &lt;td&gt;24.3&lt;/td&gt;
-      &lt;td&gt;34.3&lt;/td&gt;
-      &lt;td&gt;21.0&lt;/td&gt;
-      &lt;td&gt;72.7&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;30 min (%)&lt;/td&gt;
-      &lt;td&gt;76.9&lt;/td&gt;
-      &lt;td&gt;32.6&lt;/td&gt;
-      &lt;td&gt;25.0&lt;/td&gt;
-      &lt;td&gt;36.5&lt;/td&gt;
-      &lt;td&gt;22.3&lt;/td&gt;
-      &lt;td&gt;74.0&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;更直观的折线图如下：
-&lt;img src=&quot;http://pxzhang94.github.io/img/posts/concolic_testing/11.png&quot; alt=&quot;折线图&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;以及对于每个程序，实际执行的SE以及RT的次数统计如下：
-&lt;img src=&quot;http://pxzhang94.github.io/img/posts/concolic_testing/12.png&quot; alt=&quot;测试方法统计&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;贡献&quot;&gt;贡献&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;定义了基于程序行为概率抽象的最优动态符号执行测试策略&lt;/li&gt;
-  &lt;li&gt;将确定最优策略的问题简化为基于带代价的马尔可夫决策过程的模型检测问题&lt;/li&gt;
-  &lt;li&gt;使用模拟实验验证了现有算法并揭示它们还有很大的改进空间&lt;/li&gt;
-  &lt;li&gt;提出了一种接近最优策略的贪婪算法&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;未来工作&quot;&gt;未来工作&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;研究其它用于估算概率以及求解代价的方法&lt;/li&gt;
-  &lt;li&gt;把该框架扩展到其它的测试用例生成方法中（注意到有人工智能系统分析与测试方向的论文引用了本文）&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 08 Oct 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2018/10/08/concolic-testing-2/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/10/08/concolic-testing-2/</guid>
-        
-        <category>Software Engineering</category>
-        
-        <category>Concolic Testing</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Concolic Testing 1</title>
-        <description>&lt;h2 id=&quot;随机测试random-testing&quot;&gt;随机测试（Random Testing）&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;使用随机生成的测试输入执行程序，然后观察是否会出现错误状态&lt;/li&gt;
-  &lt;li&gt;对于高可能性的错误，随机测试的代价很低，反之很高&lt;br /&gt;
-比如说下面的第3行判断语句，对于随机测试来说，几乎不可能覆盖到其True分支
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;public static void example(int x, int y) {
-  int[] array = new int[10];
-  if (y == 42342531) {
-      array[x] = y; 
-  }
-}
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;符号执行symbolic-execution&quot;&gt;符号执行（Symbolic Execution）&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;利用符号变量来代替输入执行程序，然后使用约束求解器求解路径约束从而获得测试输入&lt;/li&gt;
-  &lt;li&gt;符号执行的代价很高，但是可以“保证”到达给定节点&lt;br /&gt;
-同样是上面那个程序，我们可以通过求解下面的路径约束：
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;y == 42342531 &amp;amp;&amp;amp; (x&amp;lt;0 || x &amp;gt;= 10)
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;p&gt;生成一个特定的测试输入来覆盖我们指定的路径，比如：&lt;/p&gt;
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;x == 10 and y == 42342531
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;p&gt;但是目前符号执行面临两个问题，第一：由于需要利用符号变量来构建路径约束，所以显然其比随机测试需要更多的时间；第二：目前最常见的约束求解器（如Z3等）的求解能力仍十分有限，对于稍复杂的路径约束就束手无策。&lt;br /&gt;
-常见的符号执行策略有：&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Random State Search&lt;/li&gt;
-  &lt;li&gt;Random Path Selection&lt;/li&gt;
-  &lt;li&gt;Depth First Search&lt;/li&gt;
-  &lt;li&gt;Subpath-Guided Search&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;所以自动化测试领域提出了concolic testing，我翻译为动态符号执行测试，也可以翻译为具体符号执行，因为concolic是concrete和symbolic的合成词。&lt;/p&gt;
-
-&lt;h2 id=&quot;动态符号执行测试concolic-testing&quot;&gt;动态符号执行测试（Concolic Testing）&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;集成了具体执行和符号执行两种策略&lt;/li&gt;
-  &lt;li&gt;决定选择随机测试还是符号执行&lt;/li&gt;
-  &lt;li&gt;如果选择符号执行，决定选择的程序执行路径&lt;/li&gt;
-  &lt;li&gt;常见的动态符号执行测试工具：Microsoft SAGE和JDart等&lt;br /&gt;
-比如说如下程序：
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;int h(int x, int y) {
-  if (x != y) { 
-      if (2*x == x + 10) { 
-          abort(); /*error*/
-      }
-      else {
-          return 2x+y; 
-      }
-  }
-  else{
-      return 2x;
-  } 
-}
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;p&gt;其抽象语法树为：
-&lt;img src=&quot;http://pxzhang94.github.io/img/posts/concolic_testing/1.png&quot; alt=&quot;抽象语法树&quot; /&gt;
-如上图所示，黑色箭头表示随机测试，蓝色箭头表示符号执行.&lt;br /&gt;
-常见的动态符号执行策略有：&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Directed Automated Random Testing&lt;/li&gt;
-  &lt;li&gt;Coverage-Optimized Search&lt;/li&gt;
-  &lt;li&gt;Generational Search&lt;/li&gt;
-  &lt;li&gt;Context-Guided Search&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;部分常见测试策略&quot;&gt;部分常见测试策略&lt;/h2&gt;
-&lt;p&gt;事实上，绝大多数动态符号执行测试策略仅执行一遍随机测试，更多的是关注随后符号执行路径的调度，这导致相关算法性能距离&lt;a href=&quot;http://pxzhang.cn/2018/10/08/concolic-testing-2/&quot;&gt;最优调度策略&lt;/a&gt;有极大的差距。我将使用以下函数作为例子简单阐述几种常见动态符号执行以及符号执行策略。&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;void myfunc(int x, int y){
-1.    if(x==y){
-2.        x++;
-       }
-3.    if ((x*x)%10==9){
-4.        return;
-       }
-5.    if (x*y+3*y-5*x==15){  
-6.        if (x%2==1 ||y%2==1){
-7.           x = x-y;
-           } 
-       }
-8.    return;
-}
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;其抽象语法树为：
-&lt;img src=&quot;http://pxzhang94.github.io/img/posts/concolic_testing/2.png&quot; alt=&quot;抽象语法树&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;subpath-guided-search&quot;&gt;&lt;a href=&quot;http://pxzhang94.github.io/paper/concolic_testing/oopsla13-pgse.pdf&quot;&gt;Subpath-Guided Search&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;该方法是符号执行测试调度策略，首先给出两个关键的定义：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Length-n子路径：给定一条路径&amp;lt;s1, s2,…, sk&amp;gt;，那么其length-n 子路径就是&amp;lt;sk-n+1, sk-n+2, …, sk&amp;gt;&lt;/li&gt;
-  &lt;li&gt;统计分析结构：结构e = (π, f) 用于统计分析，其中π是length-n 子路径，f是π被探索过的频率&lt;br /&gt;
-基于以上定义，该调度策略可以总结为以下步骤：
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;初始化 
-  结构e的优先队列
-重复 
-  1.随机选择一个具有最低子路径计数的节点继续
-  2.如果下一个节点是终节点，求解路径条件获得测试用例
-  3.用下一个节点来更新优先队列
-直到 所有节点被覆盖 
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;p&gt;用一个案例来进一步说明该算法（优先队列中带*结构表示有包含相应子路径的未终结状态）：&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;步骤&lt;/th&gt;
-      &lt;th&gt;候选路径&lt;/th&gt;
-      &lt;th&gt;优先队列&lt;/th&gt;
-      &lt;th&gt;生成用例&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;1:1t&lt;br /&gt;2:1f&lt;/td&gt;
-      &lt;td&gt;(*1t, 0), (*1f, 0)&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;1:1t&lt;br /&gt;2:1f3t&lt;br /&gt;3:1f3f&lt;/td&gt;
-      &lt;td&gt;(*1t, 0), (*3t, 0), (*3f, 0), (1f, 1)&lt;/td&gt;
-      &lt;td&gt;1f3t4&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;1:1t&lt;br /&gt;2:1f3f&lt;/td&gt;
-      &lt;td&gt;(*1t, 0), (*3f, 0), (3t, 1), (1f, 1)&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;…&lt;/td&gt;
-      &lt;td&gt;…&lt;/td&gt;
-      &lt;td&gt;…&lt;/td&gt;
-      &lt;td&gt;…&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;directed-automated-random-testing&quot;&gt;&lt;a href=&quot;http://pxzhang94.github.io/paper/concolic_testing/pldi2005.pdf&quot;&gt;Directed Automated Random Testing&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;该方法是动态符号执行测试调度策略，也是目前广泛使用的JAVA自动化测试工具JDart的算法基础。该调度策略可以总结为以下步骤：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;初始化 
-	一个具体执行的测试用例
-重复 
-	1.执行该测试用例
-	2.深度优先搜索获取未覆盖的分支
-	3.求解访问未覆盖分支的路径条件获得测试用例
-直到 所有节点被覆盖 
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;用一个案例来进一步说明该算法：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;假设第一个测试用例是x = 0, y = 100,其访问了节点1, 3, 5, 8&lt;/li&gt;
-  &lt;li&gt;对路径&amp;lt;1, 3, 5, 6&amp;gt;通过求解下面的条件 x!=y &amp;amp;&amp;amp; (x&lt;em&gt;x)%10!=9 &amp;amp;&amp;amp; x&lt;/em&gt;y+3y-5x==15执行符号执行&lt;/li&gt;
-  &lt;li&gt;假设测试用例是x=4, y = 5 ,其访问了节点1, 3, 5, 6, 8&lt;/li&gt;
-  &lt;li&gt;对路径&amp;lt;1, 3, 5, 6, 7&amp;gt;执行符号执行&lt;/li&gt;
-  &lt;li&gt;…..&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;coverage-optimized-search&quot;&gt;&lt;a href=&quot;http://pxzhang94.github.io/paper/concolic_testing/klee-osdi-08.pdf&quot;&gt;Coverage-Optimized Search&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;该方法是动态符号执行测试调度策略,也是目前广泛使用的C/C++自动化测试工具KLEE的算法基础。该调度策略可以总结为以下步骤：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;初始化
-	一个具体执行的测试用例
-重复
-	1.执行该测试用例
-	2.计算未覆盖节点与已覆盖节点间的最小距离
-	3.从最小距离中随机选择一条路径
-	4.求解该路径条件获得一个测试用例
-直到 所有节点被覆盖
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;用一个案例来进一步说明该算法：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;假设第一个测试用例是x = 0, y = 100,其访问了节点1, 3, 5, 8&lt;/li&gt;
-  &lt;li&gt;对于 &amp;lt;1, 2&amp;gt;, &amp;lt;1, 3, 4&amp;gt;和&amp;lt;1, 3, 5, 6&amp;gt;最小距离是1, &amp;lt;1, 3, 5, 6, 7&amp;gt;是2&lt;/li&gt;
-  &lt;li&gt;从&amp;lt;1, 2&amp;gt;, &amp;lt;1, 3, 4&amp;gt;和&amp;lt;1, 3, 5, 6&amp;gt;随机选择一条路径,假设是&amp;lt;1, 3, 4&amp;gt;&lt;/li&gt;
-  &lt;li&gt;对路径&amp;lt;1, 3, 4&amp;gt;执行符号执行&lt;/li&gt;
-  &lt;li&gt;…..&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;generational-search&quot;&gt;&lt;a href=&quot;http://pxzhang94.github.io/paper/concolic_testing/FuzzTesting.pdf&quot;&gt;Generational Search&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;该方法是动态符号执行测试调度策略。该调度策略可以总结为以下步骤：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;初始化
-	带有一个测试用例的测试套件
-重复
-	1.执行该测试用例
-	2.给定该测试用例的路径，其上所有分支条件系统地用未被访问的另一分支替换
-	3.求解每个约束获得相应的测试用例
-直到 所有节点被覆盖
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;用一个案例来进一步说明该算法：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;假设第一个测试用例是x = 0, y = 100,其访问了节点1, 3, 5, 8&lt;/li&gt;
-  &lt;li&gt;对路径&amp;lt;1, 2&amp;gt;, &amp;lt;1,3,4&amp;gt;和&amp;lt;1,3,5,6&amp;gt;的路径条件求解并将相应的测试用例添加到测试套件中&lt;/li&gt;
-  &lt;li&gt;选择路径&amp;lt;1, 2&amp;gt;的测试用例&lt;/li&gt;
-  &lt;li&gt;选择路径&amp;lt;1, 3, 4&amp;gt;的测试用例&lt;/li&gt;
-  &lt;li&gt;选择路径&amp;lt;1, 3, 5, 6&amp;gt;的测试用例&lt;/li&gt;
-  &lt;li&gt;….. 
-下图来源于原论文，较为清晰的阐述了该算法调度顺序：
-&lt;img src=&quot;http://pxzhang94.github.io/img/posts/concolic_testing/3.png&quot; alt=&quot;Generational Search&quot; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;context-guided-search&quot;&gt;&lt;a href=&quot;http://pxzhang94.github.io/paper/concolic_testing/seo-fse2014.pdf&quot;&gt;Context-Guided Search&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;该方法是动态符号执行测试调度策略。首先给出一个关键的定义&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;K-Context：定义分支b的k-context为一条执行路径上之前k个分支的序列
-比如路径&amp;lt;1,2,3,5,8&amp;gt;包含分支(1,3,5)，那么：&lt;/li&gt;
-  &lt;li&gt;5的1-context为(5)&lt;/li&gt;
-  &lt;li&gt;5的2-context为(3,5)&lt;/li&gt;
-  &lt;li&gt;5的3-context为(1,3,5)
-该调度策略可以总结为以下步骤：
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;初始化
-  一个具体执行的测试用例和k = 1
-重复
-  1.重复广度优先搜索
-      a.检查在执行树上给定深度的每个节点的k-context是否是新的
-      b.求解访问未覆盖分支的路径条件获得测试用例
-      c.用测试用例更新执行树
-  2.递增k
-直到 所有节点被覆盖
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;p&gt;用一个案例来进一步说明该算法：&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;假设第一个测试用例是x = 0, y = 100,其访问了节点1, 3, 5, 8&lt;/li&gt;
-  &lt;li&gt;对路径&amp;lt;1, 2&amp;gt;执行符号测试&lt;/li&gt;
-  &lt;li&gt;假设测试用例是x=0, y=0,其访问了节点1, 2, 3, 5, 8&lt;/li&gt;
-  &lt;li&gt;对路径&amp;lt;1, 3, 4&amp;gt;执行符号测试&lt;/li&gt;
-  &lt;li&gt;…..&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sat, 29 Sep 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2018/09/29/concolic-testing-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/09/29/concolic-testing-1/</guid>
-        
-        <category>Software Engineering</category>
-        
-        <category>Concolic Testing</category>
         
         
       </item>
