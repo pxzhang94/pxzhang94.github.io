@@ -25,8 +25,7 @@ table th:nth-of-type(2) {
 
 | Year | Title | Authors |
 | --- | --- | --- |
-| 2017 | DeepXplore: Automated Whitebox Testing of Deep Learning Systems | Kexin Pei, Columbia University
-Yinzhi Cao, Lehigh University<br>Junfeng Yang, Columbia University<br>Suman Jana, Columbia University |
+| 2017 | DeepXplore: Automated Whitebox Testing of Deep Learning Systems | Kexin Pei, Columbia University<br>Yinzhi Cao, Lehigh University<br>Junfeng Yang, Columbia University<br>Suman Jana, Columbia University |
 | 2017 | The Efficient Server Audit Problem, Deduplicated Re-execution, and the Web | Cheng Tan, New York University<br>Lingfan Yu, New York University<br>Joshua B. Leners, Two Sigma Investments<br>Michael Walfish, New York University |
 | 2015 | Pivot Tracing: Dynamic Causal Monitoring for Distributed Systems | Jonathan Mace, Brown University<br>Ryan Roelke, Brown University<br>Rodrigo Fonseca, Brown University |
 | 2015 | Using Crash Hoare Logic for Certifying the FSCQ File System | Haogang Chen, Massachusetts Institute of Technology<br>Daniel Ziegler, Massachusetts Institute of Technology<br>Tej Chajed, Massachusetts Institute of Technology<br>Adam Chlipala, Massachusetts Institute of Technology<br>M. Frans Kaashoek, Massachusetts Institute of Technology<br>Nickolai Zeldovich, Massachusetts Institute of Technology |
