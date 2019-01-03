@@ -5,9 +5,370 @@
     <description>这里是 @PXZHANG张培歆 的个人网站</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 31 Dec 2018 22:25:30 +0800</pubDate>
-    <lastBuildDate>Mon, 31 Dec 2018 22:25:30 +0800</lastBuildDate>
+    <pubDate>Thu, 03 Jan 2019 08:10:46 +0800</pubDate>
+    <lastBuildDate>Thu, 03 Jan 2019 08:10:46 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Best Paper Awards (1997-2018)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Provenance for Natural Language Queries&lt;/td&gt;
+      &lt;td&gt;Daniel Deutch, Tel-Aviv University&lt;br /&gt;&lt;br /&gt;Nave Frost, Tel-Aviv University&lt;br /&gt;Amir Gilad, Tel-Aviv University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Compressed Linear Algebra for Large-Scale Machine Learning&lt;/td&gt;
+      &lt;td&gt;Ahmed Elgohary, University of Maryland&lt;br /&gt;Matthias Boehm, IBM Research&lt;br /&gt;Peter Haas, IBM Research&lt;br /&gt;Fred Reiss, IBM Research&lt;br /&gt;Berthold Reinwald, IBM Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Constructing an interactive natural language interface for relational databases&lt;/td&gt;
+      &lt;td&gt;Fei Li &amp;amp; H. V. Jagadish, University of Michigan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;M4: A Visualization-Oriented Time Series Data Aggregation&lt;/td&gt;
+      &lt;td&gt;Uwe Jugel, SAP&lt;br /&gt;Zbigniew Jerzak, SAP&lt;br /&gt;Gregor Hackenbroich, SAP&lt;br /&gt;Volker Markl, Technische Universität Berlin&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Building Efficient Query Engines in a High-Level Language&lt;/td&gt;
+      &lt;td&gt;Yannis Klonatos, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Christoph Koch, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Tiark Rompf, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Hassan Chaf, Oracle&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;On k-Path Covers and their Applications&lt;/td&gt;
+      &lt;td&gt;Stefan Funke, University of Stuttgart&lt;br /&gt;André Nusser, University of Stuttgart&lt;br /&gt;Sabine Storandt, University of Stuttgart&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;epiC: an Extensible and Scalable System for Processing Big Data&lt;/td&gt;
+      &lt;td&gt;Dawei Jiang, National University of Singapore&lt;br /&gt;Gang Chen, Zhejiang University&lt;br /&gt;Beng Chin Ooi, National University of Singapore&lt;br /&gt;Kian-Lee Tan, National University of Singapore&lt;br /&gt;Sai Wu, Zhejiang University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;The Uncracked Pieces in Database Cracking&lt;/td&gt;
+      &lt;td&gt;Felix Martin Schuhknecht, Saarland University&lt;br /&gt;Alekh Jindal, Massachusetts Institute of Technology&lt;br /&gt;Jens Dittrich, Saarland University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;DisC Diversity: Result Diversification based on Dissimilarity and Coverage&lt;/td&gt;
+      &lt;td&gt;Marina Drosou &amp;amp; Evaggelia Pitoura, University of Ioannina&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Dense Subgraph Maintenance under Streaming Edge Weight Updates for Real-time Story Identification&lt;/td&gt;
+      &lt;td&gt;Albert Angel, University of Toronto&lt;br /&gt;Nick Koudas, University of Toronto&lt;br /&gt;Nikos Sarkas, University of Toronto&lt;br /&gt;Divesh Srivastava, AT&amp;amp;T Laboratories&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;RemusDB: Transparent High-Availability for Database Systems&lt;/td&gt;
+      &lt;td&gt;Umar Farooq Minhas, University of Waterloo&lt;br /&gt;Shriram Rajagopalan, University of British Columbia&lt;br /&gt;Brendan Cully, University of British Columbia&lt;br /&gt;Ashraf Aboulnaga, University of Waterloo&lt;br /&gt;Ken Salem, University of Waterloo&lt;br /&gt;Andrew Warfield, University of British Columbia&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;Towards Certain Fixes with Editing Rules and Master Data&lt;/td&gt;
+      &lt;td&gt;Shuai Ma, University of Edinburgh&lt;br /&gt;Wenfei Fan, University of Edinburgh&lt;br /&gt;Jianzhong Li, Harbin Institute of Technology&lt;br /&gt;Wenyuan Yu, University of Edinburgh&lt;br /&gt;Nan Tang, University of Edinburgh&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;A Unified Approach to Ranking in Probabilistic Databases&lt;/td&gt;
+      &lt;td&gt;Jian Li, University of Maryland&lt;br /&gt;Barna Saha, University of Maryland&lt;br /&gt;Amol Deshpande, University of Maryland&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;Finding Frequent Items in Data Streams&lt;/td&gt;
+      &lt;td&gt;Graham Cormode &amp;amp; Marios Hadjieleftheriou, AT&amp;amp;T Laboratories&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;Constrained Physical Design Tuning&lt;/td&gt;
+      &lt;td&gt;Nicolas Bruno &amp;amp; Surajit Chaudhuri, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;Scalable Semantic Web Data Management Using Vertical Partitioning&lt;/td&gt;
+      &lt;td&gt;Daniel J. Abadi, Massachusetts Institute of Technology&lt;br /&gt;Adam Marcus, Massachusetts Institute of Technology&lt;br /&gt;Samuel R. Madden, Massachusetts Institute of Technology&lt;br /&gt;Kate Hollenbach, Massachusetts Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2006&lt;/td&gt;
+      &lt;td&gt;Trustworthy Keyword Search for Regulatory-Compliant Records Retention&lt;/td&gt;
+      &lt;td&gt;Soumyadeb Mitra, University of Illinois at Urbana-Champaign&lt;br /&gt;Windsor W. Hsu, University of Illinois at Urbana-Champaign&lt;br /&gt;Marianne Winslett, University of Illinois at Urbana-Champaign&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;Cache-conscious Frequent Pattern Mining on a Modern Processor&lt;/td&gt;
+      &lt;td&gt;Amol Ghoting, Ohio State University&lt;br /&gt;Gregory Buehrer, Ohio State University&lt;br /&gt;Srinivasan Parthasarathy, Ohio State University&lt;br /&gt;Daehyun Kim, Intel&lt;br /&gt;Anthony D. Nguyen, Intel&lt;br /&gt;Yen-Kuang Chen, Intel&lt;br /&gt;Pradeep Dubey, Intel&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;Model-Driven Data Acquisition in Sensor Networks&lt;/td&gt;
+      &lt;td&gt;Amol Deshpande, University of California Berkeley&lt;br /&gt;Carlos Guestrin, Intel Research&lt;br /&gt;Samuel R. Madden, Massachusetts Institute of Technology&lt;br /&gt;Joseph M. Hellerstein, University of California Berkeley&lt;br /&gt;Wei Hong, Intel Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2001&lt;/td&gt;
+      &lt;td&gt;Weaving Relations for Cache Performance&lt;/td&gt;
+      &lt;td&gt;Anastassia Ailamaki, Carnegie Mellon University&lt;br /&gt;David J. DeWitt, University of Wisconsin&lt;br /&gt;Mark D. Hill, University of Wisconsin&lt;br /&gt;Marios Skounakis, University of Wisconsin&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1997&lt;/td&gt;
+      &lt;td&gt;Integrating Reliable Memory in Databases&lt;/td&gt;
+      &lt;td&gt;Wee Teck Ng &amp;amp; Peter M. Chen, University of Michigan&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Wed, 02 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/02/best-paper-awards-VLDB/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/02/best-paper-awards-VLDB/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>Databases</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Best Paper Awards (1996-2018)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Porta: Profiling Software Tutorials Using Operating-System-Wide Activity Tracing&lt;/td&gt;
+      &lt;td&gt;Alok Mysore &amp;amp; Philip J. Guo, University of California San Diego&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Authoring and Verifying Human-Robot Interactions&lt;/td&gt;
+      &lt;td&gt;David Porfirio, University of Wisconsin-Madison&lt;br /&gt;Allison Sauppé, University of Wisconsin-La Crosse&lt;br /&gt;Aws Albarghouthi, University of Wisconsin-Madison&lt;br /&gt;Bilge Mutlu, University of Wisconsin-Madison&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;RESi: A Highly Flexible, Pressure-Sensitive, Imperceptible Textile Interface Based on Resistive Yarns&lt;/td&gt;
+      &lt;td&gt;Patrick Parzer, University of Applied Sciences Upper Austria&lt;br /&gt;Florian Perteneder, University of Applied Sciences Upper Austria&lt;br /&gt;Kathrin Probst, University of Applied Sciences Upper Austria&lt;br /&gt;Christian Rendl, University of Applied Sciences Upper Austria&lt;br /&gt;Joanne Leong, University of Applied Sciences Upper Austria&lt;br /&gt;Sarah Schuetz, University of Applied Sciences Upper Austria&lt;br /&gt;Anita Vogl, University of Applied Sciences Upper Austria&lt;br /&gt;Reinhard Schwoediauer, Johannes Kepler University&lt;br /&gt;Martin Kaltenbrunner, Johannes Kepler University&lt;br /&gt;Siegfried Bauer, Johannes Kepler University&lt;br /&gt;Michael Haller, University of Applied Sciences Upper Austria&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Triggering Artwork Swaps for Live Animation&lt;/td&gt;
+      &lt;td&gt;Nora S. Willett, Princeton University&lt;br /&gt;Wilmot Li, Adobe Research&lt;br /&gt;Jovan Popovic, Adobe Research&lt;br /&gt;Adam Finkelstein, Princeton University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Grabity: A Wearable Haptic Interface for Simulating Weight and Grasping in Virtual Reality&lt;/td&gt;
+      &lt;td&gt;Inrak Choi, Stanford University&lt;br /&gt;Heather Culbertson, Stanford University&lt;br /&gt;Mark R. Miller, Stanford University&lt;br /&gt;Alex Olwal, Google&lt;br /&gt;Sean Follmer, Stanford University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;AirCode: Unobtrusive Physical Tags for Digital Fabrication&lt;/td&gt;
+      &lt;td&gt;Dingzeyu Li, Columbia University&lt;br /&gt;Avinash S. Nair, Columbia University&lt;br /&gt;Shree K. Nayar, Columbia University&lt;br /&gt;Changxi Zheng, Columbia University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Rovables: Miniature On-Body Robots as Mobile Wearables&lt;/td&gt;
+      &lt;td&gt;Artem Dementyev, Massachusetts Institute of Technology&lt;br /&gt;Hsin-Liu (Cindy) Kao, Massachusetts Institute of Technology&lt;br /&gt;Inrak Choi, Stanford University&lt;br /&gt;Deborah Ajilo, Massachusetts Institute of Technology&lt;br /&gt;Maggie Xu, Stanford University&lt;br /&gt;Joseph Paradiso, Massachusetts Institute of Technology&lt;br /&gt;Chris Schmandt, Massachusetts Institute of Technology&lt;br /&gt;Sean Follmer, Stanford University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;proCover: Sensory Augmentation of Prosthetic Limbs Using Smart Textile Covers&lt;/td&gt;
+      &lt;td&gt;Joanne Leong, University of Applied Sciences Upper Austria&lt;br /&gt;Patrick Parzer, University of Applied Sciences Upper Austria&lt;br /&gt;Florian Perteneder, University of Applied Sciences Upper Austria&lt;br /&gt;Teo Babic, University of Applied Sciences Upper Austria&lt;br /&gt;Christian Rendl, University of Applied Sciences Upper Austria&lt;br /&gt;Anita Vogl, University of Applied Sciences Upper Austria&lt;br /&gt;Hubert Egger, University of Applied Sciences Upper Austria&lt;br /&gt;Alex Olwal, Google&lt;br /&gt;Michael Haller, University of Applied Sciences Upper Austria&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;ViBand: High-Fidelity Bio-Acoustic Sensing Using Commodity Smartwatch Accelerometers&lt;/td&gt;
+      &lt;td&gt;Gierad Laput, Carnegie Mellon University&lt;br /&gt;Robert Xiao, Carnegie Mellon University&lt;br /&gt;Chris Harrison, Carnegie Mellon University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Zooids: Building Blocks for Swarm User Interfaces&lt;/td&gt;
+      &lt;td&gt;Mathieu Le Goc, INRIA&lt;br /&gt;Lawrence H. Kim, Stanford University&lt;br /&gt;Ali Parsaei, Stanford University&lt;br /&gt;Jean-Daniel Fekete, INRIA&lt;br /&gt;Pierre Dragicevic, INRIA&lt;br /&gt;Sean Follmer, Stanford University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Orbits: Gaze Interaction for Smart Watches using Smooth Pursuit Eye Movements&lt;/td&gt;
+      &lt;td&gt;Augusto Esteves, Lancaster University&lt;br /&gt;Eduardo Velloso, Lancaster University&lt;br /&gt;Andreas Bulling, Max Planck Institut&lt;br /&gt;Hans Gellersen, Lancaster University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Webstrates: Shareable Dynamic Media&lt;/td&gt;
+      &lt;td&gt;Clemens Klokmose, Aarhus University&lt;br /&gt;James Eagan, Telecom ParisTech&lt;br /&gt;Siemen Baader, Aarhus University&lt;br /&gt;Wendy Mackay, INRIA&lt;br /&gt;Michel Beaudouin-Lafon, Université Paris-Sud&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Foldio: Digital Fabrication of Interactive and Shape-Changing Objects With Foldable Printed Electronics&lt;/td&gt;
+      &lt;td&gt;Simon Olberding, Max Planck Institut&lt;br /&gt;Sergio Soto Ortega, Max Planck Institut&lt;br /&gt;Klaus Hildebrandt, Max Planck Institut&lt;br /&gt;Jurgen Steimle, Max Planck Institut&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Sensing Techniques for Tablet+Stylus Interaction&lt;/td&gt;
+      &lt;td&gt;Ken Hinckley, Microsoft Research&lt;br /&gt;Michel Pahud, Microsoft Research&lt;br /&gt;Hrvoje Benko, Microsoft Research&lt;br /&gt;Pourang Irani, Microsoft Research&lt;br /&gt;Marcel Gavriliu, Microsoft Research&lt;br /&gt;François Guimbretière, Microsoft Research&lt;br /&gt;Xiang Anthony Chen, Microsoft Research&lt;br /&gt;Fabrice Matulic, Microsoft Research&lt;br /&gt;William Buxton, Microsoft Research&lt;br /&gt;Andrew Wilson, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;PrintScreen: Fabricating Highly Customizable Thin-film Touch-Displays&lt;/td&gt;
+      &lt;td&gt;Simon Olberding, Max Planck Institut&lt;br /&gt;Michael Wessely, Max Planck Institut&lt;br /&gt;Jürgen Steimle, Max Planck Institut&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Expert Crowdsourcing with Flash Teams&lt;/td&gt;
+      &lt;td&gt;Daniela Retelny, Stanford University&lt;br /&gt;Sébastien Robaszkiewicz, Stanford University&lt;br /&gt;Alexandra To, Stanford University&lt;br /&gt;Walter Lasecki, University of Rochester&lt;br /&gt;Jay Patel, Stanford University&lt;br /&gt;Negar Rahmati, Stanford University&lt;br /&gt;Tulsee Doshi, Stanford University&lt;br /&gt;Melissa Valentine, Stanford University&lt;br /&gt;Michael Bernstein, Stanford University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;PneUI: Pneumatically Actuated Soft Composite Materials for Shape Changing Interfaces&lt;/td&gt;
+      &lt;td&gt;Lining Yao, Massachusetts Institute of Technology&lt;br /&gt;Ryuma Niiyama, Massachusetts Institute of Technology&lt;br /&gt;Jifei Ou, Massachusetts Institute of Technology&lt;br /&gt;Sean Follmer, Massachusetts Institute of Technology&lt;br /&gt;Clark Della Silva, Massachusetts Institute of Technology&lt;br /&gt;Hiroshi Ishii, Massachusetts Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;Touch &amp;amp; Activate: Adding Interactivity to Existing Objects using Active Acoustic Sensing&lt;/td&gt;
+      &lt;td&gt;Makoto Ono, University of Tsukuba&lt;br /&gt;Buntarou Shizuki, University of Tsukuba&lt;br /&gt;Jiro Tanaka, University of Tsukuba&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;Fiberio: A Touchscreen that Senses Fingerprints&lt;/td&gt;
+      &lt;td&gt;Christian Holz &amp;amp; Patrick Baudisch, Hasso Plattner Institute&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;CrowdScape: interactively visualizing user behavior and output&lt;/td&gt;
+      &lt;td&gt;Jeffrey Rzeszotarski &amp;amp; Aniket Kitur, Carnegie Mellon University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Cliplets: juxtaposing still and dynamic imagery&lt;/td&gt;
+      &lt;td&gt;Neel Joshi, Microsoft Research&lt;br /&gt;Sisil Mehta, Georgia Institute of Technology&lt;br /&gt;Steven Drucker, Microsoft Research&lt;br /&gt;Eric Stollnitz, Microsoft Research&lt;br /&gt;Hugues Hoppe, Microsoft Research&lt;br /&gt;Matt Uyttendaele, Microsoft&lt;br /&gt;Michael Cohen, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Jamming User Interfaces: Programmable Particle Stiffness and Sensing for Malleable and Shape-Changing Devices&lt;/td&gt;
+      &lt;td&gt;Sean Follmer, Massachusetts Institute of Technology&lt;br /&gt;Daniel Leithinger, Massachusetts Institute of Technology&lt;br /&gt;Alex Olwal, Massachusetts Institute of Technology&lt;br /&gt;Nadia Cheng, Massachusetts Institute of Technology&lt;br /&gt;Hiroshi Ishii, Massachusetts Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;SideBySide: Ad-hoc Multi-user Interaction with Handheld Projectors&lt;/td&gt;
+      &lt;td&gt;Karl D.D. Willis, Carnegie Mellon University&lt;br /&gt;Ivan Poupyrev, Disney Research&lt;br /&gt;Scott E. Hudson, Carnegie Mellon University&lt;br /&gt;Moshe Mahler, Disney Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;VizWiz: nearly real-time answers to visual questions&lt;/td&gt;
+      &lt;td&gt;Jeffrey P. Bigham, University of Rochester&lt;br /&gt;Chandrika Jayant, University of Washington&lt;br /&gt;Hanjie Ji, University of Rochester&lt;br /&gt;Greg Little, Massachusetts Institute of Technology&lt;br /&gt;Andrew Miller, University of Central Florida&lt;br /&gt;Robert C. Miller, Massachusetts Institute of Technology&lt;br /&gt;Robin Miller, University of Rochester&lt;br /&gt;Aubrey Tatarowicz, Massachusetts Institute of Technology&lt;br /&gt;Brandyn White, University of Maryland&lt;br /&gt;Samual White, University of Rochester&lt;br /&gt;Tom Yeh, University of Maryland&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;Mouse 2.0: Multi-touch meets the Mouse&lt;/td&gt;
+      &lt;td&gt;Nicolas Villar, Microsoft Research&lt;br /&gt;Shahram Izadi, Microsoft Research&lt;br /&gt;Dan Rosenfeld, Microsoft&lt;br /&gt;Hrvoje Benko, Microsoft Research&lt;br /&gt;John Helmes, Microsoft Research&lt;br /&gt;Jonathan Westhues, Microsoft Research&lt;br /&gt;Steve Hodges, Microsoft Research&lt;br /&gt;Eyal Ofek, Microsoft&lt;br /&gt;Alex Butler, Microsoft Research&lt;br /&gt;Xiang Cao, Microsoft Research&lt;br /&gt;Billy Chen, Microsoft&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;Bringing Physics to the Surface&lt;/td&gt;
+      &lt;td&gt;Andrew D. Wilson, Microsoft Research&lt;br /&gt;Shahram Izadi, Microsoft Research&lt;br /&gt;Otmar Hilliges, Microsoft Research&lt;br /&gt;Armando Garcia-Mendoza, Microsoft Research&lt;br /&gt;David Kirk, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;ThinSight: Versatile Multi-touch Sensing for Thin Form-factor Displays&lt;/td&gt;
+      &lt;td&gt;Steve Hodges, Microsoft Research&lt;br /&gt;Shahram Izadi, Microsoft Research&lt;br /&gt;Alex Butler, Microsoft Research&lt;br /&gt;Alban Rrustemi, Microsoft Research&lt;br /&gt;Bill Buxton, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2006&lt;/td&gt;
+      &lt;td&gt;Reflective Physical Prototyping through Integrated Design, Test, and Analysis&lt;/td&gt;
+      &lt;td&gt;Björn Hartmann, Stanford University&lt;br /&gt;Scott Klemmer, Stanford University&lt;br /&gt;Michael Bernstein, Stanford University&lt;br /&gt;Leith Abdulla, Stanford University&lt;br /&gt;Brandon Burr, Stanford University&lt;br /&gt;Avi Robinson-Mosher, Stanford University&lt;br /&gt;Jennifer Gee, Stanford University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;Automation and Customization of Rendered Web Pages&lt;/td&gt;
+      &lt;td&gt;Michael Bolin, Massachusetts Institute of Technology&lt;br /&gt;Matthew Webber, Massachusetts Institute of Technology&lt;br /&gt;Philip Rha, Massachusetts Institute of Technology&lt;br /&gt;Tom Wilson, Massachusetts Institute of Technology&lt;br /&gt;Robert C. Miller, Massachusetts Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;Multi-Finger Gestural Interaction with 3D Volumetric Displays&lt;/td&gt;
+      &lt;td&gt;Tovi Grossman, University of Toronto&lt;br /&gt;Daniel Wigdor, University of Toronto&lt;br /&gt;Ravin Balakrishnan, University of Toronto&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;CrossY: A Crossing-Based Drawing Application&lt;/td&gt;
+      &lt;td&gt;Georg Apitz &amp;amp; François Guimbretière, University of Maryland&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2003&lt;/td&gt;
+      &lt;td&gt;Perceptually-Supported Image Editing of Text and Graphics&lt;/td&gt;
+      &lt;td&gt;Eric Saund, Palo Alto Research Center&lt;br /&gt;David Fleet, Palo Alto Research Center&lt;br /&gt;Daniel Larner, Palo Alto Research Center&lt;br /&gt;James Mahoney, Palo Alto Research Center&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2002&lt;/td&gt;
+      &lt;td&gt;Clothing Manipulation&lt;/td&gt;
+      &lt;td&gt;Takeo Igarashi, University of Tokyo&lt;br /&gt;John F. Hughes, Brown University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2001&lt;/td&gt;
+      &lt;td&gt;Phidgets: Easy Development of Physical Interfaces through Physical Widgets&lt;/td&gt;
+      &lt;td&gt;Saul Greenberg &amp;amp; Chester Fitchett, University of Calgary&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2000&lt;/td&gt;
+      &lt;td&gt;Sensing Techniques for Mobile Interaction&lt;/td&gt;
+      &lt;td&gt;Ken Hinckley, Microsoft Research&lt;br /&gt;Jeff Pierce, Microsoft Research&lt;br /&gt;Mike Sinclair, Microsoft Research&lt;br /&gt;Eric Horvitz, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1996&lt;/td&gt;
+      &lt;td&gt;Indigo: A Local Propagation Algorithm for Inequality Constraints&lt;/td&gt;
+      &lt;td&gt;Alan Borning, University of Washington&lt;br /&gt;&lt;br /&gt;Richard Anderson, University of Washington&lt;br /&gt;Bjorn Freeman-Benson, Object Technology International&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Wed, 02 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/02/best-paper-awards-UIST/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/02/best-paper-awards-UIST/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>User Interface</category>
+        
+        
+      </item>
     
       <item>
         <title>Best Paper Awards (1998-2018)</title>
@@ -2164,377 +2525,6 @@ table th:nth-of-type(2) {
         <category>Best Paper</category>
         
         <category>Human-Computer Interaction</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Best Paper Awards (2001-2018)</title>
-        <description>&lt;style&gt;
-.table {
-	font-size:12px;
-}
-table td {
-	vertical-align: middle;
-}
-table th:nth-of-type(2) {
-    width: 240px;
-}
-
-&lt;/style&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-      &lt;th&gt;Title&lt;/th&gt;
-      &lt;th&gt;Authors&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Finding syntax in human encephalography with beam search&lt;/td&gt;
-      &lt;td&gt;John Hale, Cornell University&lt;br /&gt;Chris Dyer, DeepMind&lt;br /&gt;Adhiguna Kuncoro, University of Oxford&lt;br /&gt;Jonathan R. Brennan, University of Michigan&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;Probabilistic Typology: Deep Generative Models of Vowel Inventories&lt;/td&gt;
-      &lt;td&gt;Ryan Cotterell &amp;amp; Jason Eisner, Johns Hopkins University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Finding Non-Arbitrary Form-Meaning Systematicity Using String-Metric Learning for Kernel Regression&lt;/td&gt;
-      &lt;td&gt;E. Darío Gutiérrez, University of California Berkeley&lt;br /&gt;Roger Levy, Massachusetts Institute of Technology&lt;br /&gt;Benjamin K. Bergen, University of California San Diego&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Improving Evaluation of Machine Translation Quality Estimation&lt;/td&gt;
-      &lt;td&gt;Yvette Graham, Trinity College Dublin&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Learning Dynamic Feature Selection for Fast Sequential Prediction&lt;/td&gt;
-      &lt;td&gt;Emma Strubell, University of Massachusetts Amherst&lt;br /&gt;Luke Vilnis, University of Massachusetts Amherst&lt;br /&gt;Kate Silverstein, University of Massachusetts Amherst&lt;br /&gt;Andrew McCallum, University of Massachusetts Amherst&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;Fast and Robust Neural Network Joint Models for Statistical Machine Translation&lt;/td&gt;
-      &lt;td&gt;Jacob Devlin, Raytheon BBN Technologies&lt;br /&gt;Rabih Zbib, Raytheon BBN Technologies&lt;br /&gt;Zhongqiang Huang, Raytheon BBN Technologies&lt;br /&gt;Thomas Lamar, Raytheon BBN Technologies&lt;br /&gt;Richard Schwartz, Raytheon BBN Technologies&lt;br /&gt;John Makhoul, Raytheon BBN Technologies&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;Grounded Language Learning from Video Described with Sentences&lt;/td&gt;
-      &lt;td&gt;Haonan Yu &amp;amp; Jeffrey Mark Siskind, Purdue University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;String Re-writing Kernel&lt;/td&gt;
-      &lt;td&gt;Fan Bu, Tsinghua University&lt;br /&gt;Hang Li, Microsoft Research&lt;br /&gt;Xiaoyan Zhu, Tsinghua University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;Bayesian Symbol-Refined Tree Substitution Grammars for Syntactic Parsing&lt;/td&gt;
-      &lt;td&gt;Hiroyuki Shindo, NTT Communication Science Laboratories&lt;br /&gt;Yusuke Miyao, National Institute of Informatics&lt;br /&gt;Akinori Fujino, NTT Communication Science Laboratories&lt;br /&gt;Masaaki Nagata, NTT Communication Science Laboratories&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;Unsupervised Part-of-Speech Tagging with Bilingual Graph-Based Projections&lt;/td&gt;
-      &lt;td&gt;Dipanjan Das, Carnegie Mellon University&lt;br /&gt;Slav Petrov, Google&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;Beyond NomBank: A Study of Implicit Arguments for Nominal Predicates&lt;/td&gt;
-      &lt;td&gt;Matthew Gerber &amp;amp; Joyce Y. Chai, Michigan State University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;Reinforcement Learning for Mapping Instructions to Actions&lt;/td&gt;
-      &lt;td&gt;S.R.K. Branavan, Massachusetts Institute of Technology&lt;br /&gt;Harr Chen, Massachusetts Institute of Technology&lt;br /&gt;Luke S. Zettlemoyer, Massachusetts Institute of Technology&lt;br /&gt;Regina Barzilay, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;K-Best A* Parsing&lt;/td&gt;
-      &lt;td&gt;Adam Pauls &amp;amp; Dan Klein, University of California Berkeley&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;Concise Integer Linear Programming Formulations for Dependency Parsing&lt;/td&gt;
-      &lt;td&gt;André F.T. Martins, Instituto de Telecomunicações&lt;br /&gt;Noah A. Smith, Carnegie Mellon University&lt;br /&gt;Eric P. Xing, Carnegie Mellon University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;Forest Reranking: Discriminative Parsing with Non-Local Features&lt;/td&gt;
-      &lt;td&gt;Liang Huang, University of Pennsylvania&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;A New String-to-Dependency Machine Translation Algorithm with a Target Dependency Language Model&lt;/td&gt;
-      &lt;td&gt;Libin Shen, BBN Technologies&lt;br /&gt;Jinxi Xu, BBN Technologies&lt;br /&gt;Ralph Weischedel, BBN Technologies&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;Learning synchronous grammars for semantic parsing with lambda calculus&lt;/td&gt;
-      &lt;td&gt;Yuk Wah Wong &amp;amp; Raymond J. Mooney, University of Texas at Austin&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2006&lt;/td&gt;
-      &lt;td&gt;Semantic taxonomy induction from heterogenous evidence&lt;/td&gt;
-      &lt;td&gt;Rion Snow, Stanford University&lt;br /&gt;Daniel Jurafsky, Stanford University&lt;br /&gt;Andrew Y. Ng, Stanford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;A Hierarchical Phrase-Based Model for Statistical Machine Translation&lt;/td&gt;
-      &lt;td&gt;David Chiang, University of Maryland&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2004&lt;/td&gt;
-      &lt;td&gt;Finding Predominant Word Senses in Untagged Text&lt;/td&gt;
-      &lt;td&gt;Diana McCarthy, University of Sussex&lt;br /&gt;Rob Koeling, University of Sussex&lt;br /&gt;Julie Weeds, University of Sussex&lt;br /&gt;John Carroll, University of Sussex&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2003&lt;/td&gt;
-      &lt;td&gt;Accurate Unlexicalized Parsing&lt;/td&gt;
-      &lt;td&gt;Dan Klein &amp;amp; Christopher D. Manning, Stanford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2003&lt;/td&gt;
-      &lt;td&gt;Towards a Model of Face-to-Face Grounding&lt;/td&gt;
-      &lt;td&gt;Yukiko I. Nakano, RISTEX&lt;br /&gt;Gabe Reinstein, Massachusetts Institute of Technology&lt;br /&gt;Tom Stocky, Massachusetts Institute of Technology&lt;br /&gt;Justine Cassell, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2002&lt;/td&gt;
-      &lt;td&gt;Discriminative Training and Maximum Entropy Models for Statistical Machine Translation&lt;/td&gt;
-      &lt;td&gt;Franz Josef Och &amp;amp; Hermann Ney, RWTH Aachen University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2001&lt;/td&gt;
-      &lt;td&gt;Immediate-Head Parsing for Language Models&lt;/td&gt;
-      &lt;td&gt;Eugene Charniak, Brown University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2001&lt;/td&gt;
-      &lt;td&gt;Fast Decoding and Optimal Decoding for Machine Translation&lt;/td&gt;
-      &lt;td&gt;Ulrich Germann, University of Southern California&lt;br /&gt;Michael Jahr, Stanford University&lt;br /&gt;Kevin Knight, University of Southern California&lt;br /&gt;Daniel Marcu, University of Southern California&lt;br /&gt;Kenji Yamada, University of Southern California&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Sun, 30 Dec 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2018/12/30/best-paper-awards-ACL/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/12/30/best-paper-awards-ACL/</guid>
-        
-        <category>Best Paper</category>
-        
-        <category>Natural Language Processing</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Best Paper Awards (1996-2018)</title>
-        <description>&lt;style&gt;
-.table {
-	font-size:12px;
-}
-table td {
-	vertical-align: middle;
-}
-table th:nth-of-type(2) {
-    width: 240px;
-}
-
-&lt;/style&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-      &lt;th&gt;Title&lt;/th&gt;
-      &lt;th&gt;Authors&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Memory-Augmented Monte Carlo Tree Search&lt;/td&gt;
-      &lt;td&gt;Chenjun Xiao, University of Alberta&lt;br /&gt;Jincheng Mei, University of Alberta&lt;br /&gt;Martin Müller, University of Alberta&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;Label-Free Supervision of Neural Networks with Physics and Domain Knowledge&lt;/td&gt;
-      &lt;td&gt;Russell Stewart &amp;amp; Stefano Ermon, Stanford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Bidirectional Search That Is Guaranteed to Meet in the Middle&lt;/td&gt;
-      &lt;td&gt;Robert C. Holte, University of Alberta&lt;br /&gt;Ariel Felner, Ben-Gurion University&lt;br /&gt;Guni Sharon, Ben-Gurion University&lt;br /&gt;Nathan R. Sturtevant, University of Denver&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;From Non-Negative to General Operator Cost Partitioning&lt;/td&gt;
-      &lt;td&gt;Florian Pommerening, University of Basel&lt;br /&gt;Malte Helmert, University of Basel&lt;br /&gt;Gabriele Röger, University of Basel&lt;br /&gt;Jendrik Seipp, University of Basel&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;Recovering from Selection Bias in Causal and Statistical Inference&lt;/td&gt;
-      &lt;td&gt;Elias Bareinboim, University of California Los Angeles&lt;br /&gt;Jin Tian, Iowa State University&lt;br /&gt;Judea Pearl, University of California Los Angeles&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;HC-Search: Learning Heuristics and Cost Functions for Structured Prediction&lt;/td&gt;
-      &lt;td&gt;Janardhan Rao Doppa, Oregon State University&lt;br /&gt;Alan Fern, Oregon State University&lt;br /&gt;Prasad Tadepalli, Oregon State University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;SMILe: Shufﬂed Multiple-Instance Learning&lt;/td&gt;
-      &lt;td&gt;Gary Doran &amp;amp; Soumya Ray, Case Western Reserve University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;Learning SVM Classifiers with Indefinite Kernels&lt;/td&gt;
-      &lt;td&gt;Suicheng Gu &amp;amp; Yuhong Guo, Temple University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;Document Summarization Based on Data Reconstruction&lt;/td&gt;
-      &lt;td&gt;Zhanying He, Zhejiang University&lt;br /&gt;Chun Chen, Zhejiang University&lt;br /&gt;Jiajun Bu, Zhejiang University&lt;br /&gt;Can Wang, Zhejiang University&lt;br /&gt;Lijan Zhang, Zhejiang University&lt;br /&gt;Deng Cai, Zhejiang University&lt;br /&gt;Xiaofei He, Zhejiang University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;Dynamic Resource Allocation in Conservation Planning&lt;/td&gt;
-      &lt;td&gt;Daniel Golovin, California Institute of Technology&lt;br /&gt;Andreas Krause, ETH Zurich&lt;br /&gt;Beth Gardner, North Carolina State University&lt;br /&gt;Sarah J. Converse, Patuxent Wildlife Research Center&lt;br /&gt;Steve Morey, U.S. Fish and Wildlife Service&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;Complexity of and Algorithms for Borda Manipulation&lt;/td&gt;
-      &lt;td&gt;Jessica Davies, University of Toronto&lt;br /&gt;George Katsirelos, Université Paris-Sud&lt;br /&gt;Nina Narodytska, University of New South Wales&lt;br /&gt;Toby Walsh, NICTA&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;How Incomplete Is Your Semantic Web Reasoner? Systematic Analysis of the Completeness of Query Answering Systems&lt;/td&gt;
-      &lt;td&gt;Giorgos Stoilos, Oxford University&lt;br /&gt;Bernardo Cuenca Grau, Oxford University&lt;br /&gt;Ian Horrocks, Oxford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;A Novel Transition Based Encoding Scheme for Planning as Satisfiability&lt;/td&gt;
-      &lt;td&gt;Ruoyun Huang, Washington University in St. Louis&lt;br /&gt;Yixin Chen, Washington University in St. Louis&lt;br /&gt;Weixiong Zhang, Washington University in St. Louis&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;How Good is Almost Perfect?&lt;/td&gt;
-      &lt;td&gt;Malte Helmert &amp;amp; Gabriele Röger, Albert-Ludwigs-Universität Freiburg&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;Optimal False-Name-Proof Voting Rules with Costly Voting&lt;/td&gt;
-      &lt;td&gt;Liad Wagman &amp;amp; Vincent Conitzer, Duke University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;PLOW: A Collaborative Task Learning Agent&lt;/td&gt;
-      &lt;td&gt;James Allen, Institute for Human and Machine Cognition&lt;br /&gt;Nathanael Chambers, Stanford University&lt;br /&gt;George Ferguson, University of Rochester&lt;br /&gt;Lucian Galescu, Institute for Human and Machine Cognition&lt;br /&gt;Hyuckchul Jung, Institute for Human and Machine Cognition&lt;br /&gt;Mary Swift, University of Rochester&lt;br /&gt;William Taysom, Institute for Human and Machine Cognition&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;Thresholded Rewards: Acting Optimally in Timed, Zero-Sum Games&lt;/td&gt;
-      &lt;td&gt;Colin McMillen &amp;amp; Manuela Veloso, Carnegie Mellon University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2006&lt;/td&gt;
-      &lt;td&gt;Model Counting: A New Strategy for Obtaining Good Bounds&lt;/td&gt;
-      &lt;td&gt;Carla P. Gomes, Cornell University&lt;br /&gt;Ashish Sabharwal, Cornell University&lt;br /&gt;Bart Selman, Cornell University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2006&lt;/td&gt;
-      &lt;td&gt;Towards an Axiom System for Default Logic&lt;/td&gt;
-      &lt;td&gt;Gerhard Lakemeyer, RWTH Aachen University&lt;br /&gt;Hector J. Levesque, University of Toronto&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;The Max K- Armed Bandit: A New Model of Exploration Applied to Search Heuristic Selection&lt;/td&gt;
-      &lt;td&gt;Vincent A. Cicirello, Drexel University&lt;br /&gt;Stephen F. Smith, Carnegie Mellon University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2004&lt;/td&gt;
-      &lt;td&gt;Learning and Inferring Transportation Routines&lt;/td&gt;
-      &lt;td&gt;Lin Liao, University of Washington&lt;br /&gt;Dieter Fox, University of Washington&lt;br /&gt;Henry Kautz, University of Washington&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2002&lt;/td&gt;
-      &lt;td&gt;On Computing All Abductive Explanations&lt;/td&gt;
-      &lt;td&gt;Thomas Eiter, Technische Universität Wien&lt;br /&gt;Kazuhisa Makino, Osaka University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2000&lt;/td&gt;
-      &lt;td&gt;The Game of Hex: An Automatic Theorem-Proving Approach to Game Programming&lt;/td&gt;
-      &lt;td&gt;Vadim V. Anshelevich, Vanshel Consulting&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1999&lt;/td&gt;
-      &lt;td&gt;PROVERB: The Probabilistic Cruciverbalist&lt;/td&gt;
-      &lt;td&gt;Greg A. Keim, Duke University&lt;br /&gt;Noam M. Shazeer, Duke University&lt;br /&gt;Michael L. Littman, Duke University&lt;br /&gt;Sushant Agarwal, Duke University&lt;br /&gt;Catherine M. Cheves, Duke University&lt;br /&gt;Joseph Fitzgerald, Duke University&lt;br /&gt;Jason Grosland, Duke University&lt;br /&gt;Fan Jiang, Duke University&lt;br /&gt;Shannon Pollard, Duke University&lt;br /&gt;Karl Weinmeister, Duke University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1998&lt;/td&gt;
-      &lt;td&gt;Learning Evaluation Functions for Global Optimization and Boolean Satisfiability&lt;/td&gt;
-      &lt;td&gt;Justin A. Boyan &amp;amp; Andrew W. Moore, Carnegie Mellon University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1998&lt;/td&gt;
-      &lt;td&gt;Acceleration Methods for Numeric CSPs&lt;/td&gt;
-      &lt;td&gt;Yahia Lebbah &amp;amp; Olivier Lhomme, Ecole des Mines de Nantes&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1998&lt;/td&gt;
-      &lt;td&gt;The Interactive Museum Tour-Guide Robot&lt;/td&gt;
-      &lt;td&gt;Wolfram Burgard, University of Bonn&lt;br /&gt;Armin B. Cremers, University of Bonn&lt;br /&gt;Dieter Fox, University of Bonn&lt;br /&gt;Dirk Hähnel, University of Bonn&lt;br /&gt;Gerhard Lakemeyer, Aachen University of Technology&lt;br /&gt;Dirk Schulz, University of Bonn&lt;br /&gt;Walter Steiner, University of Bonn&lt;br /&gt;Sebastian Thrun, Carnegie Mellon University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1997&lt;/td&gt;
-      &lt;td&gt;Statistical Parsing with a Context-Free Grammar and Word Statistics&lt;/td&gt;
-      &lt;td&gt;Eugene Charniak, Brown University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1997&lt;/td&gt;
-      &lt;td&gt;A Practical Algorithm for Finding Optimal Triangulations&lt;/td&gt;
-      &lt;td&gt;Krill Shoikhet &amp;amp; Dan Geiger, Technion&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1997&lt;/td&gt;
-      &lt;td&gt;Fast Context Switching in Real-Time Propositional Reasoning&lt;/td&gt;
-      &lt;td&gt;P. Pandurang Nayak &amp;amp; Brian C. Williams, NASA Ames Research Center&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1997&lt;/td&gt;
-      &lt;td&gt;Building Concept Representations from Reusable Components&lt;/td&gt;
-      &lt;td&gt;Peter Clark, Boeing&lt;br /&gt;Bruce Porter, University of Texas at Austin&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1996&lt;/td&gt;
-      &lt;td&gt;Verification of Knowledge Bases Based on Containment Checking&lt;/td&gt;
-      &lt;td&gt;Alon Y. Levy, AT&amp;amp;T Laboratories&lt;br /&gt;Marie-Christine Rousset, Université Paris-Sud&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1996&lt;/td&gt;
-      &lt;td&gt;A Novel Application of Theory Refinement to Student Modeling&lt;/td&gt;
-      &lt;td&gt;Paul T. Baffes, SciComp&lt;br /&gt;Raymond J. Mooney, University of Texas at Austin&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1996&lt;/td&gt;
-      &lt;td&gt;Pushing the Envelope: Planning, Propositional Logic, and Stochastic Search&lt;/td&gt;
-      &lt;td&gt;Henry Kautz &amp;amp; Bart Selman, AT&amp;amp;T Laboratories&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Sun, 30 Dec 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2018/12/30/best-paper-awards-AAAI/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/12/30/best-paper-awards-AAAI/</guid>
-        
-        <category>Best Paper</category>
-        
-        <category>Artificial Intelligence</category>
         
         
       </item>
