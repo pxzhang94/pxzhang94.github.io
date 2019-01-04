@@ -5,9 +5,280 @@
     <description>这里是 @PXZHANG张培歆 的个人网站</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 03 Jan 2019 22:57:34 +0800</pubDate>
-    <lastBuildDate>Thu, 03 Jan 2019 22:57:34 +0800</lastBuildDate>
+    <pubDate>Fri, 04 Jan 2019 15:26:27 +0800</pubDate>
+    <lastBuildDate>Fri, 04 Jan 2019 15:26:27 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Best Paper Awards (2009-2018)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Approaching 3/2 for the s-t-path TSP&lt;/td&gt;
+      &lt;td&gt;Vera Traub &amp;amp; Jens Vygen, Universität Bonn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Online Bipartite Matching with Amortized O(log2 N)Replacements&lt;/td&gt;
+      &lt;td&gt;Aaron Bernstein, Technical University of Berlin&lt;br /&gt;Jacob Holm, University of Copenhagen&lt;br /&gt;Eva Rotenberg, Technical University of Denmark&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Subquadratic Algorithms for the Diameter and the Sum of Pairwise Distances in Planar Graphs&lt;/td&gt;
+      &lt;td&gt;Sergio Cabello, University of Ljubljana&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;A (2 + Є) Approximation for Maximum Weight Matching in the Semi-Streaming Model&lt;/td&gt;
+      &lt;td&gt;Ami Paz, IRIF&lt;br /&gt;Gregory Schwartzman, National Institute of Informatics&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;An Improved Distributed Algorithm for Maximal Independent Set&lt;/td&gt;
+      &lt;td&gt;Mohsen Ghaffari, Massachusetts Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Near-Optimal Light Spanners&lt;/td&gt;
+      &lt;td&gt;Shiri Chechik, Tel-Aviv University&lt;br /&gt;Christian Wulff-Nilsen, University of Copenhagen&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;The Parameterized Complexity of k-Biclique&lt;/td&gt;
+      &lt;td&gt;Bingkai Lin, University of Tokyo&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Polynomiality for Bin Packing with a Constant Number of Item Types&lt;/td&gt;
+      &lt;td&gt;Michel X. Goemans &amp;amp; Thomas Rothvoß, Massachusetts Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;An Almost-Linear-Time Algorithm for Approximate Max Flow in Undirected Graphs, and its Multicommodity Generalizations&lt;/td&gt;
+      &lt;td&gt;Jonathan A. Kelner, Massachusetts Institute of Technology&lt;br /&gt;Yin Tat Lee, Massachusetts Institute of Technology&lt;br /&gt;Lorenzo Orecchia, Massachusetts Institute of Technology&lt;br /&gt;Aaron Sidford, Massachusetts Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;A Simple Algorithm for the Graph Minor Decomposition - Logic meets Structural Graph Theory&lt;/td&gt;
+      &lt;td&gt;Martin Grohe, RWTH Aachen University&lt;br /&gt;Ken-ichi Kawarabayashi, National Institute of Informatics&lt;br /&gt;Bruce Reed, McGill University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;Dynamic graph connectivity in polylogarithmic worst case time&lt;/td&gt;
+      &lt;td&gt;Bruce M. Kapron, University of Victoria&lt;br /&gt;Valerie King, University of Victoria&lt;br /&gt;Ben Mountjoy, University of Victoria&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Computing all maps into a sphere&lt;/td&gt;
+      &lt;td&gt;Martin Čadek, Masaryk University&amp;lt;brMarek Krčál, Charles University&lt;br /&gt;Jiří Matoušel, Charles University&lt;br /&gt;Francis Sergeraert, Université Joseph Fourier&lt;br /&gt;Lukáš Vokřínel, Masaryk University&lt;br /&gt;Uli Wagner, ETH Zurich&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;An Almost Optimal Unrestricted Fast Johnson-Lindenstrauss Transform&lt;/td&gt;
+      &lt;td&gt;Nir Ailon, Technion&lt;br /&gt;Edo Liberty, Yahoo! Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;An O(log n/log log n)-approximation Algorithm for the Asymmetric Traveling Salesman Problem&lt;/td&gt;
+      &lt;td&gt;Arash Asadpour, Stanford University&lt;br /&gt;Michel X. Goemans, Massachusetts Institute of Technology&lt;br /&gt;Aleksander Mądry, Massachusetts Institute of Technology&lt;br /&gt;Shayan Oveis Gharan, Stanford University&lt;br /&gt;Amin Saberi, Stanford University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;Natural Algorithms&lt;/td&gt;
+      &lt;td&gt;Bernard Chazelle, Princeton University&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Fri, 04 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/04/best-paper-awards-SODA/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/04/best-paper-awards-SODA/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>Theory</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Best Paper Awards (1996-2018)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;SuRF:Practical Range Query Filtering with Fast Succinct Tries&lt;/td&gt;
+      &lt;td&gt;Huanchen Zhang, Carnegie Mellon University&lt;br /&gt;Hyeontaek Lim, Carnegie Mellon University&lt;br /&gt;Viktor Leis, TU München&lt;br /&gt;David G. Andersen, Carnegie Mellon University&lt;br /&gt;Michael Kaminsky, Intel Labs&lt;br /&gt;Kimberly Keeton, Hewlett Packard Enterprise&lt;br /&gt;Andrew Pavlo, Carnegie Mellon University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Parallelizing Sequential Graph Computations&lt;/td&gt;
+      &lt;td&gt;Wenfei Fan, University of Edinburgh&lt;br /&gt;Jingbo Xu, University of Edinburgh&lt;br /&gt;Yinghui Wu, Washington State University&lt;br /&gt;Wenyuan Yu, Beihang University&lt;br /&gt;Jiaxin Jiang, Hong Kong Baptist University&lt;br /&gt;Zeyu Zheng, Peking University&lt;br /&gt;Bohan Zhang, Peking University&lt;br /&gt;Yang Cao, University of Edinburgh&lt;br /&gt;Chao Tian, University of Edinburgh&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Wander Join: Online Aggregation via Random Walks&lt;/td&gt;
+      &lt;td&gt;Feifei Li, University of Utah&lt;br /&gt;Bin Wu, Hong Kong University of Science and Technology&lt;br /&gt;Ke Yi, Hong Kong University of Science and Technology&lt;br /&gt;Zhuoyue Zhao, Shanghai Jiao Tong University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;DBSCAN Revisited: Mis-Claim, Un-Fixability, and Approximation&lt;/td&gt;
+      &lt;td&gt;Junhao Gan &amp;amp; Yufei Tao, Chinese University of Hong Kong&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Materialization Optimizations for Feature Selection Workloads&lt;/td&gt;
+      &lt;td&gt;Ce Zhang, Stanford University&lt;br /&gt;Arun Kumar, University of Wisconsin&lt;br /&gt;Christopher Ré, Stanford University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;Massive Graph Triangulation&lt;/td&gt;
+      &lt;td&gt;Xiaocheng Hu, The Chinese University of Hong Kong&lt;br /&gt;Yufei Tao, The Chinese University of Hong Kong&lt;br /&gt;Chin-Wan Chung, KAIST&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;High-Performance Complex Event Processing over XML Streams&lt;/td&gt;
+      &lt;td&gt;Barzan Mozafari, Massachusetts Institute of Technology&lt;br /&gt;Kai Zeng, University of California Los Angeles&lt;br /&gt;Carlo Zaniolo, University of California Los Angeles&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;Entangled Queries: Enabling Declarative Data-Driven Coordination&lt;/td&gt;
+      &lt;td&gt;Nitin Gupta, Cornell University&lt;br /&gt;Lucja Kot, Cornell University&lt;br /&gt;Sudip Roy, Cornell University&lt;br /&gt;Gabriel Bender, Cornell University&lt;br /&gt;Johannes Gehrke, Cornell University&lt;br /&gt;Christoph Koch, École Polytechnique Fédérale de Lausanne&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;FAST: fast architecture sensitive tree search on modern CPUs and GPUs&lt;/td&gt;
+      &lt;td&gt;Changkyu Kim, Intel&lt;br /&gt;Jatin Chhugani, Intel&lt;br /&gt;Nadathur Satish, Intel&lt;br /&gt;Eric Sedlar, Oracle&lt;br /&gt;Anthony D. Nguyen, Intel&lt;br /&gt;Tim Kaldewey, Oracle&lt;br /&gt;Victor W. Lee, Intel&lt;br /&gt;Scott A. Brandt, University of California Santa Cruz&lt;br /&gt;Pradeep Dubey, Intel&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;Generating example data for dataflow programs&lt;/td&gt;
+      &lt;td&gt;Christopher Olston, Yahoo! Research&lt;br /&gt;Shubham Chopra, Yahoo! Research&lt;br /&gt;Utkarsh Srivastava, Yahoo! Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;Serializable isolation for snapshot databases&lt;/td&gt;
+      &lt;td&gt;Michael J. Cahill, University of Sydney&lt;br /&gt;Uwe Röhm, University of Sydney&lt;br /&gt;Alan D. Fekete, University of Sydney&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;Scalable Network Distance Browsing in Spatial Databases&lt;/td&gt;
+      &lt;td&gt;Hanan Samet, University of Maryland&lt;br /&gt;Jagan Sankaranarayanan, University of Maryland&lt;br /&gt;Houman Alborzi, University of Maryland&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;Compiling mappings to bridge applications and databases&lt;/td&gt;
+      &lt;td&gt;Sergey Melnik, Microsoft Research&lt;br /&gt;Atul Adya, Microsoft&lt;br /&gt;Philip A. Bernstein, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;Scalable Approximate Query Processing with the DBO Engine&lt;/td&gt;
+      &lt;td&gt;Christopher Jermaine, University of Florida&lt;br /&gt;Subramanian Arumugam, University of Florida&lt;br /&gt;Abhijit Pol, University of Florida&lt;br /&gt;Alin Dobra, University of Florida&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2006&lt;/td&gt;
+      &lt;td&gt;To search or to crawl?: towards a query optimizer for text-centric tasks&lt;/td&gt;
+      &lt;td&gt;Panagiotis G. Ipeirotis, New York University&lt;br /&gt;Eugene Agichtein, Microsoft Research&lt;br /&gt;Pranay Jain, Columbia University&lt;br /&gt;Luis Gravano, Columbia University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;Indexing spatio-temporal trajectories with Chebyshev polynomials&lt;/td&gt;
+      &lt;td&gt;Yuhan Cai &amp;amp; Raymond T. Ng, University of British Columbia&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2003&lt;/td&gt;
+      &lt;td&gt;Spreadsheets in RDBMS for OLAP&lt;/td&gt;
+      &lt;td&gt;Andrew Witkowski, Oracle&lt;br /&gt;Srikanth Bellakonda, Oracle&lt;br /&gt;Tolga Bozkaya, Oracle&lt;br /&gt;Gregory Dorman, Oracle&lt;br /&gt;Nathan Folkert, Oracle&lt;br /&gt;Abhinav Gupta, Oracle&lt;br /&gt;Lei Shen, Oracle&lt;br /&gt;Sankar Subramanian, Oracle&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2001&lt;/td&gt;
+      &lt;td&gt;Locally adaptive dimensionality reduction for indexing large time series databases&lt;/td&gt;
+      &lt;td&gt;Eamonn Keogh, University of California Irvine&lt;br /&gt;Kaushik Chakrabarti, University of California Irvine&lt;br /&gt;Michael Pazzani, University of California Irvine&lt;br /&gt;Sharad Mehrotra, University of California Irvine&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2000&lt;/td&gt;
+      &lt;td&gt;XMill: an efficient compressor for XML data	Hartmut Liefke, University of Pennsylvania&lt;br /&gt;Dan Suciu, AT&amp;amp;T Laboratories&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1999&lt;/td&gt;
+      &lt;td&gt;DynaMat: a dynamic view management system for data warehouses&lt;/td&gt;
+      &lt;td&gt;Yannis Kotidis &amp;amp; Nick Roussopoulos, University of Maryland&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1998&lt;/td&gt;
+      &lt;td&gt;Efficient transparent application recovery in client-server information systems&lt;/td&gt;
+      &lt;td&gt;David Lomet &amp;amp; Gerhard Weikum, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1998&lt;/td&gt;
+      &lt;td&gt;Integrating association rule mining with relational database systems: alternatives and implications&lt;/td&gt;
+      &lt;td&gt;Sunita Sarawagi, IBM Research&lt;br /&gt;Shiby Thomas, University of Florida&lt;br /&gt;Rakesh Agrawal, IBM Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1997&lt;/td&gt;
+      &lt;td&gt;Fast parallel similarity search in multimedia databases&lt;/td&gt;
+      &lt;td&gt;Stefan Berchtold, University of Munich&lt;br /&gt;Christian Böml, University of Munich&lt;br /&gt;Bernhard Braunmüller, University of Munich&lt;br /&gt;Daniel A. Keim, University of Munich&lt;br /&gt;Hans-Peter Kriegel, University of Munich&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1996&lt;/td&gt;
+      &lt;td&gt;Implementing data cubes efficiently&lt;/td&gt;
+      &lt;td&gt;Venky Harinarayan, Stanford University&lt;br /&gt;Anand Rajaraman, Stanford University&lt;br /&gt;Jeffrey D. Ullman, Stanford University&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Fri, 04 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/04/best-paper-awards-SIGMOD/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/04/best-paper-awards-SIGMOD/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>Databases</category>
+        
+        
+      </item>
     
       <item>
         <title>Best Paper Awards (2003-2018)</title>
@@ -1504,332 +1775,6 @@ table th:nth-of-type(2) {
         <category>Best Paper</category>
         
         <category>Software Engineering</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Best Paper Awards (2000-2018)</title>
-        <description>&lt;style&gt;
-.table {
-	font-size:12px;
-}
-table td {
-	vertical-align: middle;
-}
-table th:nth-of-type(2) {
-    width: 240px;
-}
-
-&lt;/style&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-      &lt;th&gt;Title&lt;/th&gt;
-      &lt;th&gt;Authors&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Classical Verification of Quantum Computation&lt;/td&gt;
-      &lt;td&gt;Urmila Mahadev, University of California Berkeley&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Approximating Edit Distance Within Constant Factor in Truly Sub-Quadratic Time	Diptarka&lt;/td&gt;
-      &lt;td&gt;Chakraborty, Computer Science Institute of Charles University&lt;br /&gt;Debarati Das, Computer Science Institute of Charles University&lt;br /&gt;Elazar Goldenberg, The Academic College Of Tel Aviv-Yaffo&lt;br /&gt;Michal Koucký, Computer Science Institute of Charles University&lt;br /&gt;Michael Saks, Rutgers University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Pseudorandom Sets in Grassmann Graph have Near-Perfect Expansion&lt;/td&gt;
-      &lt;td&gt;Subhash Khot, New York University&lt;br /&gt;Dor Minzer, Tel-Aviv University&lt;br /&gt;Muli Safra, Tel-Aviv University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;A dichotomy theorem for nonuniform CSPs&lt;/td&gt;
-      &lt;td&gt;Andrei A. Bulatov, Simon Fraser University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;The Matching Problem in General Graphs is in Quasi-NC&lt;/td&gt;
-      &lt;td&gt;Ola Svensson &amp;amp; Jakub Tarnawski, École polytechnique fédérale de Lausanne&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;The Proof of CSP Dichotomy Conjecture&lt;/td&gt;
-      &lt;td&gt;Dmitriy Zhuk, Lomonosov Moscow State University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Settling the Complexity of Computing Approximate Two-Player Nash Equilibria&lt;/td&gt;
-      &lt;td&gt;Aviad Rubinstein, University of California Berkeley&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Fast Learning Requires Good Memory: A Time-Space Lower Bound for Parity Learning&lt;/td&gt;
-      &lt;td&gt;Ran Raz, Weizmann Institute of Science&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;An average-case depth hierarchy theorem for Boolean circuits&lt;/td&gt;
-      &lt;td&gt;Benjamin Rossman, National Institute of Informatics&lt;br /&gt;Rocco A. Servedio, Columbia University&lt;br /&gt;Li-Yang Tan, University of California Berkeley&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;Path Finding Methods for Linear Programming: Solving Linear Programs in O(sqrt(rank)) Iterations and Faster Algorithms for Maximum Flow&lt;/td&gt;
-      &lt;td&gt;Yin Tat Lee &amp;amp; Aaron Sidford, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;Navigating Central Path with Electrical Flows: from Flows to Matchings, and Back&lt;/td&gt;
-      &lt;td&gt;Aleksander Mądry, École Polytechnique Fédérale de Lausanne&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;A multi-prover interactive proof for NEXP sound against entangled provers&lt;/td&gt;
-      &lt;td&gt;Tsuyoshi Ito, NEC Labs America&lt;br /&gt;Thomas Vidick, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;A Polylogarithimic Approximation Algorithm for Edge-Disjoint Paths with Congestion 2&lt;/td&gt;
-      &lt;td&gt;Julia Chuzhoy, Toyota Technological Institute at Chicago&lt;br /&gt;Shi Li, Princeton University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;A Randomized Rounding Approach to the Traveling Salesman Problem&lt;/td&gt;
-      &lt;td&gt;Shayan Oveis Gharan, Stanford University&lt;br /&gt;Amin Saberi, Stanford University&lt;br /&gt;Mohit Singh, McGill University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;A Polylogarithmic-Competitive Algorithm for the k-Server Problem&lt;/td&gt;
-      &lt;td&gt;Nikhil Bansal, IBM Research&lt;br /&gt;Niv Buchbinder, Open University&lt;br /&gt;Aleksander Mądry, Massachusetts Institute of Technology&lt;br /&gt;Joseph Naor, Technion&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;Approximating Graphic TSP by Matchings&lt;/td&gt;
-      &lt;td&gt;Tobia M¨o;mke &amp;amp; Ola Svensson, Royal Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;Approximation Algorithms for the Edge-Disjoint Paths Problem via Raecke Decompositions&lt;/td&gt;
-      &lt;td&gt;Matthew Andrews, Bell Labs&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;Subexponential Algorithms for Unique Games and Related Problems&lt;/td&gt;
-      &lt;td&gt;Sanjeev Arora, Princeton University&lt;br /&gt;Boaz Barak, Princeton University&lt;br /&gt;David Steurer, Princeton University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;Computational Transition at the Uniqueness Threshold&lt;/td&gt;
-      &lt;td&gt;Allan Sly, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;Two Query PCP with Sub-Constant Error&lt;/td&gt;
-      &lt;td&gt;Dana Moshkovitz &amp;amp; Ran Raz, Weizmann Institute of Science&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;Space-Efficient Identity Based Encryption Without Pairings&lt;/td&gt;
-      &lt;td&gt;Dan Boneh, Stanford University&lt;br /&gt;Craig Gentry, Stanford University&lt;br /&gt;Michael Hamburg, Stanford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2006&lt;/td&gt;
-      &lt;td&gt;Settling the Complexity of 2-Player Nash Equilibrium&lt;/td&gt;
-      &lt;td&gt;Xi Chen, Tsinghua University&lt;br /&gt;Xiaotie Deng, City University of Hong Kong&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;The Unique Games Conjecture, Integrality Gap for Cut Problems and Embeddability of Negative Type Metrics into L1&lt;/td&gt;
-      &lt;td&gt;Subhash A. Khot, Georgia Institute of Technology&lt;br /&gt;Nisheeth K. Vishnoi, IBM Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;Correcting Errors Beyond the Guruswami-Sudan Radius in Polynomial Time&lt;/td&gt;
-      &lt;td&gt;Farzad Parvaresh &amp;amp; Alexander Vardy, University of California San Diego&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2004&lt;/td&gt;
-      &lt;td&gt;Cryptography in NC0&lt;/td&gt;
-      &lt;td&gt;Benny Applebaum, Technion&lt;br /&gt;Yuval Ishai, Technion&lt;br /&gt;Eyal Kushilevitz, Technion&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2004&lt;/td&gt;
-      &lt;td&gt;Hardness of Approximating the Shortest Vector Problem in Lattices&lt;/td&gt;
-      &lt;td&gt;Subhash Khot, Georgia Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2003&lt;/td&gt;
-      &lt;td&gt;On the Impossibility of Dimension Reduction in L1&lt;/td&gt;
-      &lt;td&gt;Bo Brinkman &amp;amp; Moses Charikar, Princeton University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2002&lt;/td&gt;
-      &lt;td&gt;A Dichotomy Theorem for Constraints on a Three-Element Set&lt;/td&gt;
-      &lt;td&gt;Andrei A. Bulatov, University of Oxford&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2002&lt;/td&gt;
-      &lt;td&gt;Minimizing Congestion in General Networks&lt;/td&gt;
-      &lt;td&gt;Harald Räcke, Paderborn University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2002&lt;/td&gt;
-      &lt;td&gt;Constant-Round Coin-Tossing with a Man in the Middle or Realizing the Shared Random String Model&lt;/td&gt;
-      &lt;td&gt;Boaz Barak, Weizmann Institute of Science&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Mon, 31 Dec 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2018/12/31/best-paper-awards-FOCS/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/12/31/best-paper-awards-FOCS/</guid>
-        
-        <category>Best Paper</category>
-        
-        <category>Theory</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Best Paper Awards (2000-2018)</title>
-        <description>&lt;style&gt;
-.table {
-	font-size:12px;
-}
-table td {
-	vertical-align: middle;
-}
-table th:nth-of-type(2) {
-    width: 240px;
-}
-
-&lt;/style&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-      &lt;th&gt;Title&lt;/th&gt;
-      &lt;th&gt;Authors&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Taskonomy: Disentangling Task Transfer Learning&lt;/td&gt;
-      &lt;td&gt;Amir R. Zamir, Stanford University&lt;br /&gt;Alexander Sax, Stanford University&lt;br /&gt;William Shen, Stanford University&lt;br /&gt;Leonidas Guibas, Stanford University&lt;br /&gt;Jitendra Malik, University of California Berkeley&lt;br /&gt;Silvio Savarese, Stanford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;Densely Connected Convolutional Networks&lt;/td&gt;
-      &lt;td&gt;Zhuang Liu, Tsinghua University&lt;br /&gt;Gao Huang, Cornell University&lt;br /&gt;Laurens van der Maaten, Facebook AI Research&lt;br /&gt;Kilian Q. Weinberger, Cornell University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;Learning from Simulated and Unsupervised Images through Adversarial Training&lt;/td&gt;
-      &lt;td&gt;Ashish Shrivastava, Apple Inc.&lt;br /&gt;Tomas Pfister, Apple Inc.&lt;br /&gt;Oncel Tuzel, Apple Inc.&lt;br /&gt;Josh Susskind, Apple Inc.&lt;br /&gt;Wenda Wang, Apple Inc.&lt;br /&gt;Russ Webb, Apple Inc.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Deep Residual Learning for Image Recognition&lt;/td&gt;
-      &lt;td&gt;Kaiming He, Microsoft Research&lt;br /&gt;Xiangyu Zhang, Microsoft Research&lt;br /&gt;Shaoqing Ren, Microsoft Research&lt;br /&gt;Jian Sun, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;DynamicFusion: Reconstruction and Tracking of Non-rigid Scenes in Real-Time&lt;/td&gt;
-      &lt;td&gt;Richard A. Newcombe, University of Washington&lt;br /&gt;Dieter Fox, University of Washington&lt;br /&gt;Steven M. Seitz, University of Washington&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;What Camera Motion Reveals About Shape with Unknown BRDF&lt;/td&gt;
-      &lt;td&gt;Manmohan Chandraker, NEC Labs America&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;Fast, Accurate Detection of 100,000 Object Classes on a Single Machine&lt;/td&gt;
-      &lt;td&gt;Thomas Dean, Google&lt;br /&gt;Mark A. Ruzon, Google&lt;br /&gt;Mark Segal, Google&lt;br /&gt;Jonathon Shlens, Google&lt;br /&gt;Sudheendra Vijayanarasimhan, Google&lt;br /&gt;Jay Yagnik, Google&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;A Simple Prior-free Method for Non-Rigid Structure-from-Motion Factorization&lt;/td&gt;
-      &lt;td&gt;Yuchao Dai, Northwestern Polytechnical University&lt;br /&gt;Hongdong Li, Australian National University&lt;br /&gt;Mingyi He, Northwestern Polytechnical University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;Real-time Human Pose Recognition in Parts from Single Depth Images&lt;/td&gt;
-      &lt;td&gt;Jamie Shotton, Microsoft Research&lt;br /&gt;Andrew Fitzgibbon, Microsoft Research&lt;br /&gt;Mat Cook, Microsoft Research&lt;br /&gt;Toby Sharp, Microsoft Research&lt;br /&gt;Mark Finocchio, Microsoft Research&lt;br /&gt;Richard Moore, Microsoft Research&lt;br /&gt;Alex Kipman, Microsoft Research&lt;br /&gt;Andrew Blake, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;Efficient Computation of Robust Low-Rank Matrix Approximations in the Presence of Missing Data using the L1 Norm&lt;/td&gt;
-      &lt;td&gt;Anders Eriksson &amp;amp; Anton va den Hendel, University of Adelaide&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;Single Image Haze Removal Using Dark Channel Prior&lt;/td&gt;
-      &lt;td&gt;Kaiming He, The Chinese University of Hong Kong&lt;br /&gt;Jian Sun, Microsoft Research&lt;br /&gt;Xiaoou Tang, The Chinese University of Hong Kong&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;Global Stereo Reconstruction under Second Order Smoothness Priors&lt;/td&gt;
-      &lt;td&gt;Oliver Woodford, University of Oxford&lt;br /&gt;Ian Reid, Oxford Brookes University&lt;br /&gt;Philip Torr, University of Oxford&lt;br /&gt;Andrew Fitzgibbon, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;Beyond Sliding Windows: Object Localization by Efficient Subwindow Search&lt;/td&gt;
-      &lt;td&gt;Chistoph H. Lampert, Max Planck Institut&lt;br /&gt;Matthew B. Blaschko, Max Planck Institut&lt;br /&gt;Thomas Hodmann, Google&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;Dynamic 3D Scene Analysis from a Moving Vehicle&lt;/td&gt;
-      &lt;td&gt;Bastian Leibe, ETH Zurich&lt;br /&gt;Nico Cornelis, Katholieke Universiteit Leuven&lt;br /&gt;Kurt COrnelis, Katholieke Universiteit Leuven&lt;br /&gt;Luc Van Gool, ETH Zurich&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2006&lt;/td&gt;
-      &lt;td&gt;Putting Objects in Perspective&lt;/td&gt;
-      &lt;td&gt;Derek Hoiem, Carnegie Mellon University&lt;br /&gt;Alexei Efros, Carnegie Mellon University&lt;br /&gt;Martial Hebert, Carnegie Mellon University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;Real-Time Non-Rigid Surface Detection&lt;/td&gt;
-      &lt;td&gt;Julien Pilet, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Vincent Lepetit, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Pascal Fua, École Polytechnique Fédérale de Lausanne&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2004&lt;/td&gt;
-      &lt;td&gt;Programmable Imaging using a Digital Micromirror Array&lt;/td&gt;
-      &lt;td&gt;Shree K. Nayar, Columbia University&lt;br /&gt;Vlad Branzoi, Columbia University&lt;br /&gt;Terry E. Boult, University of Colorado&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2003&lt;/td&gt;
-      &lt;td&gt;Object Class Recognition by Unsupervised Scale-Invariant Learning&lt;/td&gt;
-      &lt;td&gt;Rob Fergus, University of Oxford&lt;br /&gt;Pietro Perona, California Institute of Technology&lt;br /&gt;Andrew Zisserman, University of Oxford&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2001&lt;/td&gt;
-      &lt;td&gt;Morphable 3D models from video&lt;/td&gt;
-      &lt;td&gt;Matthew Brand, Mitsubishi Electric Research Laboratories&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2000&lt;/td&gt;
-      &lt;td&gt;Real-Time Tracking of Non-Rigid Objects using Mean Shift&lt;/td&gt;
-      &lt;td&gt;Dorin Comaniciu, Siemens Corporate Research&lt;br /&gt;Visvanathan Ramesh, Siemens Corporate Research&lt;br /&gt;Peter Meer, Rutgers University&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Mon, 31 Dec 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2018/12/31/best-paper-awards-CVPR/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/12/31/best-paper-awards-CVPR/</guid>
-        
-        <category>Best Paper</category>
-        
-        <category>Computer Vision</category>
         
         
       </item>
