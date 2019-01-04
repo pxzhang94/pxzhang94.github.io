@@ -43,7 +43,7 @@ table th:nth-of-type(2) {
 | 2004 | Indexing spatio-temporal trajectories with Chebyshev polynomials | Yuhan Cai & Raymond T. Ng, University of British Columbia |
 | 2003 | Spreadsheets in RDBMS for OLAP | Andrew Witkowski, Oracle<br>Srikanth Bellakonda, Oracle<br>Tolga Bozkaya, Oracle<br>Gregory Dorman, Oracle<br>Nathan Folkert, Oracle<br>Abhinav Gupta, Oracle<br>Lei Shen, Oracle<br>Sankar Subramanian, Oracle |
 | 2001 | Locally adaptive dimensionality reduction for indexing large time series databases | Eamonn Keogh, University of California Irvine<br>Kaushik Chakrabarti, University of California Irvine<br>Michael Pazzani, University of California Irvine<br>Sharad Mehrotra, University of California Irvine |
-| 2000 | XMill: an efficient compressor for XML data	Hartmut Liefke, University of Pennsylvania<br>Dan Suciu, AT&T Laboratories |
+| 2000 | XMill: an efficient compressor for XML data | Hartmut Liefke, University of Pennsylvania<br>Dan Suciu, AT&T Laboratories |
 | 1999 | DynaMat: a dynamic view management system for data warehouses | Yannis Kotidis & Nick Roussopoulos, University of Maryland |
 | 1998 | Efficient transparent application recovery in client-server information systems | David Lomet & Gerhard Weikum, Microsoft Research |
 | 1998 | Integrating association rule mining with relational database systems: alternatives and implications | Sunita Sarawagi, IBM Research<br>Shiby Thomas, University of Florida<br>Rakesh Agrawal, IBM Research |
