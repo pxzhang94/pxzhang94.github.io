@@ -5,9 +5,388 @@
     <description>这里是 @PXZHANG张培歆 的个人网站</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 04 Jan 2019 22:11:33 +0800</pubDate>
-    <lastBuildDate>Fri, 04 Jan 2019 22:11:33 +0800</lastBuildDate>
+    <pubDate>Tue, 08 Jan 2019 13:11:33 +0800</pubDate>
+    <lastBuildDate>Tue, 08 Jan 2019 13:11:33 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Best Paper Awards (2008-2018)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Inferring Persistent Interdomain Congestion&lt;/td&gt;
+      &lt;td&gt;Saksham Agarwal, Cornell University&lt;br /&gt;Shijin Rajakrishnan, Cornell University&lt;br /&gt;Akshay Narayan, Massachusetts Institute of Technology&lt;br /&gt;Rachit Agarwal, Cornell University&lt;br /&gt;David Shmoys, Cornell University&lt;br /&gt;Amin Vahdat, Google&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Re-architecting datacenter networks and stacks for low latency and high performance&lt;/td&gt;
+      &lt;td&gt;Mark Handley, University College London&lt;br /&gt;Costin Raiciu, University Politehnica of Bucharest&lt;br /&gt;Alexandru Agache, University Politehnica of Bucharest&lt;br /&gt;Andrei Voinescu, University Politehnica of Bucharest&lt;br /&gt;Andrew Moore, University of Cambridge&lt;br /&gt;Gianni Antichi, University of Cambridge&lt;br /&gt;Marcin Wójcik, University of Cambridge&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Language-directed hardware design for network performance monitoring&lt;/td&gt;
+      &lt;td&gt;Srinivas Narayana, Massachusetts Institute of Technology&lt;br /&gt;Anirudh Sivaraman, Massachusetts Institute of Technology&lt;br /&gt;Vikram Nathan, Massachusetts Institute of Technology&lt;br /&gt;Prateesh Goyal, Massachusetts Institute of Technology&lt;br /&gt;Venkat Arun, IIT Guwahati&lt;br /&gt;Mohammad Alizadeh, Massachusetts Institute of Technology&lt;br /&gt;Vimalkumar Jeyakumar, Cisco Systems&lt;br /&gt;Changhoon Kim, Barefoot Networks&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Eliminating Channel Feedback in Next-Generation Cellular Networks&lt;/td&gt;
+      &lt;td&gt;Deepak Vasisht, Massachusetts Institute of Technology&lt;br /&gt;Swarun Kumar, Carnegie Mellon University&lt;br /&gt;Hariharan Rahul, Massachusetts Institute of Technology&lt;br /&gt;Dina Katabi, Massachusetts Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Inter-Technology Backscatter: Towards Internet Connectivity for Implanted Devices&lt;/td&gt;
+      &lt;td&gt;Vikram Iyer, University of Washington&lt;br /&gt;Vamsi Talla, University of Washington&lt;br /&gt;Bryce Kellogg, University of Washington&lt;br /&gt;Shyamnath Gollakota, University of Washington&lt;br /&gt;Joshua Smith, University of Washington&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Don’t Mind the Gap: Bridging Network-wide Objectives and Device-level Configurations&lt;/td&gt;
+      &lt;td&gt;Ryan Beckett, Princeton University&lt;br /&gt;Ratul Mahajan, Microsoft&lt;br /&gt;Todd Millstein, University of California Los Angeles&lt;br /&gt;Jitendra Padhye, Microsoft&lt;br /&gt;David Walker, Princeton University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Central Control Over Distributed Routing&lt;/td&gt;
+      &lt;td&gt;Stefano Vissicchio, Université catholique de Louvain&lt;br /&gt;Olivier Tilmans, Université catholique de Louvain&lt;br /&gt;Laurent Vanbever, ETH Zurich&lt;br /&gt;Jennifer Rexford, Princeton University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Balancing Accountability and Privacy in the Network&lt;/td&gt;
+      &lt;td&gt;David Naylor, Carnegie Mellon University&lt;br /&gt;Matthew K. Mukerjee, Carnegie Mellon University&lt;br /&gt;Peter Steenkiste, Carnegie Mellon University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;CONGA: Distributed Congestion-Aware Load Balancing for Datacenters&lt;/td&gt;
+      &lt;td&gt;Mohammad Alizadeh, Cisco Systems&lt;br /&gt;Tom Edsall, Cisco Systems&lt;br /&gt;Sarang Dharmapurikar, Cisco Systems&lt;br /&gt;Ramanan Vaidyanathan, Cisco Systems&lt;br /&gt;Kevin Chu, Cisco Systems&lt;br /&gt;Andy Fingerhut, Google&lt;br /&gt;Terry Lam, Cisco Systems&lt;br /&gt;Francis Matus, Cisco Systems&lt;br /&gt;Rong Pan, Cisco Systems&lt;br /&gt;Navindra Yadav, Cisco Systems&lt;br /&gt;George Varghese, Microsoft&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;Ambient Backscatter: Wireless Communication Out of Thin Air&lt;/td&gt;
+      &lt;td&gt;Vincent Liu, University of Washington&lt;br /&gt;Aaron Parks, University of Washington&lt;br /&gt;Vamsi Talla, University of Washington&lt;br /&gt;Shyamnath Gollakota, University of Washington&lt;br /&gt;David Wetherall, University of Washington&lt;br /&gt;Joshua R. Smith, University of Washington&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Multi-Resource Fair Queueing for Packet Processing&lt;/td&gt;
+      &lt;td&gt;Ali Ghodsi, University of California Berkeley&lt;br /&gt;Vyas Sekar, Intel Research&lt;br /&gt;Matei Zaharia, University of California Berkeley&lt;br /&gt;Ion Stoica, University of California Berkeley&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;They Can Hear Your Heartbeats: Non-Invasive Security for Implanted Medical Devices&lt;/td&gt;
+      &lt;td&gt;Shyamnath Gollakota, Massachusetts Institute of Technology&lt;br /&gt;Haitham Hassanieh, Massachusetts Institute of Technology&lt;br /&gt;Benjamin Ransford, University of Massachusetts Amherst&lt;br /&gt;Dina Katabi, Massachusetts Institute of Technology&lt;br /&gt;Kevin Fu, University of Massachusetts Amherst&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;Efficient Error Estimating Coding: Feasibility and Applications&lt;/td&gt;
+      &lt;td&gt;Binbin Chen, National University of Singapore&lt;br /&gt;Ziling Chou, National University of Singapore&lt;br /&gt;Yuda Zhao, National University of Singapore&lt;br /&gt;Haifeng Yu, National University of Singapore&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;White Space Networking with Wi-Fi like Connectivity&lt;/td&gt;
+      &lt;td&gt;Paramvir Bahl, Microsoft Research&lt;br /&gt;Ranveer Chandra, Microsoft Research&lt;br /&gt;Thomas Moscibroda, Microsoft Research&lt;br /&gt;Rohan Murty, Harvard University&lt;br /&gt;Matt Welsh, Harvard University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;ZigZag Decoding: Combating Hidden Terminals in Wireless Networks&lt;/td&gt;
+      &lt;td&gt;Shyamnath Gollakota &amp;amp; Dina Katabi, Massachusetts Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Tue, 08 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/08/best-paper-awards-SIGCOMM/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/08/best-paper-awards-SIGCOMM/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>Networking</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Best Paper Awards (2008-2018)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;DEEPSEC: Deciding Equivalence Properties in Security Protocols – Theory and Practice&lt;/td&gt;
+      &lt;td&gt;Vincent Cheval, Inria&lt;br /&gt;Steve Kremer, Inria&lt;br /&gt;Itsaka Rakotonirina, Inria&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;On Enforcing the Digital Immunity of a Large Humanitarian Organization&lt;/td&gt;
+      &lt;td&gt;Stevens Le Blond, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Alejandro Cuevas, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Juan Ramón Troncoso-Pastoriza, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Philipp Jovanovic, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Bryan Ford, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Jean-Pierre Hubaux, École Polytechnique Fédérale de Lausanne&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Verified Models and Reference Implementations for the TLS 1.3 Standard Candidate&lt;/td&gt;
+      &lt;td&gt;Karthikeyan Bhargavan, INRIA&lt;br /&gt;Bruno Blanchet, INRIA&lt;br /&gt;Nadim Kobeissi, INRIA&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;A2: Analog Malicious Hardware&lt;/td&gt;
+      &lt;td&gt;Kaiyuan Yang, University of Michigan&lt;br /&gt;Matthew Hicks, University of Michigan&lt;br /&gt;Qing Dong, University of Michigan&lt;br /&gt;Todd Austin, University of Michigan&lt;br /&gt;Dennis Sylvester, University of Michigan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Riposte: An Anonymous Messaging System Handling Millions of Users&lt;/td&gt;
+      &lt;td&gt;Henry Corrigan-Gibbs, Stanford University&lt;br /&gt;Dan Boneh, Stanford University&lt;br /&gt;David Mazières, Stanford University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;A Messy State of the Union: Taming the Composite State Machines of TLS&lt;/td&gt;
+      &lt;td&gt;Benjamin Beurdouche, INRIA&lt;br /&gt;Karthikeyan Bhargavan, INRIA&lt;br /&gt;Antoine Delignat-Lavaud, INRIA&lt;br /&gt;Cédric Fournet, Microsoft Research&lt;br /&gt;Markulf Kohlweiss, Microsoft Research&lt;br /&gt;Alfredo Pironti, INRIA&lt;br /&gt;Pierre-Yves Strub, IMDEA&lt;br /&gt;Jean Karim Zinzindohoue, INRIA&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Secure Multiparty Computations on BitCoin&lt;/td&gt;
+      &lt;td&gt;Marcin Andrychowicz, University of Warsaw&lt;br /&gt;Stefan Dziembowski, University of Warsaw&lt;br /&gt;Daniel Malinowski, University of Warsaw&lt;br /&gt;Łukasz Mazurek, University of Warsaw&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Bootstrapping Privacy Compliance in Big Data Systems&lt;/td&gt;
+      &lt;td&gt;Shayak Sen, Carnegie Mellon University&lt;br /&gt;Saikat Guha, Microsoft Research&lt;br /&gt;Anupam Datta, Carnegie Mellon University&lt;br /&gt;Sriram K. Rajamani, Microsoft Research&lt;br /&gt;Janice Tsai, Microsoft Research&lt;br /&gt;Jeannette M. Wing, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;Pinocchio: Nearly Practical Verifiable Computation&lt;/td&gt;
+      &lt;td&gt;Bryan Parno, Microsoft Research&lt;br /&gt;Craig Gentry, IBM Research&lt;br /&gt;Jon Howell, Microsoft Research&lt;br /&gt;Mariana Raykova, IBM Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Don’t Trust Satellite Phones: A Security Analysis of Two Satphone Standards&lt;/td&gt;
+      &lt;td&gt;Benedikt Driessen, Ruhr-Universität Bochum&lt;br /&gt;Ralf Hund, Ruhr-Universität Bochum&lt;br /&gt;Carsten Willems, Ruhr-Universität Bochum&lt;br /&gt;Christof Paar, Ruhr-Universität Bochum&lt;br /&gt;Thorsten Holz, Ruhr-Universität Bochum&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;Phonotactic Reconstruction of Encrypted VoIP Conversations: Hookt on fon-iks&lt;/td&gt;
+      &lt;td&gt;Andrew M. White, University of North Carolina at Chapel Hill&lt;br /&gt;Austin Matthews, University of North Carolina at Chapel Hill&lt;br /&gt;Kevin Snow, University of North Carolina at Chapel Hill&lt;br /&gt;Fabian Monrose, University of North Carolina at Chapel Hill&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;SCiFI - A System for Secure Face Identification&lt;/td&gt;
+      &lt;td&gt;Margarita Osadchy, University of Haifa&lt;br /&gt;Benny Pinkas, University of Haifa&lt;br /&gt;Ayman Jarrous, University of Haifa&lt;br /&gt;Boaz Moskovich, University of Haifa&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;Native Client: A Sandbox for Portable, Untrusted x86 Native Code&lt;/td&gt;
+      &lt;td&gt;Bennet Yee, Google&lt;br /&gt;David Sehr, Google&lt;br /&gt;Gregory Dardyk, Google&lt;br /&gt;Bradley Chen, Google&lt;br /&gt;Robert Muth, Google&lt;br /&gt;Tavis Ormandy, Google&lt;br /&gt;Shiki Okasaka, Google&lt;br /&gt;Neha Narula, Google&lt;br /&gt;Nicholas Fullagar, Google&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;Pacemakers and Implantable Cardiac Defibrillators: Software Radio Attacks and Zero-Power Defenses&lt;/td&gt;
+      &lt;td&gt;Daniel Halperin, University of Washington&lt;br /&gt;Thomas S. Heydt-Benjamin, University of Massachusetts Amherst&lt;br /&gt;Benjamin Ransford, University of Massachusetts Amherst&lt;br /&gt;Shane S. Clark, University of Massachusetts Amherst&lt;br /&gt;Benessa Defend, University of Massachusetts Amherst&lt;br /&gt;Will Morgan, University of Massachusetts Amherst&lt;br /&gt;Kevin Fu, University of Massachusetts Amherst&lt;br /&gt;Tadayoshi Kohno, University of Washington&lt;br /&gt;William H. Maisel, Harvard University&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Tue, 08 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/08/best-paper-awards-S&P/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/08/best-paper-awards-S&P/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>Security and Privacy</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Best Paper Awards (1997-2018)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Entity Matching with Active Monotone Classification&lt;/td&gt;
+      &lt;td&gt;Yufei Tao, Chinese University of Hong Kong&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Dichotomies in Ontology-Mediated Querying with the Guarded Fragment&lt;/td&gt;
+      &lt;td&gt;André Hernich, University of Liverpool&lt;br /&gt;Carsten Lutz, University of Bremen&lt;br /&gt;Fabio Papacchini, University of Liverpool&lt;br /&gt;Frank Wolter, University of Liverpool&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;FAQ: Questions Asked Frequently&lt;/td&gt;
+      &lt;td&gt;Mahmoud Abo Khamis, University at Buffalo&lt;br /&gt;Hung Q. Ngo, University at Buffalo&lt;br /&gt;Atri Rudra, University at Buffalo&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Parallel-Correctness and Transferability for Conjunctive Queries&lt;/td&gt;
+      &lt;td&gt;Tom J. Ameloot, Hasselt University&lt;br /&gt;Gaetano Geck, Universität Dortmund&lt;br /&gt;Bas Ketsman, Hasselt University&lt;br /&gt;Frank Neven, Hasselt University&lt;br /&gt;Thomas Schwentick, Universität Dortmund&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Weaker Forms of Monotonicity for Declarative Networking: A More Fine-Grained Answer to the CALM-Conjecture&lt;/td&gt;
+      &lt;td&gt;Tom J. Ameloot, Hasselt University&lt;br /&gt;Bas Ketsman, Hasselt University&lt;br /&gt;Frank Neven, Hasselt University&lt;br /&gt;Daniel Zinn, LogicBlox&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;Verification of database-driven systems via amalgamation&lt;/td&gt;
+      &lt;td&gt;Mikołaj Bojańczyk, University of Warsaw&lt;br /&gt;Luc Segouﬁn, INRIA&lt;br /&gt;Szymon Toruńczyk, University of Warsaw&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Worst-case Optimal Join Algorithms&lt;/td&gt;
+      &lt;td&gt;Hung Q. Ngo, University at Buffalo&lt;br /&gt;Ely Porat, Bar-Ilan University&lt;br /&gt;Christopher Ré, University of Wisconsin&lt;br /&gt;Atri Rudra, University at Buffalo&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;Data Exchange Beyond Complete Data&lt;/td&gt;
+      &lt;td&gt;Marcelo Arenas, Pontificia Universidad Católica de Chile&lt;br /&gt;Jorge Pérez, Universidad de Chile&lt;br /&gt;Juan Reutter, University of Edinburgh&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;An Optimal Algorithm for the Distinct Elements Problem&lt;/td&gt;
+      &lt;td&gt;Daniel M. Kane, Harvard University&lt;br /&gt;Jelani Nelson, Massachusetts Institute of Technology&lt;br /&gt;David P. Woodruff, IBM Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;Size and Treewidth Bounds for Conjunctive Queries&lt;/td&gt;
+      &lt;td&gt;Georg Gottlob, University of Oxford&lt;br /&gt;Stephanie Lee, University of Oxford&lt;br /&gt;Gregory Valient, University of California Berkeley&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;Estimating PageRank on Graph Streams&lt;/td&gt;
+      &lt;td&gt;Atish Das Sarma, Georgia Institute of Technology&lt;br /&gt;Sreenivas Gollapudi, Microsoft Research&lt;br /&gt;Rina Panigrahy, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;Generalized Hypertree Decompositions: NP-Hardness and Tractable Variants&lt;/td&gt;
+      &lt;td&gt;Georg Gottlob, University of Oxford&lt;br /&gt;Zoltan Miklos, University of Oxford&lt;br /&gt;Thomas Schwentick, Universität Dortmund&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2006&lt;/td&gt;
+      &lt;td&gt;Two-variable logic on data trees and XML reasoning&lt;/td&gt;
+      &lt;td&gt;Mikolaj Bojanczyk, Warsaw University&lt;br /&gt;Claire David, Université Paris&lt;br /&gt;Anca Muscholl, Université Paris&lt;br /&gt;Thomas Schwentick, Universität Dortmund&lt;br /&gt;Luc Segoufin, Université Paris&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;On the complexity of division and set joins in the relational algebra&lt;/td&gt;
+      &lt;td&gt;Dirk Leinders &amp;amp; Jan Van den Bussche, Limburgs Universitair Centrum&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;XML data exchange: consistency and query answering&lt;/td&gt;
+      &lt;td&gt;Marcelo Arenas &amp;amp; Leonid Libkin, University of Toronto&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;Conditional XPath, the first order complete XPath dialect&lt;/td&gt;
+      &lt;td&gt;Maarten Marx, University of Amsterdam&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2003&lt;/td&gt;
+      &lt;td&gt;An Information-Theoretic Approach to Normal Forms for Relational and XML Data&lt;/td&gt;
+      &lt;td&gt;Marcelo Arenas &amp;amp; Leonid Libkin, University of Toronto&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2002&lt;/td&gt;
+      &lt;td&gt;Monadic Datalog and the Expressive Power of Languages for Web Information Extraction&lt;/td&gt;
+      &lt;td&gt;Georg Gottlob &amp;amp; Christoph Koch, Technische Universität Wien&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2001&lt;/td&gt;
+      &lt;td&gt;Optimal aggregation algorithms for middleware&lt;/td&gt;
+      &lt;td&gt;Ronald Fagin, IBM Research&lt;br /&gt;Amnon Lotem, University of Maryland&lt;br /&gt;Moni Naor, Weizmann Institute of Science&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2000&lt;/td&gt;
+      &lt;td&gt;Auditing Boolean attributes&lt;/td&gt;
+      &lt;td&gt;Jon Kleinberg, Cornell University&lt;br /&gt;Christos Papadimitriou, University of California Berkeley&lt;br /&gt;Prabhakar Raghavan, IBM Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1999&lt;/td&gt;
+      &lt;td&gt;Exact and approximate aggregation in constraint query languages&lt;/td&gt;
+      &lt;td&gt;Michael Benefikt &amp;amp; Leonid Libkin, Bell Labs&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1998&lt;/td&gt;
+      &lt;td&gt;A lower bound theorem for indexing schemes and its application to multidimensional range queries&lt;/td&gt;
+      &lt;td&gt;Vasilis Samoladas &amp;amp; Daniel P. Miranker, University of Texas at Austin&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1998&lt;/td&gt;
+      &lt;td&gt;Expressiveness of structured document query languages based on attribute grammars&lt;/td&gt;
+      &lt;td&gt;Frank Neven &amp;amp; Jan Van den Bussche, Limburgs Universitair Centrum&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1997&lt;/td&gt;
+      &lt;td&gt;On the Complexity of Database Queries&lt;/td&gt;
+      &lt;td&gt;Christos H. Papadimitriou, University of California Berkeley&lt;br /&gt;Mihalis Yannakakis, Bell Labs&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Tue, 08 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/08/best-paper-awards-PODS/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/08/best-paper-awards-PODS/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>Databases</category>
+        
+        
+      </item>
     
       <item>
         <title>Best Paper Awards (2009-2018)</title>
@@ -1086,500 +1465,6 @@ table th:nth-of-type(2) {
         <category>Best Paper</category>
         
         <category>Databases</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Best Paper Awards (1996-2018)</title>
-        <description>&lt;style&gt;
-.table {
-	font-size:12px;
-}
-table td {
-	vertical-align: middle;
-}
-table th:nth-of-type(2) {
-    width: 240px;
-}
-
-&lt;/style&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-      &lt;th&gt;Title&lt;/th&gt;
-      &lt;th&gt;Authors&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Porta: Profiling Software Tutorials Using Operating-System-Wide Activity Tracing&lt;/td&gt;
-      &lt;td&gt;Alok Mysore &amp;amp; Philip J. Guo, University of California San Diego&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Authoring and Verifying Human-Robot Interactions&lt;/td&gt;
-      &lt;td&gt;David Porfirio, University of Wisconsin-Madison&lt;br /&gt;Allison Sauppé, University of Wisconsin-La Crosse&lt;br /&gt;Aws Albarghouthi, University of Wisconsin-Madison&lt;br /&gt;Bilge Mutlu, University of Wisconsin-Madison&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;RESi: A Highly Flexible, Pressure-Sensitive, Imperceptible Textile Interface Based on Resistive Yarns&lt;/td&gt;
-      &lt;td&gt;Patrick Parzer, University of Applied Sciences Upper Austria&lt;br /&gt;Florian Perteneder, University of Applied Sciences Upper Austria&lt;br /&gt;Kathrin Probst, University of Applied Sciences Upper Austria&lt;br /&gt;Christian Rendl, University of Applied Sciences Upper Austria&lt;br /&gt;Joanne Leong, University of Applied Sciences Upper Austria&lt;br /&gt;Sarah Schuetz, University of Applied Sciences Upper Austria&lt;br /&gt;Anita Vogl, University of Applied Sciences Upper Austria&lt;br /&gt;Reinhard Schwoediauer, Johannes Kepler University&lt;br /&gt;Martin Kaltenbrunner, Johannes Kepler University&lt;br /&gt;Siegfried Bauer, Johannes Kepler University&lt;br /&gt;Michael Haller, University of Applied Sciences Upper Austria&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;Triggering Artwork Swaps for Live Animation&lt;/td&gt;
-      &lt;td&gt;Nora S. Willett, Princeton University&lt;br /&gt;Wilmot Li, Adobe Research&lt;br /&gt;Jovan Popovic, Adobe Research&lt;br /&gt;Adam Finkelstein, Princeton University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;Grabity: A Wearable Haptic Interface for Simulating Weight and Grasping in Virtual Reality&lt;/td&gt;
-      &lt;td&gt;Inrak Choi, Stanford University&lt;br /&gt;Heather Culbertson, Stanford University&lt;br /&gt;Mark R. Miller, Stanford University&lt;br /&gt;Alex Olwal, Google&lt;br /&gt;Sean Follmer, Stanford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;AirCode: Unobtrusive Physical Tags for Digital Fabrication&lt;/td&gt;
-      &lt;td&gt;Dingzeyu Li, Columbia University&lt;br /&gt;Avinash S. Nair, Columbia University&lt;br /&gt;Shree K. Nayar, Columbia University&lt;br /&gt;Changxi Zheng, Columbia University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Rovables: Miniature On-Body Robots as Mobile Wearables&lt;/td&gt;
-      &lt;td&gt;Artem Dementyev, Massachusetts Institute of Technology&lt;br /&gt;Hsin-Liu (Cindy) Kao, Massachusetts Institute of Technology&lt;br /&gt;Inrak Choi, Stanford University&lt;br /&gt;Deborah Ajilo, Massachusetts Institute of Technology&lt;br /&gt;Maggie Xu, Stanford University&lt;br /&gt;Joseph Paradiso, Massachusetts Institute of Technology&lt;br /&gt;Chris Schmandt, Massachusetts Institute of Technology&lt;br /&gt;Sean Follmer, Stanford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;proCover: Sensory Augmentation of Prosthetic Limbs Using Smart Textile Covers&lt;/td&gt;
-      &lt;td&gt;Joanne Leong, University of Applied Sciences Upper Austria&lt;br /&gt;Patrick Parzer, University of Applied Sciences Upper Austria&lt;br /&gt;Florian Perteneder, University of Applied Sciences Upper Austria&lt;br /&gt;Teo Babic, University of Applied Sciences Upper Austria&lt;br /&gt;Christian Rendl, University of Applied Sciences Upper Austria&lt;br /&gt;Anita Vogl, University of Applied Sciences Upper Austria&lt;br /&gt;Hubert Egger, University of Applied Sciences Upper Austria&lt;br /&gt;Alex Olwal, Google&lt;br /&gt;Michael Haller, University of Applied Sciences Upper Austria&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;ViBand: High-Fidelity Bio-Acoustic Sensing Using Commodity Smartwatch Accelerometers&lt;/td&gt;
-      &lt;td&gt;Gierad Laput, Carnegie Mellon University&lt;br /&gt;Robert Xiao, Carnegie Mellon University&lt;br /&gt;Chris Harrison, Carnegie Mellon University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Zooids: Building Blocks for Swarm User Interfaces&lt;/td&gt;
-      &lt;td&gt;Mathieu Le Goc, INRIA&lt;br /&gt;Lawrence H. Kim, Stanford University&lt;br /&gt;Ali Parsaei, Stanford University&lt;br /&gt;Jean-Daniel Fekete, INRIA&lt;br /&gt;Pierre Dragicevic, INRIA&lt;br /&gt;Sean Follmer, Stanford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Orbits: Gaze Interaction for Smart Watches using Smooth Pursuit Eye Movements&lt;/td&gt;
-      &lt;td&gt;Augusto Esteves, Lancaster University&lt;br /&gt;Eduardo Velloso, Lancaster University&lt;br /&gt;Andreas Bulling, Max Planck Institut&lt;br /&gt;Hans Gellersen, Lancaster University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Webstrates: Shareable Dynamic Media&lt;/td&gt;
-      &lt;td&gt;Clemens Klokmose, Aarhus University&lt;br /&gt;James Eagan, Telecom ParisTech&lt;br /&gt;Siemen Baader, Aarhus University&lt;br /&gt;Wendy Mackay, INRIA&lt;br /&gt;Michel Beaudouin-Lafon, Université Paris-Sud&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Foldio: Digital Fabrication of Interactive and Shape-Changing Objects With Foldable Printed Electronics&lt;/td&gt;
-      &lt;td&gt;Simon Olberding, Max Planck Institut&lt;br /&gt;Sergio Soto Ortega, Max Planck Institut&lt;br /&gt;Klaus Hildebrandt, Max Planck Institut&lt;br /&gt;Jurgen Steimle, Max Planck Institut&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;Sensing Techniques for Tablet+Stylus Interaction&lt;/td&gt;
-      &lt;td&gt;Ken Hinckley, Microsoft Research&lt;br /&gt;Michel Pahud, Microsoft Research&lt;br /&gt;Hrvoje Benko, Microsoft Research&lt;br /&gt;Pourang Irani, Microsoft Research&lt;br /&gt;Marcel Gavriliu, Microsoft Research&lt;br /&gt;François Guimbretière, Microsoft Research&lt;br /&gt;Xiang Anthony Chen, Microsoft Research&lt;br /&gt;Fabrice Matulic, Microsoft Research&lt;br /&gt;William Buxton, Microsoft Research&lt;br /&gt;Andrew Wilson, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;PrintScreen: Fabricating Highly Customizable Thin-film Touch-Displays&lt;/td&gt;
-      &lt;td&gt;Simon Olberding, Max Planck Institut&lt;br /&gt;Michael Wessely, Max Planck Institut&lt;br /&gt;Jürgen Steimle, Max Planck Institut&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;Expert Crowdsourcing with Flash Teams&lt;/td&gt;
-      &lt;td&gt;Daniela Retelny, Stanford University&lt;br /&gt;Sébastien Robaszkiewicz, Stanford University&lt;br /&gt;Alexandra To, Stanford University&lt;br /&gt;Walter Lasecki, University of Rochester&lt;br /&gt;Jay Patel, Stanford University&lt;br /&gt;Negar Rahmati, Stanford University&lt;br /&gt;Tulsee Doshi, Stanford University&lt;br /&gt;Melissa Valentine, Stanford University&lt;br /&gt;Michael Bernstein, Stanford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;PneUI: Pneumatically Actuated Soft Composite Materials for Shape Changing Interfaces&lt;/td&gt;
-      &lt;td&gt;Lining Yao, Massachusetts Institute of Technology&lt;br /&gt;Ryuma Niiyama, Massachusetts Institute of Technology&lt;br /&gt;Jifei Ou, Massachusetts Institute of Technology&lt;br /&gt;Sean Follmer, Massachusetts Institute of Technology&lt;br /&gt;Clark Della Silva, Massachusetts Institute of Technology&lt;br /&gt;Hiroshi Ishii, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;Touch &amp;amp; Activate: Adding Interactivity to Existing Objects using Active Acoustic Sensing&lt;/td&gt;
-      &lt;td&gt;Makoto Ono, University of Tsukuba&lt;br /&gt;Buntarou Shizuki, University of Tsukuba&lt;br /&gt;Jiro Tanaka, University of Tsukuba&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;Fiberio: A Touchscreen that Senses Fingerprints&lt;/td&gt;
-      &lt;td&gt;Christian Holz &amp;amp; Patrick Baudisch, Hasso Plattner Institute&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;CrowdScape: interactively visualizing user behavior and output&lt;/td&gt;
-      &lt;td&gt;Jeffrey Rzeszotarski &amp;amp; Aniket Kitur, Carnegie Mellon University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;Cliplets: juxtaposing still and dynamic imagery&lt;/td&gt;
-      &lt;td&gt;Neel Joshi, Microsoft Research&lt;br /&gt;Sisil Mehta, Georgia Institute of Technology&lt;br /&gt;Steven Drucker, Microsoft Research&lt;br /&gt;Eric Stollnitz, Microsoft Research&lt;br /&gt;Hugues Hoppe, Microsoft Research&lt;br /&gt;Matt Uyttendaele, Microsoft&lt;br /&gt;Michael Cohen, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;Jamming User Interfaces: Programmable Particle Stiffness and Sensing for Malleable and Shape-Changing Devices&lt;/td&gt;
-      &lt;td&gt;Sean Follmer, Massachusetts Institute of Technology&lt;br /&gt;Daniel Leithinger, Massachusetts Institute of Technology&lt;br /&gt;Alex Olwal, Massachusetts Institute of Technology&lt;br /&gt;Nadia Cheng, Massachusetts Institute of Technology&lt;br /&gt;Hiroshi Ishii, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;SideBySide: Ad-hoc Multi-user Interaction with Handheld Projectors&lt;/td&gt;
-      &lt;td&gt;Karl D.D. Willis, Carnegie Mellon University&lt;br /&gt;Ivan Poupyrev, Disney Research&lt;br /&gt;Scott E. Hudson, Carnegie Mellon University&lt;br /&gt;Moshe Mahler, Disney Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;VizWiz: nearly real-time answers to visual questions&lt;/td&gt;
-      &lt;td&gt;Jeffrey P. Bigham, University of Rochester&lt;br /&gt;Chandrika Jayant, University of Washington&lt;br /&gt;Hanjie Ji, University of Rochester&lt;br /&gt;Greg Little, Massachusetts Institute of Technology&lt;br /&gt;Andrew Miller, University of Central Florida&lt;br /&gt;Robert C. Miller, Massachusetts Institute of Technology&lt;br /&gt;Robin Miller, University of Rochester&lt;br /&gt;Aubrey Tatarowicz, Massachusetts Institute of Technology&lt;br /&gt;Brandyn White, University of Maryland&lt;br /&gt;Samual White, University of Rochester&lt;br /&gt;Tom Yeh, University of Maryland&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;Mouse 2.0: Multi-touch meets the Mouse&lt;/td&gt;
-      &lt;td&gt;Nicolas Villar, Microsoft Research&lt;br /&gt;Shahram Izadi, Microsoft Research&lt;br /&gt;Dan Rosenfeld, Microsoft&lt;br /&gt;Hrvoje Benko, Microsoft Research&lt;br /&gt;John Helmes, Microsoft Research&lt;br /&gt;Jonathan Westhues, Microsoft Research&lt;br /&gt;Steve Hodges, Microsoft Research&lt;br /&gt;Eyal Ofek, Microsoft&lt;br /&gt;Alex Butler, Microsoft Research&lt;br /&gt;Xiang Cao, Microsoft Research&lt;br /&gt;Billy Chen, Microsoft&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;Bringing Physics to the Surface&lt;/td&gt;
-      &lt;td&gt;Andrew D. Wilson, Microsoft Research&lt;br /&gt;Shahram Izadi, Microsoft Research&lt;br /&gt;Otmar Hilliges, Microsoft Research&lt;br /&gt;Armando Garcia-Mendoza, Microsoft Research&lt;br /&gt;David Kirk, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;ThinSight: Versatile Multi-touch Sensing for Thin Form-factor Displays&lt;/td&gt;
-      &lt;td&gt;Steve Hodges, Microsoft Research&lt;br /&gt;Shahram Izadi, Microsoft Research&lt;br /&gt;Alex Butler, Microsoft Research&lt;br /&gt;Alban Rrustemi, Microsoft Research&lt;br /&gt;Bill Buxton, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2006&lt;/td&gt;
-      &lt;td&gt;Reflective Physical Prototyping through Integrated Design, Test, and Analysis&lt;/td&gt;
-      &lt;td&gt;Björn Hartmann, Stanford University&lt;br /&gt;Scott Klemmer, Stanford University&lt;br /&gt;Michael Bernstein, Stanford University&lt;br /&gt;Leith Abdulla, Stanford University&lt;br /&gt;Brandon Burr, Stanford University&lt;br /&gt;Avi Robinson-Mosher, Stanford University&lt;br /&gt;Jennifer Gee, Stanford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;Automation and Customization of Rendered Web Pages&lt;/td&gt;
-      &lt;td&gt;Michael Bolin, Massachusetts Institute of Technology&lt;br /&gt;Matthew Webber, Massachusetts Institute of Technology&lt;br /&gt;Philip Rha, Massachusetts Institute of Technology&lt;br /&gt;Tom Wilson, Massachusetts Institute of Technology&lt;br /&gt;Robert C. Miller, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2004&lt;/td&gt;
-      &lt;td&gt;Multi-Finger Gestural Interaction with 3D Volumetric Displays&lt;/td&gt;
-      &lt;td&gt;Tovi Grossman, University of Toronto&lt;br /&gt;Daniel Wigdor, University of Toronto&lt;br /&gt;Ravin Balakrishnan, University of Toronto&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2004&lt;/td&gt;
-      &lt;td&gt;CrossY: A Crossing-Based Drawing Application&lt;/td&gt;
-      &lt;td&gt;Georg Apitz &amp;amp; François Guimbretière, University of Maryland&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2003&lt;/td&gt;
-      &lt;td&gt;Perceptually-Supported Image Editing of Text and Graphics&lt;/td&gt;
-      &lt;td&gt;Eric Saund, Palo Alto Research Center&lt;br /&gt;David Fleet, Palo Alto Research Center&lt;br /&gt;Daniel Larner, Palo Alto Research Center&lt;br /&gt;James Mahoney, Palo Alto Research Center&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2002&lt;/td&gt;
-      &lt;td&gt;Clothing Manipulation&lt;/td&gt;
-      &lt;td&gt;Takeo Igarashi, University of Tokyo&lt;br /&gt;John F. Hughes, Brown University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2001&lt;/td&gt;
-      &lt;td&gt;Phidgets: Easy Development of Physical Interfaces through Physical Widgets&lt;/td&gt;
-      &lt;td&gt;Saul Greenberg &amp;amp; Chester Fitchett, University of Calgary&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2000&lt;/td&gt;
-      &lt;td&gt;Sensing Techniques for Mobile Interaction&lt;/td&gt;
-      &lt;td&gt;Ken Hinckley, Microsoft Research&lt;br /&gt;Jeff Pierce, Microsoft Research&lt;br /&gt;Mike Sinclair, Microsoft Research&lt;br /&gt;Eric Horvitz, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1996&lt;/td&gt;
-      &lt;td&gt;Indigo: A Local Propagation Algorithm for Inequality Constraints&lt;/td&gt;
-      &lt;td&gt;Alan Borning, University of Washington&lt;br /&gt;&lt;br /&gt;Richard Anderson, University of Washington&lt;br /&gt;Bjorn Freeman-Benson, Object Technology International&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Wed, 02 Jan 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/01/02/best-paper-awards-UIST/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/01/02/best-paper-awards-UIST/</guid>
-        
-        <category>Best Paper</category>
-        
-        <category>User Interface</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Best Paper Awards (1998-2018)</title>
-        <description>&lt;style&gt;
-.table {
-	font-size:12px;
-}
-table td {
-	vertical-align: middle;
-}
-table th:nth-of-type(2) {
-    width: 240px;
-}
-
-&lt;/style&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-      &lt;th&gt;Title&lt;/th&gt;
-      &lt;th&gt;Authors&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;HighLife: Higher-arity Fact Harvesting&lt;/td&gt;
-      &lt;td&gt;Patrick Ernst, Saarland Informatics CampusSaarbrücken&lt;br /&gt;Amy Siu, Saarland Informatics CampusSaarbrücken&lt;br /&gt;Gerhard Weikum, Saarland Informatics CampusSaarbrücken&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Social Networks Under Stress&lt;/td&gt;
-      &lt;td&gt;Daniel Romero, University of Michigan&lt;br /&gt;Brian Uzzi, Northwestern University&lt;br /&gt;Jon Kleinberg, Cornell University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;HypTrails: A Bayesian Approach for Comparing Hypotheses About Human Trails on the Web&lt;/td&gt;
-      &lt;td&gt;Philipp Singer, GESIS - Leibniz Institute for the Social Sciences&lt;br /&gt;Denis Helic, Graz University of Technology&lt;br /&gt;Andreas Hotho, University of Würzburg&lt;br /&gt;Markus Strohmaier, GESIS - Leibniz Institute for the Social Sciences&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;Efficient Estimation for High Similarities using Odd Sketches&lt;/td&gt;
-      &lt;td&gt;Michael Mitzenmacher, Harvard University&lt;br /&gt;Rasmus Pagh, IT University of Copenhagen&lt;br /&gt;Ninh Pham, IT University of Copenhagen&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;No Country for Old Members: User Lifecycle and Linguistic Change in Online Communities&lt;/td&gt;
-      &lt;td&gt;Cristian Danescu-Niculescu-Mizil, Stanford University&lt;br /&gt;Robert West, Stanford University&lt;br /&gt;Dan Jurafsky, Stanford University&lt;br /&gt;Jure Leskovec, Stanford University&lt;br /&gt;Christopher Potts, Stanford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;Counting Beyond a Yottabyte, or how SPARQL 1.1 Property Paths will Prevent Adoption of the Standard&lt;/td&gt;
-      &lt;td&gt;Marcelo Arenas, Pontificia Universidad Católica de Chile&lt;br /&gt;Sebastián Conca, Pontificia Universidad Católica de Chile&lt;br /&gt;Jorge Pérez, Universidad de Chile&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;Towards a theory model for product search&lt;/td&gt;
-      &lt;td&gt;Beibei Li, New York University&lt;br /&gt;Anindya Ghose, New York University&lt;br /&gt;Panagiotis G. Ipeirotis, New York University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;Factorizing personalized Markov chains for next-basket recommendation&lt;/td&gt;
-      &lt;td&gt;Steffen Rendle, Osaka University&lt;br /&gt;Christoph Freudenthaler, University of Hildesheim&lt;br /&gt;Lars Schmidt-Thieme, University of Hildesheim&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;Hybrid keyword search auctions&lt;/td&gt;
-      &lt;td&gt;Ashish Goel, Stanford University&lt;br /&gt;Kamesh Munagala, Duke University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;IRLbot: Scaling to 6 billion pages and beyond&lt;/td&gt;
-      &lt;td&gt;Hsin-Tsang Lee, Texas A&amp;amp;M University&lt;br /&gt;Derek Leonard, Texas A&amp;amp;M University&lt;br /&gt;Xiaoming Wang, Texas A&amp;amp;M University&lt;br /&gt;Dmitri Loguinov, Texas A&amp;amp;M University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;Wherefore art thou r3579x?: anonymized social networks, hidden patterns, and structural steganography&lt;/td&gt;
-      &lt;td&gt;Lars Backstrom, Cornell University&lt;br /&gt;Cynthia Dwork, Microsoft Research&lt;br /&gt;Jon Kleinberg, Cornell University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2006&lt;/td&gt;
-      &lt;td&gt;Random Sampling from a Search Engine’s Index&lt;/td&gt;
-      &lt;td&gt;Ziv Bar-Yossef &amp;amp; Maxim Gurevich, Technion&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;Three-level caching for efficient query processing in large Web search engines&lt;/td&gt;
-      &lt;td&gt;Xiaohui Long &amp;amp; Torsten Suel, Polytechnic Institute of New York University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2004&lt;/td&gt;
-      &lt;td&gt;Automatic detection of fragments in dynamically generated web pages&lt;/td&gt;
-      &lt;td&gt;Lakshmish Ramaswamy, Georgia Institute of Technology&lt;br /&gt;Arun Iyengar, IBM Research&lt;br /&gt;Ling Liu, Georgia Institute of Technology&lt;br /&gt;Fred Douglis, IBM Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2003&lt;/td&gt;
-      &lt;td&gt;Scaling personalized web search&lt;/td&gt;
-      &lt;td&gt;Glen Jeh &amp;amp; Jennifer Widom, Stanford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2003&lt;/td&gt;
-      &lt;td&gt;SemTag and seeker: bootstrapping the semantic web via automated semantic annotation&lt;/td&gt;
-      &lt;td&gt;Stephen Dill, IBM Research&lt;br /&gt;Nadav Eiron, IBM Research&lt;br /&gt;David Gibson, IBM Research&lt;br /&gt;Daniel Gruhl, IBM Research&lt;br /&gt;R. Guha, IBM Research&lt;br /&gt;Anant Jhingran, IBM Research&lt;br /&gt;Tapas Kanungo, IBM Research&lt;br /&gt;Sridhar Rajagopalan, IBM Research&lt;br /&gt;Andrew Tomkins, IBM Research&lt;br /&gt;John A. Tomlin, IBM Research&lt;br /&gt;Jason Y. Zien, IBM Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2002&lt;/td&gt;
-      &lt;td&gt;Abstracting application-level web security&lt;/td&gt;
-      &lt;td&gt;David Scott &amp;amp; Richard Sharp, University of Cambridge&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2001&lt;/td&gt;
-      &lt;td&gt;Engineering Server Driven Consistency for Large Scale Dynamic Web Services&lt;/td&gt;
-      &lt;td&gt;Jian Yin, University of Texas at Austin&lt;br /&gt;Lorenzo Alvisi, University of Texas at Austin&lt;br /&gt;Mike Dahlin, University of Texas at Austin&lt;br /&gt;Arun Iyengar, IBM Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2000&lt;/td&gt;
-      &lt;td&gt;Graph Structure in the Web&lt;/td&gt;
-      &lt;td&gt;Andrei Broder, AltaVista&lt;br /&gt;Ravi Kumar, IBM Research&lt;br /&gt;Farzin Maghoul, AltaVista&lt;br /&gt;Prabhakar Raghavan, IBM Research&lt;br /&gt;Sridhar Rajagopalan, IBM Research&lt;br /&gt;Raymie Stata, Compaq Systems Research Center&lt;br /&gt;Andrew Tomkins, IBM Research&lt;br /&gt;Janet Wiener, Compaq Systems Research Center&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1999&lt;/td&gt;
-      &lt;td&gt;Focused Crawling: A New Approach to Topic-Specific Web Resource Discovery&lt;/td&gt;
-      &lt;td&gt;Soumen Chakrabarti, Indian Institute of Technology&lt;br /&gt;Martin van den Berg, FX Palo Alto Lab&lt;br /&gt;Byron Dom, IBM Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1998&lt;/td&gt;
-      &lt;td&gt;The Interactive Multimedia Jukebox (IMJ): a new paradigm for the on-demand delivery of audio/video&lt;/td&gt;
-      &lt;td&gt;Kevin C. Almeroth, University of California Santa Barbara&lt;br /&gt;Mostafa H. Ammar, Georgia Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/01/01/best-paper-awards-WWW/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/01/01/best-paper-awards-WWW/</guid>
-        
-        <category>Best Paper</category>
-        
-        <category>World Wide Web</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Best Paper Awards (1999-2018)</title>
-        <description>&lt;style&gt;
-.table {
-	font-size:12px;
-}
-table td {
-	vertical-align: middle;
-}
-table th:nth-of-type(2) {
-    width: 240px;
-}
-
-&lt;/style&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-      &lt;th&gt;Title&lt;/th&gt;
-      &lt;th&gt;Authors&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Delayed Impact of Fair Machine Learning&lt;/td&gt;
-      &lt;td&gt;Lydia T. Liu, University of California Berkeley&lt;br /&gt;Sarah Dean, University of California Berkeley&lt;br /&gt;Esther Rolf, University of California Berkeley&lt;br /&gt;Max Simchowitz, University of California Berkeley&lt;br /&gt;Moritz Hardt, University of California Berkeley&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples&lt;/td&gt;
-      &lt;td&gt;Anish Athalye, Massachusetts Institute of Technology&lt;br /&gt;Nicholas Carlini, University of California Berkeley&lt;br /&gt;David Wagner, University of California Berkeley&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;Understanding Black-box Predictions via Influence Functions&lt;/td&gt;
-      &lt;td&gt;Pang Wei Koh &amp;amp; Percy Liang, Stanford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Ensuring Rapid Mixing and Low Bias for Asynchronous Gibbs Sampling&lt;/td&gt;
-      &lt;td&gt;Christopher De Sa, Stanford University&lt;br /&gt;Chris Re, Stanford University&lt;br /&gt;Kunle Olukotun, Stanford University&lt;br /&gt;Pixel Recurrent Neural Networks&lt;br /&gt;Aaron Van den Oord, Google&lt;br /&gt;Nal Kalchbrenner, Google&lt;br /&gt;Koray Kavukcuoglu, Google&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Dueling Network Architectures for Deep Reinforcement Learning&lt;/td&gt;
-      &lt;td&gt;Ziyu Wang, Google&lt;br /&gt;Tom Schaul, Google&lt;br /&gt;Matteo Hessel, Google&lt;br /&gt;Hado van Hasselt, Google&lt;br /&gt;Marc Lanctot, Google&lt;br /&gt;Nando de Freitas, University of Oxford&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;A Nearly-Linear Time Framework for Graph-Structured Sparsity&lt;/td&gt;
-      &lt;td&gt;Chinmay Hegde, Massachusetts Institute of Technology&lt;br /&gt;Piotr Indyk, Massachusetts Institute of Technology&lt;br /&gt;Ludwig Schmid, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Optimal and Adaptive Algorithms for Online Boosting&lt;/td&gt;
-      &lt;td&gt;Alina Beygelzimer, Yahoo! Research&lt;br /&gt;Satyen Kale, Yahoo! Research&lt;br /&gt;Haipeng Luo, Princeton University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;Understanding the Limiting Factors of Topic Modeling via Posterior Contraction Analysis&lt;/td&gt;
-      &lt;td&gt;Jian Tang, Peking University&lt;br /&gt;Zhaoshi Meng, University of Michigan&lt;br /&gt;XuanLong Nguyen, University of Michigan&lt;br /&gt;Qiaozhu Mei, University of Michigan&lt;br /&gt;Ming Zhang, Peking University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;Vanishing Component Analysis&lt;/td&gt;
-      &lt;td&gt;Roi Livni, The Hebrew University of Jerusalum&lt;br /&gt;David Lehavi, Hewlett-Packard Labs&lt;br /&gt;Sagi Schein, Hewlett-Packard Labs&lt;br /&gt;Hila Nachlieli, Hewlett-Packard Labs&lt;br /&gt;Shai Shalev Shwartz, The Hebrew University of Jerusalum&lt;br /&gt;Amir Globerson, The Hebrew University of Jerusalum&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;Fast Semidifferential-based Submodular Function Optimization&lt;/td&gt;
-      &lt;td&gt;Rishabh Iyer, University of Washington&lt;br /&gt;Stefanie Jegelka, University of California Berkeley&lt;br /&gt;Jeff Bilmes, University of Washington&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;Bayesian Posterior Sampling via Stochastic Gradient Fisher Scoring&lt;/td&gt;
-      &lt;td&gt;Sungjin Ahn, University of California Irvine&lt;br /&gt;Anoop Korattikara, University of California Irvine&lt;br /&gt;Max Welling, University of California Irvine&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;Computational Rationalization: The Inverse Equilibrium Problem&lt;/td&gt;
-      &lt;td&gt;Kevin Waugh, Carnegie Mellon University&lt;br /&gt;Brian Ziebart, Carnegie Mellon University&lt;br /&gt;Drew Bagnell, Carnegie Mellon University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;Hilbert Space Embeddings of Hidden Markov Models&lt;/td&gt;
-      &lt;td&gt;Le Song, Carnegie Mellon University&lt;br /&gt;Byron Boots, Carnegie Mellon University&lt;br /&gt;Sajid M. Siddiqi, Google&lt;br /&gt;Geoffrey Gordon, Carnegie Mellon University&lt;br /&gt;Alex Smola, Yahoo! Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;Structure preserving embedding&lt;/td&gt;
-      &lt;td&gt;Blake Shaw &amp;amp; Tony Jebara, Columbia University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;SVM Optimization: Inverse Dependence on Training Set Size&lt;/td&gt;
-      &lt;td&gt;Shai Shalev-Shwartz &amp;amp; Nathan Srebro, Toyota Technological Institute at Chicago&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;Information-theoretic metric learning&lt;/td&gt;
-      &lt;td&gt;Jason V. Davis, University of Texas at Austin&lt;br /&gt;Brian Kulis, University of Texas at Austin&lt;br /&gt;Prateek Jain, University of Texas at Austin&lt;br /&gt;Suvrit Sra, University of Texas at Austin&lt;br /&gt;Inderjit S. Dhillon, University of Texas at Austin&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2006&lt;/td&gt;
-      &lt;td&gt;Trading convexity for scalability&lt;/td&gt;
-      &lt;td&gt;Ronan Collobert, NEC Labs America&lt;br /&gt;Fabian Sinz, NEC Labs America&lt;br /&gt;Jason Weston, NEC Labs America&lt;br /&gt;Léon Bottou, NEC Labs America&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;A support vector method for multivariate performance measures&lt;/td&gt;
-      &lt;td&gt;Thorsten Joachims, Cornell University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1999&lt;/td&gt;
-      &lt;td&gt;Least-Squares Temporal Difference Learning&lt;/td&gt;
-      &lt;td&gt;Justin A. Boyan, NASA Ames Research Center&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/01/01/best-paper-awards-ICML/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/01/01/best-paper-awards-ICML/</guid>
-        
-        <category>Best Paper</category>
-        
-        <category>Machine Learning</category>
         
         
       </item>
