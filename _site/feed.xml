@@ -5,9 +5,518 @@
     <description>这里是 @PXZHANG张培歆 的个人网站</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 08 Jan 2019 13:11:33 +0800</pubDate>
-    <lastBuildDate>Tue, 08 Jan 2019 13:11:33 +0800</lastBuildDate>
+    <pubDate>Wed, 09 Jan 2019 10:01:17 +0800</pubDate>
+    <lastBuildDate>Wed, 09 Jan 2019 10:01:17 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Best Paper Awards (1999-2018)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Program synthesis using conflict-driven learning&lt;/td&gt;
+      &lt;td&gt;Yu Feng, University of Texas at Austin&lt;br /&gt;Ruben Martins, Carnegie Mellon University&lt;br /&gt;Osbert Bastani, Massachusetts Institute of Technology&lt;br /&gt;Isil Dillig, University of Texas at Austin&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;The semantics of transactions and weak memory in x86, Power, ARM, and C++&lt;/td&gt;
+      &lt;td&gt;Nathan Chong, ARM&lt;br /&gt;Tyler Sorensen, Imperial College London&lt;br /&gt;John Wickerson, Imperial College London&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;A data-driven CHC solver&lt;/td&gt;
+      &lt;td&gt;He Zhu, Galois&lt;br /&gt;Stephen Magill, Galois&lt;br /&gt;Suresh Jagannathan, Purdue University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Low Overhead Dynamic Binary Translation on ARM&lt;/td&gt;
+      &lt;td&gt;Amanieu D’Antras, University of Manchester&lt;br /&gt;Cosmin Gorgovan, University of Manchester&lt;br /&gt;Jim Garside, University of Manchester&lt;br /&gt;Mikel Luján, University of Manchester&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Repairing sequential consistency in C/C++11&lt;/td&gt;
+      &lt;td&gt;Ori Lahav, MPI-SWS&lt;br /&gt;Viktor Vafeiadis, MPI-SWS&lt;br /&gt;Jeehoon Kang, Seoul National University&lt;br /&gt;Chung-Kil Hur, Seoul National University&lt;br /&gt;Derek Dreyer, MPI-SWS&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Bringing the web up to speed with WebAssembly&lt;/td&gt;
+      &lt;td&gt;Andreas Haas, Google&lt;br /&gt;Andreas Rossberg, Google&lt;br /&gt;Derek L. Schuff, Google&lt;br /&gt;Ben L. Titzer, Google&lt;br /&gt;Michael Holman, Microsoft&lt;br /&gt;Dan Gohman, Mozilla&lt;br /&gt;Luke Wagner, Mozilla&lt;br /&gt;Alon Zakai, Mozilla&lt;br /&gt;JF Bastien, Apple&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Compiling without continuations&lt;/td&gt;
+      &lt;td&gt;Luke Maurer, University of Oregon&lt;br /&gt;Paul Downen, University of Oregon&lt;br /&gt;Zena M. Ariola, University of Oregon&lt;br /&gt;Simon Peyton Jones, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Assessing the limits of program-specific garbage collection performance&lt;/td&gt;
+      &lt;td&gt;Nicholas Jacek, University of Massachusetts Amherst&lt;br /&gt;Meng-Chieh Chiu, University of Massachusetts Amherst&lt;br /&gt;Benjamin Marlin, University of Massachusetts Amherst&lt;br /&gt;Eliot Moss, University of Massachusetts Amherst&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Into the Depths of C: Elaborating the De Facto Standards&lt;/td&gt;
+      &lt;td&gt;Kayvan Memarian, University of Cambridge&lt;br /&gt;Justus Matthiesen, University of Cambridge&lt;br /&gt;James Lingard, University of Cambridge&lt;br /&gt;Kyndylan Nienhuis, University of Cambridge&lt;br /&gt;David Chisnall, University of Cambridge&lt;br /&gt;Robert N. M. Watson, University of Cambridge&lt;br /&gt;Peter Sewell, University of Cambridge&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Transactional Data Structure Libraries&lt;/td&gt;
+      &lt;td&gt;Alexander Spiegelman, Technion&lt;br /&gt;Guy Golan-Gueta, Yahoo! Research&lt;br /&gt;Idit Keidar, Technion&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Types from data: Making structured data first-class citizens in F#&lt;/td&gt;
+      &lt;td&gt;Tomas Petricek, University of Cambridge&lt;br /&gt;Gustavo Guerra, Microsoft&lt;br /&gt;Don Syme, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Provably Correct Peephole Optimizations with Alive&lt;/td&gt;
+      &lt;td&gt;Nuno P. Lopes, Microsoft Research&lt;br /&gt;David Menendez, Rutgers University&lt;br /&gt;Santosh Nagarakatte, Rutgers University&lt;br /&gt;John Regehr, University of Utah&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Diagnosing Type Errors with Class&lt;/td&gt;
+      &lt;td&gt;Danfeng Zhang, Cornell University&lt;br /&gt;Andrew C. Myers, Cornell University&lt;br /&gt;Dimitrios Vytiniotis, Microsoft Research&lt;br /&gt;Simon Peyton-Jones, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Automatically Improving Accuracy for Floating Point Expressions&lt;/td&gt;
+      &lt;td&gt;Pavel Panchekha, University of Washington&lt;br /&gt;Alex Sanchez-Stern, University of Washington&lt;br /&gt;James R. Wilcox, University of Washington&lt;br /&gt;Zachary Tatlock, University of Washington&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Improving JavaScript Performance by Deconstructing the Type System&lt;/td&gt;
+      &lt;td&gt;Wonsun Ahn, University of Illinois at Urbana-Champaign&lt;br /&gt;Jiho Choi, University of Illinois at Urbana-Champaign&lt;br /&gt;Thomas Shull, University of Illinois at Urbana-Champaign&lt;br /&gt;María Garzarín, University of Illinois at Urbana-Champaign&lt;br /&gt;Josep Torrellas, University of Illinois at Urbana-Champaign&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Compiler validation via equivalence modulo inputs&lt;/td&gt;
+      &lt;td&gt;Vu Le, University of California Davis&lt;br /&gt;Mehrdad Afshari, University of California Davis&lt;br /&gt;Zhendong Su, University of California Davis&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;On Abstraction Refinement for Program Analyses in Datalog&lt;/td&gt;
+      &lt;td&gt;Xin Zhang, Georgia Institute of Technology&lt;br /&gt;Ravi Mangal, Georgia Institute of Technology&lt;br /&gt;Radu Grigore, Oxford University&lt;br /&gt;Mayur Naik, Georgia Institute of Technology&lt;br /&gt;Hongseok Yang, Oxford University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;Static Analysis for Probabilistic Programs: Inferring Whole Program Properties from Finitely Many Path&lt;/td&gt;
+      &lt;td&gt;Sriram Sankaranarayanan, University of Colorado&lt;br /&gt;Aleksandar Chakarov, University of Colorado&lt;br /&gt;Sumit Gulwani, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;A General Constraint-centric Scheduling Framework for Spatial Architectures&lt;/td&gt;
+      &lt;td&gt;Tony Nowatzki, University of Wisconsin&lt;br /&gt;Michael Sartin-Tarm, University of Wisconsin&lt;br /&gt;Lorenzo De Carli, University of Wisconsin&lt;br /&gt;Karthikeyan Sankaralingam, University of Wisconsin&lt;br /&gt;Cristian Estan, Broadcom&lt;br /&gt;Behnam Robatmili, Qualcomm Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;Reconciling Exhaustive Pattern Matching with Objects&lt;/td&gt;
+      &lt;td&gt;Chinawat Isradisaikul &amp;amp; Andrew C. Myers, Cornell University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;CLAP: Recording Local Executions to Reproduce Concurrency Failures&lt;/td&gt;
+      &lt;td&gt;Jeff Huang, Hong Kong University of Science and Technology&lt;br /&gt;Charles Zhang, Hong Kong University of Science and Technology&lt;br /&gt;Julian Dolby, IBM Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Concurrent Data Representation Synthesis&lt;/td&gt;
+      &lt;td&gt;Peter Hawkins, Stanford University&lt;br /&gt;Alex Aiken, Stanford University&lt;br /&gt;Kathleen Fisher, Tufts University&lt;br /&gt;Martin Rinard, Massachusetts Institute of Technology&lt;br /&gt;Mooly Sagiv, Tel-Aviv University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;Data Representation Synthesis&lt;/td&gt;
+      &lt;td&gt;Peter Hawkins, Stanford University&lt;br /&gt;Alex Aiken, Stanford University&lt;br /&gt;Kathleen Fisher, Tufts University&lt;br /&gt;Martin Rinard, Massachusetts Institute of Technology&lt;br /&gt;Mooly Sagiv, Tel-Aviv University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;Safe to the Last Instruction: Automated Verification of a Type-Safe Operating System&lt;/td&gt;
+      &lt;td&gt;Jean Yang, Massachusetts Institute of Technology&lt;br /&gt;Chris Hawblitzel, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;Binary Analysis for Measurement and Attribution of Program Performance&lt;/td&gt;
+      &lt;td&gt;Nathan Tallent, Rice University&lt;br /&gt;John Mellor-Crummey, Rice University&lt;br /&gt;Michael Fagan, Rice University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;Fault-tolerant Typed Assembly Language&lt;/td&gt;
+      &lt;td&gt;Frances Perry, Princeton University&lt;br /&gt;Lester Mackey, Princeton University&lt;br /&gt;George A. Reis, Princeton University&lt;br /&gt;Jay Ligatti, University of South Florida&lt;br /&gt;David I. August, Princeton University&lt;br /&gt;David Walker, Princeton University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;The Ant and the Grasshopper: Fast and Accurate Pointer Analysis for Millions of Lines of Code&lt;/td&gt;
+      &lt;td&gt;Ben Hardekopf &amp;amp; Calvin Lin, University of Texas at Austin&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;Automatic Pool Allocation: Improving Performance by Controlling Data Structure Layout in the Heap&lt;/td&gt;
+      &lt;td&gt;Chris Lattner &amp;amp; Vikram Adve, University of Illinois at Urbana-Champaign&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;Programming by Sketching for Bit-Streaming Programs&lt;/td&gt;
+      &lt;td&gt;Armando Solar-Lezama, University of California Berkeley&lt;br /&gt;Rodric Rabbah, Massachusetts Institute of Technology&lt;br /&gt;Rastislav Bodik, University of California Berkeley&lt;br /&gt;Kemal Ebcioğlu, IBM Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;Cloning-Based Context-Sensitive Pointer Alias Analysis Using Binary Decision Diagrams&lt;/td&gt;
+      &lt;td&gt;John Whaley &amp;amp; Monica S. Lam, Stanford University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2003&lt;/td&gt;
+      &lt;td&gt;Automatically Proving the Correctness of Compiler Optimizations&lt;/td&gt;
+      &lt;td&gt;Sorin Lerner, University of Washington&lt;br /&gt;Todd Millstein, University of Washington&lt;br /&gt;Craig Chambers, University of Washington&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2000&lt;/td&gt;
+      &lt;td&gt;Dynamo: a transparent dynamic optimization system&lt;/td&gt;
+      &lt;td&gt;Vasanth Bala, Hewlett-Packard Labs&lt;br /&gt;Evelyn Duesterwald, Hewlett-Packard Labs&lt;br /&gt;Sanjeev Banerjia, InCert&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1999&lt;/td&gt;
+      &lt;td&gt;Whole program paths&lt;/td&gt;
+      &lt;td&gt;James R. Larus, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Wed, 09 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/09/best-paper-awards-PLDI/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/09/best-paper-awards-PLDI/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>Programming Languages</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Best Paper Awards (1996-2018)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;REPT: Reverse Debugging of Failures in Deployed Software&lt;/td&gt;
+      &lt;td&gt;Weidong Cui, Microsoft Research&lt;br /&gt;Xinyang Ge, Microsoft Research&lt;br /&gt;Baris Kasikci, University of Michigan&lt;br /&gt;Ben Niu, Microsoft Research&lt;br /&gt;Upamanyu Sharma, University of Michigan&lt;br /&gt;Ruoyu Wang, Arizona State University&lt;br /&gt;Insu Yun, Georgia Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Orca: Differential Bug Localization in Large-Scale Services&lt;/td&gt;
+      &lt;td&gt;Ranjita Bhagwan, Microsoft Research&lt;br /&gt;Rahul Kumar, Microsoft Research&lt;br /&gt;Chandra Sekhar Maddila, Microsoft Research&lt;br /&gt;Adithya Abraham Philip, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation&lt;/td&gt;
+      &lt;td&gt;Yizhou Shan, Purdue University&lt;br /&gt;Yutong Huang, Purdue University&lt;br /&gt;Yilun Chen, Purdue University&lt;br /&gt;Yiying Zhang, Purdue University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Ryoan: A Distributed Sandbox for Untrusted Computation on Secret Data&lt;/td&gt;
+      &lt;td&gt;Tyler Hunt, University of Texas at Austin&lt;br /&gt;Zhiting Zhu, University of Texas at Austin&lt;br /&gt;Yuanzhong Xu, University of Texas at Austin&lt;br /&gt;Simon Peter, University of Texas at Austin&lt;br /&gt;Emmett Witchel, University of Texas at Austin&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Push-Button Verification of File Systems via Crash Refinement&lt;/td&gt;
+      &lt;td&gt;Helgi Sigurbjarnarson, University of Washington&lt;br /&gt;James Bornholt, University of Washington&lt;br /&gt;Emina Torlak, University of Washington&lt;br /&gt;Xi Wang, University of Washington&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Early Detection of Configuration Errors to Reduce Failure Damage&lt;/td&gt;
+      &lt;td&gt;Tianyin Xu, University of California San Diego&lt;br /&gt;Xinxin Jin, University of California San Diego&lt;br /&gt;Peng Huang, University of California San Diego&lt;br /&gt;Yuanyuan Zhou, University of California San Diego&lt;br /&gt;Shan Lu, University of Chicago&lt;br /&gt;Long Jin, University of California San Diego&lt;br /&gt;Shankar Pasupathy, NetApp&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Shielding Applications from an Untrusted Cloud with Haven&lt;/td&gt;
+      &lt;td&gt;Andrew Baumann, Microsoft Research&lt;br /&gt;Marcus Peinado, Microsoft Research&lt;br /&gt;Galen Hunt, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;IX: A Protected Dataplane Operating System for High Throughput and Low Latency&lt;/td&gt;
+      &lt;td&gt;Adam Belay, Stanford University&lt;br /&gt;George Prekas, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Ana Klimovic, Stanford University&lt;br /&gt;Samuel Grossman, Stanford University&lt;br /&gt;Christos Kozyrakis, Stanford University&lt;br /&gt;Edouard Bugnion, École Polytechnique Fédérale de Lausanne&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Arrakis: The Operating System is the Control Plane&lt;/td&gt;
+      &lt;td&gt;Simon Peter, University of Washington&lt;br /&gt;Jialin Li, University of Washington&lt;br /&gt;Irene Zhang, University of Washington&lt;br /&gt;Dan Ports, University of Washington&lt;br /&gt;Doug Woos, University of Washington&lt;br /&gt;Arvind Krishnamurthy, University of Washington&lt;br /&gt;Thomas Anderson, University of Washington&lt;br /&gt;Timothy Roscoe, ETH Zurich&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Spanner: Google’s Globally-Distributed Database&lt;/td&gt;
+      &lt;td&gt;James C. Corbett, Google&lt;br /&gt;Jeffrey Dean, Google&lt;br /&gt;Michael Epstein, Google&lt;br /&gt;Andrew Fikes, Google&lt;br /&gt;Christopher Frost, Google&lt;br /&gt;JJ Furman, Google&lt;br /&gt;Sanjay Ghemawat, Google&lt;br /&gt;Andrey Gubarev, Google&lt;br /&gt;Christopher Heiser, Google&lt;br /&gt;Peter Hochschild, Google&lt;br /&gt;Wilson Hsieh, Google&lt;br /&gt;Sebastian Kanthak, Google&lt;br /&gt;Eugene Kogan, Google&lt;br /&gt;Hongyi Li, Google&lt;br /&gt;Alexander Lloyd, Google&lt;br /&gt;Sergey Melnik, Google&lt;br /&gt;David Mwaura, Google&lt;br /&gt;David Nagle, Google&lt;br /&gt;Sean Quinlan, Google&lt;br /&gt;Rajesh Rao, Google&lt;br /&gt;Lindsay Rolig, Google&lt;br /&gt;Yasushi Saito, Google&lt;br /&gt;Michal Szymaniak, Google&lt;br /&gt;Christopher Taylor, Google&lt;br /&gt;Ruth Wang, Google&lt;br /&gt;Dale Woodford, Google&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;Efficient System-Enforced Deterministic Parallelism&lt;/td&gt;
+      &lt;td&gt;Amittai Aviram, Yale University&lt;br /&gt;Shu-Chun Weng, Yale University&lt;br /&gt;Sen Hu, Yale University&lt;br /&gt;Bryan Ford, Yale University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;The Turtles Project: Design and Implementation of Nested Virtualization&lt;/td&gt;
+      &lt;td&gt;Muli Ben-Yehuda, IBM Research&lt;br /&gt;Michael D. Day, IBM&lt;br /&gt;Zvi Dubitzky, IBM Research&lt;br /&gt;Michael Factor, IBM Research&lt;br /&gt;Nadav Har’El, IBM Research&lt;br /&gt;Abel Gordon, IBM Research&lt;br /&gt;Anthony Liguori, IBM&lt;br /&gt;Orit Wasserman, IBM Research&lt;br /&gt;Ben-Ami Yassour, IBM Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs&lt;/td&gt;
+      &lt;td&gt;Cristian Cadar, Stanford University&lt;br /&gt;Daniel Dunbar, Stanford University&lt;br /&gt;Dawson Engler, Stanford University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;Difference Engine: Harnessing Memory Redundancy in Virtual Machines&lt;/td&gt;
+      &lt;td&gt;Diwaker Gupta, University of California San Diego&lt;br /&gt;Sangmin Lee, University of Texas at Austin&lt;br /&gt;Michael Vrable, University of California San Diego&lt;br /&gt;Stefan Savage, University of California San Diego&lt;br /&gt;Alex C. Snoeren, University of California San Diego&lt;br /&gt;George Varghese, University of California San Diego&lt;br /&gt;Geoffrey M. Voelker, University of California San Diego&lt;br /&gt;Amin Vahdat, University of California San Diego&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;DryadLINQ: A System for General-Purpose Distributed Data-Parallel Computing Using a High-Level Language&lt;/td&gt;
+      &lt;td&gt;Yuan Yu, Microsoft Research&lt;br /&gt;Michael Isard, Microsoft Research&lt;br /&gt;Dennis Fetterly, Microsoft Research&lt;br /&gt;Mihai Budiu, Microsoft Research&lt;br /&gt;Úlfar Erlingsson, Microsoft Research&lt;br /&gt;Pradeep Kumar Gunda, Microsoft Research&lt;br /&gt;Jon Currey, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2006&lt;/td&gt;
+      &lt;td&gt;Bigtable: A Distributed Storage System for Structured Data&lt;/td&gt;
+      &lt;td&gt;Fay Chang, Google&lt;br /&gt;Jeffrey Dean, Google&lt;br /&gt;Sanjay Ghemawat, Google&lt;br /&gt;Wilson C. Hsieh, Google&lt;br /&gt;Deborah A. Wallach, Google&lt;br /&gt;Mike Burrows, Google&lt;br /&gt;Tushar Chandra, Google&lt;br /&gt;Andrew Fikes, Google&lt;br /&gt;Robert E. Gruber, Google&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2006&lt;/td&gt;
+      &lt;td&gt;Rethink the Sync&lt;/td&gt;
+      &lt;td&gt;Edmund B. Nightingale, University of Michigan&lt;br /&gt;Kaushik Veeraraghavan, University of Michigan&lt;br /&gt;Peter M. Chen, University of Michigan&lt;br /&gt;Jason Flinn, University of Michigan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;Using Model Checking to Find Serious File System Errors	Junfeng Yang, Stanford University&lt;/td&gt;
+      &lt;td&gt;Paul Twohey, Stanford University&lt;br /&gt;Dawson Engler, Stanford University&lt;br /&gt;Madanlal Musuvathi, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;Recovering Device Drivers&lt;/td&gt;
+      &lt;td&gt;Michael M. Swift, University of Washington&lt;br /&gt;Muthukaruppan Annamalai, University of Washington&lt;br /&gt;Brian N. Bershad, University of Washington&lt;br /&gt;Henry M. Levy, University of Washington&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2002&lt;/td&gt;
+      &lt;td&gt;Memory Resource Management in VMware ESX Server&lt;/td&gt;
+      &lt;td&gt;Carl A. Waldspurger, VMware&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2000&lt;/td&gt;
+      &lt;td&gt;Checking System Rules Using System-Specific, Programmer-Written Compiler Extensions&lt;/td&gt;
+      &lt;td&gt;Dawson Engler, Stanford University&lt;br /&gt;Benjamin Chelf, Stanford University&lt;br /&gt;Andy Chou, Stanford University&lt;br /&gt;Seth Hallem, Stanford University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1999&lt;/td&gt;
+      &lt;td&gt;IO-Lite: A Unified I/O Buffering and Caching System&lt;/td&gt;
+      &lt;td&gt;Vivek S. Pai, Rice University&lt;br /&gt;Peter Druschel, Rice University&lt;br /&gt;Willy Zwaenepoel, Rice University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1996&lt;/td&gt;
+      &lt;td&gt;Automatic Compiler-Inserted I/O Prefetching for Out-of-Core Applications&lt;/td&gt;
+      &lt;td&gt;Todd C. Mowry, University of Toronto&lt;br /&gt;Angela K. Demke, University of Toronto&lt;br /&gt;Orran Krieger, University of Toronto&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1996&lt;/td&gt;
+      &lt;td&gt;Safe Kernel Extensions Without Run-Time Checking&lt;/td&gt;
+      &lt;td&gt;George C. Necula &amp;amp; Peter Lee, Carnegie Mellon University&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Wed, 09 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/09/best-paper-awards-OSDI/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/09/best-paper-awards-OSDI/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>Operating Systems</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Best Paper Awards (2004-2018)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;NetChain: Scale-Free Sub-RTT Coordination&lt;/td&gt;
+      &lt;td&gt;Xin Jin, Johns Hopkins University&lt;br /&gt;Xiaozhou Li, Barefoot Networks&lt;br /&gt;Haoyu Zhang, Princeton University&lt;br /&gt;Nate Foster, Cornell University&lt;br /&gt;Jeongkeun Lee, Barefoot Networks&lt;br /&gt;Robert Soulé, Università della Svizzera italiana&lt;br /&gt;Changhoon Kim, Barefoot Networks&lt;br /&gt;Ion Stoica, University of California Berkeley&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;mOS: A Reusable Networking Stack for Flow Monitoring Middleboxes&lt;/td&gt;
+      &lt;td&gt;Muhammad Asim Jamshed, KAIST&lt;br /&gt;YoungGyoun Moon, KAIST&lt;br /&gt;Donghwi Kim, KAIST&lt;br /&gt;Dongsu Han, KAIST&lt;br /&gt;KyoungSoo Park, KAIST&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Passive Wi-Fi: Bringing Low Power to Wi-Fi Transmissions&lt;/td&gt;
+      &lt;td&gt;Bryce Kellogg, University of Washington&lt;br /&gt;Vamsi Talla, University of Washington&lt;br /&gt;Shyamnath Gollakota, University of Washington&lt;br /&gt;Joshua R. Smith, University of Washington&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Queues Don’t Matter When You Can JUMP Them!&lt;/td&gt;
+      &lt;td&gt;Matthew P. Grosvenor, University of Cambridge&lt;br /&gt;Malte Schwarzkopf, University of Cambridge&lt;br /&gt;Ionel Gog, University of Cambridge&lt;br /&gt;Robert N. M. Watson, University of Cambridge&lt;br /&gt;Andrew W. Moore, University of Cambridge&lt;br /&gt;Steven Hand, University of Cambridge&lt;br /&gt;Jon Crowcroft, University of Cambridge&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Designing Distributed Systems Using Approximate Synchrony in Data Center Networks&lt;/td&gt;
+      &lt;td&gt;Dan R. K. Ports, University of Washington&lt;br /&gt;Jialin Li, University of Washington&lt;br /&gt;Vincent Liu, University of Washington&lt;br /&gt;Naveen Kr. Sharma, University of Washington&lt;br /&gt;Arvind Krishnamurthy, University of Washington&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;The Design and Implementation of Open vSwitch&lt;/td&gt;
+      &lt;td&gt;Ben Pfaff, VMware&lt;br /&gt;Justin Pettit, VMware&lt;br /&gt;Teemu Koponen, VMware&lt;br /&gt;Ethan J. Jackson, VMware&lt;br /&gt;Andy Zhou, VMware&lt;br /&gt;Jarno Rajahalme, VMware&lt;br /&gt;Jesse Gross, VMware&lt;br /&gt;Alex Wang, VMware&lt;br /&gt;Jonathan Stringer, VMware&lt;br /&gt;Pravin Shelar, VMware&lt;br /&gt;Keith Amidon, Awake Networks&lt;br /&gt;Martín Casado, VMware&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Software Dataplane Verification&lt;/td&gt;
+      &lt;td&gt;Mihai Dobrescu &amp;amp; Katerina Argyraki, École Polytechnique Fédérale de Lausanne&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;Embassies: Radically Refactoring the Web&lt;/td&gt;
+      &lt;td&gt;Jon Howell, Microsoft Research&lt;br /&gt;Bryan Parno, Microsoft Research&lt;br /&gt;John R. Douceur, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;A Fault-Tolerant Engineered Network&lt;/td&gt;
+      &lt;td&gt;Vincent Liu, University of Washington&lt;br /&gt;Daniel Halperin, University of Washington&lt;br /&gt;Arvind Krishnamurthy, University of Washington&lt;br /&gt;Thomas Anderson, University of Washington&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing&lt;/td&gt;
+      &lt;td&gt;Matei Zaharia, University of California Berkeley&lt;br /&gt;Mosharaf Chowdhury, University of California Berkeley&lt;br /&gt;Tathagata Das, University of California Berkeley&lt;br /&gt;Ankur Dave, University of California Berkeley&lt;br /&gt;Justin Ma, University of California Berkeley&lt;br /&gt;Murphy McCauley, University of California Berkeley&lt;br /&gt;Michael J. Franklin, University of California Berkeley&lt;br /&gt;Scott Shenker, University of California Berkeley&lt;br /&gt;Ion Stoica, University of California Berkeley&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;Design, Implementation and Evaluation of Congestion Control for Multipath TCP&lt;/td&gt;
+      &lt;td&gt;Damon Wischik, University College London&lt;br /&gt;Costin Raiciu, University College London&lt;br /&gt;Adam Greenhalgh, University College London&lt;br /&gt;Mark Handley, University College London&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;ServerSwitch: A Programmable and High Performance Platform for Data Center Networks&lt;/td&gt;
+      &lt;td&gt;Guohan Lu, Microsoft Research&lt;br /&gt;Chuanxiong Guo, Microsoft Research&lt;br /&gt;Yulong Li, Microsoft Research&lt;br /&gt;Zhiqiang Zhou, Tsinghua University&lt;br /&gt;Tong Yuan, Microsoft Research&lt;br /&gt;Haitao Wu, Microsoft Research&lt;br /&gt;Yongqiang Xiong, Microsoft Research&lt;br /&gt;Rui Gao, Microsoft Research&lt;br /&gt;Yongguang Zhang, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;Reverse traceroute&lt;/td&gt;
+      &lt;td&gt;Ethan Katz-Bassett, University of Washington&lt;br /&gt;Harsha V. Madhyastha, University of California San Diego&lt;br /&gt;Vijay Kumar Adhikari, University of Minnesota&lt;br /&gt;Colin Scott, University of Washington&lt;br /&gt;Justine Sherry, University of Washington&lt;br /&gt;Peter van Wesep, University of Washington&lt;br /&gt;Thomas Anderson, University of Washington&lt;br /&gt;Arvind Krishnamurthy, University of Washington&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;Sora: High Performance Software Radio Using General Purpose Multi-core Processors&lt;/td&gt;
+      &lt;td&gt;Kun Tan, Microsoft Research&lt;br /&gt;Jiansong Zhang, Microsoft Research&lt;br /&gt;Ji Fang, Beijing Jiaotong University&lt;br /&gt;He Liu, Tsinghua University&lt;br /&gt;Yusheng Ye, Tsinghua University&lt;br /&gt;Shen Wang, Tsinghua University&lt;br /&gt;Yongguang Zhang, Microsoft Research&lt;br /&gt;Haitao Wu, Microsoft Research&lt;br /&gt;Wei Wang, Microsoft Research&lt;br /&gt;Geoffrey M. Voelker, University of California San Diego&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;TrInc: Small Trusted Hardware for Large Distributed Systems&lt;/td&gt;
+      &lt;td&gt;Dave Levin, University of Maryland&lt;br /&gt;John R. Douceur, Microsoft Research&lt;br /&gt;Jacob R. Lorch, Microsoft Research&lt;br /&gt;Thomas Moscibroda, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;Remus: High Availability via Asynchronous Virtual Machine Replication&lt;/td&gt;
+      &lt;td&gt;Brendan Cully, University of British Columbia&lt;br /&gt;Geoffrey Lefebvre, University of British Columbia&lt;br /&gt;Dutch Meyer, University of British Columbia&lt;br /&gt;Mike Feeley, University of British Columbia&lt;br /&gt;Norm Hutchinson, University of British Columbia&lt;br /&gt;Andrew Warfield, University of British Columbia&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;Consensus Routing: The Internet as a Distributed System&lt;/td&gt;
+      &lt;td&gt;John P. John, University of Washington&lt;br /&gt;Ethan Katz-Bassett, University of Washington&lt;br /&gt;Arvind Krishnamurthy, University of Washington&lt;br /&gt;Thomas Anderson, University of Washington&lt;br /&gt;Arun Venkataramani, University of Massachusetts Amherst&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;Life, Death, and the Critical Transition: Finding Liveness Bugs in Systems Code&lt;/td&gt;
+      &lt;td&gt;Charles Killian, University of California San Diego&lt;br /&gt;James W. Anderson, University of California San Diego&lt;br /&gt;Ranjit Jhala, University of California San Diego&lt;br /&gt;Amin Vahdat, University of California San Diego&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2006&lt;/td&gt;
+      &lt;td&gt;Experience with an Object Reputation System for Peer-to-Peer Filesharing&lt;/td&gt;
+      &lt;td&gt;Kevin Walsh &amp;amp; Emin Gün Sirer, Cornell University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2006&lt;/td&gt;
+      &lt;td&gt;Replay Debugging for Distributed Applications&lt;/td&gt;
+      &lt;td&gt;Dennis Geels, University of California Berkeley&lt;br /&gt;Gautam Altekar, University of California Berkeley&lt;br /&gt;Scott Shenker, University of California Berkeley&lt;br /&gt;Ion Stoica, University of California Berkeley&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;Detecting BGP Configuration Faults with Static Analysis&lt;/td&gt;
+      &lt;td&gt;Nick Feamster &amp;amp; Hari Balakrishnan, Massachusetts Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;Trickle: A Self-Regulating Algorithm for Code Propagation and Maintenance in Wireless Sensor Networks&lt;/td&gt;
+      &lt;td&gt;Philip Levis, University of California Berkeley&lt;br /&gt;Neil Patel, University of California Berkeley&lt;br /&gt;David Culler, University of California Berkeley&lt;br /&gt;Scott Shenker, University of California Berkeley&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Wed, 09 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/09/best-paper-awards-NSDI/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/09/best-paper-awards-NSDI/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>Networking</category>
+        
+        
+      </item>
     
       <item>
         <title>Best Paper Awards (2008-2018)</title>
@@ -931,540 +1440,6 @@ table th:nth-of-type(2) {
         <category>Best Paper</category>
         
         <category>Information Retrieval</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Best Paper Awards (2003-2018)</title>
-        <description>&lt;style&gt;
-.table {
-	font-size:12px;
-}
-table td {
-	vertical-align: middle;
-}
-table th:nth-of-type(2) {
-    width: 240px;
-}
-
-&lt;/style&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-      &lt;th&gt;Title&lt;/th&gt;
-      &lt;th&gt;Authors&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;A Constant-Factor Approximation Algorithm for the Asymmetric Traveling Salesman Problem&lt;/td&gt;
-      &lt;td&gt;Ola Svensson, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Jakub Tarnawski, École Polytechnique Fédérale de Lausanne&lt;br /&gt;László A. Végh, London School of Economics&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;Explicit, Almost Optimal, Epsilon-Balanced Codes&lt;/td&gt;
-      &lt;td&gt;Amnon Ta-Shma, Tel-Aviv University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;A Weighted Linear Matroid Parity Algorithm&lt;/td&gt;
-      &lt;td&gt;Satoru Iwata, University of Tokyo&lt;br /&gt;Yusuke Kobayashi, University of Tsukuba&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;Deciding Parity Games in Quasipolynomial Time&lt;/td&gt;
-      &lt;td&gt;Cristian S. Calude, University of Auckland&lt;br /&gt;Sanjay Jain, National University of Singapore&lt;br /&gt;Bakhadyr Khoussainov, University of Auckland&lt;br /&gt;Wei Li, National University of Singapore&lt;br /&gt;Frank Stephan, National University of Singapore&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Explicit Two-Source Extractors and Resilient Functions&lt;/td&gt;
-      &lt;td&gt;Eshan Chattopadhyay &amp;amp; David Zuckerman, University of Texas at Austin&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Graph Isomorphism in Quasipolynomial Time&lt;/td&gt;
-      &lt;td&gt;László Babaí, University of Chicago&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Reed-Muller Codes Achieve Capacity on Erasure Channels&lt;/td&gt;
-      &lt;td&gt;Shrinivas Kudekar, Qualcomm Research&lt;br /&gt;Santhosh Kumar, Texas A&amp;amp;M University&lt;br /&gt;Marco Mondelli, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Henry D. Pfister, Duke University&lt;br /&gt;Eren Sasoglu, Intel&lt;br /&gt;Rudiger Urbanke, École Polytechnique Fédérale de Lausanne&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Exponential Separation of Information and Communication for Boolean Functions&lt;/td&gt;
-      &lt;td&gt;Anat Ganor, Weizmann Institute of Science&lt;br /&gt;Gillat Kol, Princeton University&lt;br /&gt;Ran Raz, Weizmann Institute of Science&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;2-Server PIR with sub-polynomial communication&lt;/td&gt;
-      &lt;td&gt;Zeev Dvir &amp;amp; Sivakanth Gopi, Princeton University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Lower Bounds on the Size of Semidefinite Programming Relaxations&lt;/td&gt;
-      &lt;td&gt;James R. Lee, University of Washington&lt;br /&gt;Prasad Raghavendra, University of California Berkeley&lt;br /&gt;David Steurer, Cornell University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;The matching polytope has exponential extension complexity&lt;/td&gt;
-      &lt;td&gt;Thomas Rothvoß, University of Washington&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;Approximation Resistance from Pairwise Independent Subgroups&lt;/td&gt;
-      &lt;td&gt;Siu On Chan, University of California Berkeley&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;Low Rank Approximation and Regression in Input Sparsity Time&lt;/td&gt;
-      &lt;td&gt;Kenneth L. Clarkson &amp;amp; David P. Woodruff, IBM Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;Linear vs. Semidefinite Extended Formulations: Exponential Separation and Strong Lower Bounds&lt;/td&gt;
-      &lt;td&gt;Samuel Fiorini, Université libre de Bruxelles&lt;br /&gt;Serge Massar, Université libre de Bruxelles&lt;br /&gt;Sebastian Pokutta, Universität Erlangen Nürnberg&lt;br /&gt;Hans Tiwary, Université libre de Bruxelles&lt;br /&gt;Ronald de Wolf, Centrum Wiskunde &amp;amp; Informatica&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;The Cell Probe Complexity of Dynamic Range Counting&lt;/td&gt;
-      &lt;td&gt;Kasper Larsen, Aarhus University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;Electrical flows, laplacian systems, and faster approximation of maximum flow in undirected graphs&lt;/td&gt;
-      &lt;td&gt;Paul Christiano, Massachusetts Institute of Technology&lt;br /&gt;Jonathan A. Kelner, Massachusetts Institute of Technology&lt;br /&gt;Aleksander Mądry, Massachusetts Institute of Technology&lt;br /&gt;Daniel A. Spielman, Yale University&lt;br /&gt;Shang-Hua Teng, University of Southern California&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;Subexponential lower bounds for randomized pivoting rules for the simplex algorithm&lt;/td&gt;
-      &lt;td&gt;Oliver Friedmann, University of Munich&lt;br /&gt;Thomas Dueholm Hansen, Aarhus University&lt;br /&gt;Uri Zwick, Tel-Aviv University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;An improved LP-based approximation for steiner tree&lt;/td&gt;
-      &lt;td&gt;Jaroslaw Byrka, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Fabrizio Grandoni, University of Tor Vergata&lt;br /&gt;Thomas Rothvoß, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Laura Sanità, École Polytechnique Fédérale de Lausanne&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;QIP = PSPACE&lt;/td&gt;
-      &lt;td&gt;Rahul Jain, National University of Singapore&lt;br /&gt;Zhengfeng Ji, Perimeter Institute for Theoretical Physics&lt;br /&gt;Sarvagya Upadhyay, University of Waterloo&lt;br /&gt;John Watrous, University of Waterloo&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;A constructive proof of the Lovász local lemma&lt;/td&gt;
-      &lt;td&gt;Robin A. Moser, ETH Zurich&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;Public-Key Cryptosystems from the Worst-Case Shortest Vector Problem&lt;/td&gt;
-      &lt;td&gt;Chris Peikert, SRI International&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;Optimal algorithms and inapproximability results for every CSP?&lt;/td&gt;
-      &lt;td&gt;Prasad Raghavendra, University of Washington&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;Optimal hierarchical decompositions for congestion minimization in networks&lt;/td&gt;
-      &lt;td&gt;Harald Räcke, University of Warwick&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;Faster integer multiplication&lt;/td&gt;
-      &lt;td&gt;Martin Fürer, Pennsylvania State University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;Towards 3-query locally decodable codes of subexponential length&lt;/td&gt;
-      &lt;td&gt;Sergey Yekhanin, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2006&lt;/td&gt;
-      &lt;td&gt;The PCP theorem by gap amplification&lt;/td&gt;
-      &lt;td&gt;Irit Dinur, Hebrew University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;Undirected ST-connectivity in log-space&lt;/td&gt;
-      &lt;td&gt;Omer Reingold, Weizmann Institute of Science&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2004&lt;/td&gt;
-      &lt;td&gt;Multi-linear formulas for permanent and determinant are of super-polynomial size&lt;/td&gt;
-      &lt;td&gt;Ran Raz, Weizmann Institute of Science&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2004&lt;/td&gt;
-      &lt;td&gt;Expander flows, geometric embeddings and graph partitioning&lt;/td&gt;
-      &lt;td&gt;Sanjeev Arora, Princeton University&lt;br /&gt;Satish Rao, University of California Berkeley&lt;br /&gt;Umesh Vazirani, University of California Berkeley&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2003&lt;/td&gt;
-      &lt;td&gt;Derandomizing polynomial identity tests means proving circuit lower bounds&lt;/td&gt;
-      &lt;td&gt;Valentine Kabanets &amp;amp; Russell Impagliazzo, University of California San Diego&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2003&lt;/td&gt;
-      &lt;td&gt;New lattice-based cryptographic constructions&lt;/td&gt;
-      &lt;td&gt;Oded Regev, Tel-Aviv University&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Thu, 03 Jan 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/01/03/best-paper-awards-STOC/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/01/03/best-paper-awards-STOC/</guid>
-        
-        <category>Best Paper</category>
-        
-        <category>Theory</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Best Paper Awards (1997-2018)</title>
-        <description>&lt;style&gt;
-.table {
-	font-size:12px;
-}
-table td {
-	vertical-align: middle;
-}
-table th:nth-of-type(2) {
-    width: 240px;
-}
-
-&lt;/style&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-      &lt;th&gt;Title&lt;/th&gt;
-      &lt;th&gt;Authors&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;DeepXplore: Automated Whitebox Testing of Deep Learning Systems&lt;/td&gt;
-      &lt;td&gt;Kexin Pei, Columbia University&lt;br /&gt;Yinzhi Cao, Lehigh University&lt;br /&gt;Junfeng Yang, Columbia University&lt;br /&gt;Suman Jana, Columbia University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;The Efficient Server Audit Problem, Deduplicated Re-execution, and the Web&lt;/td&gt;
-      &lt;td&gt;Cheng Tan, New York University&lt;br /&gt;Lingfan Yu, New York University&lt;br /&gt;Joshua B. Leners, Two Sigma Investments&lt;br /&gt;Michael Walfish, New York University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Pivot Tracing: Dynamic Causal Monitoring for Distributed Systems&lt;/td&gt;
-      &lt;td&gt;Jonathan Mace, Brown University&lt;br /&gt;Ryan Roelke, Brown University&lt;br /&gt;Rodrigo Fonseca, Brown University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Using Crash Hoare Logic for Certifying the FSCQ File System&lt;/td&gt;
-      &lt;td&gt;Haogang Chen, Massachusetts Institute of Technology&lt;br /&gt;Daniel Ziegler, Massachusetts Institute of Technology&lt;br /&gt;Tej Chajed, Massachusetts Institute of Technology&lt;br /&gt;Adam Chlipala, Massachusetts Institute of Technology&lt;br /&gt;M. Frans Kaashoek, Massachusetts Institute of Technology&lt;br /&gt;Nickolai Zeldovich, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Coz: Finding Code that Counts with Causal Profiling&lt;/td&gt;
-      &lt;td&gt;Charlie Curtsinger, Grinnell College&lt;br /&gt;Emery Berger, University of Massachusetts Amherst&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;Towards optimization-safe systems: analyzing the impact of undefined behavior&lt;/td&gt;
-      &lt;td&gt;Xi Wang, Massachusetts Institute of Technology&lt;br /&gt;Nickolai Zeldovich, Massachusetts Institute of Technology&lt;br /&gt;M. Frans Kaashoek, Massachusetts Institute of Technology&lt;br /&gt;Armando Solar-Lezama, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;Naiad: A Timely Dataﬂow System&lt;/td&gt;
-      &lt;td&gt;Derek G. Murray, Microsoft Research&lt;br /&gt;Frank McSherry, Microsoft Research&lt;br /&gt;Rebecca Isaacs, Microsoft Research&lt;br /&gt;Michael Isard, Microsoft Research&lt;br /&gt;Paul Barham, Microsoft Research&lt;br /&gt;Martíın Abadi, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;The Scalable Commutativity Rule: Designing Scalable Software for Multicore Processors&lt;/td&gt;
-      &lt;td&gt;Austin T. Clements, Massachusetts Institute of Technology&lt;br /&gt;M. Frans Kaashoek, Massachusetts Institute of Technology&lt;br /&gt;Nickolai Zeldovich, Massachusetts Institute of Technology&lt;br /&gt;Robert T. Morris, Massachusetts Institute of Technology&lt;br /&gt;Eddie Kohler, Harvard University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;A File is Not a File: Understanding the I/O Behavior of Apple Desktop Applications&lt;/td&gt;
-      &lt;td&gt;Tyler Harter, University of Wisconsin&lt;br /&gt;Chris Dragga, University of Wisconsin&lt;br /&gt;Michael Vaughn, University of Wisconsin&lt;br /&gt;Andrea C. Arpaci-Dusseau, University of Wisconsin&lt;br /&gt;Remzi H. Arpaci-Dusseau, University of Wisconsin&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;Cells: A Virtual Mobile Smartphone Architecture&lt;/td&gt;
-      &lt;td&gt;Jeremy Andrus, Columbia University&lt;br /&gt;Christoffer Dall, Columbia University&lt;br /&gt;Alexander Van’t Hof, Columbia University&lt;br /&gt;Oren Laadan, Columbia University&lt;br /&gt;Jason Nieh, Columbia University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;FAWN: A Fast Array of Wimpy Nodes&lt;/td&gt;
-      &lt;td&gt;David G. Andersen, Carnegie Mellon University&lt;br /&gt;Jason Franklin, Carnegie Mellon University&lt;br /&gt;Michael Kaminsky, Intel Research&lt;br /&gt;Amar Phanishayee, Carnegie Mellon University&lt;br /&gt;Lawrence Tan, Carnegie Mellon University&lt;br /&gt;Vijay Vasudevan, Carnegie Mellon University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;seL4: Formal Verification of an OS Kernel&lt;/td&gt;
-      &lt;td&gt;Gerwin Klein, NICTA&lt;br /&gt;Kevin Elphinstone, NICTA&lt;br /&gt;Gernot Heiser, NICTA&lt;br /&gt;June Andronick, NICTA&lt;br /&gt;David Cock, NICTA&lt;br /&gt;Philip Derrin, NICTA&lt;br /&gt;Dhammika Elkaduwe, NICTA&lt;br /&gt;Kai Engelhardt, NICTA&lt;br /&gt;Rafal Kolanski, NICTA&lt;br /&gt;Michael Norrish, NICTA&lt;br /&gt;Thomas Sewell, NICTA&lt;br /&gt;Harvey Tuch, NICTA&lt;br /&gt;Simon Winwood, NICTA&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;RouteBricks: Exploiting Parallelism to Scale Software Routers&lt;/td&gt;
-      &lt;td&gt;Mihai Dobrescu, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Norbert Egi, Lancaster University&lt;br /&gt;Katerina Argyraki, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Byung-Gon Chun, Intel Research&lt;br /&gt;Kevin Fall, Intel Research&lt;br /&gt;Gianluca Iannaccone, Intel Research&lt;br /&gt;Allan Knies, Intel Research&lt;br /&gt;Maziar Manesh, Intel Research&lt;br /&gt;Sylvia Ratnasamy, Intel Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;Zyzzyva: speculative byzantine fault tolerance&lt;/td&gt;
-      &lt;td&gt;Ramakrishna Kotla, University of Texas at Austin&lt;br /&gt;Lorenzo Alvisi, University of Texas at Austin&lt;br /&gt;Mike Dahlin, University of Texas at Austin&lt;br /&gt;Allen Clement, University of Texas at Austin&lt;br /&gt;Edmund Wong, University of Texas at Austin&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;Sinfonia: a new paradigm for building scalable distributed systems&lt;/td&gt;
-      &lt;td&gt;Marcos K. Aguilera, Hewlett-Packard Labs&lt;br /&gt;Arif Merchant, Hewlett-Packard Labs&lt;br /&gt;Mehul Shah, Hewlett-Packard Labs&lt;br /&gt;Alistair Veitch, Hewlett-Packard Labs&lt;br /&gt;Christos Karamanolis, VMware&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;Secure Web Applications via Automatic Partitioning&lt;/td&gt;
-      &lt;td&gt;Stephen Chong, Cornell University&lt;br /&gt;Jed Liu, Cornell University&lt;br /&gt;Andrew C. Myers, Cornell University&lt;br /&gt;Xin Qi, Cornell University&lt;br /&gt;K. Vikram, Cornell University&lt;br /&gt;Lantian Zheng, Cornell University&lt;br /&gt;Xin Zheng, Cornell University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;Speculative Execution in a Distributed File System&lt;/td&gt;
-      &lt;td&gt;Edmund B. Nightingale, University of Michigan&lt;br /&gt;Peter M. Chen, University of Michigan&lt;br /&gt;Jason Flinn, University of Michigan&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;BAR Tolerance for Cooperative Services&lt;/td&gt;
-      &lt;td&gt;Amitanand S. Aiyer, University of Texas at Austin&lt;br /&gt;Lorenzo Alvisi, University of Texas at Austin&lt;br /&gt;Allen Clement, University of Texas at Austin&lt;br /&gt;Mike Dahlin, University of Texas at Austin&lt;br /&gt;Jean-Philippe Martin, University of Texas at Austin&lt;br /&gt;Carl Porth, University of Texas at Austin&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;Rx: treating bugs as allergies - a safe method to survive software failures&lt;/td&gt;
-      &lt;td&gt;Feng Qin, University of Illinois at Urbana-Champaign&lt;br /&gt;Joseph Tucek, University of Illinois at Urbana-Champaign&lt;br /&gt;Jagadeesan Sundaresan, University of Illinois at Urbana-Champaign&lt;br /&gt;Yuanyuan Zhou, University of Illinois at Urbana-Champaign&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;Vigilante: End-to-End Containment of Internet Worms&lt;/td&gt;
-      &lt;td&gt;Manuel Costa, University of Cambridge&lt;br /&gt;Jon Crowcroft, University of Cambridge&lt;br /&gt;Miguel Castro, Microsoft Research&lt;br /&gt;Antony Rowstron, Microsoft Research&lt;br /&gt;Lidong Zhou, Microsoft Research&lt;br /&gt;Lintao Zhang, Microsoft Research&lt;br /&gt;Paul Barham, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2003&lt;/td&gt;
-      &lt;td&gt;Backtracking intrusions&lt;/td&gt;
-      &lt;td&gt;Samuel T. King &amp;amp; Peter M. Chen, University of Michigan&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2003&lt;/td&gt;
-      &lt;td&gt;Preserving peer replicas by rate-limited sampled voting&lt;/td&gt;
-      &lt;td&gt;Petros Maniatis, Stanford University&lt;br /&gt;David S. H. Rosenthal, Stanford University&lt;br /&gt;Mema Roussopoulos, Stanford University&lt;br /&gt;Mary Baker, Stanford University&lt;br /&gt;TJ Giuli, Stanford University&lt;br /&gt;Yanto Muliadi, Stanford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2003&lt;/td&gt;
-      &lt;td&gt;Improving the Reliability of Commodity Operating Systems&lt;/td&gt;
-      &lt;td&gt;Michael M. Swift, University of Washington&lt;br /&gt;Brian N. Bershad, University of Washington&lt;br /&gt;Henry M. Levy, University of Washington&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2001&lt;/td&gt;
-      &lt;td&gt;BASE: using abstraction to improve fault tolerance&lt;/td&gt;
-      &lt;td&gt;Rodrigo Rodrigues, Massachusetts Institute of Technology&lt;br /&gt;Miguel Castro, Microsoft Research&lt;br /&gt;Barbara Liskov, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2001&lt;/td&gt;
-      &lt;td&gt;Untrusted hosts and confidentiality: secure program partitioning&lt;/td&gt;
-      &lt;td&gt;Steve Zdancewic, Cornell University&lt;br /&gt;Lantian Zheng, Cornell University&lt;br /&gt;Nathaniel Nystrom, Cornell University&lt;br /&gt;Andrew C. Myers, Cornell University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1999&lt;/td&gt;
-      &lt;td&gt;Cellular Disco: resource management using virtual clusters on shared-memory multiprocessors&lt;/td&gt;
-      &lt;td&gt;Kinshuk Govil, Stanford University&lt;br /&gt;Dan Teodosiu, Hewlett-Packard Labs&lt;br /&gt;Yongqiang Huang, Stanford University&lt;br /&gt;Mendel Rosenblum, Stanford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1999&lt;/td&gt;
-      &lt;td&gt;Soft timers: efficient microsecond software timer support for network processing&lt;/td&gt;
-      &lt;td&gt;Mohit Aron &amp;amp; Peter Druschel, Rice University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1999&lt;/td&gt;
-      &lt;td&gt;The Click modular router&lt;/td&gt;
-      &lt;td&gt;Robert Morris, Massachusetts Institute of Technology&lt;br /&gt;Eddie Kohler, Massachusetts Institute of Technology&lt;br /&gt;John Jannotti, Massachusetts Institute of Technology&lt;br /&gt;M. Frans Kaashoek, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1999&lt;/td&gt;
-      &lt;td&gt;Manageability, availability and performance in Porcupine: a highly scalable, cluster-based mail service&lt;/td&gt;
-      &lt;td&gt;Yasushi Saito, University of Washington&lt;br /&gt;Brian N. Bershad, University of Washington&lt;br /&gt;Henry M. Levy, University of Washington&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1997&lt;/td&gt;
-      &lt;td&gt;Continuous profiling: where have all the cycles gone?&lt;/td&gt;
-      &lt;td&gt;Jennifer M. Anderson, Digital Equipment Corporation&lt;br /&gt;Lance M. Berc, Digital Equipment Corporation&lt;br /&gt;Jeffrey Dean, Digital Equipment Corporation&lt;br /&gt;Sanjay Ghemawat, Digital Equipment Corporation&lt;br /&gt;Monika R. Henzinger, Digital Equipment Corporation&lt;br /&gt;Shun-Tak A. Leung, Digital Equipment Corporation&lt;br /&gt;Richard L. Sites, Digital Equipment Corporation&lt;br /&gt;Mark T. Vandevoorde, Digital Equipment Corporation&lt;br /&gt;Carl A. Waldspurger, Digital Equipment Corporation&lt;br /&gt;William E. Weihl, Digital Equipment Corporation&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1997&lt;/td&gt;
-      &lt;td&gt;Disco: running commodity operating systems on scalable multiprocessors&lt;/td&gt;
-      &lt;td&gt;Edouard Bugnion, Stanford University&lt;br /&gt;Scott Devine, Stanford University&lt;br /&gt;Mendel Rosenblum, Stanford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1997&lt;/td&gt;
-      &lt;td&gt;Eraser: a dynamic data race detector for multithreaded programs&lt;/td&gt;
-      &lt;td&gt;Stefan Savage, University of Washington&lt;br /&gt;Michael Burrows, Digital Equipment Corporation&lt;br /&gt;Greg Nelson, Digital Equipment Corporation&lt;br /&gt;Patrick Sobalvarro, Digital Equipment Corporation&lt;br /&gt;Thomas Anderson, University of California Berkeley&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Thu, 03 Jan 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/01/03/best-paper-awards-SOSP/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/01/03/best-paper-awards-SOSP/</guid>
-        
-        <category>Best Paper</category>
-        
-        <category>Operating Systems</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Best Paper Awards (1997-2018)</title>
-        <description>&lt;style&gt;
-.table {
-	font-size:12px;
-}
-table td {
-	vertical-align: middle;
-}
-table th:nth-of-type(2) {
-    width: 240px;
-}
-
-&lt;/style&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-      &lt;th&gt;Title&lt;/th&gt;
-      &lt;th&gt;Authors&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;Provenance for Natural Language Queries&lt;/td&gt;
-      &lt;td&gt;Daniel Deutch, Tel-Aviv University&lt;br /&gt;&lt;br /&gt;Nave Frost, Tel-Aviv University&lt;br /&gt;Amir Gilad, Tel-Aviv University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Compressed Linear Algebra for Large-Scale Machine Learning&lt;/td&gt;
-      &lt;td&gt;Ahmed Elgohary, University of Maryland&lt;br /&gt;Matthias Boehm, IBM Research&lt;br /&gt;Peter Haas, IBM Research&lt;br /&gt;Fred Reiss, IBM Research&lt;br /&gt;Berthold Reinwald, IBM Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Constructing an interactive natural language interface for relational databases&lt;/td&gt;
-      &lt;td&gt;Fei Li &amp;amp; H. V. Jagadish, University of Michigan&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;M4: A Visualization-Oriented Time Series Data Aggregation&lt;/td&gt;
-      &lt;td&gt;Uwe Jugel, SAP&lt;br /&gt;Zbigniew Jerzak, SAP&lt;br /&gt;Gregor Hackenbroich, SAP&lt;br /&gt;Volker Markl, Technische Universität Berlin&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;Building Efficient Query Engines in a High-Level Language&lt;/td&gt;
-      &lt;td&gt;Yannis Klonatos, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Christoph Koch, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Tiark Rompf, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Hassan Chaf, Oracle&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;On k-Path Covers and their Applications&lt;/td&gt;
-      &lt;td&gt;Stefan Funke, University of Stuttgart&lt;br /&gt;André Nusser, University of Stuttgart&lt;br /&gt;Sabine Storandt, University of Stuttgart&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;epiC: an Extensible and Scalable System for Processing Big Data&lt;/td&gt;
-      &lt;td&gt;Dawei Jiang, National University of Singapore&lt;br /&gt;Gang Chen, Zhejiang University&lt;br /&gt;Beng Chin Ooi, National University of Singapore&lt;br /&gt;Kian-Lee Tan, National University of Singapore&lt;br /&gt;Sai Wu, Zhejiang University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;The Uncracked Pieces in Database Cracking&lt;/td&gt;
-      &lt;td&gt;Felix Martin Schuhknecht, Saarland University&lt;br /&gt;Alekh Jindal, Massachusetts Institute of Technology&lt;br /&gt;Jens Dittrich, Saarland University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;DisC Diversity: Result Diversification based on Dissimilarity and Coverage&lt;/td&gt;
-      &lt;td&gt;Marina Drosou &amp;amp; Evaggelia Pitoura, University of Ioannina&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;Dense Subgraph Maintenance under Streaming Edge Weight Updates for Real-time Story Identification&lt;/td&gt;
-      &lt;td&gt;Albert Angel, University of Toronto&lt;br /&gt;Nick Koudas, University of Toronto&lt;br /&gt;Nikos Sarkas, University of Toronto&lt;br /&gt;Divesh Srivastava, AT&amp;amp;T Laboratories&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;RemusDB: Transparent High-Availability for Database Systems&lt;/td&gt;
-      &lt;td&gt;Umar Farooq Minhas, University of Waterloo&lt;br /&gt;Shriram Rajagopalan, University of British Columbia&lt;br /&gt;Brendan Cully, University of British Columbia&lt;br /&gt;Ashraf Aboulnaga, University of Waterloo&lt;br /&gt;Ken Salem, University of Waterloo&lt;br /&gt;Andrew Warfield, University of British Columbia&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;Towards Certain Fixes with Editing Rules and Master Data&lt;/td&gt;
-      &lt;td&gt;Shuai Ma, University of Edinburgh&lt;br /&gt;Wenfei Fan, University of Edinburgh&lt;br /&gt;Jianzhong Li, Harbin Institute of Technology&lt;br /&gt;Wenyuan Yu, University of Edinburgh&lt;br /&gt;Nan Tang, University of Edinburgh&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;A Unified Approach to Ranking in Probabilistic Databases&lt;/td&gt;
-      &lt;td&gt;Jian Li, University of Maryland&lt;br /&gt;Barna Saha, University of Maryland&lt;br /&gt;Amol Deshpande, University of Maryland&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;Finding Frequent Items in Data Streams&lt;/td&gt;
-      &lt;td&gt;Graham Cormode &amp;amp; Marios Hadjieleftheriou, AT&amp;amp;T Laboratories&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;Constrained Physical Design Tuning&lt;/td&gt;
-      &lt;td&gt;Nicolas Bruno &amp;amp; Surajit Chaudhuri, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;Scalable Semantic Web Data Management Using Vertical Partitioning&lt;/td&gt;
-      &lt;td&gt;Daniel J. Abadi, Massachusetts Institute of Technology&lt;br /&gt;Adam Marcus, Massachusetts Institute of Technology&lt;br /&gt;Samuel R. Madden, Massachusetts Institute of Technology&lt;br /&gt;Kate Hollenbach, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2006&lt;/td&gt;
-      &lt;td&gt;Trustworthy Keyword Search for Regulatory-Compliant Records Retention&lt;/td&gt;
-      &lt;td&gt;Soumyadeb Mitra, University of Illinois at Urbana-Champaign&lt;br /&gt;Windsor W. Hsu, University of Illinois at Urbana-Champaign&lt;br /&gt;Marianne Winslett, University of Illinois at Urbana-Champaign&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;Cache-conscious Frequent Pattern Mining on a Modern Processor&lt;/td&gt;
-      &lt;td&gt;Amol Ghoting, Ohio State University&lt;br /&gt;Gregory Buehrer, Ohio State University&lt;br /&gt;Srinivasan Parthasarathy, Ohio State University&lt;br /&gt;Daehyun Kim, Intel&lt;br /&gt;Anthony D. Nguyen, Intel&lt;br /&gt;Yen-Kuang Chen, Intel&lt;br /&gt;Pradeep Dubey, Intel&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2004&lt;/td&gt;
-      &lt;td&gt;Model-Driven Data Acquisition in Sensor Networks&lt;/td&gt;
-      &lt;td&gt;Amol Deshpande, University of California Berkeley&lt;br /&gt;Carlos Guestrin, Intel Research&lt;br /&gt;Samuel R. Madden, Massachusetts Institute of Technology&lt;br /&gt;Joseph M. Hellerstein, University of California Berkeley&lt;br /&gt;Wei Hong, Intel Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2001&lt;/td&gt;
-      &lt;td&gt;Weaving Relations for Cache Performance&lt;/td&gt;
-      &lt;td&gt;Anastassia Ailamaki, Carnegie Mellon University&lt;br /&gt;David J. DeWitt, University of Wisconsin&lt;br /&gt;Mark D. Hill, University of Wisconsin&lt;br /&gt;Marios Skounakis, University of Wisconsin&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1997&lt;/td&gt;
-      &lt;td&gt;Integrating Reliable Memory in Databases&lt;/td&gt;
-      &lt;td&gt;Wee Teck Ng &amp;amp; Peter M. Chen, University of Michigan&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Wed, 02 Jan 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/01/02/best-paper-awards-VLDB/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/01/02/best-paper-awards-VLDB/</guid>
-        
-        <category>Best Paper</category>
-        
-        <category>Databases</category>
         
         
       </item>
