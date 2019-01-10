@@ -5,9 +5,428 @@
     <description>这里是 @PXZHANG张培歆 的个人网站</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 09 Jan 2019 10:01:17 +0800</pubDate>
-    <lastBuildDate>Wed, 09 Jan 2019 10:01:17 +0800</lastBuildDate>
+    <pubDate>Thu, 10 Jan 2019 11:03:42 +0800</pubDate>
+    <lastBuildDate>Thu, 10 Jan 2019 11:03:42 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Best Paper Awards (2008-2018)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;SkyCore: Moving Core to the Edge for Untethered and Reliable UAV-based LTE Networks&lt;/td&gt;
+      &lt;td&gt;Mehrdad Moradi, University of Michigan&lt;br /&gt;Karthikeyan Sundaresan, NEC Labs America&lt;br /&gt;Eugene Chai, NEC Labs America&lt;br /&gt;Sampath Rangarajan, NEC Labs America&lt;br /&gt;Z. Morley Mao, University of Michigan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;WEBee: Physical-Layer Cross-Technology Communication via Emulation&lt;/td&gt;
+      &lt;td&gt;Zhijun Li &amp;amp; Tian He, University of Minnesota&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;CAreDroid: Adaptation Framework for Android ContextAware Applications&lt;/td&gt;
+      &lt;td&gt;Salma Elmalaki, University of California Los Angeles&lt;br /&gt;Lucas Wanner, University of California Los Angeles&lt;br /&gt;Mani Srivastava, University of California Los Angeles&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Tagoram: Real-Time Tracking of Mobile RFID Tags to High Precision Using COTS Devices&lt;/td&gt;
+      &lt;td&gt;Lei Yang, Tsinghua University&lt;br /&gt;Yekui Chen, Tsinghua University&lt;br /&gt;Xiang-Yang Li, Illinois Institute of Technology&lt;br /&gt;Chaowei Xiao, Tsinghua University&lt;br /&gt;Mo Li, Nanyang Technological University&lt;br /&gt;Yunhao Liu, Tsinghua University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;Whole-Home Gesture Recognition Using Wireless Signals&lt;/td&gt;
+      &lt;td&gt;Qifan Pu, University of Washington&lt;br /&gt;Sidhant Gupta, University of Washington&lt;br /&gt;Shyamnath Gollakota, University of Washington&lt;br /&gt;Shwetak Patel, University of Washington&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Distinguishing Users with Capacitative Touch Communication&lt;/td&gt;
+      &lt;td&gt;Tam Vu, Rutgers University&lt;br /&gt;Akash Baid, Rutgers University&lt;br /&gt;Simon Gao, Rutgers University&lt;br /&gt;Marco Gruteser, Rutgers University&lt;br /&gt;Richard Howard, Rutgers University&lt;br /&gt;Janne Lindqvist, Rutgers University&lt;br /&gt;Predag Spasojevic, Rutgers University&lt;br /&gt;Jeffrey Walling, Rutgers University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;Detecting Driver Phone Use Leveraging Car Speakers&lt;/td&gt;
+      &lt;td&gt;Jie Yang, Stevens Institute of Technology&lt;br /&gt;Simon Sdhom, Stevens Institute of Technology&lt;br /&gt;Gayathri Chandrasekaran, Rutgers University&lt;br /&gt;Tam Vu, Stevens Institute of Technology&lt;br /&gt;Hongbo Liu, Stevens Institute of Technology&lt;br /&gt;Nicolae Cecan, Rutgers University&lt;br /&gt;Yingying Chen, Stevens Institute of Technology&lt;br /&gt;Marco Gruteser, Rutgers University&lt;br /&gt;Richard P. Martin, Rutgers University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;E-MiLi: Energy-Minimizing Idle Listening in Wireless Networks&lt;/td&gt;
+      &lt;td&gt;Xinyu Zhang &amp;amp; Kang G. Shin, University of Michigan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;The κ factor: inferring protocol performance using inter-link reception correlation&lt;/td&gt;
+      &lt;td&gt;Kannan Srinivasan, Stanford University&lt;br /&gt;Mayank Jain, Stanford University&lt;br /&gt;Jung Il Choi, Stanford University&lt;br /&gt;Tahir Azim, Stanford University&lt;br /&gt;Edward S. Kim, University of Southern California&lt;br /&gt;Philip Levis, Stanford University&lt;br /&gt;Bhaskar Krishnamachari, University of Southern California&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;CENTAUR: Realizing the Full Potential of Centralized WLANs through a Hybrid Data Path&lt;/td&gt;
+      &lt;td&gt;Vivek Shrivastava, University of Wisconsin&lt;br /&gt;Nabeel Ahmed, University of Waterloo&lt;br /&gt;Shravan Rayanchu, University of Wisconsin&lt;br /&gt;Suman Banerjee, University of Wisconsin&lt;br /&gt;Srinivasan Keshav, University of Waterloo&lt;br /&gt;Konstantina Papagiannaki, Intel Research&lt;br /&gt;Arunesh Mishra, Google&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;Assessment of Urban-Scale Wireless Networks with a Small Number of Measurements&lt;/td&gt;
+      &lt;td&gt;Joshua Robinson, Rice University&lt;br /&gt;Ram Swaminathan, Hewlett-Packard Labs&lt;br /&gt;Edward W. Knightly, Rice University&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Thu, 10 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/10/best-paper-awards-MOBICOM/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/10/best-paper-awards-MOBICOM/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>Mobile</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Best Paper Awards (1997-2018)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Adversarial Attacks on Neural Networks for Graph Data&lt;/td&gt;
+      &lt;td&gt;Daniel Zügner, Technical University of Munich&lt;br /&gt;Amir Akbarnejad, Technical University of Munich&lt;br /&gt;Stephan Günnemann, Technical University of Munich&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Accelerating Innovation Through Analogy Mining&lt;/td&gt;
+      &lt;td&gt;Tom Hope, Hebrew University of Jerusalem&lt;br /&gt;Joel Chan, Carnegie Mellon University&lt;br /&gt;Aniket Kittur, Carnegie Mellon University&lt;br /&gt;Dafna Shahaf, Hebrew University of Jerusalem&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;FRAUDAR: Bounding Graph Fraud in the Face of Camouflage&lt;/td&gt;
+      &lt;td&gt;Bryan Hooi, Carnegie Mellon University&lt;br /&gt;Hyun Ah Song, Carnegie Mellon University&lt;br /&gt;Alex Beutel, Carnegie Mellon University&lt;br /&gt;Neil Shah, Carnegie Mellon University&lt;br /&gt;Kijung Shin, Carnegie Mellon University&lt;br /&gt;Christos Faloutsos, Carnegie Mellon University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Efficient Algorithms for Public-Private Social Networks&lt;/td&gt;
+      &lt;td&gt;Flavio Chierichetti, Sapienza University of Rome&lt;br /&gt;Alessandro Epasto, Brown University&lt;br /&gt;Ravi Kumar, Google&lt;br /&gt;Silvio Lattanzi, Google&lt;br /&gt;Vahab Mirrokni, Google&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Reducing the Sampling Complexity of Topic Models&lt;/td&gt;
+      &lt;td&gt;Aaron Li, Carnegie Mellon University&lt;br /&gt;Amr Ahmed, Google&lt;br /&gt;Sujith Ravi, Google&lt;br /&gt;Alexander Smola, Carnegie Mellon University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;Simple and Deterministic Matrix Sketching&lt;/td&gt;
+      &lt;td&gt;Edo Liberty, Yahoo! Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Searching and Mining Trillions of Time Series Subsequences under Dynamic Time Warping&lt;/td&gt;
+      &lt;td&gt;Thanawin Rakthanmanon, University of California Riverside&lt;br /&gt;Bilson Campana, University of California Riverside&lt;br /&gt;Abdullah Mueen, University of California Riverside&lt;br /&gt;Gustavo Batista, University of São Paulo&lt;br /&gt;Brandon Westover, Brigham and Women’s Hospital&lt;br /&gt;Qiang Zhu, University of California Riverside&lt;br /&gt;Jesin Zakaria, University of California Riverside&lt;br /&gt;Eamonn Keogh, University of California Riverside&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;Leakage in Data Mining: Formulation, Detection, and Avoidance&lt;/td&gt;
+      &lt;td&gt;Shachar Kaufman, Tel-Aviv University&lt;br /&gt;Saharon Rosset, Tel-Aviv University&lt;br /&gt;Claudia Perlich, Media6Degrees&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;Large linear classification when data cannot fit in memory&lt;/td&gt;
+      &lt;td&gt;Hsiang-Fu Yu, National Taiwan University&lt;br /&gt;Cho-Jui Hsieh, National Taiwan University&lt;br /&gt;Kai-Wei Chang, National Taiwan University&lt;br /&gt;Chih-Jen Lin, National Taiwan University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;Connecting the dots between news articles&lt;/td&gt;
+      &lt;td&gt;Dafna Shahaf &amp;amp; Carlos Guestrin, Carnegie Mellon University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;Collaborative Filtering with Temporal Dynamics&lt;/td&gt;
+      &lt;td&gt;Yehuda Koren, Yahoo! Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;Fastanova: an efficient algorithm for genome-wide association study&lt;/td&gt;
+      &lt;td&gt;Xiang Zhang, University of North Carolina at Chapel Hill&lt;br /&gt;Fei Zou, University of North Carolina at Chapel Hill&lt;br /&gt;Wei Wang, University of North Carolina at Chapel Hill&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;Predictive discrete latent factor models for large scale dyadic data&lt;/td&gt;
+      &lt;td&gt;Deepak Agarwal &amp;amp; Srujana Merugu, Yahoo! Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2006&lt;/td&gt;
+      &lt;td&gt;Training linear SVMs in linear time&lt;/td&gt;
+      &lt;td&gt;Thorsten Joachims, Cornell University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;Graphs over time: densification laws, shrinking diameters and possible explanations&lt;/td&gt;
+      &lt;td&gt;Jure Leskovec, Carnegie Mellon University&lt;br /&gt;Jon Kleinberg, Cornell University&lt;br /&gt;Christos Faloutsos, Carnegie Mellon University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;A probabilistic framework for semi-supervised clustering&lt;/td&gt;
+      &lt;td&gt;Sugato Basu, University of Texas at Austin&lt;br /&gt;Mikhail Bilenko, University of Texas at Austin&lt;br /&gt;Raymond J. Mooney, University of Texas at Austin&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2003&lt;/td&gt;
+      &lt;td&gt;Maximizing the spread of influence through a social network&lt;/td&gt;
+      &lt;td&gt;David Kempe, Cornell University&lt;br /&gt;Jon Kleinberg, Cornell University&lt;br /&gt;Éva Tardos, Cornell University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2002&lt;/td&gt;
+      &lt;td&gt;Pattern discovery in sequences under a Markov assumption&lt;/td&gt;
+      &lt;td&gt;Darya Chudova &amp;amp; Padhraic Smyth, University of California Irvine&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2001&lt;/td&gt;
+      &lt;td&gt;Robust space transformations for distance-based operations&lt;/td&gt;
+      &lt;td&gt;Edwin M. Knorr, University of British Columbia&lt;br /&gt;Raymond T. Ng, University of British Columbia&lt;br /&gt;Ruben H. Zamar, University of British Columbia&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2000&lt;/td&gt;
+      &lt;td&gt;Hancock: a language for extracting signatures from data streams&lt;/td&gt;
+      &lt;td&gt;Corinna Cortes, AT&amp;amp;T Laboratories&lt;br /&gt;Kathleen Fisher, AT&amp;amp;T Laboratories&lt;br /&gt;Daryl Pregibon, AT&amp;amp;T Laboratories&lt;br /&gt;Anne Rogers, AT&amp;amp;T Laboratories&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1999&lt;/td&gt;
+      &lt;td&gt;MetaCost: a general method for making classifiers cost-sensitive&lt;/td&gt;
+      &lt;td&gt;Pedro Domingos, Universidade Técnica de Lisboa&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1998&lt;/td&gt;
+      &lt;td&gt;Occam’s Two Razors: The Sharp and the Blunt&lt;/td&gt;
+      &lt;td&gt;Pedro Domingos, Universidade Técnica de Lisboa&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1997&lt;/td&gt;
+      &lt;td&gt;Analysis and Visualization of Classifier Performance: Comparison under Imprecise Class and Cost Distributions&lt;/td&gt;
+      &lt;td&gt;Foster Provost &amp;amp; Tom Fawcett, NYNEX Science and Technology&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Thu, 10 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/10/best-paper-awards-KDD/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/10/best-paper-awards-KDD/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>Data Mining</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Best Paper Awards (1996-2018)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;WiFED: WiFi Friendly Energy Delivery with Distributed Beamforming&lt;/td&gt;
+      &lt;td&gt;Subhramoy Mohanti, Northeastern University&lt;br /&gt;Elif Bozkaya, Istanbul Technical University&lt;br /&gt;M. Yousof Naderi, Northeastern University&lt;br /&gt;Berk Canberk, Istanbul Technical University&lt;br /&gt;Kaushik Chowdhury, Northeastern University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Understanding Ethereum via Graph Analysis&lt;/td&gt;
+      &lt;td&gt;Ting Chen, University of Electronic Science and Technology of China&lt;br /&gt;Yuxiao Zhu, Guangdong University of Technology&lt;br /&gt;Zihao Li, University of Electronic Science and Technology of China&lt;br /&gt;Jiachi Chen, Hong Kong Polytechnic University&lt;br /&gt;Xiaoqi Li, Hong Kong Polytechnic University&lt;br /&gt;Xiapu Luo, Hong Kong Polytechnic University&lt;br /&gt;Xiaodong Lin, Wilfrid Laurier University&lt;br /&gt;Xiaosong Zhang, University of Electronic Science and Technology of China&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Optimizing Age of Information in Wireless Networks with Throughput Constraints&lt;/td&gt;
+      &lt;td&gt;Igor Kadota, Massachusetts Institute of Technology&lt;br /&gt;Abhishek Sinha, Massachusetts Institute of Technology&lt;br /&gt;Eytan Modiano, Massachusetts Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;One Step at a Time: Optimizing SDN Upgrades in ISP Networks&lt;/td&gt;
+      &lt;td&gt;Konstantinos Poularakis, Yale University&lt;br /&gt;George Iosifidis, Yale University&lt;br /&gt;Georgios Smaragdakis, Massachusetts Institute of Technology&lt;br /&gt;Leandros Tassiulas, Yale University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Heavy-Ball: A New Approach to Tame Delay and Convergence in Wireless Network Optimization&lt;/td&gt;
+      &lt;td&gt;Jia Liu, Ohio State University&lt;br /&gt;Atilla Eryilmaz, Ohio State University&lt;br /&gt;Ness B. Shroff, Ohio State University&lt;br /&gt;Elizabeth Serena Bentley, Air Force Research Laboratory&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;The Power of Slightly More than One Sample in Randomized Load Balancing&lt;/td&gt;
+      &lt;td&gt;Lei Ying, Arizona State University&lt;br /&gt;R. Srikant, University of Illinois at Urbana-Champaign&lt;br /&gt;Xiaohan Kang, Arizona State University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Joint Static and Dynamic Traffic Scheduling in Data Center Networks&lt;/td&gt;
+      &lt;td&gt;Zizhong Cao, Polytechnic Institute of New York University&lt;br /&gt;M. Kodialam, Bell Labs&lt;br /&gt;T. V. Lakshman, Bell Labs&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Performance Evaluation and Asymptotics for Content Delivery Networks&lt;/td&gt;
+      &lt;td&gt;Virag Shah &amp;amp; Gustavo de Veciana, University of Texas at Austin&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;On the Steady-State of Cache Networks&lt;/td&gt;
+      &lt;td&gt;Elisha J. Rosensweig, University of Massachusetts Amherst&lt;br /&gt;Daniel S. Menasche, University of Massachusetts Amherst&lt;br /&gt;Jim Kurose, University of Massachusetts Amherst&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Multi-resource allocation: Fairness-efficiency tradeoffs in a unifying framework&lt;/td&gt;
+      &lt;td&gt;Carlee Joe-Wong, Princeton University&lt;br /&gt;Soumya Sen, Princeton University&lt;br /&gt;Tian Lan, George Washington University&lt;br /&gt;Mung Chiang, Princeton University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;Dynamic right-sizing for power-proportional data centers&lt;/td&gt;
+      &lt;td&gt;Minghong Lin, California Institute of Technology&lt;br /&gt;Adam Wierman, California Institute of Technology&lt;br /&gt;Lachlan Andrew, Swinburne University of Technology&lt;br /&gt;Eno Thereska, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;On the Feasibility and Efficacy of Protection Routing in IP Networks&lt;/td&gt;
+      &lt;td&gt;Kin-Wah Kwong, University of Pennsylvania&lt;br /&gt;Lixin Gao, University of Massachusetts Amherst&lt;br /&gt;Roch Guérin, University of Pennsylvania&lt;br /&gt;Zhi-Li Zhang, University of Minnesota&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;Queuing Network Models for Multi-Channel P2P Live Streaming Systems&lt;/td&gt;
+      &lt;td&gt;Di Wu, Polytechnic Institute of New York University&lt;br /&gt;Yong Liu, Polytechnic Institute of New York University&lt;br /&gt;Keith W. Ross, Polytechnic Institute of New York University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;On the Feasibility of the Link Abstraction in (Rural) Mesh Networks&lt;/td&gt;
+      &lt;td&gt;Dattatraya Gokhal, Indian Navy&lt;br /&gt;Sayandeep Sen, University of Wisconsin&lt;br /&gt;Kameswari Chebrolu, Indian Institute of Technology&lt;br /&gt;Bhaskaran Rama, Indian Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;Theoretical Results on Base Station Movement Problem for Sensor Networks&lt;/td&gt;
+      &lt;td&gt;Yi Shi &amp;amp; Y. Thomas Hou, Virginia Tech&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;Understanding the Capacity Region of the Greedy Maximal Scheduling Algorithm in Multi-hop Wireless Networks&lt;/td&gt;
+      &lt;td&gt;Changhee Joo, Ohio State University&lt;br /&gt;Xiaojun Lin, Purdue University&lt;br /&gt;Ness B. Shroff, Ohio State University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;Disruption free topology reconfiguration in OSPF networks&lt;/td&gt;
+      &lt;td&gt;Pierre Francois, Université catholique de Louvain&lt;br /&gt;Mike Shand, Cisco Systems&lt;br /&gt;Olicier Bonaventure, Université catholique de Louvain&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2006&lt;/td&gt;
+      &lt;td&gt;Delay and Capacity Trade-offs in Mobile Ad Hoc Networks: A Global Perspective&lt;/td&gt;
+      &lt;td&gt;Gaurav Sharma, Purdue University&lt;br /&gt;Ravi Mazumdar, University of Waterloo&lt;br /&gt;Ness Shroff, Purdue University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;Perfect Simulation and Stationarity of a Class of Mobility Models&lt;/td&gt;
+      &lt;td&gt;Jean-Yves Le Boude, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Milan Vojnović, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;Throughput-Delay Trade-Off in Wireless Networks&lt;/td&gt;
+      &lt;td&gt;Abbas El Gamal, Stanford University&lt;br /&gt;James Mammen, Stanford University&lt;br /&gt;Balaji Prabhakar, Stanford University&lt;br /&gt;Devavrat Shah, Stanford University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2003&lt;/td&gt;
+      &lt;td&gt;User-Level Performance of Channel-Aware Scheduling Algorithms in Wireless Data Networks&lt;/td&gt;
+      &lt;td&gt;Sem Borst, Bell Labs&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2002&lt;/td&gt;
+      &lt;td&gt;Priority Service and Max-Min Fairness&lt;/td&gt;
+      &lt;td&gt;Peter Marbach, University of Toronto&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2001&lt;/td&gt;
+      &lt;td&gt;Mobility increases the capacity of ad-hoc wireless networks&lt;/td&gt;
+      &lt;td&gt;Matthias Grossglauser, AT&amp;amp;T Laboratories&lt;br /&gt;David Tse, University of California Berkeley&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2000&lt;/td&gt;
+      &lt;td&gt;The Chaotic Nature of TCP Congestion Control&lt;/td&gt;
+      &lt;td&gt;András Veres, Ericsson&lt;br /&gt;Miklós Boda, Ericsson Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1999&lt;/td&gt;
+      &lt;td&gt;Bandwidth Sharing: Objectives and Algorithms&lt;/td&gt;
+      &lt;td&gt;Laurent Massoulié, Microsoft Research&lt;br /&gt;James Robert, France Telecom&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1998&lt;/td&gt;
+      &lt;td&gt;Effective Bandwidths in Wireless Networks with Multiuser Receivers&lt;/td&gt;
+      &lt;td&gt;David Tse, University of California Berkeley&lt;br /&gt;Stephen Hanly, University of Melbourne&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1996&lt;/td&gt;
+      &lt;td&gt;An algorithm for multicast tree generation in networks with asymmetric links&lt;/td&gt;
+      &lt;td&gt;Ram Ramanathan, BBN Technologies&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Thu, 10 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/10/best-paper-awards-INFOCOM/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/10/best-paper-awards-INFOCOM/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>Networking</category>
+        
+        
+      </item>
     
       <item>
         <title>Best Paper Awards (1999-2018)</title>
@@ -1006,440 +1425,6 @@ table th:nth-of-type(2) {
         <category>Best Paper</category>
         
         <category>Theory</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Best Paper Awards (1996-2018)</title>
-        <description>&lt;style&gt;
-.table {
-	font-size:12px;
-}
-table td {
-	vertical-align: middle;
-}
-table th:nth-of-type(2) {
-    width: 240px;
-}
-
-&lt;/style&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-      &lt;th&gt;Title&lt;/th&gt;
-      &lt;th&gt;Authors&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;SuRF:Practical Range Query Filtering with Fast Succinct Tries&lt;/td&gt;
-      &lt;td&gt;Huanchen Zhang, Carnegie Mellon University&lt;br /&gt;Hyeontaek Lim, Carnegie Mellon University&lt;br /&gt;Viktor Leis, TU München&lt;br /&gt;David G. Andersen, Carnegie Mellon University&lt;br /&gt;Michael Kaminsky, Intel Labs&lt;br /&gt;Kimberly Keeton, Hewlett Packard Enterprise&lt;br /&gt;Andrew Pavlo, Carnegie Mellon University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;Parallelizing Sequential Graph Computations&lt;/td&gt;
-      &lt;td&gt;Wenfei Fan, University of Edinburgh&lt;br /&gt;Jingbo Xu, University of Edinburgh&lt;br /&gt;Yinghui Wu, Washington State University&lt;br /&gt;Wenyuan Yu, Beihang University&lt;br /&gt;Jiaxin Jiang, Hong Kong Baptist University&lt;br /&gt;Zeyu Zheng, Peking University&lt;br /&gt;Bohan Zhang, Peking University&lt;br /&gt;Yang Cao, University of Edinburgh&lt;br /&gt;Chao Tian, University of Edinburgh&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Wander Join: Online Aggregation via Random Walks&lt;/td&gt;
-      &lt;td&gt;Feifei Li, University of Utah&lt;br /&gt;Bin Wu, Hong Kong University of Science and Technology&lt;br /&gt;Ke Yi, Hong Kong University of Science and Technology&lt;br /&gt;Zhuoyue Zhao, Shanghai Jiao Tong University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;DBSCAN Revisited: Mis-Claim, Un-Fixability, and Approximation&lt;/td&gt;
-      &lt;td&gt;Junhao Gan &amp;amp; Yufei Tao, Chinese University of Hong Kong&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;Materialization Optimizations for Feature Selection Workloads&lt;/td&gt;
-      &lt;td&gt;Ce Zhang, Stanford University&lt;br /&gt;Arun Kumar, University of Wisconsin&lt;br /&gt;Christopher Ré, Stanford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;Massive Graph Triangulation&lt;/td&gt;
-      &lt;td&gt;Xiaocheng Hu, The Chinese University of Hong Kong&lt;br /&gt;Yufei Tao, The Chinese University of Hong Kong&lt;br /&gt;Chin-Wan Chung, KAIST&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;High-Performance Complex Event Processing over XML Streams&lt;/td&gt;
-      &lt;td&gt;Barzan Mozafari, Massachusetts Institute of Technology&lt;br /&gt;Kai Zeng, University of California Los Angeles&lt;br /&gt;Carlo Zaniolo, University of California Los Angeles&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;Entangled Queries: Enabling Declarative Data-Driven Coordination&lt;/td&gt;
-      &lt;td&gt;Nitin Gupta, Cornell University&lt;br /&gt;Lucja Kot, Cornell University&lt;br /&gt;Sudip Roy, Cornell University&lt;br /&gt;Gabriel Bender, Cornell University&lt;br /&gt;Johannes Gehrke, Cornell University&lt;br /&gt;Christoph Koch, École Polytechnique Fédérale de Lausanne&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;FAST: fast architecture sensitive tree search on modern CPUs and GPUs&lt;/td&gt;
-      &lt;td&gt;Changkyu Kim, Intel&lt;br /&gt;Jatin Chhugani, Intel&lt;br /&gt;Nadathur Satish, Intel&lt;br /&gt;Eric Sedlar, Oracle&lt;br /&gt;Anthony D. Nguyen, Intel&lt;br /&gt;Tim Kaldewey, Oracle&lt;br /&gt;Victor W. Lee, Intel&lt;br /&gt;Scott A. Brandt, University of California Santa Cruz&lt;br /&gt;Pradeep Dubey, Intel&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;Generating example data for dataflow programs&lt;/td&gt;
-      &lt;td&gt;Christopher Olston, Yahoo! Research&lt;br /&gt;Shubham Chopra, Yahoo! Research&lt;br /&gt;Utkarsh Srivastava, Yahoo! Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;Serializable isolation for snapshot databases&lt;/td&gt;
-      &lt;td&gt;Michael J. Cahill, University of Sydney&lt;br /&gt;Uwe Röhm, University of Sydney&lt;br /&gt;Alan D. Fekete, University of Sydney&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;Scalable Network Distance Browsing in Spatial Databases&lt;/td&gt;
-      &lt;td&gt;Hanan Samet, University of Maryland&lt;br /&gt;Jagan Sankaranarayanan, University of Maryland&lt;br /&gt;Houman Alborzi, University of Maryland&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;Compiling mappings to bridge applications and databases&lt;/td&gt;
-      &lt;td&gt;Sergey Melnik, Microsoft Research&lt;br /&gt;Atul Adya, Microsoft&lt;br /&gt;Philip A. Bernstein, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;Scalable Approximate Query Processing with the DBO Engine&lt;/td&gt;
-      &lt;td&gt;Christopher Jermaine, University of Florida&lt;br /&gt;Subramanian Arumugam, University of Florida&lt;br /&gt;Abhijit Pol, University of Florida&lt;br /&gt;Alin Dobra, University of Florida&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2006&lt;/td&gt;
-      &lt;td&gt;To search or to crawl?: towards a query optimizer for text-centric tasks&lt;/td&gt;
-      &lt;td&gt;Panagiotis G. Ipeirotis, New York University&lt;br /&gt;Eugene Agichtein, Microsoft Research&lt;br /&gt;Pranay Jain, Columbia University&lt;br /&gt;Luis Gravano, Columbia University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2004&lt;/td&gt;
-      &lt;td&gt;Indexing spatio-temporal trajectories with Chebyshev polynomials&lt;/td&gt;
-      &lt;td&gt;Yuhan Cai &amp;amp; Raymond T. Ng, University of British Columbia&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2003&lt;/td&gt;
-      &lt;td&gt;Spreadsheets in RDBMS for OLAP&lt;/td&gt;
-      &lt;td&gt;Andrew Witkowski, Oracle&lt;br /&gt;Srikanth Bellakonda, Oracle&lt;br /&gt;Tolga Bozkaya, Oracle&lt;br /&gt;Gregory Dorman, Oracle&lt;br /&gt;Nathan Folkert, Oracle&lt;br /&gt;Abhinav Gupta, Oracle&lt;br /&gt;Lei Shen, Oracle&lt;br /&gt;Sankar Subramanian, Oracle&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2001&lt;/td&gt;
-      &lt;td&gt;Locally adaptive dimensionality reduction for indexing large time series databases&lt;/td&gt;
-      &lt;td&gt;Eamonn Keogh, University of California Irvine&lt;br /&gt;Kaushik Chakrabarti, University of California Irvine&lt;br /&gt;Michael Pazzani, University of California Irvine&lt;br /&gt;Sharad Mehrotra, University of California Irvine&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2000&lt;/td&gt;
-      &lt;td&gt;XMill: an efficient compressor for XML data&lt;/td&gt;
-      &lt;td&gt;Hartmut Liefke, University of Pennsylvania&lt;br /&gt;Dan Suciu, AT&amp;amp;T Laboratories&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1999&lt;/td&gt;
-      &lt;td&gt;DynaMat: a dynamic view management system for data warehouses&lt;/td&gt;
-      &lt;td&gt;Yannis Kotidis &amp;amp; Nick Roussopoulos, University of Maryland&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1998&lt;/td&gt;
-      &lt;td&gt;Efficient transparent application recovery in client-server information systems&lt;/td&gt;
-      &lt;td&gt;David Lomet &amp;amp; Gerhard Weikum, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1998&lt;/td&gt;
-      &lt;td&gt;Integrating association rule mining with relational database systems: alternatives and implications&lt;/td&gt;
-      &lt;td&gt;Sunita Sarawagi, IBM Research&lt;br /&gt;Shiby Thomas, University of Florida&lt;br /&gt;Rakesh Agrawal, IBM Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1997&lt;/td&gt;
-      &lt;td&gt;Fast parallel similarity search in multimedia databases&lt;/td&gt;
-      &lt;td&gt;Stefan Berchtold, University of Munich&lt;br /&gt;Christian Böml, University of Munich&lt;br /&gt;Bernhard Braunmüller, University of Munich&lt;br /&gt;Daniel A. Keim, University of Munich&lt;br /&gt;Hans-Peter Kriegel, University of Munich&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1996&lt;/td&gt;
-      &lt;td&gt;Implementing data cubes efficiently&lt;/td&gt;
-      &lt;td&gt;Venky Harinarayan, Stanford University&lt;br /&gt;Anand Rajaraman, Stanford University&lt;br /&gt;Jeffrey D. Ullman, Stanford University&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Fri, 04 Jan 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/01/04/best-paper-awards-SIGMOD/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/01/04/best-paper-awards-SIGMOD/</guid>
-        
-        <category>Best Paper</category>
-        
-        <category>Databases</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Best Paper Awards (1996-2018)</title>
-        <description>&lt;style&gt;
-.table {
-	font-size:12px;
-}
-table td {
-	vertical-align: middle;
-}
-table th:nth-of-type(2) {
-    width: 240px;
-}
-
-&lt;/style&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-      &lt;th&gt;Title&lt;/th&gt;
-      &lt;th&gt;Authors&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;A Refined Mean Field Approximation&lt;/td&gt;
-      &lt;td&gt;Nicolas Gast, Inria&lt;br /&gt;Benny Van Houdt, University of Antwerp&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;Accelerating Performance Inference over Closed Systems by Asymptotic Methods&lt;/td&gt;
-      &lt;td&gt;Giuliano Casale, Imperial College London&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;On the Duration and Intensity of Competitions in Nonlinear Pólya Urn Processes with Fitness&lt;/td&gt;
-      &lt;td&gt;Bo Jiang, University of Massachusetts Amherst&lt;br /&gt;Daniel R. Figueiredo, Federal University of Rio de Janeiro&lt;br /&gt;Bruno Ribeiro, Purdue University&lt;br /&gt;Don Towsley, University of Massachusetts Amherst&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Spy vs. Spy: Rumor Source Obfuscation&lt;/td&gt;
-      &lt;td&gt;Giulia Fanti, University of California Berkeley&lt;br /&gt;Peter Kairouz, University of Illinois at Urbana-Champaign&lt;br /&gt;Sewoong Oh, University of Illinois at Urbana-Champaign&lt;br /&gt;Pramod Viswanath, University of Illinois at Urbana-Champaign&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;Concave switching in single and multihop networks&lt;/td&gt;
-      &lt;td&gt;Neil Walton, University of Amsterdam&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;Queueing System Topologies with Limited Flexibility&lt;/td&gt;
-      &lt;td&gt;John Tsitsiklis &amp;amp; Kuang Xu, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;Temperature management in data centers: why some (might) like it hot&lt;/td&gt;
-      &lt;td&gt;Nosayba El-Sayed, University of Toronto&lt;br /&gt;Ioan Stefanovici, University of Toronto&lt;br /&gt;George Amvrosiadis, University of Toronto&lt;br /&gt;Andy A. Hwang, University of Toronto&lt;br /&gt;Bianca Schroeder, University of Toronto&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;Topology Discovery of Sparse Random Graphs With Few Participants&lt;/td&gt;
-      &lt;td&gt;Animashree Anandkumar, University of California Irvine&lt;br /&gt;Avinatan Hassidim, Google&lt;br /&gt;Jonathan Kelner, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;Load balancing via random local search in closed and open systems&lt;/td&gt;
-      &lt;td&gt;Ayalvadi Ganesh, University of Bristol&lt;br /&gt;Sarah Lilienthal, University of Cambridge&lt;br /&gt;D. Manjunath, Indian Institute of Technology&lt;br /&gt;Alexandre Proutière, Microsoft Research&lt;br /&gt;Florian Simatos, INRIA&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;The Age of Gossip: Spatial Mean Field Regime&lt;/td&gt;
-      &lt;td&gt;Augustin Chaintreau, Technicolor&lt;br /&gt;Jean-Yves Le Boudec, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Nikodin Ristanovic, École Polytechnique Fédérale de Lausanne&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;Counter Braids: A Novel Counter Architecture for Per-Flow Measurement&lt;/td&gt;
-      &lt;td&gt;Yi Lu, Stanford University&lt;br /&gt;Andrea Montanari, Stanford University&lt;br /&gt;Balaji Prabhakar, Stanford University&lt;br /&gt;Sarang Dharmapurikar, Cisco Systems&lt;br /&gt;Abdul Kabbani, Stanford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;Modeling the Relative Fitness of Storage&lt;/td&gt;
-      &lt;td&gt;Michael P. Mesnier, Intel&lt;br /&gt;Matthew Wachs, Carnegie Mellon University&lt;br /&gt;Raja R. Sambasivan, Carnegie Mellon University&lt;br /&gt;Alice X. Zheng, Carnegie Mellon University&lt;br /&gt;Gregory R. Ganger, Carnegie Mellon University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2006&lt;/td&gt;
-      &lt;td&gt;Maximizing throughput in wireless networks via gossiping&lt;/td&gt;
-      &lt;td&gt;Eytan Modiano, Massachusetts Institute of Technology&lt;br /&gt;Devavrat Shah, Massachusetts Institute of Technology&lt;br /&gt;Gil Zussman, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;Coupon replication systems&lt;/td&gt;
-      &lt;td&gt;Laurent Massoulié &amp;amp; Milan Vojnović, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2004&lt;/td&gt;
-      &lt;td&gt;On performance bounds for the integration of elastic and adaptive streaming flows&lt;/td&gt;
-      &lt;td&gt;Thomas Bonald &amp;amp; Alexandre Proutiere, France Telecom&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1996&lt;/td&gt;
-      &lt;td&gt;Supporting stored video: reducing rate variability and end-to-end resource requirements through optimal smoothing&lt;/td&gt;
-      &lt;td&gt;James D. Salehi, University of Massachusetts Amherst&lt;br /&gt;Zhi-Li Zhang, University of Massachusetts Amherst&lt;br /&gt;James F. Kurose, University of Massachusetts Amherst&lt;br /&gt;Don Towsley, University of Massachusetts Amherst&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1996&lt;/td&gt;
-      &lt;td&gt;Exploiting process lifetime distributions for dynamic load balancing&lt;/td&gt;
-      &lt;td&gt;Mor Harchol-Balter &amp;amp; Allen B. Downey, University of California Berkeley&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Fri, 04 Jan 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/01/04/best-paper-awards-SIGMETRICS/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/01/04/best-paper-awards-SIGMETRICS/</guid>
-        
-        <category>Best Paper</category>
-        
-        <category>Performance</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Best Paper Awards (1996-2018)</title>
-        <description>&lt;style&gt;
-.table {
-	font-size:12px;
-}
-table td {
-	vertical-align: middle;
-}
-table th:nth-of-type(2) {
-    width: 240px;
-}
-
-&lt;/style&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-      &lt;th&gt;Title&lt;/th&gt;
-      &lt;th&gt;Authors&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Should I Follow the Crowd? A Probabilistic Analysis of the Effectiveness of Popularity in Recommender Systems&lt;/td&gt;
-      &lt;td&gt;Rocío Cañamares &amp;amp; Pablo Castells, Universidad Autónoma de Madrid&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;BitFunnel: Revisiting Signatures for Search&lt;/td&gt;
-      &lt;td&gt;Bob Goodwin, Microsoft&lt;br /&gt;Michael Hopcroft, Microsoft&lt;br /&gt;Dan Luu, Microsoft&lt;br /&gt;Alex Clemmer, Heptio&lt;br /&gt;Mihaela Curmei, Microsoft&lt;br /&gt;Sameh Elnikety, Microsoft&lt;br /&gt;Yuxiong He, Microsoft&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Understanding Information Need: An fMRI Study&lt;/td&gt;
-      &lt;td&gt;Yashar Moshfeghi, University of Glasgow&lt;br /&gt;Peter Triantafillou, University of Glasgow&lt;br /&gt;Frank E. Pollick, University of Glasgow&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;QuickScorer: A Fast Algorithm to Rank Documents with Additive Ensembles of Regression Trees&lt;/td&gt;
-      &lt;td&gt;Claudio Lucchese, Istituto di Scienza e Tecnologie dell’Informazione&lt;br /&gt;Franco Maria Nardini, Istituto di Scienza e Tecnologie dell’Informazione&lt;br /&gt;Salvatore Orlando, Università di Venezia&lt;br /&gt;Raffaele Perego, Istituto di Scienza e Tecnologie dell’Informazione&lt;br /&gt;Nicola Tonellotto, Istituto di Scienza e Tecnologie dell’Informazione&lt;br /&gt;Rossano Venturini, Istituto di Scienza e Tecnologie dell’Informazione&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;Partitioned Elias-Fano Indexes&lt;/td&gt;
-      &lt;td&gt;Giuseppe Ottaviano, Istituto di Scienza e Tecnologie dell’Informazione&lt;br /&gt;Rossano Venturini, Università di Pisa&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;Beliefs and Biases in Web Search&lt;/td&gt;
-      &lt;td&gt;Ryen W. White, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;Time-Based Calibration of Effectiveness Measures&lt;/td&gt;
-      &lt;td&gt;Mark Smucker &amp;amp; Charles Clarke, University of Waterloo&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;Find It If You Can: A Game for Modeling Different Types of Web Search Success Using Interaction Data&lt;/td&gt;
-      &lt;td&gt;Mikhail Ageev, Moscow State University&lt;br /&gt;Qi Guo, Emory University&lt;br /&gt;Dmitry Lagun, Emory University&lt;br /&gt;Eugene Agichtein, Emory University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;Assessing the Scenic Route: Measuring the Value of Search Trails in Web Logs&lt;/td&gt;
-      &lt;td&gt;Ryen W. White, Microsoft Research&lt;br /&gt;Jeff Huang, University of Washington&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;Sources of evidence for vertical selection&lt;/td&gt;
-      &lt;td&gt;Jaime Arguello, Carnegie Mellon University&lt;br /&gt;Fernando Diaz, Yahoo! Research&lt;br /&gt;Jamie Callan, Carnegie Mellon University&lt;br /&gt;Jean-Francois Crespo, Yahoo! Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;Algorithmic Mediation for Collaborative Exploratory Search&lt;/td&gt;
-      &lt;td&gt;Jeremy Pickens, FX Palo Alto Lab&lt;br /&gt;Gene Golovchinsky, FX Palo Alto Lab&lt;br /&gt;Chirag Shah, University of North Carolina at Chapel Hill&lt;br /&gt;Pernilla Qvarfordt, FX Palo Alto Lab&lt;br /&gt;Maribeth Back, FX Palo Alto Lab&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;Studying the Use of Popular Destinations to Enhance Web Search Interaction&lt;/td&gt;
-      &lt;td&gt;Ryen W. White, Microsoft Research&lt;br /&gt;Mikhail Bilenko, Microsoft Research&lt;br /&gt;Silviu Cucerzan, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2006&lt;/td&gt;
-      &lt;td&gt;Minimal Test Collections for Retrieval Evaluation&lt;/td&gt;
-      &lt;td&gt;Ben Carterette, University of Massachusetts Amherst&lt;br /&gt;James Allan, University of Massachusetts Amherst&lt;br /&gt;Ramesh Sitaraman, University of Massachusetts Amherst&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;Learning to estimate query difficulty: including applications to missing content detection and distributed information retrieval&lt;/td&gt;
-      &lt;td&gt;Elad Yom-Tov, IBM Research&lt;br /&gt;Shai Fine, IBM Research&lt;br /&gt;David Carmel, IBM Research&lt;br /&gt;Adam Darlow, IBM Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2004&lt;/td&gt;
-      &lt;td&gt;A Formal Study of Information Retrieval Heuristics&lt;/td&gt;
-      &lt;td&gt;Hui Fang, University of Illinois at Urbana-Champaign&lt;br /&gt;Tao Tao, University of Illinois at Urbana-Champaign&lt;br /&gt;ChengXiang Zhai, University of Illinois at Urbana-Champaign&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2003&lt;/td&gt;
-      &lt;td&gt;Re-examining the potential effectiveness of interactive query expansion&lt;/td&gt;
-      &lt;td&gt;Ian Ruthven, University of Strathclyde&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2002&lt;/td&gt;
-      &lt;td&gt;Novelty and redundancy detection in adaptive filtering&lt;/td&gt;
-      &lt;td&gt;Yi Zhang, Carnegie Mellon University&lt;br /&gt;Jamie Callan, Carnegie Mellon University&lt;br /&gt;Thomas Minka, Carnegie Mellon University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2001&lt;/td&gt;
-      &lt;td&gt;Temporal summaries of new topics&lt;/td&gt;
-      &lt;td&gt;James Allan, University of Massachusetts Amherst&lt;br /&gt;Rahul Gupta, University of Massachusetts Amherst&lt;br /&gt;Vikas Khandelwal, University of Massachusetts Amherst&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2000&lt;/td&gt;
-      &lt;td&gt;IR evaluation methods for retrieving highly relevant documents&lt;/td&gt;
-      &lt;td&gt;Kalervo Järvelin &amp;amp; Jaana Kekäläinen, University of Tampere&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1999&lt;/td&gt;
-      &lt;td&gt;Cross-language information retrieval based on parallel texts and automatic mining of parallel texts from the Web&lt;/td&gt;
-      &lt;td&gt;Jian-Yun Nie, Université de Montréal&lt;br /&gt;Michel Simard, Université de Montréal&lt;br /&gt;Pierre Isabelle, Université de Montréal&lt;br /&gt;Richard Durand, Université de Montréal&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1998&lt;/td&gt;
-      &lt;td&gt;A theory of term weighting based on exploratory data analysis&lt;/td&gt;
-      &lt;td&gt;Warren R. Greiff, University of Massachusetts Amherst&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1997&lt;/td&gt;
-      &lt;td&gt;Feature selection, perceptron learning, and a usability case study for text categorization&lt;/td&gt;
-      &lt;td&gt;Hwee Tou Ng, DSO National Laboratories&lt;br /&gt;Wei Boon Goh, Ministry of Defence&lt;br /&gt;Kok Leong Low, Ministry of Defence&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1996&lt;/td&gt;
-      &lt;td&gt;Retrieving spoken documents by combining multiple index sources&lt;/td&gt;
-      &lt;td&gt;Gareth Jones, University of Cambridge&lt;br /&gt;Jonathan Foote, University of Cambridge&lt;br /&gt;Karen Spärck Jones, University of Cambridge&lt;br /&gt;Steve Young, University of Cambridge&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Fri, 04 Jan 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/01/04/best-paper-awards-SIGIR/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/01/04/best-paper-awards-SIGIR/</guid>
-        
-        <category>Best Paper</category>
-        
-        <category>Information Retrieval</category>
         
         
       </item>
