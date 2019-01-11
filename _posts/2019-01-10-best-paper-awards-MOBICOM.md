@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Best Paper Awards (2008-2018)"
-subtitle: "MOBICOM"
+title: "Best Paper Awards (MOBICOM)"
+subtitle: "2008-2018"
 author: "pxzhang"
 header-img: "img/post-best-paper.jpg"
 header-mask: 0.3

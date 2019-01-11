@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Best Paper Awards (1997-2018)"
-subtitle: "VLDB"
+title: "Best Paper Awards (VLDB)"
+subtitle: "1997-2018"
 author: "pxzhang"
 header-img: "img/post-best-paper.jpg"
 header-mask: 0.3

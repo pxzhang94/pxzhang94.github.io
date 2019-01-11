@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Best Paper Awards (2004-2018)"
-subtitle: "NSDI"
+title: "Best Paper Awards (NSDI)"
+subtitle: "2004-2018"
 author: "pxzhang"
 header-img: "img/post-best-paper.jpg"
 header-mask: 0.3

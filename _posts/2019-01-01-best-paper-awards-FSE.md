@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Best Paper Awards (2002-2018)"
-subtitle: "FSE"
+title: "Best Paper Awards (FSE)"
+subtitle: "2002-2018"
 author: "pxzhang"
 header-img: "img/post-best-paper.jpg"
 header-mask: 0.3

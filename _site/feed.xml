@@ -5,12 +5,683 @@
     <description>这里是 @PXZHANG张培歆 的个人网站</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 10 Jan 2019 11:03:42 +0800</pubDate>
-    <lastBuildDate>Thu, 10 Jan 2019 11:03:42 +0800</lastBuildDate>
+    <pubDate>Fri, 11 Jan 2019 11:08:51 +0800</pubDate>
+    <lastBuildDate>Fri, 11 Jan 2019 11:08:51 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
-        <title>Best Paper Awards (2008-2018)</title>
+        <title>Best Paper Awards (IJCAI)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Reasoning about Consensus when Opinions Diffuse through Majority Dynamics&lt;/td&gt;
+      &lt;td&gt;Vincenzo Auletta, University of Salerno&lt;br /&gt;Diodato Ferraioli, University of Salerno&lt;br /&gt;Gianluigi Greco, University of Calabria&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;SentiGAN: Generating Sentimental Texts via Mixture Adversarial Networks&lt;/td&gt;
+      &lt;td&gt;Ke Wang &amp;amp; Xiaojun Wan, Peking University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;From Conjunctive Queries to Instance Queries in Ontology-Mediated Querying&lt;/td&gt;
+      &lt;td&gt;Cristina Feier, University of Bremen&lt;br /&gt;Carsten Lutz, University of Bremen&lt;br /&gt;Frank Wolte, University of Liverpool&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;What game are we playing? End-to-end learning in normal and extensive form games&lt;/td&gt;
+      &lt;td&gt;Chun Kai Ling, Carnegie Mellon University&lt;br /&gt;Fei Fang, Carnegie Mellon University&lt;br /&gt;J. Zico Kolter, Carnegie Mellon University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Commonsense Knowledge Aware Conversation Generation with Graph Attention&lt;/td&gt;
+      &lt;td&gt;Hao Zhou, Tsinghua University&lt;br /&gt;Tom Young, Beijing Institute of Technology&lt;br /&gt;Minlie Huang, Tsinghua University&lt;br /&gt;Haizhou Zhao, Sogou Inc.&lt;br /&gt;Jingfang Xu, Sogou Inc.&lt;br /&gt;Xiaoyan Zhu, Tsinghua University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;R-SVM+: Robust Learning with Privileged Information&lt;/td&gt;
+      &lt;td&gt;Xue Li, Wuhan University&lt;br /&gt;Bo Du, Wuhan University&lt;br /&gt;Chang Xu, University of Sydney&lt;br /&gt;Yipeng Zhang, Wuhan University&lt;br /&gt;Lefei Zhang, Wuhan University&lt;br /&gt;Dacheng Tao, University of Sydney&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;A Degeneracy Framework for Graph Similarity&lt;/td&gt;
+      &lt;td&gt;Giannis Nikolentzos, École Polytechnique&lt;br /&gt;Polykarpos Meladianos, Athens University of Economics and Business&lt;br /&gt;Stratis Limnios, École Polytechnique&lt;br /&gt;Michalis Vazirgiannis, École Polytechnique&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Foundations of Declarative Data Analysis Using Limit Datalog Programs&lt;/td&gt;
+      &lt;td&gt;Mark Kaminski, University of Oxford&lt;br /&gt;Bernardo Cuenca Grau, University of Oxford&lt;br /&gt;Egor V. Kostylev, University of Oxford&lt;br /&gt;Boris Motik, University of Oxford&lt;br /&gt;Ian Horrocks, University of Oxford&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Hierarchical Finite State Controllers for Generalized Planning&lt;/td&gt;
+      &lt;td&gt;Javier Segovia, Universitat Pompeu Fabra&lt;br /&gt;Sergio Jiménez, Universitat Pompeu Fabra&lt;br /&gt;Anders Jonsson, Universitat Pompeu Fabra&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Bayesian Active Learning for Posterior Estimation&lt;/td&gt;
+      &lt;td&gt;Kirthevasan Kandasamy, Carnegie Mellon University&lt;br /&gt;Jeff Schneider, Carnegie Mellon University&lt;br /&gt;Barnabas Poczos, Carnegie Mellon University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Recursive Decomposition for Nonconvex Optimization&lt;/td&gt;
+      &lt;td&gt;Abram L. Friesen &amp;amp; Pedro Domingos, University of Washington&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;Bayesian Optimization in High Dimensions via Random Embeddings&lt;/td&gt;
+      &lt;td&gt;Ziyu Wang, University of British Columbia&lt;br /&gt;Masrour Zoghi, University of Amsterdam&lt;br /&gt;Frank Hutter, Freiberg University&lt;br /&gt;David Matheson, University of British Columbia&lt;br /&gt;Nando de Freitas, University of British Columbia&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;Flexibility and Decoupling in the Simple Temporal Problem&lt;/td&gt;
+      &lt;td&gt;Michel Wilson, Delft University of Technology&lt;br /&gt;Tomas Klos, Delft University of Technology&lt;br /&gt;Cees Witteveen, Delft University of Technology&lt;br /&gt;Bob Huisman, Delft University of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;Unweighted Coalitional Manipulation Under the Borda Rule is NP-Hard&lt;/td&gt;
+      &lt;td&gt;Nadja Betzler, Technische Universität Berlin&lt;br /&gt;Rolf Niedermeier, Technische Universität Berlin&lt;br /&gt;Gerhard J. Woeginger, Technische Universität Eindhoven&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;Nested Rollout Policy Adaptation for Monte Carlo Tree Search&lt;/td&gt;
+      &lt;td&gt;Christopher D. Rosin, Parity Computing&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;On the Decidability of Connectedness Constraints in 2D and 3D Euclidean Spaces&lt;/td&gt;
+      &lt;td&gt;Roman Kontchakov, Birkbeck College London&lt;br /&gt;Yavor Nenov, University of Manchester&lt;br /&gt;Ian Pratt-Hartmann, University of Manchester&lt;br /&gt;Michael Zakharyaschev, Birkbeck College London&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;Consequence-Driven Reasoning for Horn SHIQ Ontologies&lt;/td&gt;
+      &lt;td&gt;Yevgeny Kazakov, University of Oxford&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;Learning Conditional Preference Networks with Queries&lt;/td&gt;
+      &lt;td&gt;Frederic Koriche, Université Montpellier II&lt;br /&gt;Bruno Zanuttini, Université de Caen Basse-Normandie&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;Automated Heart Wall Motion Abnormality Detection From Ultrasound Images using Bayesian Networks&lt;/td&gt;
+      &lt;td&gt;Maleeha Qazi, Siemens Medical Solutions&lt;br /&gt;Glenn Fung, Siemens Medical Solutions&lt;br /&gt;Sriram Krishnan, Siemens Medical Solutions&lt;br /&gt;Romer Rosales, Siemens Medical Solutions&lt;br /&gt;Harald Steck, Siemens Medical Solutions&lt;br /&gt;R. Bharat Rao, Siemens Medical Solutions&lt;br /&gt;Don Polderman, Erasmus University Medical Center&lt;br /&gt;Dhanalakshmi Chandrasekaran, No Affiliation&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;Building Structure into Local Search for SAT&lt;/td&gt;
+      &lt;td&gt;Duc Nghia Pham, Griffith University&lt;br /&gt;John Thornton, Griffith University&lt;br /&gt;Abdul Sattar, Griffith University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;Performance Analysis of Online Anticipatory Algorithms for Large Multistage Stochastic Integer Programs&lt;/td&gt;
+      &lt;td&gt;Luc Mercier &amp;amp; Pascal Van Hentenryck, Brown University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;Learning Coordination Classifiers&lt;/td&gt;
+      &lt;td&gt;Yuhong Guo, University of Alberta&lt;br /&gt;Russell Greiner, University of Alberta&lt;br /&gt;Dale Schuurmans, University of Alberta&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;Solving Checkers&lt;/td&gt;
+      &lt;td&gt;Jonathan Schaeffer, University of Alberta&lt;br /&gt;Yngvi Bjornsson, University of Alberta&lt;br /&gt;Neil Burch, University of Alberta&lt;br /&gt;Akihiro Kishimoto, University of Alberta&lt;br /&gt;Martin Muller, University of Alberta&lt;br /&gt;Robert Lake, University of Alberta&lt;br /&gt;Paul Lu, University of Alberta&lt;br /&gt;Steve Sutphen, University of Alberta&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;A Probabilistic Model of Redundancy in Information Extraction&lt;/td&gt;
+      &lt;td&gt;Doug Downey, University of Washington&lt;br /&gt;Oren Etzioni, University of Washington&lt;br /&gt;Stephen Soderland, University of Washington&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2003&lt;/td&gt;
+      &lt;td&gt;Approximating Game-Theoretic Optimal Strategies for Full-scale Poker&lt;/td&gt;
+      &lt;td&gt;Darse Billings, University of Alberta&lt;br /&gt;Neil Burch, University of Alberta&lt;br /&gt;Aaron Davidson, University of Alberta&lt;br /&gt;Robert Holte, University of Alberta&lt;br /&gt;Jonathan Schaeffer, University of Alberta&lt;br /&gt;Terence Schauenberg, University of Alberta&lt;br /&gt;Duane Szafron, University of Alberta&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2003&lt;/td&gt;
+      &lt;td&gt;Thin Junction Tree Filters for Simultaneous Localization and Mapping&lt;/td&gt;
+      &lt;td&gt;Mark A. Paskin, University of California Berkeley&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2001&lt;/td&gt;
+      &lt;td&gt;Complexity Results for Structure-Based Causality&lt;/td&gt;
+      &lt;td&gt;Thomas Eiter &amp;amp; Thomas Lukasiewicz, Vienna University of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1999&lt;/td&gt;
+      &lt;td&gt;Learning in Natural Language&lt;/td&gt;
+      &lt;td&gt;Dan Roth, University of Illinois at Urbana-Champaign&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1999&lt;/td&gt;
+      &lt;td&gt;A Distributed Case-Based Reasoning Application for Engineering Sales Support&lt;/td&gt;
+      &lt;td&gt;Ian Watson, University of Salford&lt;br /&gt;Dan Gardingen, Western Air&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1997&lt;/td&gt;
+      &lt;td&gt;Object Identification in a Bayesian Context&lt;/td&gt;
+      &lt;td&gt;Timothy Huang &amp;amp; Stuart Russell, University of California Berkeley&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1997&lt;/td&gt;
+      &lt;td&gt;Translingual Information Retrieval: A Comparative Evaluation&lt;/td&gt;
+      &lt;td&gt;Jaime G. Carbonell, Carnegie Mellon University&lt;br /&gt;Yiming Yang, Carnegie Mellon University&lt;br /&gt;Robert E. Frederking, Carnegie Mellon University&lt;br /&gt;Ralf D. Brown, Carnegie Mellon University&lt;br /&gt;Yibing Geng, Carnegie Mellon University&lt;br /&gt;Danny Lee, Carnegie Mellon University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1997&lt;/td&gt;
+      &lt;td&gt;Applications of the Situation Calculus to Formalizing Control and Strategic Information: The Prolog Cut Operator&lt;/td&gt;
+      &lt;td&gt;Fangzhen Lin, The Hongkong University of Science and Technology&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Fri, 11 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/11/best-paper-awards-IJCAI/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/11/best-paper-awards-IJCAI/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>Artificial Intelligence</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Best Paper Awards (ICSE)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Large-Scale Analysis of Framework-Specific Exceptions in Android Apps&lt;/td&gt;
+      &lt;td&gt;Lingling Fan, East China Normal University&lt;br /&gt;Ting Su, Nanyang Technological University&lt;br /&gt;Sen Chen, East China Normal University&lt;br /&gt;Guozhu Meng, Chinese Academy of Sciences&lt;br /&gt;Yang Liu, Nanyang Technological University&lt;br /&gt;Lihua Xu, East China Normal University&lt;br /&gt;Geguang Pu, East China Normal University&lt;br /&gt;Zhendong Su, University of California&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Generalized Data Structure Synthesis&lt;/td&gt;
+      &lt;td&gt;Calvin Loncaric, University of Washington&lt;br /&gt;Michael D. Ernst, University of Washington&lt;br /&gt;Emina Torlak, University of Washington&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Static Automated Program Repair for Heap Properties&lt;/td&gt;
+      &lt;td&gt;Rijnard van Tonder &amp;amp; Claire Le Goues, Carnegie Mellon University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Towards Optimal Concolic Testing&lt;/td&gt;
+      &lt;td&gt;Xinyu Wang, Zhejiang University&lt;br /&gt;Jun Sun, Singapore University of Technology and Design&lt;br /&gt;Zhenbang Chen, National University of Defense Technology&lt;br /&gt;Peixin Zhang, Zhejiang University&lt;br /&gt;Jingyi Wang, Singapore University of Technology and Design&lt;br /&gt;Yun Lin, National University of Singapore&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Spatio-Temporal Context Reduction: A Pointer-Analysis-Based Static Approach for Detecting Use-After-Free Vulnerabilities&lt;/td&gt;
+      &lt;td&gt;Hua Yan, University of New South Wales&lt;br /&gt;Yulei Sui, University of Technology Sydney&lt;br /&gt;Shiping Chen, CSIRO&lt;br /&gt;Jingling Xue, University of New South Wales&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Identifying Design Problems in the Source Code: A Grounded Theory&lt;/td&gt;
+      &lt;td&gt;Leonardo Sousa, PUC-Rio&lt;br /&gt;Anderson Oliveira, PUC-Rio&lt;br /&gt;Willian Oizumi, PUC-Rio&lt;br /&gt;Simone Barbosa, PUC-Rio&lt;br /&gt;Alessandro Garcia, PUC-Rio&lt;br /&gt;Jaejoon Lee, Lancaster University&lt;br /&gt;Marcos Kalinowski, PUC-Rio&lt;br /&gt;Rafael de Mello, PUC-Rio&lt;br /&gt;Baldoino Fonseca, UFAL&lt;br /&gt;Roberto Oliveira, PUC-Rio&lt;br /&gt;Carlos Lucena, PUC-Rio&lt;br /&gt;Rodrigo Paes, PUC-Rio&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Traceability in the Wild: Automatically Augmenting Incomplete Trace links&lt;/td&gt;
+      &lt;td&gt;Michael Rath, Technical University Ilmenau&lt;br /&gt;Jacob Rendall, University of Notre Dame&lt;br /&gt;Jin L. C. Guo, McGill University&lt;br /&gt;Jane Cleland-Huang, University of Notre Dame&lt;br /&gt;Patrick Mäder, Technical University Ilmenau&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Automated Localization for Unreproducible Builds&lt;/td&gt;
+      &lt;td&gt;Zhilei Ren, Dalian University of Technology&lt;br /&gt;He Jiang, Dalian University of Technology&lt;br /&gt;Jifeng Xuan, Wuhan University&lt;br /&gt;Zijiang Yang, Western Michigan University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Decoding the representation of code in the brain: An fMRI study of code review and expertise&lt;/td&gt;
+      &lt;td&gt;Benjamin Floyd, University of Virginia&lt;br /&gt;Tyler Santander, University of Virginia&lt;br /&gt;Westley Weimer, University of Virginia&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Code Defenders: Crowdsourcing Effective Tests and Subtle Mutants with a Mutation Testing Game&lt;/td&gt;
+      &lt;td&gt;José Miguel Rojas, The University of Sheffield&lt;br /&gt;Thomas D. White, The University of Sheffield&lt;br /&gt;Benjamin S. Clegg, The University of Sheffield&lt;br /&gt;Gordon Fraser, The University of Sheffield&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Clone Refactoring with Lambda Expressions&lt;/td&gt;
+      &lt;td&gt;Nikolaos Tsantalis, Concordia University&lt;br /&gt;Davood Mazinanian, Concordia University&lt;br /&gt;Shahriar Rostami, Concordia University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Optimizing Test Placement for Module-Level Regression Testing&lt;/td&gt;
+      &lt;td&gt;August Shi, University of Illinois at Urbana-Champaign&lt;br /&gt;Suresh Thummalapenta, Microsoft Corporation&lt;br /&gt;Shuvendu K. Lahiri, Microsoft Research&lt;br /&gt;Nikolaj Bjorner, Microsoft Research&lt;br /&gt;Jacek Czerwonka, Microsoft Corporation&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;A Grounded Theory of Agile Transitions in Practice&lt;/td&gt;
+      &lt;td&gt;Rashina Hoda, The University of Auckland&lt;br /&gt;James Noble Victoria, University of Wellington&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Challenges for Static Analysis of Java Reflection-Literature Review and Empirical Study&lt;/td&gt;
+      &lt;td&gt;Davy Landman, Centrum Wiskunde &amp;amp; Informatica&lt;br /&gt;Alexander Serebrenik, Centrum Wiskunde &amp;amp; Informatica&lt;br /&gt;Jurgen J. Vinju, Centrum Wiskunde &amp;amp; Informatica&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Feedback-Directed Instrumentation for Deployed JavaScript Applications&lt;/td&gt;
+      &lt;td&gt;Magnus Madsen, University of Waterloo&lt;br /&gt;Frank Tip, Samsung Research&lt;br /&gt;Esben Andreasen, Aarhus University&lt;br /&gt;Koushik Sen, University of California Berkeley&lt;br /&gt;Anders Møller, Aarhus University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;From Word Embeddings to Document Similarities for Improved Information Retrieval in Software Engineering&lt;/td&gt;
+      &lt;td&gt;Xin Ye, Ohio University Athens&lt;br /&gt;Hui Shen, Ohio University Athens&lt;br /&gt;Xiao Ma, Ohio University Athens&lt;br /&gt;Razvan Bunescu, Ohio University Athens&lt;br /&gt;Chang Liu, Ohio University Athens&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;On the Techniques We Create, the Tools We Build, and Their Misalignments: A Study of KLEE&lt;/td&gt;
+      &lt;td&gt;Eric F. Rizzi, Grammatech&lt;br /&gt;Sebastian Elbaum, University of Nebraska-Lincoln&lt;br /&gt;Matthew B. Dwyer, University of Nebraska-Lincoln&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Work Practices and Challenges in Pull-Based Development: The Contributor’s Perspective&lt;/td&gt;
+      &lt;td&gt;Georgios Gousios, Radboud University Nijmegen&lt;br /&gt;Margaret-Anne Storey, University of Victoria&lt;br /&gt;Alberto Bacchelli, Delft University of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Termination-Checking for LLVM Peephole Optimizations&lt;/td&gt;
+      &lt;td&gt;David Menendez &amp;amp; Santosh Nagarakatte, Rutgers University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Guiding Dynamic Symbolic Execution toward Unverified Program Executions&lt;/td&gt;
+      &lt;td&gt;Maria Christakis, ETH Zurich&lt;br /&gt;Peter Müller, ETH Zurich&lt;br /&gt;Valentin Wüstholz, ETH Zurich&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Efficient Large-Scale Trace Checking Using MapReduce&lt;/td&gt;
+      &lt;td&gt;Marcello M. Bersani, Politecnico di Milano&lt;br /&gt;Domenico Bianculli, University of Luxembourg&lt;br /&gt;Carlo Ghezzi, Politecnico di Milano&lt;br /&gt;Srđan Krstić, Politecnico di Milano&lt;br /&gt;Pierluigi San Pietro, Politecnico di Milano&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;VDTest: An Automated Framework to Support Testing for Virtual Devices&lt;/td&gt;
+      &lt;td&gt;Tingting Yu, University of Kentucky&lt;br /&gt;Xiao Qu, ABB Corporate Research&lt;br /&gt;Myra B. Cohen, University of Nebraska-Lincoln&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Energy Profiles of Java Collections Classes&lt;/td&gt;
+      &lt;td&gt;Samir Hasan, Auburn University&lt;br /&gt;Zachary King, Auburn University&lt;br /&gt;Munawar Hafiz, Auburn University&lt;br /&gt;Mohammed Sayagh, Polytechnique Montréal&lt;br /&gt;Bram Adams, Polytechnique Montréal&lt;br /&gt;Abram Hindle, University of Alberta&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Alloy*: A General-Purpose Higher-Order Relational Constraint Solver&lt;/td&gt;
+      &lt;td&gt;Aleksandar Milicevic, Massachusetts Institute of Technology&lt;br /&gt;Joseph P. Near, Massachusetts Institute of Technology&lt;br /&gt;Eunsuk Kang, Massachusetts Institute of Technology&lt;br /&gt;Daniel Jackson, Massachusetts Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;How Much Up-Front? A Grounded theory of Agile Architecture&lt;/td&gt;
+      &lt;td&gt;Michael Waterman, Specialised Architecture Services Ltd&lt;br /&gt;James Noble, Victoria University of Wellington&lt;br /&gt;George Allan, Victoria University of Wellington&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Views on Internal and External Validity in Empirical Software Engineering&lt;/td&gt;
+      &lt;td&gt;Janet Siegmund, University of Passau&lt;br /&gt;Norbert Siegmund, University of Passau&lt;br /&gt;Sven Apel, University of Passau&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Why Good Developers Write Bad Code: An Observational Case Study of the Impacts of Organizational Factors on Software Quality&lt;/td&gt;
+      &lt;td&gt;Mathieu Lavallée &amp;amp; Pierre N. Robillard, Polytechnique Montréal&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;When and Why Your Code Starts to Smell Bad&lt;/td&gt;
+      &lt;td&gt;Michele Tufano, College of William and Mary&lt;br /&gt;Fabio Palomba, University of Salerno&lt;br /&gt;Gabriele Bavota, Free University of Bozen-Bolzano&lt;br /&gt;Rocco Oliveto, University of Molise&lt;br /&gt;Massimiliano Di Penta, University of Sannio&lt;br /&gt;Andrea De Lucia, University of Salerno&lt;br /&gt;Denys Poshyvanyk, College of William and Mary&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;CARAMEL: Detecting and Fixing Performance Problems That Have Non-Intrusive Fixes&lt;/td&gt;
+      &lt;td&gt;Adrian Nistor, Chapman University&lt;br /&gt;Po-Chun Chang, University of Wisconsin&lt;br /&gt;Cosmin Radoi, University of Illinois at Urbana-Champaign&lt;br /&gt;Shan Lu, University of Chicago&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Characterizing and Detecting Performance Bugs for Smartphone Applications&lt;/td&gt;
+      &lt;td&gt;Yepang Liu, Hong Kong University of Science and Technology&lt;br /&gt;Chang Xu, Nanjing University&lt;br /&gt;Shing-Chi Cheung, Hong Kong University of Science and Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Improving Automated Source Code Summarization via an Eye-Tracking Study of Programmers&lt;/td&gt;
+      &lt;td&gt;Paige Rodeghero, University of Notre Dame&lt;br /&gt;Collin McMillan, University of Notre Dame&lt;br /&gt;Paul W. McBurney, University of Notre Dame&lt;br /&gt;Nigel Bosch, University of Notre Dame&lt;br /&gt;Sidney D’Mello, University of Notre Dame&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Understanding JavaScript Event-Based Interactions&lt;/td&gt;
+      &lt;td&gt;Saba Alimadadi, University of British Columbia&lt;br /&gt;Sheldon Sequeira, University of British Columbia&lt;br /&gt;Ali Mesbah, University of British Columbia&lt;br /&gt;Karthik Pattabiraman, University of British Columbia&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Coverage Is Not Strongly Correlated with Test Suite Effectiveness&lt;/td&gt;
+      &lt;td&gt;Laura Inozemtseva &amp;amp; Reid Holmes, University of Waterloo&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Cowboys, Ankle Sprains, and Keepers of Quality: How Is Video Game Development Different from Software Development&lt;/td&gt;
+      &lt;td&gt;Emerson Murphy-Hill, North Carolina State University&lt;br /&gt;Thomas Zimmermann, Microsoft Research&lt;br /&gt;Nachiappan Nagappan, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Trading Robustness for Maintainability: An Empirical Study of Evolving C# Programs&lt;/td&gt;
+      &lt;td&gt;Nélio Cacho, Federal University of Rio Grande do Norte&lt;br /&gt;Thiago César, Federal University of Rio Grande do Norte&lt;br /&gt;Thomas Filipe, Federal University of Rio Grande do Norte&lt;br /&gt;Eliezio Soares, Federal University of Rio Grande do Norte&lt;br /&gt;Arthur Cassio, Federal University of Rio Grande do Norte&lt;br /&gt;Rafael Souza, Federal University of Rio Grande do Norte&lt;br /&gt;Israel Garcia, Federal University of Rio Grande do Norte&lt;br /&gt;Eiji Adachi Barbosa, Pontifical Catholic University of Rio de Janeiro&lt;br /&gt;Alessandro Garcia, Pontifical Catholic University of Rio de Janeiro&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Unit Test Virtualization with VMVM&lt;/td&gt;
+      &lt;td&gt;Jonathan Bell &amp;amp; Gail Kaiser, Columbia University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Enhancing Symbolic Execution with Veritesting&lt;/td&gt;
+      &lt;td&gt;Thanassis Avgerinos, Carnegie Mellon University&lt;br /&gt;Alexandre Rebert, Carnegie Mellon University&lt;br /&gt;Sang Kil Cha, Carnegie Mellon University&lt;br /&gt;David Brumley, Carnegie Mellon University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;A Study and Toolkit for Asynchronous Programming in C#&lt;/td&gt;
+      &lt;td&gt;Semih Okur, University of Illinois at Urbana-Champaign&lt;br /&gt;David L. Hartveld, Delft University of Technology&lt;br /&gt;Danny Dig, Oregon State University&lt;br /&gt;Arie van Deursen, Delft University of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;Dual Ecological Measures of Focus in Software Development&lt;/td&gt;
+      &lt;td&gt;Daryl Posnett, University of California Davis&lt;br /&gt;Raissa D’Souza, University of California Davis&lt;br /&gt;Premkumar Devanbu, University of California Davis&lt;br /&gt;Vladimir Filkov, University of California Davis&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;Data Clone Detection and Visualization in Spreadsheets&lt;/td&gt;
+      &lt;td&gt;Felienne Hermans, Delft University of Technology&lt;br /&gt;Ben Sedee, Delft University of Technology&lt;br /&gt;Martin Pinzger, Delft University of Technology&lt;br /&gt;Arie van Deursen, Delft University of Technology&lt;br /&gt;UML in Practice	Marian Petre, Open University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;Automatic patch generation learned from human-written patches&lt;/td&gt;
+      &lt;td&gt;Dongsun Kim, Hong Kong University of Science and Technology&lt;br /&gt;Jaechang Nam, Hong Kong University of Science and Technology&lt;br /&gt;Jaewoo Song, Hong Kong University of Science and Technology&lt;br /&gt;Sunghun Kim, Hong Kong University of Science and Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;Assisting Developers of Big Data Analytics Applications When Deploying on Hadoop Clouds&lt;/td&gt;
+      &lt;td&gt;Weiyi Shang, Queen’s University&lt;br /&gt;Zhen Ming Jiang, Queen’s University&lt;br /&gt;Hadi Hemmati, Queen’s University&lt;br /&gt;Bram Adams, Polytechnique Montréal&lt;br /&gt;Ahmed E. Hassan, Queen’s University&lt;br /&gt;Patrick Martin, Queen’s University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;Interaction-Based Test-Suite Minimization&lt;/td&gt;
+      &lt;td&gt;Dale Blue, IBM&lt;br /&gt;Itai Segall, IBM Research&lt;br /&gt;Rachel Tzoref-Brill, IBM Research&lt;br /&gt;Aviad Zlotnick, IBM Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Understanding Integer Overflow in C/C++&lt;/td&gt;
+      &lt;td&gt;Will Dietz, University of Illinois at Urbana-Champaign&lt;br /&gt;Peng Li, University of Utah&lt;br /&gt;John Regehr, University of Utah&lt;br /&gt;Vikram Adve, University of Illinois at Urbana-Champaign&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Using Dynamic Analysis to Discover Polynomial and Array Invariants&lt;/td&gt;
+      &lt;td&gt;ThanhVu Nguyen, University of New Mexico&lt;br /&gt;Deepak Kapur, University of New Mexico&lt;br /&gt;Westley Weimer, University of New Mexico&lt;br /&gt;Stephanie Forrest, University of New Mexico&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Amplifying Tests to Validate Exception Handling Code&lt;/td&gt;
+      &lt;td&gt;Pingyu Zhang &amp;amp; Sebastian Elbaum, University of Nebraska-Lincoln&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Partial Models: Towards Modeling and Reasoning with Uncertainty&lt;/td&gt;
+      &lt;td&gt;Michalis Famelis, University of Toronto&lt;br /&gt;Rick Salay, University of Toronto&lt;br /&gt;Marsha Chechik, University of Toronto&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;How Do Professional Developers Comprehend Software?&lt;/td&gt;
+      &lt;td&gt;Tobias Roehm, Technische Universität München&lt;br /&gt;Rebecca Tiarks, University of Bremen&lt;br /&gt;Rainer Koschke, University of Bremen&lt;br /&gt;Walid Maalej, Technische Universität München&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;A Tactic-Centric Approach for Automating Traceability of Quality Concerns&lt;/td&gt;
+      &lt;td&gt;Mehdi Mirakhorli, DePaul University&lt;br /&gt;Yonghee Shin, DePaul University&lt;br /&gt;Jane Cleland-Huang, DePaul University&lt;br /&gt;Murat Cinar, DePaul University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Automated Detection of Client-State Manipulation Vulnerabilities&lt;/td&gt;
+      &lt;td&gt;Anders Møller &amp;amp; Mathias Schwarz, Aarhus University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;Verifying Multi-threaded Software using SMT-based Context-Bounded Model Checking&lt;/td&gt;
+      &lt;td&gt;Lucas Cordeiro &amp;amp; Bernd Fischer, University of Southampton&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;Configuring Global Software Teams: A Multi-Company Analysis of Project Productivity, Quality, and Profits&lt;/td&gt;
+      &lt;td&gt;Narayan Ramasubbu, Singapore Management University&lt;br /&gt;Marcelo Cataldo, Carnegie Mellon University&lt;br /&gt;Rajesh Krishna Balan, Singapore Management University&lt;br /&gt;James D. Herbsleb, Carnegie Mellon University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;Programs, tests, and oracles: the foundations of testing revisited&lt;/td&gt;
+      &lt;td&gt;Matt Staats, University of Minnesota&lt;br /&gt;Michael W. Whalen, University of Minnesota&lt;br /&gt;Mats P.E. Heimdahl, University of Minnesota&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;On-demand Feature Recommendations Derived from Mining Public Product Descriptions&lt;/td&gt;
+      &lt;td&gt;Horatiu Dumitru, DePaul University&lt;br /&gt;Marek Gibiec, DePaul University&lt;br /&gt;Negar Hariri, DePaul University&lt;br /&gt;Jane Cleland-Huang, DePaul University&lt;br /&gt;Bamshad Mobasher, DePaul University&lt;br /&gt;Carlos Castro-Herrera, DePaul University&lt;br /&gt;Mehdi Mirakhorli, DePaul University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;Run-Time Efficient Probabilistic Model Checking&lt;/td&gt;
+      &lt;td&gt;Antonio Filieri, Politecnico di Milano&lt;br /&gt;Carlo Ghezzi, Politecnico di Milano&lt;br /&gt;Giordano Tamburrelli, Politecnico di Milano&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;A Machine Learning Approach for Tracing Regulatory Codes to Product Specific Requirements&lt;/td&gt;
+      &lt;td&gt;Jane Cleland-Huang, DePaul University&lt;br /&gt;Adam Czauderna, DePaul University&lt;br /&gt;John Emenecker, DePaul University&lt;br /&gt;Marek Gibiec, DePaul University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;Collaborative Reliability Prediction of Service-Oriented Systems&lt;/td&gt;
+      &lt;td&gt;Zibin Zheng &amp;amp; Michael R. Lyu, The Chinese University of Hong Kong&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;A Cut-off Approach for Bounded Verification of Parameterized Systems&lt;/td&gt;
+      &lt;td&gt;Qiusong Yang &amp;amp; Mingshu Li, Chinese Academy of Sciences&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;Test Generation through Programming in UDITA&lt;/td&gt;
+      &lt;td&gt;Milos Gligoric, University of Illinois at Urbana-Champaign&lt;br /&gt;Tihomir Gvero, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Vilas Jagannath, University of Illinois at Urbana-Champaign&lt;br /&gt;Sarfraz Khurshid, University of Texas at Austin&lt;br /&gt;Viktor Kuncak, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Darko Marinov, University of Illinois at Urbana-Champaign&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;A Degree-of-Knowledge Model to Capture Source Code Familiarity&lt;/td&gt;
+      &lt;td&gt;Thomas Fritz, University of British Columbia&lt;br /&gt;Jingwen Ou, University of British Columbia&lt;br /&gt;Gail C. Murphy, University of British Columbia&lt;br /&gt;Emerson Murphy-Hill, University of British Columbia&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;How We Refactor, and How We Know It&lt;/td&gt;
+      &lt;td&gt;Emerson Murphy-Hill, Portland State University&lt;br /&gt;Chris Parnin, Georgia Institute of Technology&lt;br /&gt;Andrew P. Black, Portland State University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;Effective Static Deadlock Detection&lt;/td&gt;
+      &lt;td&gt;Mayur Naik, Intel Research&lt;br /&gt;Chang-Seo Park, University of California Berkeley&lt;br /&gt;Koushik Sen, University of California Berkeley&lt;br /&gt;David Gay, Intel Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;Invariant-Based Automatic Testing of AJAX User Interfaces&lt;/td&gt;
+      &lt;td&gt;Ali Mesbah &amp;amp; Arie van Deursen, Delft University of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;Does Distributed Development Affect Software Quality? An Empirical Case Study of Windows Vista&lt;/td&gt;
+      &lt;td&gt;Christian Bird, University of California Davis&lt;br /&gt;Nachiappan Nagappan, Microsoft Research&lt;br /&gt;Premkumar Devanbu, University of California Davis&lt;br /&gt;Harald Gall, University of Zurich&lt;br /&gt;Brendan Murphy, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;Automatically finding patches using genetic programming&lt;/td&gt;
+      &lt;td&gt;Westley Weimer, University of Virginia&lt;br /&gt;ThanhVu Nguyen, University of New Mexico&lt;br /&gt;Claire Le Goues, University of Virginia&lt;br /&gt;Stephanie Forrest, University of New Mexico&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;Precise memory leak detection for java software using container profiling&lt;/td&gt;
+      &lt;td&gt;Guoqing Xu &amp;amp; Atanas Rountev, Ohio State University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;Debugging reinvented: asking and answering why and why not questions about program behavior&lt;/td&gt;
+      &lt;td&gt;Andrew J. Ko &amp;amp; Brad A. Myers, Carnegie Mellon University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;Recommending adaptive changes for framework evolution&lt;/td&gt;
+      &lt;td&gt;Barthélémy Dagenais &amp;amp; Martin P. Robillard, McGill University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;Predicting Accurate and Actionable Static Analysis Warnings: An Experimental Approach&lt;/td&gt;
+      &lt;td&gt;Joseph Ruthruff, University of Nebraska-Lincoln&lt;br /&gt;John Penix, Google&lt;br /&gt;J. David Morgenthaler, Google&lt;br /&gt;Sebastian Elbaum, University of Nebraska-Lincoln&lt;br /&gt;Gregg Rothermel, University of Nebraska-Lincoln&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;The effect of program and model structure on mc/dc test adequacy coverage&lt;/td&gt;
+      &lt;td&gt;Ajitha Rajan, University of Minnesota&lt;br /&gt;Michael W. Whalen, Rockwell Collins&lt;br /&gt;Mats P.E. Heimdahl, University of Minnesota&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;Refactoring for Parameterizing Java Classes&lt;/td&gt;
+      &lt;td&gt;Adam Kiezun, Massachusetts Institute of Technology&lt;br /&gt;Michael D. Ernst, Massachusetts Institute of Technology&lt;br /&gt;Frank Tip, IBM Research&lt;br /&gt;Robert M. Fuhrer, IBM Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;Tracking Code Clones in Evolving Software&lt;/td&gt;
+      &lt;td&gt;Ekwa Duala-Ekoko &amp;amp; Martin P. Robillard, McGill University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;Matching and Merging of Statecharts Specifications&lt;/td&gt;
+      &lt;td&gt;Shiva Nejati, University of Toronto&lt;br /&gt;Mehrdad Sabetzadeh, University of Toronto&lt;br /&gt;Marsha Chechik, University of Toronto&lt;br /&gt;Steve Easterbrook, University of Toronto&lt;br /&gt;Pamela Zave, AT&amp;amp;T Laboratories&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;Predicting Faults from Cached History&lt;/td&gt;
+      &lt;td&gt;Sunghun Kim, Massachusetts Institute of Technology&lt;br /&gt;Thomas Zimmermann, Saarland University&lt;br /&gt;E. James Whitehead Jr., University of California Santa Cruz&lt;br /&gt;Andreas Zeller, Saarland University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2006&lt;/td&gt;
+      &lt;td&gt;Model-Based Development of Dynamically Adaptive Software&lt;/td&gt;
+      &lt;td&gt;Ji Zhang &amp;amp; Betty H.C. Cheng, Michigan State University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2006&lt;/td&gt;
+      &lt;td&gt;Who Should Fix This Bug?&lt;/td&gt;
+      &lt;td&gt;John Anvik, University of British Columbia&lt;br /&gt;Lyndon Hiew, University of British Columbia&lt;br /&gt;Gail C. Murphy, University of British Columbia&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;Eliciting Design Requirements for Maintenance-Oriented IDEs: A Detailed Study of Corrective and Perfective Maintenance Tasks&lt;/td&gt;
+      &lt;td&gt;Andrew Ko, Carnegie Mellon University&lt;br /&gt;Htet Htet Aung, Carnegie Mellon University&lt;br /&gt;Brad Myers, Carnegie Mellon University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;Is Mutation an Appropriate Tool for Testing Experiments?&lt;/td&gt;
+      &lt;td&gt;James Andrews, University of Western Ontario&lt;br /&gt;Lionel Briand, Carleton University&lt;br /&gt;Yvan Labiche, Carleton University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;Using Structural Context to Recommend Source Code Examples&lt;/td&gt;
+      &lt;td&gt;Reid Holmes &amp;amp; Gail Murphy, University of British Columbia&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;Data Structure Repair Using Goal-Directed Reasoning&lt;/td&gt;
+      &lt;td&gt;Brian Demsky &amp;amp; Martin Rinard, Massachusetts Institute of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;SNIAFL: Towards a Static Non-Interactive Approach to Feature Location&lt;/td&gt;
+      &lt;td&gt;Wei Zhao, Peking University&lt;br /&gt;Lu Zhang, Peking University&lt;br /&gt;Yin Liu, Peking University&lt;br /&gt;Jiasu Sun, Peking University&lt;br /&gt;Fuqing Yang, Peking University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;Extending the REpresentational State Transfer (REST) Architectural Style for Decentralized Systems&lt;/td&gt;
+      &lt;td&gt;Rohit Khare &amp;amp; Richard N. Taylor, University of California Irvine&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;An Empirical Study of Software Reuse vs. Defect-Density and Stability&lt;/td&gt;
+      &lt;td&gt;Parastoo Mohagheghi, Ericsson&lt;br /&gt;Reidar Conradi, Norwegian University of Science and Technology&lt;br /&gt;Ole M. Killi, Norwegian University of Science and Technology&lt;br /&gt;Henrik Schwarz, Norwegian University of Science and Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;A Tool for Writing and Debugging Algebraic Specifications&lt;/td&gt;
+      &lt;td&gt;Johannes Henkel &amp;amp; Amer Diwan, University of Colorado&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;Static Checking of Dynamically Generated Queries in Database Applications&lt;/td&gt;
+      &lt;td&gt;Carl Gould, University of California Davis&lt;br /&gt;Zhendong Su, University of California Davis&lt;br /&gt;Premkumar Devanbu, University of California Davis&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2003&lt;/td&gt;
+      &lt;td&gt;Precise Dynamic Slicing Algorithms&lt;/td&gt;
+      &lt;td&gt;Xiangyu Zhang, University of Arizona&lt;br /&gt;Rajiv Gupta, University of Arizona&lt;br /&gt;Youtao Zhang, University of Arizona&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2003&lt;/td&gt;
+      &lt;td&gt;Modular Verification of Software Components in C&lt;/td&gt;
+      &lt;td&gt;Sagar Chaki, Carnegie Mellon University&lt;br /&gt;Edmund Clarke, Carnegie Mellon University&lt;br /&gt;Alex Groce, Carnegie Mellon University&lt;br /&gt;Somesh Jha, University of Wisconsin&lt;br /&gt;Helmut Veith, Technische Universität Wien&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Fri, 11 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/11/best-paper-awards-ICSE/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/11/best-paper-awards-ICSE/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>Software Engineering</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Best Paper Awards (MOBICOM)</title>
         <description>&lt;style&gt;
 .table {
 	font-size:12px;
@@ -103,7 +774,7 @@ table th:nth-of-type(2) {
       </item>
     
       <item>
-        <title>Best Paper Awards (1997-2018)</title>
+        <title>Best Paper Awards (KDD)</title>
         <description>&lt;style&gt;
 .table {
 	font-size:12px;
@@ -256,7 +927,7 @@ table th:nth-of-type(2) {
       </item>
     
       <item>
-        <title>Best Paper Awards (1996-2018)</title>
+        <title>Best Paper Awards (INFOCOM)</title>
         <description>&lt;style&gt;
 .table {
 	font-size:12px;
@@ -429,7 +1100,7 @@ table th:nth-of-type(2) {
       </item>
     
       <item>
-        <title>Best Paper Awards (1999-2018)</title>
+        <title>Best Paper Awards (PLDI)</title>
         <description>&lt;style&gt;
 .table {
 	font-size:12px;
@@ -632,7 +1303,7 @@ table th:nth-of-type(2) {
       </item>
     
       <item>
-        <title>Best Paper Awards (1996-2018)</title>
+        <title>Best Paper Awards (OSDI)</title>
         <description>&lt;style&gt;
 .table {
 	font-size:12px;
@@ -790,7 +1461,7 @@ table th:nth-of-type(2) {
       </item>
     
       <item>
-        <title>Best Paper Awards (2004-2018)</title>
+        <title>Best Paper Awards (NSDI)</title>
         <description>&lt;style&gt;
 .table {
 	font-size:12px;
@@ -938,7 +1609,7 @@ table th:nth-of-type(2) {
       </item>
     
       <item>
-        <title>Best Paper Awards (2008-2018)</title>
+        <title>Best Paper Awards (SIGCOMM)</title>
         <description>&lt;style&gt;
 .table {
 	font-size:12px;
@@ -1051,7 +1722,7 @@ table th:nth-of-type(2) {
       </item>
     
       <item>
-        <title>Best Paper Awards (2008-2018)</title>
+        <title>Best Paper Awards (S&amp;P)</title>
         <description>&lt;style&gt;
 .table {
 	font-size:12px;
@@ -1154,277 +1825,6 @@ table th:nth-of-type(2) {
         <category>Best Paper</category>
         
         <category>Security and Privacy</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Best Paper Awards (1997-2018)</title>
-        <description>&lt;style&gt;
-.table {
-	font-size:12px;
-}
-table td {
-	vertical-align: middle;
-}
-table th:nth-of-type(2) {
-    width: 240px;
-}
-
-&lt;/style&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-      &lt;th&gt;Title&lt;/th&gt;
-      &lt;th&gt;Authors&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Entity Matching with Active Monotone Classification&lt;/td&gt;
-      &lt;td&gt;Yufei Tao, Chinese University of Hong Kong&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;Dichotomies in Ontology-Mediated Querying with the Guarded Fragment&lt;/td&gt;
-      &lt;td&gt;André Hernich, University of Liverpool&lt;br /&gt;Carsten Lutz, University of Bremen&lt;br /&gt;Fabio Papacchini, University of Liverpool&lt;br /&gt;Frank Wolter, University of Liverpool&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;FAQ: Questions Asked Frequently&lt;/td&gt;
-      &lt;td&gt;Mahmoud Abo Khamis, University at Buffalo&lt;br /&gt;Hung Q. Ngo, University at Buffalo&lt;br /&gt;Atri Rudra, University at Buffalo&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Parallel-Correctness and Transferability for Conjunctive Queries&lt;/td&gt;
-      &lt;td&gt;Tom J. Ameloot, Hasselt University&lt;br /&gt;Gaetano Geck, Universität Dortmund&lt;br /&gt;Bas Ketsman, Hasselt University&lt;br /&gt;Frank Neven, Hasselt University&lt;br /&gt;Thomas Schwentick, Universität Dortmund&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;Weaker Forms of Monotonicity for Declarative Networking: A More Fine-Grained Answer to the CALM-Conjecture&lt;/td&gt;
-      &lt;td&gt;Tom J. Ameloot, Hasselt University&lt;br /&gt;Bas Ketsman, Hasselt University&lt;br /&gt;Frank Neven, Hasselt University&lt;br /&gt;Daniel Zinn, LogicBlox&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;Verification of database-driven systems via amalgamation&lt;/td&gt;
-      &lt;td&gt;Mikołaj Bojańczyk, University of Warsaw&lt;br /&gt;Luc Segouﬁn, INRIA&lt;br /&gt;Szymon Toruńczyk, University of Warsaw&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;Worst-case Optimal Join Algorithms&lt;/td&gt;
-      &lt;td&gt;Hung Q. Ngo, University at Buffalo&lt;br /&gt;Ely Porat, Bar-Ilan University&lt;br /&gt;Christopher Ré, University of Wisconsin&lt;br /&gt;Atri Rudra, University at Buffalo&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;Data Exchange Beyond Complete Data&lt;/td&gt;
-      &lt;td&gt;Marcelo Arenas, Pontificia Universidad Católica de Chile&lt;br /&gt;Jorge Pérez, Universidad de Chile&lt;br /&gt;Juan Reutter, University of Edinburgh&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;An Optimal Algorithm for the Distinct Elements Problem&lt;/td&gt;
-      &lt;td&gt;Daniel M. Kane, Harvard University&lt;br /&gt;Jelani Nelson, Massachusetts Institute of Technology&lt;br /&gt;David P. Woodruff, IBM Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;Size and Treewidth Bounds for Conjunctive Queries&lt;/td&gt;
-      &lt;td&gt;Georg Gottlob, University of Oxford&lt;br /&gt;Stephanie Lee, University of Oxford&lt;br /&gt;Gregory Valient, University of California Berkeley&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;Estimating PageRank on Graph Streams&lt;/td&gt;
-      &lt;td&gt;Atish Das Sarma, Georgia Institute of Technology&lt;br /&gt;Sreenivas Gollapudi, Microsoft Research&lt;br /&gt;Rina Panigrahy, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;Generalized Hypertree Decompositions: NP-Hardness and Tractable Variants&lt;/td&gt;
-      &lt;td&gt;Georg Gottlob, University of Oxford&lt;br /&gt;Zoltan Miklos, University of Oxford&lt;br /&gt;Thomas Schwentick, Universität Dortmund&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2006&lt;/td&gt;
-      &lt;td&gt;Two-variable logic on data trees and XML reasoning&lt;/td&gt;
-      &lt;td&gt;Mikolaj Bojanczyk, Warsaw University&lt;br /&gt;Claire David, Université Paris&lt;br /&gt;Anca Muscholl, Université Paris&lt;br /&gt;Thomas Schwentick, Universität Dortmund&lt;br /&gt;Luc Segoufin, Université Paris&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;On the complexity of division and set joins in the relational algebra&lt;/td&gt;
-      &lt;td&gt;Dirk Leinders &amp;amp; Jan Van den Bussche, Limburgs Universitair Centrum&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;XML data exchange: consistency and query answering&lt;/td&gt;
-      &lt;td&gt;Marcelo Arenas &amp;amp; Leonid Libkin, University of Toronto&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2004&lt;/td&gt;
-      &lt;td&gt;Conditional XPath, the first order complete XPath dialect&lt;/td&gt;
-      &lt;td&gt;Maarten Marx, University of Amsterdam&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2003&lt;/td&gt;
-      &lt;td&gt;An Information-Theoretic Approach to Normal Forms for Relational and XML Data&lt;/td&gt;
-      &lt;td&gt;Marcelo Arenas &amp;amp; Leonid Libkin, University of Toronto&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2002&lt;/td&gt;
-      &lt;td&gt;Monadic Datalog and the Expressive Power of Languages for Web Information Extraction&lt;/td&gt;
-      &lt;td&gt;Georg Gottlob &amp;amp; Christoph Koch, Technische Universität Wien&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2001&lt;/td&gt;
-      &lt;td&gt;Optimal aggregation algorithms for middleware&lt;/td&gt;
-      &lt;td&gt;Ronald Fagin, IBM Research&lt;br /&gt;Amnon Lotem, University of Maryland&lt;br /&gt;Moni Naor, Weizmann Institute of Science&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2000&lt;/td&gt;
-      &lt;td&gt;Auditing Boolean attributes&lt;/td&gt;
-      &lt;td&gt;Jon Kleinberg, Cornell University&lt;br /&gt;Christos Papadimitriou, University of California Berkeley&lt;br /&gt;Prabhakar Raghavan, IBM Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1999&lt;/td&gt;
-      &lt;td&gt;Exact and approximate aggregation in constraint query languages&lt;/td&gt;
-      &lt;td&gt;Michael Benefikt &amp;amp; Leonid Libkin, Bell Labs&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1998&lt;/td&gt;
-      &lt;td&gt;A lower bound theorem for indexing schemes and its application to multidimensional range queries&lt;/td&gt;
-      &lt;td&gt;Vasilis Samoladas &amp;amp; Daniel P. Miranker, University of Texas at Austin&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1998&lt;/td&gt;
-      &lt;td&gt;Expressiveness of structured document query languages based on attribute grammars&lt;/td&gt;
-      &lt;td&gt;Frank Neven &amp;amp; Jan Van den Bussche, Limburgs Universitair Centrum&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1997&lt;/td&gt;
-      &lt;td&gt;On the Complexity of Database Queries&lt;/td&gt;
-      &lt;td&gt;Christos H. Papadimitriou, University of California Berkeley&lt;br /&gt;Mihalis Yannakakis, Bell Labs&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Tue, 08 Jan 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/01/08/best-paper-awards-PODS/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/01/08/best-paper-awards-PODS/</guid>
-        
-        <category>Best Paper</category>
-        
-        <category>Databases</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Best Paper Awards (2009-2018)</title>
-        <description>&lt;style&gt;
-.table {
-	font-size:12px;
-}
-table td {
-	vertical-align: middle;
-}
-table th:nth-of-type(2) {
-    width: 240px;
-}
-
-&lt;/style&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-      &lt;th&gt;Title&lt;/th&gt;
-      &lt;th&gt;Authors&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Approaching 3/2 for the s-t-path TSP&lt;/td&gt;
-      &lt;td&gt;Vera Traub &amp;amp; Jens Vygen, Universität Bonn&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Online Bipartite Matching with Amortized O(log2 N)Replacements&lt;/td&gt;
-      &lt;td&gt;Aaron Bernstein, Technical University of Berlin&lt;br /&gt;Jacob Holm, University of Copenhagen&lt;br /&gt;Eva Rotenberg, Technical University of Denmark&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;Subquadratic Algorithms for the Diameter and the Sum of Pairwise Distances in Planar Graphs&lt;/td&gt;
-      &lt;td&gt;Sergio Cabello, University of Ljubljana&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;A (2 + Є) Approximation for Maximum Weight Matching in the Semi-Streaming Model&lt;/td&gt;
-      &lt;td&gt;Ami Paz, IRIF&lt;br /&gt;Gregory Schwartzman, National Institute of Informatics&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;An Improved Distributed Algorithm for Maximal Independent Set&lt;/td&gt;
-      &lt;td&gt;Mohsen Ghaffari, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Near-Optimal Light Spanners&lt;/td&gt;
-      &lt;td&gt;Shiri Chechik, Tel-Aviv University&lt;br /&gt;Christian Wulff-Nilsen, University of Copenhagen&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;The Parameterized Complexity of k-Biclique&lt;/td&gt;
-      &lt;td&gt;Bingkai Lin, University of Tokyo&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;Polynomiality for Bin Packing with a Constant Number of Item Types&lt;/td&gt;
-      &lt;td&gt;Michel X. Goemans &amp;amp; Thomas Rothvoß, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;An Almost-Linear-Time Algorithm for Approximate Max Flow in Undirected Graphs, and its Multicommodity Generalizations&lt;/td&gt;
-      &lt;td&gt;Jonathan A. Kelner, Massachusetts Institute of Technology&lt;br /&gt;Yin Tat Lee, Massachusetts Institute of Technology&lt;br /&gt;Lorenzo Orecchia, Massachusetts Institute of Technology&lt;br /&gt;Aaron Sidford, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;A Simple Algorithm for the Graph Minor Decomposition - Logic meets Structural Graph Theory&lt;/td&gt;
-      &lt;td&gt;Martin Grohe, RWTH Aachen University&lt;br /&gt;Ken-ichi Kawarabayashi, National Institute of Informatics&lt;br /&gt;Bruce Reed, McGill University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;Dynamic graph connectivity in polylogarithmic worst case time&lt;/td&gt;
-      &lt;td&gt;Bruce M. Kapron, University of Victoria&lt;br /&gt;Valerie King, University of Victoria&lt;br /&gt;Ben Mountjoy, University of Victoria&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;Computing all maps into a sphere&lt;/td&gt;
-      &lt;td&gt;Martin Čadek, Masaryk University&amp;lt;brMarek Krčál, Charles University&lt;br /&gt;Jiří Matoušel, Charles University&lt;br /&gt;Francis Sergeraert, Université Joseph Fourier&lt;br /&gt;Lukáš Vokřínel, Masaryk University&lt;br /&gt;Uli Wagner, ETH Zurich&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;An Almost Optimal Unrestricted Fast Johnson-Lindenstrauss Transform&lt;/td&gt;
-      &lt;td&gt;Nir Ailon, Technion&lt;br /&gt;Edo Liberty, Yahoo! Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;An O(log n/log log n)-approximation Algorithm for the Asymmetric Traveling Salesman Problem&lt;/td&gt;
-      &lt;td&gt;Arash Asadpour, Stanford University&lt;br /&gt;Michel X. Goemans, Massachusetts Institute of Technology&lt;br /&gt;Aleksander Mądry, Massachusetts Institute of Technology&lt;br /&gt;Shayan Oveis Gharan, Stanford University&lt;br /&gt;Amin Saberi, Stanford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;Natural Algorithms&lt;/td&gt;
-      &lt;td&gt;Bernard Chazelle, Princeton University&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Fri, 04 Jan 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/01/04/best-paper-awards-SODA/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/01/04/best-paper-awards-SODA/</guid>
-        
-        <category>Best Paper</category>
-        
-        <category>Theory</category>
         
         
       </item>

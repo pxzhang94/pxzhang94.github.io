@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Best Paper Awards (1996-2018)"
-subtitle: "SIGMOD"
+title: "Best Paper Awards (SIGMOD)"
+subtitle: "1996-2018"
 author: "pxzhang"
 header-img: "img/post-best-paper.jpg"
 header-mask: 0.3

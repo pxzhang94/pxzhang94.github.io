@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Best Paper Awards (1998-2018)"
-subtitle: "ICCV"
+title: "Best Paper Awards (ICCV)"
+subtitle: "1998-2018"
 author: "pxzhang"
 header-img: "img/post-best-paper.jpg"
 header-mask: 0.3

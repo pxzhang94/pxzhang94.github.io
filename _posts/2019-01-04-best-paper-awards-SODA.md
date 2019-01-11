@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Best Paper Awards (2009-2018)"
-subtitle: "SODA"
+title: "Best Paper Awards (SODA)"
+subtitle: "2009-2018"
 author: "pxzhang"
 header-img: "img/post-best-paper.jpg"
 header-mask: 0.3

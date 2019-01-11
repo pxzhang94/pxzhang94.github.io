@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="这里是 @PXZHANG张培歆 的个人网站">
+    <meta name="keywords"  content="张培歆, PXZHANG, PXZHANG张培歆, 个人网站，软件测试，深度学习，旅游, 收藏">
+    <meta name="theme-color" content="#000000">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Best Paper Awards (ICSE) - 张培歆 | PXZHANG">
+    
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="
+">
+    
+    <meta property="article:published_time" content="2019-01-11T00:00:00Z">
+    
+    
+    <meta property="article:author" content="pxzhang">
+    
+    
+    <meta property="article:tag" content="Best Paper">
+    
+    <meta property="article:tag" content="Software Engineering">
+    
+    
+    <meta property="og:image" content="http://localhost:4000/img/pxzhang_icse2018.jpg">
+    <meta property="og:url" content="http://localhost:4000/2019/01/11/best-paper-awards-ICSE/">
+    <meta property="og:site_name" content="张培歆 | PXZHANG">
+    
+    <title>Best Paper Awards (ICSE) - 张培歆 | PXZHANG</title>
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/pwa/manifest.json">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://localhost:4000/2019/01/11/best-paper-awards-ICSE/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">PXZHANG</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li>
+                        <a href="/about/">Biography</a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="/archive/">Archive</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li>
+                        <a href="/travel/">Travel</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    var __HuxNav__ = {
+        close: function(){
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        },
+        open: function(){
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+
+    // Bind Event
+    $toggle.addEventListener('click', function(e){
+        if ($navbar.className.indexOf('in') > 0) {
+            __HuxNav__.close()
+        }else{
+            __HuxNav__.open()
+        }
+    })
+
+    /**
+     * Since Fastclick is used to delegate 'touchstart' globally
+     * to hack 300ms delay in iOS by performing a fake 'click',
+     * Using 'e.stopPropagation' to stop 'touchstart' event from 
+     * $toggle/$collapse will break global delegation.
+     * 
+     * Instead, we use a 'e.target' filter to prevent handler
+     * added to document close HuxNav.  
+     *
+     * Also, we use 'click' instead of 'touchstart' as compromise
+     */
+    document.addEventListener('click', function(e){
+        if(e.target == $toggle) return;
+        if(e.target.className == 'icon-bar') return;
+        __HuxNav__.close();
+    })
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/post-best-paper.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+
+
+
+<style type="text/css">
+    header.intro-header{
+        position: relative;
+        background-image: url('/img/post-best-paper.jpg')
+    }
+
+    
+    header.intro-header .header-mask{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: rgba(0,0,0, 0.3);
+    }
+    
+</style>
+<header class="intro-header" >
+    <div class="header-mask"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/archive/?tag=Best+Paper" title="Best Paper">Best Paper</a>
+                        
+                        <a class="tag" href="/archive/?tag=Software+Engineering" title="Software Engineering">Software Engineering</a>
+                        
+                    </div>
+                    <h1>Best Paper Awards (ICSE)</h1>
+                    
+                    <h2 class="subheading">2003-2018</h2>
+                    <span class="meta">Posted by pxzhang on January 11, 2019</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                <!-- Multi-Lingual -->
+                
+
+				<style>
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Title</th>
+      <th>Authors</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2018</td>
+      <td>Large-Scale Analysis of Framework-Specific Exceptions in Android Apps</td>
+      <td>Lingling Fan, East China Normal University<br />Ting Su, Nanyang Technological University<br />Sen Chen, East China Normal University<br />Guozhu Meng, Chinese Academy of Sciences<br />Yang Liu, Nanyang Technological University<br />Lihua Xu, East China Normal University<br />Geguang Pu, East China Normal University<br />Zhendong Su, University of California</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Generalized Data Structure Synthesis</td>
+      <td>Calvin Loncaric, University of Washington<br />Michael D. Ernst, University of Washington<br />Emina Torlak, University of Washington</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Static Automated Program Repair for Heap Properties</td>
+      <td>Rijnard van Tonder &amp; Claire Le Goues, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Towards Optimal Concolic Testing</td>
+      <td>Xinyu Wang, Zhejiang University<br />Jun Sun, Singapore University of Technology and Design<br />Zhenbang Chen, National University of Defense Technology<br />Peixin Zhang, Zhejiang University<br />Jingyi Wang, Singapore University of Technology and Design<br />Yun Lin, National University of Singapore</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Spatio-Temporal Context Reduction: A Pointer-Analysis-Based Static Approach for Detecting Use-After-Free Vulnerabilities</td>
+      <td>Hua Yan, University of New South Wales<br />Yulei Sui, University of Technology Sydney<br />Shiping Chen, CSIRO<br />Jingling Xue, University of New South Wales</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Identifying Design Problems in the Source Code: A Grounded Theory</td>
+      <td>Leonardo Sousa, PUC-Rio<br />Anderson Oliveira, PUC-Rio<br />Willian Oizumi, PUC-Rio<br />Simone Barbosa, PUC-Rio<br />Alessandro Garcia, PUC-Rio<br />Jaejoon Lee, Lancaster University<br />Marcos Kalinowski, PUC-Rio<br />Rafael de Mello, PUC-Rio<br />Baldoino Fonseca, UFAL<br />Roberto Oliveira, PUC-Rio<br />Carlos Lucena, PUC-Rio<br />Rodrigo Paes, PUC-Rio</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Traceability in the Wild: Automatically Augmenting Incomplete Trace links</td>
+      <td>Michael Rath, Technical University Ilmenau<br />Jacob Rendall, University of Notre Dame<br />Jin L. C. Guo, McGill University<br />Jane Cleland-Huang, University of Notre Dame<br />Patrick Mäder, Technical University Ilmenau</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Automated Localization for Unreproducible Builds</td>
+      <td>Zhilei Ren, Dalian University of Technology<br />He Jiang, Dalian University of Technology<br />Jifeng Xuan, Wuhan University<br />Zijiang Yang, Western Michigan University</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Decoding the representation of code in the brain: An fMRI study of code review and expertise</td>
+      <td>Benjamin Floyd, University of Virginia<br />Tyler Santander, University of Virginia<br />Westley Weimer, University of Virginia</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Code Defenders: Crowdsourcing Effective Tests and Subtle Mutants with a Mutation Testing Game</td>
+      <td>José Miguel Rojas, The University of Sheffield<br />Thomas D. White, The University of Sheffield<br />Benjamin S. Clegg, The University of Sheffield<br />Gordon Fraser, The University of Sheffield</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Clone Refactoring with Lambda Expressions</td>
+      <td>Nikolaos Tsantalis, Concordia University<br />Davood Mazinanian, Concordia University<br />Shahriar Rostami, Concordia University</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Optimizing Test Placement for Module-Level Regression Testing</td>
+      <td>August Shi, University of Illinois at Urbana-Champaign<br />Suresh Thummalapenta, Microsoft Corporation<br />Shuvendu K. Lahiri, Microsoft Research<br />Nikolaj Bjorner, Microsoft Research<br />Jacek Czerwonka, Microsoft Corporation</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>A Grounded Theory of Agile Transitions in Practice</td>
+      <td>Rashina Hoda, The University of Auckland<br />James Noble Victoria, University of Wellington</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Challenges for Static Analysis of Java Reflection-Literature Review and Empirical Study</td>
+      <td>Davy Landman, Centrum Wiskunde &amp; Informatica<br />Alexander Serebrenik, Centrum Wiskunde &amp; Informatica<br />Jurgen J. Vinju, Centrum Wiskunde &amp; Informatica</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Feedback-Directed Instrumentation for Deployed JavaScript Applications</td>
+      <td>Magnus Madsen, University of Waterloo<br />Frank Tip, Samsung Research<br />Esben Andreasen, Aarhus University<br />Koushik Sen, University of California Berkeley<br />Anders Møller, Aarhus University</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>From Word Embeddings to Document Similarities for Improved Information Retrieval in Software Engineering</td>
+      <td>Xin Ye, Ohio University Athens<br />Hui Shen, Ohio University Athens<br />Xiao Ma, Ohio University Athens<br />Razvan Bunescu, Ohio University Athens<br />Chang Liu, Ohio University Athens</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>On the Techniques We Create, the Tools We Build, and Their Misalignments: A Study of KLEE</td>
+      <td>Eric F. Rizzi, Grammatech<br />Sebastian Elbaum, University of Nebraska-Lincoln<br />Matthew B. Dwyer, University of Nebraska-Lincoln</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Work Practices and Challenges in Pull-Based Development: The Contributor’s Perspective</td>
+      <td>Georgios Gousios, Radboud University Nijmegen<br />Margaret-Anne Storey, University of Victoria<br />Alberto Bacchelli, Delft University of Technology</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Termination-Checking for LLVM Peephole Optimizations</td>
+      <td>David Menendez &amp; Santosh Nagarakatte, Rutgers University</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Guiding Dynamic Symbolic Execution toward Unverified Program Executions</td>
+      <td>Maria Christakis, ETH Zurich<br />Peter Müller, ETH Zurich<br />Valentin Wüstholz, ETH Zurich</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Efficient Large-Scale Trace Checking Using MapReduce</td>
+      <td>Marcello M. Bersani, Politecnico di Milano<br />Domenico Bianculli, University of Luxembourg<br />Carlo Ghezzi, Politecnico di Milano<br />Srđan Krstić, Politecnico di Milano<br />Pierluigi San Pietro, Politecnico di Milano</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>VDTest: An Automated Framework to Support Testing for Virtual Devices</td>
+      <td>Tingting Yu, University of Kentucky<br />Xiao Qu, ABB Corporate Research<br />Myra B. Cohen, University of Nebraska-Lincoln</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Energy Profiles of Java Collections Classes</td>
+      <td>Samir Hasan, Auburn University<br />Zachary King, Auburn University<br />Munawar Hafiz, Auburn University<br />Mohammed Sayagh, Polytechnique Montréal<br />Bram Adams, Polytechnique Montréal<br />Abram Hindle, University of Alberta</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Alloy*: A General-Purpose Higher-Order Relational Constraint Solver</td>
+      <td>Aleksandar Milicevic, Massachusetts Institute of Technology<br />Joseph P. Near, Massachusetts Institute of Technology<br />Eunsuk Kang, Massachusetts Institute of Technology<br />Daniel Jackson, Massachusetts Institute of Technology</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>How Much Up-Front? A Grounded theory of Agile Architecture</td>
+      <td>Michael Waterman, Specialised Architecture Services Ltd<br />James Noble, Victoria University of Wellington<br />George Allan, Victoria University of Wellington</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Views on Internal and External Validity in Empirical Software Engineering</td>
+      <td>Janet Siegmund, University of Passau<br />Norbert Siegmund, University of Passau<br />Sven Apel, University of Passau</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Why Good Developers Write Bad Code: An Observational Case Study of the Impacts of Organizational Factors on Software Quality</td>
+      <td>Mathieu Lavallée &amp; Pierre N. Robillard, Polytechnique Montréal</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>When and Why Your Code Starts to Smell Bad</td>
+      <td>Michele Tufano, College of William and Mary<br />Fabio Palomba, University of Salerno<br />Gabriele Bavota, Free University of Bozen-Bolzano<br />Rocco Oliveto, University of Molise<br />Massimiliano Di Penta, University of Sannio<br />Andrea De Lucia, University of Salerno<br />Denys Poshyvanyk, College of William and Mary</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>CARAMEL: Detecting and Fixing Performance Problems That Have Non-Intrusive Fixes</td>
+      <td>Adrian Nistor, Chapman University<br />Po-Chun Chang, University of Wisconsin<br />Cosmin Radoi, University of Illinois at Urbana-Champaign<br />Shan Lu, University of Chicago</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Characterizing and Detecting Performance Bugs for Smartphone Applications</td>
+      <td>Yepang Liu, Hong Kong University of Science and Technology<br />Chang Xu, Nanjing University<br />Shing-Chi Cheung, Hong Kong University of Science and Technology</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Improving Automated Source Code Summarization via an Eye-Tracking Study of Programmers</td>
+      <td>Paige Rodeghero, University of Notre Dame<br />Collin McMillan, University of Notre Dame<br />Paul W. McBurney, University of Notre Dame<br />Nigel Bosch, University of Notre Dame<br />Sidney D’Mello, University of Notre Dame</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Understanding JavaScript Event-Based Interactions</td>
+      <td>Saba Alimadadi, University of British Columbia<br />Sheldon Sequeira, University of British Columbia<br />Ali Mesbah, University of British Columbia<br />Karthik Pattabiraman, University of British Columbia</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Coverage Is Not Strongly Correlated with Test Suite Effectiveness</td>
+      <td>Laura Inozemtseva &amp; Reid Holmes, University of Waterloo</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Cowboys, Ankle Sprains, and Keepers of Quality: How Is Video Game Development Different from Software Development</td>
+      <td>Emerson Murphy-Hill, North Carolina State University<br />Thomas Zimmermann, Microsoft Research<br />Nachiappan Nagappan, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Trading Robustness for Maintainability: An Empirical Study of Evolving C# Programs</td>
+      <td>Nélio Cacho, Federal University of Rio Grande do Norte<br />Thiago César, Federal University of Rio Grande do Norte<br />Thomas Filipe, Federal University of Rio Grande do Norte<br />Eliezio Soares, Federal University of Rio Grande do Norte<br />Arthur Cassio, Federal University of Rio Grande do Norte<br />Rafael Souza, Federal University of Rio Grande do Norte<br />Israel Garcia, Federal University of Rio Grande do Norte<br />Eiji Adachi Barbosa, Pontifical Catholic University of Rio de Janeiro<br />Alessandro Garcia, Pontifical Catholic University of Rio de Janeiro</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Unit Test Virtualization with VMVM</td>
+      <td>Jonathan Bell &amp; Gail Kaiser, Columbia University</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Enhancing Symbolic Execution with Veritesting</td>
+      <td>Thanassis Avgerinos, Carnegie Mellon University<br />Alexandre Rebert, Carnegie Mellon University<br />Sang Kil Cha, Carnegie Mellon University<br />David Brumley, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>A Study and Toolkit for Asynchronous Programming in C#</td>
+      <td>Semih Okur, University of Illinois at Urbana-Champaign<br />David L. Hartveld, Delft University of Technology<br />Danny Dig, Oregon State University<br />Arie van Deursen, Delft University of Technology</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Dual Ecological Measures of Focus in Software Development</td>
+      <td>Daryl Posnett, University of California Davis<br />Raissa D’Souza, University of California Davis<br />Premkumar Devanbu, University of California Davis<br />Vladimir Filkov, University of California Davis</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Data Clone Detection and Visualization in Spreadsheets</td>
+      <td>Felienne Hermans, Delft University of Technology<br />Ben Sedee, Delft University of Technology<br />Martin Pinzger, Delft University of Technology<br />Arie van Deursen, Delft University of Technology<br />UML in Practice	Marian Petre, Open University</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Automatic patch generation learned from human-written patches</td>
+      <td>Dongsun Kim, Hong Kong University of Science and Technology<br />Jaechang Nam, Hong Kong University of Science and Technology<br />Jaewoo Song, Hong Kong University of Science and Technology<br />Sunghun Kim, Hong Kong University of Science and Technology</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Assisting Developers of Big Data Analytics Applications When Deploying on Hadoop Clouds</td>
+      <td>Weiyi Shang, Queen’s University<br />Zhen Ming Jiang, Queen’s University<br />Hadi Hemmati, Queen’s University<br />Bram Adams, Polytechnique Montréal<br />Ahmed E. Hassan, Queen’s University<br />Patrick Martin, Queen’s University</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Interaction-Based Test-Suite Minimization</td>
+      <td>Dale Blue, IBM<br />Itai Segall, IBM Research<br />Rachel Tzoref-Brill, IBM Research<br />Aviad Zlotnick, IBM Research</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Understanding Integer Overflow in C/C++</td>
+      <td>Will Dietz, University of Illinois at Urbana-Champaign<br />Peng Li, University of Utah<br />John Regehr, University of Utah<br />Vikram Adve, University of Illinois at Urbana-Champaign</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Using Dynamic Analysis to Discover Polynomial and Array Invariants</td>
+      <td>ThanhVu Nguyen, University of New Mexico<br />Deepak Kapur, University of New Mexico<br />Westley Weimer, University of New Mexico<br />Stephanie Forrest, University of New Mexico</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Amplifying Tests to Validate Exception Handling Code</td>
+      <td>Pingyu Zhang &amp; Sebastian Elbaum, University of Nebraska-Lincoln</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Partial Models: Towards Modeling and Reasoning with Uncertainty</td>
+      <td>Michalis Famelis, University of Toronto<br />Rick Salay, University of Toronto<br />Marsha Chechik, University of Toronto</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>How Do Professional Developers Comprehend Software?</td>
+      <td>Tobias Roehm, Technische Universität München<br />Rebecca Tiarks, University of Bremen<br />Rainer Koschke, University of Bremen<br />Walid Maalej, Technische Universität München</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>A Tactic-Centric Approach for Automating Traceability of Quality Concerns</td>
+      <td>Mehdi Mirakhorli, DePaul University<br />Yonghee Shin, DePaul University<br />Jane Cleland-Huang, DePaul University<br />Murat Cinar, DePaul University</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Automated Detection of Client-State Manipulation Vulnerabilities</td>
+      <td>Anders Møller &amp; Mathias Schwarz, Aarhus University</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Verifying Multi-threaded Software using SMT-based Context-Bounded Model Checking</td>
+      <td>Lucas Cordeiro &amp; Bernd Fischer, University of Southampton</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Configuring Global Software Teams: A Multi-Company Analysis of Project Productivity, Quality, and Profits</td>
+      <td>Narayan Ramasubbu, Singapore Management University<br />Marcelo Cataldo, Carnegie Mellon University<br />Rajesh Krishna Balan, Singapore Management University<br />James D. Herbsleb, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Programs, tests, and oracles: the foundations of testing revisited</td>
+      <td>Matt Staats, University of Minnesota<br />Michael W. Whalen, University of Minnesota<br />Mats P.E. Heimdahl, University of Minnesota</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>On-demand Feature Recommendations Derived from Mining Public Product Descriptions</td>
+      <td>Horatiu Dumitru, DePaul University<br />Marek Gibiec, DePaul University<br />Negar Hariri, DePaul University<br />Jane Cleland-Huang, DePaul University<br />Bamshad Mobasher, DePaul University<br />Carlos Castro-Herrera, DePaul University<br />Mehdi Mirakhorli, DePaul University</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Run-Time Efficient Probabilistic Model Checking</td>
+      <td>Antonio Filieri, Politecnico di Milano<br />Carlo Ghezzi, Politecnico di Milano<br />Giordano Tamburrelli, Politecnico di Milano</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>A Machine Learning Approach for Tracing Regulatory Codes to Product Specific Requirements</td>
+      <td>Jane Cleland-Huang, DePaul University<br />Adam Czauderna, DePaul University<br />John Emenecker, DePaul University<br />Marek Gibiec, DePaul University</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Collaborative Reliability Prediction of Service-Oriented Systems</td>
+      <td>Zibin Zheng &amp; Michael R. Lyu, The Chinese University of Hong Kong</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>A Cut-off Approach for Bounded Verification of Parameterized Systems</td>
+      <td>Qiusong Yang &amp; Mingshu Li, Chinese Academy of Sciences</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Test Generation through Programming in UDITA</td>
+      <td>Milos Gligoric, University of Illinois at Urbana-Champaign<br />Tihomir Gvero, École Polytechnique Fédérale de Lausanne<br />Vilas Jagannath, University of Illinois at Urbana-Champaign<br />Sarfraz Khurshid, University of Texas at Austin<br />Viktor Kuncak, École Polytechnique Fédérale de Lausanne<br />Darko Marinov, University of Illinois at Urbana-Champaign</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>A Degree-of-Knowledge Model to Capture Source Code Familiarity</td>
+      <td>Thomas Fritz, University of British Columbia<br />Jingwen Ou, University of British Columbia<br />Gail C. Murphy, University of British Columbia<br />Emerson Murphy-Hill, University of British Columbia</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>How We Refactor, and How We Know It</td>
+      <td>Emerson Murphy-Hill, Portland State University<br />Chris Parnin, Georgia Institute of Technology<br />Andrew P. Black, Portland State University</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Effective Static Deadlock Detection</td>
+      <td>Mayur Naik, Intel Research<br />Chang-Seo Park, University of California Berkeley<br />Koushik Sen, University of California Berkeley<br />David Gay, Intel Research</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Invariant-Based Automatic Testing of AJAX User Interfaces</td>
+      <td>Ali Mesbah &amp; Arie van Deursen, Delft University of Technology</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Does Distributed Development Affect Software Quality? An Empirical Case Study of Windows Vista</td>
+      <td>Christian Bird, University of California Davis<br />Nachiappan Nagappan, Microsoft Research<br />Premkumar Devanbu, University of California Davis<br />Harald Gall, University of Zurich<br />Brendan Murphy, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Automatically finding patches using genetic programming</td>
+      <td>Westley Weimer, University of Virginia<br />ThanhVu Nguyen, University of New Mexico<br />Claire Le Goues, University of Virginia<br />Stephanie Forrest, University of New Mexico</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Precise memory leak detection for java software using container profiling</td>
+      <td>Guoqing Xu &amp; Atanas Rountev, Ohio State University</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Debugging reinvented: asking and answering why and why not questions about program behavior</td>
+      <td>Andrew J. Ko &amp; Brad A. Myers, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Recommending adaptive changes for framework evolution</td>
+      <td>Barthélémy Dagenais &amp; Martin P. Robillard, McGill University</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Predicting Accurate and Actionable Static Analysis Warnings: An Experimental Approach</td>
+      <td>Joseph Ruthruff, University of Nebraska-Lincoln<br />John Penix, Google<br />J. David Morgenthaler, Google<br />Sebastian Elbaum, University of Nebraska-Lincoln<br />Gregg Rothermel, University of Nebraska-Lincoln</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>The effect of program and model structure on mc/dc test adequacy coverage</td>
+      <td>Ajitha Rajan, University of Minnesota<br />Michael W. Whalen, Rockwell Collins<br />Mats P.E. Heimdahl, University of Minnesota</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Refactoring for Parameterizing Java Classes</td>
+      <td>Adam Kiezun, Massachusetts Institute of Technology<br />Michael D. Ernst, Massachusetts Institute of Technology<br />Frank Tip, IBM Research<br />Robert M. Fuhrer, IBM Research</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Tracking Code Clones in Evolving Software</td>
+      <td>Ekwa Duala-Ekoko &amp; Martin P. Robillard, McGill University</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Matching and Merging of Statecharts Specifications</td>
+      <td>Shiva Nejati, University of Toronto<br />Mehrdad Sabetzadeh, University of Toronto<br />Marsha Chechik, University of Toronto<br />Steve Easterbrook, University of Toronto<br />Pamela Zave, AT&amp;T Laboratories</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Predicting Faults from Cached History</td>
+      <td>Sunghun Kim, Massachusetts Institute of Technology<br />Thomas Zimmermann, Saarland University<br />E. James Whitehead Jr., University of California Santa Cruz<br />Andreas Zeller, Saarland University</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>Model-Based Development of Dynamically Adaptive Software</td>
+      <td>Ji Zhang &amp; Betty H.C. Cheng, Michigan State University</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>Who Should Fix This Bug?</td>
+      <td>John Anvik, University of British Columbia<br />Lyndon Hiew, University of British Columbia<br />Gail C. Murphy, University of British Columbia</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>Eliciting Design Requirements for Maintenance-Oriented IDEs: A Detailed Study of Corrective and Perfective Maintenance Tasks</td>
+      <td>Andrew Ko, Carnegie Mellon University<br />Htet Htet Aung, Carnegie Mellon University<br />Brad Myers, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>Is Mutation an Appropriate Tool for Testing Experiments?</td>
+      <td>James Andrews, University of Western Ontario<br />Lionel Briand, Carleton University<br />Yvan Labiche, Carleton University</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>Using Structural Context to Recommend Source Code Examples</td>
+      <td>Reid Holmes &amp; Gail Murphy, University of British Columbia</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>Data Structure Repair Using Goal-Directed Reasoning</td>
+      <td>Brian Demsky &amp; Martin Rinard, Massachusetts Institute of Technology</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>SNIAFL: Towards a Static Non-Interactive Approach to Feature Location</td>
+      <td>Wei Zhao, Peking University<br />Lu Zhang, Peking University<br />Yin Liu, Peking University<br />Jiasu Sun, Peking University<br />Fuqing Yang, Peking University</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>Extending the REpresentational State Transfer (REST) Architectural Style for Decentralized Systems</td>
+      <td>Rohit Khare &amp; Richard N. Taylor, University of California Irvine</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>An Empirical Study of Software Reuse vs. Defect-Density and Stability</td>
+      <td>Parastoo Mohagheghi, Ericsson<br />Reidar Conradi, Norwegian University of Science and Technology<br />Ole M. Killi, Norwegian University of Science and Technology<br />Henrik Schwarz, Norwegian University of Science and Technology</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>A Tool for Writing and Debugging Algebraic Specifications</td>
+      <td>Johannes Henkel &amp; Amer Diwan, University of Colorado</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>Static Checking of Dynamically Generated Queries in Database Applications</td>
+      <td>Carl Gould, University of California Davis<br />Zhendong Su, University of California Davis<br />Premkumar Devanbu, University of California Davis</td>
+    </tr>
+    <tr>
+      <td>2003</td>
+      <td>Precise Dynamic Slicing Algorithms</td>
+      <td>Xiangyu Zhang, University of Arizona<br />Rajiv Gupta, University of Arizona<br />Youtao Zhang, University of Arizona</td>
+    </tr>
+    <tr>
+      <td>2003</td>
+      <td>Modular Verification of Software Components in C</td>
+      <td>Sagar Chaki, Carnegie Mellon University<br />Edmund Clarke, Carnegie Mellon University<br />Alex Groce, Carnegie Mellon University<br />Somesh Jha, University of Wisconsin<br />Helmut Veith, Technische Universität Wien</td>
+    </tr>
+  </tbody>
+</table>
+
+
+                <hr style="visibility: hidden;">
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2019/01/10/best-paper-awards-MOBICOM/" data-toggle="tooltip" data-placement="top" title="Best Paper Awards (MOBICOM)">
+                        Previous<br>
+                        <span>Best Paper Awards (MOBICOM)</span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2019/01/11/best-paper-awards-IJCAI/" data-toggle="tooltip" data-placement="top" title="Best Paper Awards (IJCAI)">
+                        Next<br>
+                        <span>Best Paper Awards (IJCAI)</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <hr style="visibility: hidden;">
+
+                
+                <!-- disqus 评论框 start -->
+                <div class="comment">
+                    <div id="disqus_thread" class="disqus-thread"></div>
+                </div>
+                <!-- disqus 评论框 end -->
+                
+
+                
+            </div>  
+
+    <!-- Side Catalog Container -->
+        
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+
+
+<section>
+    
+        <hr class="hidden-sm hidden-xs">
+    
+    <h5><a href="/archive/">FEATURED TAGS</a></h5>
+    <div class="tags">
+        
+        
+        
+        </a>
+        
+        
+                <a data-sort="0027" 
+                    href="/archive/?tag=Software+Engineering"
+                    title="Software Engineering"
+                    rel="4">Software Engineering
+                </a>
+        
+                <a data-sort="0002" 
+                    href="/archive/?tag=Best+Paper"
+                    title="Best Paper"
+                    rel="29">Best Paper
+                </a>
+        
+                <a data-sort="0028" 
+                    href="/archive/?tag=Databases"
+                    title="Databases"
+                    rel="3">Databases
+                </a>
+        
+                <a data-sort="0028" 
+                    href="/archive/?tag=Networking"
+                    title="Networking"
+                    rel="3">Networking
+                </a>
+        
+                <a data-sort="0028" 
+                    href="/archive/?tag=Theory"
+                    title="Theory"
+                    rel="3">Theory
+                </a>
+        
+                <a data-sort="0029" 
+                    href="/archive/?tag=Artificial+Intelligence"
+                    title="Artificial Intelligence"
+                    rel="2">Artificial Intelligence
+                </a>
+        
+                <a data-sort="0029" 
+                    href="/archive/?tag=Computer+Vision"
+                    title="Computer Vision"
+                    rel="2">Computer Vision
+                </a>
+        
+                <a data-sort="0029" 
+                    href="/archive/?tag=Concolic+Testing"
+                    title="Concolic Testing"
+                    rel="2">Concolic Testing
+                </a>
+        
+                <a data-sort="0029" 
+                    href="/archive/?tag=Operating+Systems"
+                    title="Operating Systems"
+                    rel="2">Operating Systems
+                
+</div>
+</section>
+
+
+                <!-- Friends Blog -->
+                
+<hr>
+<h5>FRIENDS</h5>
+<ul class="list-inline">
+  
+  <li><a href="http://www.shichaohao.com">Chaohao Shi</a></li>
+  
+  <li><a href="https://wang-jingyi.github.io">Jingyi Wang</a></li>
+  
+  <li><a href="http://linyun.info">Yun Lin</a></li>
+  
+</ul>
+
+            </div>
+        </div>
+    </div>
+</article>
+
+<!-- add support for mathjax by voleking-->
+
+
+
+
+
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "pxzhang";
+    var disqus_identifier = "/2019/01/11/best-paper-awards-ICSE";
+    var disqus_url = "http://localhost:4000/2019/01/11/best-paper-awards-ICSE/";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <!-- SNS Link -->
+                
+
+
+<ul class="list-inline text-center">
+
+
+  
+  
+  <li>
+    <a target="_blank" href="https://github.com/pxzhang94">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="../img/wechat.jpg">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.linkedin.com/in/培歆-张-08ba3312b">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.facebook.com/peixin.zhang.180">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a href="https://twitter.com/PXZHANG94">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="../img/qq.jpg">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-qq fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.zhihu.com/people/python-95-16">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa  fa-stack-1x fa-inverse">知</i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="http://weibo.com/3030786647">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+</ul>
+
+                <p class="copyright text-muted">
+                    Copyright &copy; PXZHANG 2019
+<!--                     <br>
+                    Powered by <a href="https://pxzhang94.github.io">PXZHANG</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" >
+                    </iframe> -->
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<!-- Currently, only navbar scroll-down effect at desktop still depends on this -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+<!-- Service Worker -->
+
+<script src="/js/snackbar.js "></script>
+<script src="/js/sw-registration.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!--
+     Because of the native support for backtick-style fenced code blocks
+     right within the Markdown is landed in Github Pages,
+     From V1.6, There is no need for Highlight.js,
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+
+
+
+<!--fastClick.js -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+<script>
+    // dynamic User by Hux
+    var _gaId = 'UA-49627206-1';
+    var _gaDomain = 'pxzhang94.github.io';
+
+    // Originial
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', _gaId, _gaDomain);
+    ga('send', 'pageview');
+</script>
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+<!-- Side Catalog -->
+
+
+
+<!-- Multi-Lingual -->
+
+
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

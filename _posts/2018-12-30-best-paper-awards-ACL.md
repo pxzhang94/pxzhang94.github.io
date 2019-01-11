@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Best Paper Awards (2001-2018)"
-subtitle: "ACL"
+title: "Best Paper Awards (ACL)"
+subtitle: "2001-2018"
 author: "pxzhang"
 header-img: "img/post-best-paper.jpg"
 header-mask: 0.3

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Best Paper Awards (2004-2018)"
-subtitle: "CIKM"
+title: "Best Paper Awards (CIKM)"
+subtitle: "2004-2018"
 author: "pxzhang"
 header-img: "img/post-best-paper.jpg"
 header-mask: 0.3

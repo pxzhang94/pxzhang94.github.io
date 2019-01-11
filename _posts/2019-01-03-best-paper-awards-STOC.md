@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Best Paper Awards (2003-2018)"
-subtitle: "STOC"
+title: "Best Paper Awards (STOC)"
+subtitle: "2003-2018"
 author: "pxzhang"
 header-img: "img/post-best-paper.jpg"
 header-mask: 0.3

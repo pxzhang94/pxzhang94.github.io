@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Best Paper Awards (2008-2018)"
-subtitle: "SIGCOMM"
+title: "Best Paper Awards (SIGCOMM)"
+subtitle: "2008-2018"
 author: "pxzhang"
 header-img: "img/post-best-paper.jpg"
 header-mask: 0.3

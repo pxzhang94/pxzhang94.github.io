@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Best Paper Awards (2005-2018)"
-subtitle: "CHI"
+title: "Best Paper Awards (CHI)"
+subtitle: "2005-2018"
 author: "pxzhang"
 header-img: "img/post-best-paper.jpg"
 header-mask: 0.3

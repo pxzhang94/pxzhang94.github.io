@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Best Paper Awards (1998-2018)"
-subtitle: "WWW"
+title: "Best Paper Awards (WWW)"
+subtitle: "1998-2018"
 author: "pxzhang"
 header-img: "img/post-best-paper.jpg"
 header-mask: 0.3
