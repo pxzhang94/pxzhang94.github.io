@@ -1,5 +1,5 @@
 ### Introduction
-I am a graduate student studying in the Very Large Information Systems (VLIS) laboratory of Zhejiang University, my recent research areas are software engineering and analysis of AI systems.  
+I am a graduate student studying in the Very Large Information Systems (VLIS) Laboratory of Zhejiang University, my recent research areas are software engineering and analysis of AI systems.  
 
 ### Education
 
