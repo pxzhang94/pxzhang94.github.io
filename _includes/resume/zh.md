@@ -1,5 +1,5 @@
 ### 个人简介
-我目前是浙江大学软件工程实验室（超大规模信息系统实验室）的在读研究生，现阶段的研究方向是软件工程以及人工智能系统分析与测试。
+我目前是浙江大学超大规模信息系统实验室的在读研究生，现阶段的研究方向是软件工程以及人工智能系统分析与测试。
 
 ### 教育背景
 
@@ -33,7 +33,7 @@
 开源项目：[Ziyuan](https://github.com/sunjun-group/Ziyuan)<br/><br/>
 论文发表：[“Towards Optimal Concolic Testing”](http://pxzhang94.github.io/paper/concolic_testing/icse2018.pdf), Xinyu Wang, Jun Sun, Zhenbang Chen, **Peixin Zhang**, Jingyi Wang and Yun Lin, Proceedings of the 40th International Conference on Software Engineering(ICSE), Gothenburg, Sweden, 2018 (**学生一作，[国际计算机协会软件工程专业杰出论文奖](https://www.icse2018.org/info/awards)**)
 
-> [浙江大学软件工程实验室](http://www.vlis.zju.edu.cn)，2018.03至今，人工智能系统分析与测试方向
+> [浙江大学超大规模信息系统实验室](http://www.vlis.zju.edu.cn)，2018.03至今，人工智能系统分析与测试方向
 >> 合作方：新加坡科技设计大学，华为（新加坡）<br/><br/>
 研究内容：攻击样本生成，攻击样本检测，结合信息安全原理的模型训练<br/><br/>
 开源项目：SafeDNN<br/><br/>
