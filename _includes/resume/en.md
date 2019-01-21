@@ -44,8 +44,8 @@ Publication: [“Towards Optimal Concolic Testing”](http://pxzhang94.github.io
 
 | Time | Honor |
 | ------- | --- |
-| 2018.12 | Graduate of Merit/Triple A Graduate |
-| 2018.12 | Award of Honor for Graduate |
+| 2018.12 | Graduate of Merit/Triple A Graduate of Zhejiang University |
+| 2018.12 | Award of Honor for Graduate of Zhejiang University |
 | 2018.11 | **Master's National Scholarship** |
 | 2018.09 | Excellent League Member of Zhejiang University |
 | 2018.06 | **[ACM SIGSOFT Distinguished Paper](https://www.icse2018.org/info/awards)** |
