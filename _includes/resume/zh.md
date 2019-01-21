@@ -10,9 +10,11 @@
 
 ### 实习经历
 
-> [浙江邦盛科技有限公司](https://www.bsfit.com.cn)，2015.08-2015.10，软件工程师
->> 数据抓取：使用java语言及HttpClient、jsoup开源库，爬取对象包括P2P、电商、政府部门、银行及学业系统等网站<br/><br/>
-数据分析与清洗
+> [杭州魔蝎数据科技有限公司](http://www.91moxie.com)，2016.09-2017.02，数据工程师
+>> 项目结构设计：组织，文档，流程，技术<br/><br/>
+用户画像设计：公积金，网上银行，电子商务<br/><br/>
+用户画像开发：使用SQL和流式处理引擎<br/><br/>
+文档：用户画像报告样例，指标开发描述
 
 > [浙江邦盛科技有限公司](https://www.bsfit.com.cn)，2016.02-2016.09，算法工程师
 >> 机器学习算法库：代码结构设计与重构，算法开发，性能调优，模型功能开发等<br/><br/>
@@ -20,18 +22,11 @@
 数据分析：携程、易宝、苏宁<br/><br/>
 调研：征信行业，神经网络开源项目
 
-> [杭州魔蝎数据科技有限公司](http://www.91moxie.com)，2016.09-2017.02，数据工程师
->> 项目结构设计：组织，文档，流程，技术<br/><br/>
-用户画像设计：公积金，网上银行，电子商务<br/><br/>
-用户画像开发：使用SQL和流式处理引擎<br/><br/>
-文档：用户画像报告样例，指标开发描述
+> [浙江邦盛科技有限公司](https://www.bsfit.com.cn)，2015.08-2015.10，软件工程师
+>> 数据抓取：使用java语言及HttpClient、jsoup开源库，爬取对象包括P2P、电商、政府部门、银行及学业系统等网站<br/><br/>
+数据分析与清洗
 
 ### 项目经历
-
-> [新加坡科技设计大学系统分析与验证小组](http://sav.sutd.edu.sg)，2017.07-2017.10，软件测试方向
->> 研究内容：动态符号执行测试，符号执行测试，机器学习生成测试用例等 <br/><br/>
-开源项目：[Ziyuan](https://github.com/sunjun-group/Ziyuan)<br/><br/>
-论文发表：[“Towards Optimal Concolic Testing”](http://pxzhang94.github.io/paper/concolic_testing/icse2018.pdf), Xinyu Wang, Jun Sun, Zhenbang Chen, **Peixin Zhang**, Jingyi Wang and Yun Lin, Proceedings of the 40th International Conference on Software Engineering(ICSE), Gothenburg, Sweden, 2018 (**学生一作，[国际计算机协会软件工程专业杰出论文奖](https://www.icse2018.org/info/awards)**)
 
 > [浙江大学超大规模信息系统实验室](http://www.vlis.zju.edu.cn)，2018.03至今，人工智能系统分析与测试方向
 >> 合作方：新加坡科技设计大学，华为（新加坡）<br/><br/>
@@ -40,14 +35,18 @@
 论文发表：“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”, Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
 在投论文：“Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”, Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, Xinyu Wang, TACAS, 2019（**学生一作**）
 
+> [新加坡科技设计大学系统分析与验证小组](http://sav.sutd.edu.sg)，2017.07-2017.10，软件测试方向
+>> 研究内容：动态符号执行测试，符号执行测试，机器学习生成测试用例等 <br/><br/>
+开源项目：[Ziyuan](https://github.com/sunjun-group/Ziyuan)<br/><br/>
+论文发表：[“Towards Optimal Concolic Testing”](http://pxzhang94.github.io/paper/concolic_testing/icse2018.pdf), Xinyu Wang, Jun Sun, Zhenbang Chen, **Peixin Zhang**, Jingyi Wang and Yun Lin, Proceedings of the 40th International Conference on Software Engineering(ICSE), Gothenburg, Sweden, 2018 (**学生一作，[国际计算机协会软件工程专业杰出论文奖](https://www.icse2018.org/info/awards)**)
 
 ### 奖项荣誉
 
 | 获奖时间 | 奖项 |
 | ------- | --- |
-| 2018.10 | **浙江大学硕士生国家奖学金** |
-| 2018.10 | 浙江大学三好研究生 |
-| 2018.10 | 浙江大学优秀研究生 |
+| 2018.12 | 浙江大学三好研究生 |
+| 2018.12 | 浙江大学优秀研究生 |
+| 2018.11 | **硕士研究生国家奖学金** |
 | 2018.09 | 浙江大学优秀团员 |
 | 2018.06 | **[国际计算机协会软件工程专业杰出论文(ACM SIGSOFT Distinguished Paper)](https://www.icse2018.org/info/awards)** |
 | 2016.06 | **浙江大学卓越工程师奖学金** |
@@ -65,20 +64,20 @@
 
 ### 社会活动
 
-> 浙江大学篮球联盟，2013.09-2014.06，副社长
->> 协会日常管理工作，负责定期组织会员球赛<br/><br/>
-组织了2013年“新生杯”篮球赛，全校最有影响力的体育赛事之一，负责赛事裁判的管理
+> 乐清市“梦想导师计划”志愿者活动，2015.02-2015.08，合作发起人
+>> 关注在乐务工人员子女的心理健康发展<br/><br/>
+为乐籍大学生回报家乡社会搭桥牵线<br/><br/>
+与乐清市教育局、城南二小、乐清市志愿者协会、乐清市青少年宫进行深度合作<br/><br/>
+共有8批100余学生参与活动
 
 > 浙江大学寒假返乡社会实践团，2014.01-2014.02，副团长
 >> 对温州市柳市镇电器行业发展现状进行实地调研，并撰写研究报告<br/><br/>
 与多家500强企业的高级管理人员进行面对面的交流讨论<br/><br/>
 调研内容涵盖电子商务、物联网以及企业管理等多个领域
 
-> 乐清市“梦想导师计划”志愿者活动，2015.02-2015.08，合作发起人
->> 关注在乐务工人员子女的心理健康发展<br/><br/>
-为乐籍大学生回报家乡社会搭桥牵线<br/><br/>
-与乐清市教育局、城南二小、乐清市志愿者协会、乐清市青少年宫进行深度合作<br/><br/>
-共有8批100余学生参与活动
+> 浙江大学篮球联盟，2013.09-2014.06，副社长
+>> 协会日常管理工作，负责定期组织会员球赛<br/><br/>
+组织了2013年“新生杯”篮球赛，全校最有影响力的体育赛事之一，负责赛事裁判的管理
 
 ### 兴趣爱好
 

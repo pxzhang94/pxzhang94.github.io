@@ -10,9 +10,11 @@ I am a graduate student studying in the Very Large Information Systems (VLIS) La
 
 ### Internship
 
-> [Zhejiang Bangsun Technology Ltd.](https://www.bsfit.com.cn)，2015.08-2015.10，Software Engineer
->> Web Crawler: Grab the information from website of government and enterprise by HttpClient and jsoup<br/><br/>
-Data Analysis and Cleaning
+> [Hangzhou Moxie Data Science Technology Ltd.](http://www.91moxie.com)，2016.09-2017.02，Data Engineer
+>> Project Architecture Design: Organization, document, process, technology<br/><br/>
+User Portrait Design: Accumulation fund, cyber bank, e-commerce<br/><br/>
+User Portrait Development: By SQL and streaming engine<br/><br/>
+Document：Example of user portrait report, index development description
 
 > [Zhejiang Bangsun Technology Ltd.](https://www.bsfit.com.cn)，2016.02-2016.09，Algorithm Engineer
 >> Machine Learning Algorithm Library: Design the code structure and integrate the code, algorithm development, performance tuning, Model’s  function development，etc<br/><br/>
@@ -20,18 +22,11 @@ Management platform: Requirement document, operation manual, software copyright,
 Data Analysis: Ctrip, Yeepay, Suning, etc<br/><br/>
 Survey: Credit checking industry, neural network open source project
 
-> [Hangzhou Moxie Data Science Technology Ltd.](http://www.91moxie.com)，2016.09-2017.02，Data Engineer
->> Project Architecture Design: Organization, document, process, technology<br/><br/>
-User Portrait Design: Accumulation fund, cyber bank, e-commerce<br/><br/>
-User Portrait Development: By SQL and streaming engine<br/><br/>
-Document：Example of user portrait report, index development description
+> [Zhejiang Bangsun Technology Ltd.](https://www.bsfit.com.cn)，2015.08-2015.10，Software Engineer
+>> Web Crawler: Grab the information from website of government and enterprise by HttpClient and jsoup<br/><br/>
+Data Analysis and Cleaning
 
 ### Projects
-
-> [System Analysis and Verification Group of SUTD](http://sav.sutd.edu.sg)，2017.07-2017.10，Testing
->> Research Contents: Concolic testing, symbolic execution, generate test case by deep neural network<br/><br/>
-Open Source Project: [Ziyuan](https://github.com/sunjun-group/Ziyuan)<br/><br/>
-Publication: [“Towards Optimal Concolic Testing”](http://pxzhang94.github.io/paper/concolic_testing/icse2018.pdf), Xinyu Wang, Jun Sun, Zhenbang Chen, **Peixin Zhang**, Jingyi Wang and Yun Lin, Proceedings of the 40th International Conference on Software Engineering(ICSE), Gothenburg, Sweden, 2018 (**first student, [ACM SIGSOFT Distinguished Paper](https://www.icse2018.org/info/awards)**)
 
 > [Very Large Information Systems (VLIS) Laboratory of Zhejiang University](http://www.vlis.zju.edu.cn)，2018.03-Now，Testing and Analysis of AI Aystems
 >> Partners: Singapore University of Technology and Design, Huawei(Singapore)<br/><br/>
@@ -40,14 +35,19 @@ Open Source Project: SafeDNN<br/><br/>
 Publication: “Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”, Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
 Paper in submission: “Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”, Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, Xinyu Wang, TACAS, 2019（**first student**）
 
+> [System Analysis and Verification Group of SUTD](http://sav.sutd.edu.sg)，2017.07-2017.10，Testing
+>> Research Contents: Concolic testing, symbolic execution, generate test case by deep neural network<br/><br/>
+Open Source Project: [Ziyuan](https://github.com/sunjun-group/Ziyuan)<br/><br/>
+Publication: [“Towards Optimal Concolic Testing”](http://pxzhang94.github.io/paper/concolic_testing/icse2018.pdf), Xinyu Wang, Jun Sun, Zhenbang Chen, **Peixin Zhang**, Jingyi Wang and Yun Lin, Proceedings of the 40th International Conference on Software Engineering(ICSE), Gothenburg, Sweden, 2018 (**first student, [ACM SIGSOFT Distinguished Paper](https://www.icse2018.org/info/awards)**)
+
 ### Awards
 
 | Time | Honor |
 | ------- | --- |
-| 2018.10 | **Master's National Scholarship of Zhejiang University** |
-| 2018.10 | Triple-A Graduate Students of Zhejiang University |
-| 2018.10 | Outstanding Graduate Student of Zhejiang University |
-| 2018.09 | Excellent League Member of Zhejiang University  |
+| 2018.12 | Graduate of Merit/Triple A Graduate |
+| 2018.12 | Award of Honor for Graduate |
+| 2018.11 | **Master's National Scholarship** |
+| 2018.09 | Excellent League Member of Zhejiang University |
 | 2018.06 | **[ACM SIGSOFT Distinguished Paper](https://www.icse2018.org/info/awards)** |
 | 2016.06 | **Excellent Engineer Scholarship of Zhejiang University** |
 | 2016.06 | Third Internship Scholarship of College of Computer Science and Technology |
@@ -64,20 +64,20 @@ Others: Securities qualification of the Securities Association of China
 
 ### Activities
 
-> Basketball Association of Zhejiang University, 2013.09-2014.06, Deputy Head
->> Daily management of the association and organizing regular games<br/><br/>
-Organizing the "2013 Freshman Cup" basketball match, responsible for the management of referees
+> “Dream Mentor Program” Volunteering Activities in City Yueqing，2015.02-2015.08，Co-Sponsors
+>> Focus on the mental health development of the workers' children<br/><br/>
+Help undergraduate born in Yueqing to repay their hometown<br/><br/>
+Build deep cooperation with government, schools and volunteer association<br/><br/>
+A total of 8 batches and more than 100 students participated in the activity
 
 > Winter Social Practice Group of Zhejiang University，2014.01-2014.02，Deputy Chief
 >> Field research on the development of electrical industry in Liushi, Wenzhou, write research reports<br/><br/>
 Discuss face-to-face with senior managers of several top 500 companies<br/><br/>
 Research focus on e-commerce, internet of things and enterprise management
 
-> “Dream Mentor Program” Volunteering Activities in City Yueqing，2015.02-2015.08，Co-Sponsors
->> Focus on the mental health development of the workers' children<br/><br/>
-Help undergraduate born in Yueqing to repay their hometown<br/><br/>
-Build deep cooperation with government, schools and volunteer association<br/><br/>
-A total of 8 batches and more than 100 students participated in the activity
+> Basketball Association of Zhejiang University, 2013.09-2014.06, Deputy Head
+>> Daily management of the association and organizing regular games<br/><br/>
+Organizing the "2013 Freshman Cup" basketball match, responsible for the management of referees
 
 ### Hobbies
 
