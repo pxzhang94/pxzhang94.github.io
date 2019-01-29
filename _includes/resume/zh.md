@@ -33,7 +33,8 @@
 研究内容：攻击样本生成，攻击样本检测，结合信息安全原理的模型训练<br/><br/>
 开源项目：SafeDNN<br/><br/>
 论文发表：“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”, Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
-在投论文：“Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”, Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, Xinyu Wang, TACAS, 2019（**学生一作**）
+
+<!-- 在投论文：“Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”, Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, Xinyu Wang, TACAS, 2019（**学生一作**）-->
 
 > [新加坡科技设计大学系统分析与验证小组](http://sav.sutd.edu.sg)，2017.07-2017.10，软件测试方向
 >> 研究内容：动态符号执行测试，符号执行测试，机器学习生成测试用例等 <br/><br/>
@@ -63,6 +64,11 @@
 其它：中国证券业协会证券从业资格(证券市场基础知识，证券交易，证券投资基金，证券投资分析)
 
 ### 社会活动
+
+> [第26届国际软件分析、进化与再工程会议](https://saner2019.github.io)，2018.09-2019.02，组织委员会成员
+>> 搭建官方网站<br/><br/>
+协助参会人员注册<br/><br/>
+撰写开闭幕及颁奖演示文稿
 
 > 乐清市“梦想导师计划”志愿者活动，2015.02-2015.08，合作发起人
 >> 关注在乐务工人员子女的心理健康发展<br/><br/>

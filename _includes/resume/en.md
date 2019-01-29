@@ -33,7 +33,8 @@ Data Analysis and Cleaning
 Research Contents: Generate adversarial samples, detect adversarial samples, train model by information security technology <br/><br/>
 Open Source Project: SafeDNN<br/><br/>
 Publication: “Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”, Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
-Paper in submission: “Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”, Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, Xinyu Wang, TACAS, 2019（**first student**）
+
+<!--Paper in submission: “Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”, Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, Xinyu Wang, TACAS, 2019 (**first student**) -->
 
 > [System Analysis and Verification Group of SUTD](http://sav.sutd.edu.sg)，2017.07-2017.10，Testing
 >> Research Contents: Concolic testing, symbolic execution, generate test case by deep neural network<br/><br/>
@@ -63,6 +64,11 @@ English: IELTS 6.5<br/><br/>
 Others: Securities qualification of the Securities Association of China
 
 ### Activities
+
+> [26th IEEE International Conference on Software Analysis, Evolution and Reengineering(SANER 2019)](https://saner2019.github.io), 2018.09-2019.02, Local Committee Member
+>> Official website construction<br/><br/>
+Assist participants in registration<br/><br/>
+Slides for opening, closing and awarding ceremony
 
 > “Dream Mentor Program” Volunteering Activities in City Yueqing，2015.02-2015.08，Co-Sponsors
 >> Focus on the mental health development of the workers' children<br/><br/>
