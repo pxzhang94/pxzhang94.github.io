@@ -68,7 +68,8 @@ Others: Securities qualification of the Securities Association of China
 > [The 26th IEEE International Conference on Software Analysis, Evolution and Reengineering(SANER 2019)](https://saner2019.github.io), 2018.09-2019.02, Local Committee Member
 >> Official website construction<br/><br/>
 Assist participants in registration<br/><br/>
-Slides for opening, closing and awarding ceremony
+Slides for opening, closing and awarding ceremony<br/><br/>
+Volunteer
 
 > “Dream Mentor Program” Volunteering Activities in City Yueqing，2015.02-2015.08，Co-Sponsors
 >> Focus on the mental health development of the workers' children<br/><br/>
