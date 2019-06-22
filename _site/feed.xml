@@ -5,8 +5,8 @@
     <description>这里是 @PXZHANG张培歆 的个人网站</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 22 Jun 2019 03:18:12 +0800</pubDate>
-    <lastBuildDate>Sat, 22 Jun 2019 03:18:12 +0800</lastBuildDate>
+    <pubDate>Sat, 22 Jun 2019 13:30:37 +0800</pubDate>
+    <lastBuildDate>Sat, 22 Jun 2019 13:30:37 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -87,6 +87,36 @@ table th:nth-of-type(2) {
       &lt;td&gt;ICSE&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=3339619&quot;&gt;iSENSE: Completion-Aware Crowdtesting Management&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;Junjie Wang, Chinese Academy of Sciences&lt;br /&gt;Ye Yang, Stevens Institute of Technology&lt;br /&gt;Rahul Krishna, North Carolina State University&lt;br /&gt;Tim Menzies, North Carolina State University&lt;br /&gt;Qing Wang, Chinese Academy of Sciences&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FSE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://arxiv.org/abs/1905.11973&quot;&gt;Empirical Review of Java Program Repair Tools: A Large-Scale Experiment on 2141 Bugs and 23551 Repair Attempts&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Thomas Durieux, University of Lisbon&lt;br /&gt;Fernanda Madeiral, Federal University of Uberlândia&lt;br /&gt;Matias Martinez, University of Valenciennes&lt;br /&gt;Rui Abreu, University of Lisbon&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FSE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://arxiv.org/abs/1903.03399&quot;&gt;Generating Automated and Online Test Oracles for Simulink Models with Continuous and Uncertain Behaviors&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Claudio Menghi, University of Luxembourg&lt;br /&gt;Shiva Nejati, University of Luxembourg&lt;br /&gt;Khouloud Gaaloul, University of Luxembourg&lt;br /&gt;Lionel Briand, University of Luxembourg&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FSE&lt;/td&gt;
+      &lt;td&gt;The Importance of Accounting for Real-World Labelling When Predicting Software Vulnerabilities&lt;/td&gt;
+      &lt;td&gt;Matthieu Jimenez, &lt;br /&gt;Renaud Rwemalika, &lt;br /&gt;Mike Papadakis, &lt;br /&gt;Federica Sarro, &lt;br /&gt;Yves Le Traon, &lt;br /&gt;Mark Harman,&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FSE&lt;/td&gt;
+      &lt;td&gt;Assessing the Quality of the Steps to Reproduce in Bug Reports&lt;/td&gt;
+      &lt;td&gt;Oscar Chaparro, &lt;br /&gt;Carlos Bernal-Cárdenas, &lt;br /&gt;Jing Lu, &lt;br /&gt;Kevin Moran, Andrian Marcus, &lt;br /&gt;Massimiliano Di Penta, &lt;br /&gt;Denys Poshyvanyk, &lt;br /&gt;Vincent Ng,&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FSE&lt;/td&gt;
+      &lt;td&gt;A Framework for Writing Trigger-Action Todo Comments in Executable Format&lt;/td&gt;
+      &lt;td&gt;Pengyu Nie, &lt;br /&gt;Rishabh Rai, &lt;br /&gt;Junyi Jessy Li, &lt;br /&gt;Sarfraz Khurshid, &lt;br /&gt;Raymond J. Mooney, &lt;br /&gt;Milos Gligoric,&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FSE&lt;/td&gt;
+      &lt;td&gt;A Statistics-based Performance Testing Methodology for Cloud Applications&lt;/td&gt;
+      &lt;td&gt;Sen He, &lt;br /&gt;Glenna Manns, &lt;br /&gt;John Saunders, &lt;br /&gt;Wei Wang, &lt;br /&gt;Lori Pollock, &lt;br /&gt;Mary Lou Soffa,&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
