@@ -5,9 +5,105 @@
     <description>这里是 @PXZHANG张培歆 的个人网站</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 22 Jun 2019 19:50:08 +0800</pubDate>
-    <lastBuildDate>Sat, 22 Jun 2019 19:50:08 +0800</lastBuildDate>
+    <pubDate>Mon, 08 Jul 2019 15:43:57 +0800</pubDate>
+    <lastBuildDate>Mon, 08 Jul 2019 15:43:57 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Best Paper Awards (CVPR)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Conference&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CVPR&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.ri.cmu.edu/wp-content/uploads/2019/05/cvpr2019.pdf&quot;&gt;A Theory of Fermat Paths for Non-Line-of-Sight Shape Reconstruction&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Shumian Xin, Carnegie Mellon University&lt;br /&gt;Sotiris Nousias, University of Toronto&lt;br /&gt;Kiriakos N. Kutulakos, University of Toronto&lt;br /&gt;Aswin C. Sankaranarayanan, Carnegie Mellon University&lt;br /&gt;Srinivasa G. Narasimhan, Carnegie Mellon University&lt;br /&gt;Ioannis Gkioulekas, Carnegie Mellon University&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Mon, 08 Jul 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/07/08/best-paper-awards-CV-2019/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/07/08/best-paper-awards-CV-2019/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>Computer Vision</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Best Paper Awards (ICML/AAAI)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Conference&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ICML&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://arxiv.org/pdf/1811.12359.pdf&quot;&gt;Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Francesco Locatello, Max Planck Institute&lt;br /&gt;Stefan Bauer, Max Planck Institute&lt;br /&gt;Mario Lucic, Google Research&lt;br /&gt;Gunnar Rätsch, ETH Zurich&lt;br /&gt;Sylvain Gelly, Google Research&lt;br /&gt;Bernhard Schölkopf, Max Planck Institute&lt;br /&gt;Olivier Bachem, Google Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ICML&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://arxiv.org/pdf/1903.03571.pdf&quot;&gt;Rates of Convergence for Sparse Variational Gaussian Process Regression&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;David R. Burt, University of Cambridge&lt;br /&gt;Carl Edward Rasmussen, University of Cambridge&lt;br /&gt;Mark van der Wilk, PROWLER.io&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AAAI&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://arxiv.org/pdf/1809.01843.pdf&quot;&gt;How to Combine Tree-Search Methods in Reinforcement Learning&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Yonathan Efroni, Technion&lt;br /&gt;Gal Dalal, Technion&lt;br /&gt;Bruno Scherrer, INRIA&lt;br /&gt;Shie Mannor, Technion&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Mon, 08 Jul 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/07/08/best-paper-awards-AI-2019/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/07/08/best-paper-awards-AI-2019/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>Artificial Intelligence</category>
+        
+        
+      </item>
     
       <item>
         <title>Best Paper Awards (ICSE/FSE/ASE)</title>
@@ -122,8 +218,8 @@ table th:nth-of-type(2) {
 &lt;/table&gt;
 </description>
         <pubDate>Sat, 22 Jun 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/06/22/best-paper-awards-2019/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/06/22/best-paper-awards-2019/</guid>
+        <link>http://localhost:4000/2019/06/22/best-paper-awards-SE-2019/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/06/22/best-paper-awards-SE-2019/</guid>
         
         <category>Best Paper</category>
         
@@ -1579,267 +1675,6 @@ table th:nth-of-type(2) {
         <category>Best Paper</category>
         
         <category>Operating Systems</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Best Paper Awards (NSDI)</title>
-        <description>&lt;style&gt;
-.table {
-	font-size:12px;
-}
-table td {
-	vertical-align: middle;
-}
-table th:nth-of-type(2) {
-    width: 240px;
-}
-
-&lt;/style&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-      &lt;th&gt;Title&lt;/th&gt;
-      &lt;th&gt;Authors&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;NetChain: Scale-Free Sub-RTT Coordination&lt;/td&gt;
-      &lt;td&gt;Xin Jin, Johns Hopkins University&lt;br /&gt;Xiaozhou Li, Barefoot Networks&lt;br /&gt;Haoyu Zhang, Princeton University&lt;br /&gt;Nate Foster, Cornell University&lt;br /&gt;Jeongkeun Lee, Barefoot Networks&lt;br /&gt;Robert Soulé, Università della Svizzera italiana&lt;br /&gt;Changhoon Kim, Barefoot Networks&lt;br /&gt;Ion Stoica, University of California Berkeley&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;mOS: A Reusable Networking Stack for Flow Monitoring Middleboxes&lt;/td&gt;
-      &lt;td&gt;Muhammad Asim Jamshed, KAIST&lt;br /&gt;YoungGyoun Moon, KAIST&lt;br /&gt;Donghwi Kim, KAIST&lt;br /&gt;Dongsu Han, KAIST&lt;br /&gt;KyoungSoo Park, KAIST&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Passive Wi-Fi: Bringing Low Power to Wi-Fi Transmissions&lt;/td&gt;
-      &lt;td&gt;Bryce Kellogg, University of Washington&lt;br /&gt;Vamsi Talla, University of Washington&lt;br /&gt;Shyamnath Gollakota, University of Washington&lt;br /&gt;Joshua R. Smith, University of Washington&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Queues Don’t Matter When You Can JUMP Them!&lt;/td&gt;
-      &lt;td&gt;Matthew P. Grosvenor, University of Cambridge&lt;br /&gt;Malte Schwarzkopf, University of Cambridge&lt;br /&gt;Ionel Gog, University of Cambridge&lt;br /&gt;Robert N. M. Watson, University of Cambridge&lt;br /&gt;Andrew W. Moore, University of Cambridge&lt;br /&gt;Steven Hand, University of Cambridge&lt;br /&gt;Jon Crowcroft, University of Cambridge&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Designing Distributed Systems Using Approximate Synchrony in Data Center Networks&lt;/td&gt;
-      &lt;td&gt;Dan R. K. Ports, University of Washington&lt;br /&gt;Jialin Li, University of Washington&lt;br /&gt;Vincent Liu, University of Washington&lt;br /&gt;Naveen Kr. Sharma, University of Washington&lt;br /&gt;Arvind Krishnamurthy, University of Washington&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;The Design and Implementation of Open vSwitch&lt;/td&gt;
-      &lt;td&gt;Ben Pfaff, VMware&lt;br /&gt;Justin Pettit, VMware&lt;br /&gt;Teemu Koponen, VMware&lt;br /&gt;Ethan J. Jackson, VMware&lt;br /&gt;Andy Zhou, VMware&lt;br /&gt;Jarno Rajahalme, VMware&lt;br /&gt;Jesse Gross, VMware&lt;br /&gt;Alex Wang, VMware&lt;br /&gt;Jonathan Stringer, VMware&lt;br /&gt;Pravin Shelar, VMware&lt;br /&gt;Keith Amidon, Awake Networks&lt;br /&gt;Martín Casado, VMware&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;Software Dataplane Verification&lt;/td&gt;
-      &lt;td&gt;Mihai Dobrescu &amp;amp; Katerina Argyraki, École Polytechnique Fédérale de Lausanne&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;Embassies: Radically Refactoring the Web&lt;/td&gt;
-      &lt;td&gt;Jon Howell, Microsoft Research&lt;br /&gt;Bryan Parno, Microsoft Research&lt;br /&gt;John R. Douceur, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;A Fault-Tolerant Engineered Network&lt;/td&gt;
-      &lt;td&gt;Vincent Liu, University of Washington&lt;br /&gt;Daniel Halperin, University of Washington&lt;br /&gt;Arvind Krishnamurthy, University of Washington&lt;br /&gt;Thomas Anderson, University of Washington&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing&lt;/td&gt;
-      &lt;td&gt;Matei Zaharia, University of California Berkeley&lt;br /&gt;Mosharaf Chowdhury, University of California Berkeley&lt;br /&gt;Tathagata Das, University of California Berkeley&lt;br /&gt;Ankur Dave, University of California Berkeley&lt;br /&gt;Justin Ma, University of California Berkeley&lt;br /&gt;Murphy McCauley, University of California Berkeley&lt;br /&gt;Michael J. Franklin, University of California Berkeley&lt;br /&gt;Scott Shenker, University of California Berkeley&lt;br /&gt;Ion Stoica, University of California Berkeley&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;Design, Implementation and Evaluation of Congestion Control for Multipath TCP&lt;/td&gt;
-      &lt;td&gt;Damon Wischik, University College London&lt;br /&gt;Costin Raiciu, University College London&lt;br /&gt;Adam Greenhalgh, University College London&lt;br /&gt;Mark Handley, University College London&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;ServerSwitch: A Programmable and High Performance Platform for Data Center Networks&lt;/td&gt;
-      &lt;td&gt;Guohan Lu, Microsoft Research&lt;br /&gt;Chuanxiong Guo, Microsoft Research&lt;br /&gt;Yulong Li, Microsoft Research&lt;br /&gt;Zhiqiang Zhou, Tsinghua University&lt;br /&gt;Tong Yuan, Microsoft Research&lt;br /&gt;Haitao Wu, Microsoft Research&lt;br /&gt;Yongqiang Xiong, Microsoft Research&lt;br /&gt;Rui Gao, Microsoft Research&lt;br /&gt;Yongguang Zhang, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;Reverse traceroute&lt;/td&gt;
-      &lt;td&gt;Ethan Katz-Bassett, University of Washington&lt;br /&gt;Harsha V. Madhyastha, University of California San Diego&lt;br /&gt;Vijay Kumar Adhikari, University of Minnesota&lt;br /&gt;Colin Scott, University of Washington&lt;br /&gt;Justine Sherry, University of Washington&lt;br /&gt;Peter van Wesep, University of Washington&lt;br /&gt;Thomas Anderson, University of Washington&lt;br /&gt;Arvind Krishnamurthy, University of Washington&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;Sora: High Performance Software Radio Using General Purpose Multi-core Processors&lt;/td&gt;
-      &lt;td&gt;Kun Tan, Microsoft Research&lt;br /&gt;Jiansong Zhang, Microsoft Research&lt;br /&gt;Ji Fang, Beijing Jiaotong University&lt;br /&gt;He Liu, Tsinghua University&lt;br /&gt;Yusheng Ye, Tsinghua University&lt;br /&gt;Shen Wang, Tsinghua University&lt;br /&gt;Yongguang Zhang, Microsoft Research&lt;br /&gt;Haitao Wu, Microsoft Research&lt;br /&gt;Wei Wang, Microsoft Research&lt;br /&gt;Geoffrey M. Voelker, University of California San Diego&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;TrInc: Small Trusted Hardware for Large Distributed Systems&lt;/td&gt;
-      &lt;td&gt;Dave Levin, University of Maryland&lt;br /&gt;John R. Douceur, Microsoft Research&lt;br /&gt;Jacob R. Lorch, Microsoft Research&lt;br /&gt;Thomas Moscibroda, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;Remus: High Availability via Asynchronous Virtual Machine Replication&lt;/td&gt;
-      &lt;td&gt;Brendan Cully, University of British Columbia&lt;br /&gt;Geoffrey Lefebvre, University of British Columbia&lt;br /&gt;Dutch Meyer, University of British Columbia&lt;br /&gt;Mike Feeley, University of British Columbia&lt;br /&gt;Norm Hutchinson, University of British Columbia&lt;br /&gt;Andrew Warfield, University of British Columbia&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;Consensus Routing: The Internet as a Distributed System&lt;/td&gt;
-      &lt;td&gt;John P. John, University of Washington&lt;br /&gt;Ethan Katz-Bassett, University of Washington&lt;br /&gt;Arvind Krishnamurthy, University of Washington&lt;br /&gt;Thomas Anderson, University of Washington&lt;br /&gt;Arun Venkataramani, University of Massachusetts Amherst&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;Life, Death, and the Critical Transition: Finding Liveness Bugs in Systems Code&lt;/td&gt;
-      &lt;td&gt;Charles Killian, University of California San Diego&lt;br /&gt;James W. Anderson, University of California San Diego&lt;br /&gt;Ranjit Jhala, University of California San Diego&lt;br /&gt;Amin Vahdat, University of California San Diego&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2006&lt;/td&gt;
-      &lt;td&gt;Experience with an Object Reputation System for Peer-to-Peer Filesharing&lt;/td&gt;
-      &lt;td&gt;Kevin Walsh &amp;amp; Emin Gün Sirer, Cornell University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2006&lt;/td&gt;
-      &lt;td&gt;Replay Debugging for Distributed Applications&lt;/td&gt;
-      &lt;td&gt;Dennis Geels, University of California Berkeley&lt;br /&gt;Gautam Altekar, University of California Berkeley&lt;br /&gt;Scott Shenker, University of California Berkeley&lt;br /&gt;Ion Stoica, University of California Berkeley&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;Detecting BGP Configuration Faults with Static Analysis&lt;/td&gt;
-      &lt;td&gt;Nick Feamster &amp;amp; Hari Balakrishnan, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2004&lt;/td&gt;
-      &lt;td&gt;Trickle: A Self-Regulating Algorithm for Code Propagation and Maintenance in Wireless Sensor Networks&lt;/td&gt;
-      &lt;td&gt;Philip Levis, University of California Berkeley&lt;br /&gt;Neil Patel, University of California Berkeley&lt;br /&gt;David Culler, University of California Berkeley&lt;br /&gt;Scott Shenker, University of California Berkeley&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Wed, 09 Jan 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/01/09/best-paper-awards-NSDI/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/01/09/best-paper-awards-NSDI/</guid>
-        
-        <category>Best Paper</category>
-        
-        <category>Networking</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Best Paper Awards (SIGCOMM)</title>
-        <description>&lt;style&gt;
-.table {
-	font-size:12px;
-}
-table td {
-	vertical-align: middle;
-}
-table th:nth-of-type(2) {
-    width: 240px;
-}
-
-&lt;/style&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-      &lt;th&gt;Title&lt;/th&gt;
-      &lt;th&gt;Authors&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Inferring Persistent Interdomain Congestion&lt;/td&gt;
-      &lt;td&gt;Saksham Agarwal, Cornell University&lt;br /&gt;Shijin Rajakrishnan, Cornell University&lt;br /&gt;Akshay Narayan, Massachusetts Institute of Technology&lt;br /&gt;Rachit Agarwal, Cornell University&lt;br /&gt;David Shmoys, Cornell University&lt;br /&gt;Amin Vahdat, Google&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;Re-architecting datacenter networks and stacks for low latency and high performance&lt;/td&gt;
-      &lt;td&gt;Mark Handley, University College London&lt;br /&gt;Costin Raiciu, University Politehnica of Bucharest&lt;br /&gt;Alexandru Agache, University Politehnica of Bucharest&lt;br /&gt;Andrei Voinescu, University Politehnica of Bucharest&lt;br /&gt;Andrew Moore, University of Cambridge&lt;br /&gt;Gianni Antichi, University of Cambridge&lt;br /&gt;Marcin Wójcik, University of Cambridge&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;Language-directed hardware design for network performance monitoring&lt;/td&gt;
-      &lt;td&gt;Srinivas Narayana, Massachusetts Institute of Technology&lt;br /&gt;Anirudh Sivaraman, Massachusetts Institute of Technology&lt;br /&gt;Vikram Nathan, Massachusetts Institute of Technology&lt;br /&gt;Prateesh Goyal, Massachusetts Institute of Technology&lt;br /&gt;Venkat Arun, IIT Guwahati&lt;br /&gt;Mohammad Alizadeh, Massachusetts Institute of Technology&lt;br /&gt;Vimalkumar Jeyakumar, Cisco Systems&lt;br /&gt;Changhoon Kim, Barefoot Networks&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Eliminating Channel Feedback in Next-Generation Cellular Networks&lt;/td&gt;
-      &lt;td&gt;Deepak Vasisht, Massachusetts Institute of Technology&lt;br /&gt;Swarun Kumar, Carnegie Mellon University&lt;br /&gt;Hariharan Rahul, Massachusetts Institute of Technology&lt;br /&gt;Dina Katabi, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Inter-Technology Backscatter: Towards Internet Connectivity for Implanted Devices&lt;/td&gt;
-      &lt;td&gt;Vikram Iyer, University of Washington&lt;br /&gt;Vamsi Talla, University of Washington&lt;br /&gt;Bryce Kellogg, University of Washington&lt;br /&gt;Shyamnath Gollakota, University of Washington&lt;br /&gt;Joshua Smith, University of Washington&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Don’t Mind the Gap: Bridging Network-wide Objectives and Device-level Configurations&lt;/td&gt;
-      &lt;td&gt;Ryan Beckett, Princeton University&lt;br /&gt;Ratul Mahajan, Microsoft&lt;br /&gt;Todd Millstein, University of California Los Angeles&lt;br /&gt;Jitendra Padhye, Microsoft&lt;br /&gt;David Walker, Princeton University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Central Control Over Distributed Routing&lt;/td&gt;
-      &lt;td&gt;Stefano Vissicchio, Université catholique de Louvain&lt;br /&gt;Olivier Tilmans, Université catholique de Louvain&lt;br /&gt;Laurent Vanbever, ETH Zurich&lt;br /&gt;Jennifer Rexford, Princeton University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;Balancing Accountability and Privacy in the Network&lt;/td&gt;
-      &lt;td&gt;David Naylor, Carnegie Mellon University&lt;br /&gt;Matthew K. Mukerjee, Carnegie Mellon University&lt;br /&gt;Peter Steenkiste, Carnegie Mellon University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;CONGA: Distributed Congestion-Aware Load Balancing for Datacenters&lt;/td&gt;
-      &lt;td&gt;Mohammad Alizadeh, Cisco Systems&lt;br /&gt;Tom Edsall, Cisco Systems&lt;br /&gt;Sarang Dharmapurikar, Cisco Systems&lt;br /&gt;Ramanan Vaidyanathan, Cisco Systems&lt;br /&gt;Kevin Chu, Cisco Systems&lt;br /&gt;Andy Fingerhut, Google&lt;br /&gt;Terry Lam, Cisco Systems&lt;br /&gt;Francis Matus, Cisco Systems&lt;br /&gt;Rong Pan, Cisco Systems&lt;br /&gt;Navindra Yadav, Cisco Systems&lt;br /&gt;George Varghese, Microsoft&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;Ambient Backscatter: Wireless Communication Out of Thin Air&lt;/td&gt;
-      &lt;td&gt;Vincent Liu, University of Washington&lt;br /&gt;Aaron Parks, University of Washington&lt;br /&gt;Vamsi Talla, University of Washington&lt;br /&gt;Shyamnath Gollakota, University of Washington&lt;br /&gt;David Wetherall, University of Washington&lt;br /&gt;Joshua R. Smith, University of Washington&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;Multi-Resource Fair Queueing for Packet Processing&lt;/td&gt;
-      &lt;td&gt;Ali Ghodsi, University of California Berkeley&lt;br /&gt;Vyas Sekar, Intel Research&lt;br /&gt;Matei Zaharia, University of California Berkeley&lt;br /&gt;Ion Stoica, University of California Berkeley&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;They Can Hear Your Heartbeats: Non-Invasive Security for Implanted Medical Devices&lt;/td&gt;
-      &lt;td&gt;Shyamnath Gollakota, Massachusetts Institute of Technology&lt;br /&gt;Haitham Hassanieh, Massachusetts Institute of Technology&lt;br /&gt;Benjamin Ransford, University of Massachusetts Amherst&lt;br /&gt;Dina Katabi, Massachusetts Institute of Technology&lt;br /&gt;Kevin Fu, University of Massachusetts Amherst&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;Efficient Error Estimating Coding: Feasibility and Applications&lt;/td&gt;
-      &lt;td&gt;Binbin Chen, National University of Singapore&lt;br /&gt;Ziling Chou, National University of Singapore&lt;br /&gt;Yuda Zhao, National University of Singapore&lt;br /&gt;Haifeng Yu, National University of Singapore&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;White Space Networking with Wi-Fi like Connectivity&lt;/td&gt;
-      &lt;td&gt;Paramvir Bahl, Microsoft Research&lt;br /&gt;Ranveer Chandra, Microsoft Research&lt;br /&gt;Thomas Moscibroda, Microsoft Research&lt;br /&gt;Rohan Murty, Harvard University&lt;br /&gt;Matt Welsh, Harvard University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;ZigZag Decoding: Combating Hidden Terminals in Wireless Networks&lt;/td&gt;
-      &lt;td&gt;Shyamnath Gollakota &amp;amp; Dina Katabi, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Tue, 08 Jan 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/01/08/best-paper-awards-SIGCOMM/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/01/08/best-paper-awards-SIGCOMM/</guid>
-        
-        <category>Best Paper</category>
-        
-        <category>Networking</category>
         
         
       </item>
