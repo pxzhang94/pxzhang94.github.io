@@ -5,8 +5,8 @@
     <description>这里是 @PXZHANG张培歆 的个人网站</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 08 Jul 2019 15:43:57 +0800</pubDate>
-    <lastBuildDate>Mon, 08 Jul 2019 15:43:57 +0800</lastBuildDate>
+    <pubDate>Mon, 29 Jul 2019 09:21:50 +0800</pubDate>
+    <lastBuildDate>Mon, 29 Jul 2019 09:21:50 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -452,42 +452,42 @@ table th:nth-of-type(2) {
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Large-Scale Analysis of Framework-Specific Exceptions in Android Apps&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=3180222&quot;&gt;Large-Scale Analysis of Framework-Specific Exceptions in Android Apps&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;Lingling Fan, East China Normal University&lt;br /&gt;Ting Su, Nanyang Technological University&lt;br /&gt;Sen Chen, East China Normal University&lt;br /&gt;Guozhu Meng, Chinese Academy of Sciences&lt;br /&gt;Yang Liu, Nanyang Technological University&lt;br /&gt;Lihua Xu, East China Normal University&lt;br /&gt;Geguang Pu, East China Normal University&lt;br /&gt;Zhendong Su, University of California&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Generalized Data Structure Synthesis&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=3180211&quot;&gt;Generalized Data Structure Synthesis&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;Calvin Loncaric, University of Washington&lt;br /&gt;Michael D. Ernst, University of Washington&lt;br /&gt;Emina Torlak, University of Washington&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Static Automated Program Repair for Heap Properties&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=3180250&quot;&gt;Static Automated Program Repair for Heap Properties&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;Rijnard van Tonder &amp;amp; Claire Le Goues, Carnegie Mellon University&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Towards Optimal Concolic Testing&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=3180177&quot;&gt;Towards Optimal Concolic Testing&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;Xinyu Wang, Zhejiang University&lt;br /&gt;Jun Sun, Singapore University of Technology and Design&lt;br /&gt;Zhenbang Chen, National University of Defense Technology&lt;br /&gt;Peixin Zhang, Zhejiang University&lt;br /&gt;Jingyi Wang, Singapore University of Technology and Design&lt;br /&gt;Yun Lin, National University of Singapore&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Spatio-Temporal Context Reduction: A Pointer-Analysis-Based Static Approach for Detecting Use-After-Free Vulnerabilities&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=3180178&quot;&gt;Spatio-Temporal Context Reduction: A Pointer-Analysis-Based Static Approach for Detecting Use-After-Free Vulnerabilities&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;Hua Yan, University of New South Wales&lt;br /&gt;Yulei Sui, University of Technology Sydney&lt;br /&gt;Shiping Chen, CSIRO&lt;br /&gt;Jingling Xue, University of New South Wales&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Identifying Design Problems in the Source Code: A Grounded Theory&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=3180239&quot;&gt;Identifying Design Problems in the Source Code: A Grounded Theory&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;Leonardo Sousa, PUC-Rio&lt;br /&gt;Anderson Oliveira, PUC-Rio&lt;br /&gt;Willian Oizumi, PUC-Rio&lt;br /&gt;Simone Barbosa, PUC-Rio&lt;br /&gt;Alessandro Garcia, PUC-Rio&lt;br /&gt;Jaejoon Lee, Lancaster University&lt;br /&gt;Marcos Kalinowski, PUC-Rio&lt;br /&gt;Rafael de Mello, PUC-Rio&lt;br /&gt;Baldoino Fonseca, UFAL&lt;br /&gt;Roberto Oliveira, PUC-Rio&lt;br /&gt;Carlos Lucena, PUC-Rio&lt;br /&gt;Rodrigo Paes, PUC-Rio&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Traceability in the Wild: Automatically Augmenting Incomplete Trace links&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=3180207&quot;&gt;Traceability in the Wild: Automatically Augmenting Incomplete Trace links&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;Michael Rath, Technical University Ilmenau&lt;br /&gt;Jacob Rendall, University of Notre Dame&lt;br /&gt;Jin L. C. Guo, McGill University&lt;br /&gt;Jane Cleland-Huang, University of Notre Dame&lt;br /&gt;Patrick Mäder, Technical University Ilmenau&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Automated Localization for Unreproducible Builds&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=3180224&quot;&gt;Automated Localization for Unreproducible Builds&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;Zhilei Ren, Dalian University of Technology&lt;br /&gt;He Jiang, Dalian University of Technology&lt;br /&gt;Jifeng Xuan, Wuhan University&lt;br /&gt;Zijiang Yang, Western Michigan University&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
