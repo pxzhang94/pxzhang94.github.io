@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Common Mathematical Symbols in Latex"
-subtitle: "2019"
+subtitle: "Latex Writing"
 author: "pxzhang"
 header-img: "img/home-bg.jpg"
 header-mask: 0.3
 tags:
   - Latex
-  - Writing
 ---
 本文参考以下[网站](http://www.mohu.org/info/symbols/symbols.htm)
 
