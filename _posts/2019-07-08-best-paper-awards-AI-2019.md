@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Best Paper Awards (ICML/AAAI/CVPR)"
+title: "Best Paper Awards (ICML/AAAI/CVPR/ACL)"
 subtitle: "2019"
 author: "pxzhang"
 header-img: "img/post-best-paper.jpg"
