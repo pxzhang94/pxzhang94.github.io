@@ -33,7 +33,7 @@
 >> 合作方：华为2012实验室（新加坡），新加坡科技设计大学，新加坡管理大学，新加坡国立大学<br/><br/>
 研究内容：模型鲁棒性（攻击与防御），模型公平性，模型测试<br/><br/>
 开源项目：GuardAI, FairAI<br/><br/>
-论文发表：“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”, Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
+论文发表：[“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
 
 <!-- 在投论文：“Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”, Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, Xinyu Wang, TACAS, 2019（**学生一作**）-->
 

@@ -33,7 +33,7 @@ Data Analysis and Cleaning
 >> Partners: Huawei 2012 Lab (Singapore), Singapore University of Technology and Design, Singapore Management University, National University of Singapore<br/><br/>
 Research Contents: Robustness of model(attack and defense); Fairness of model; Testing for model <br/><br/>
 Open Source Project: GuardAI, FairAI<br/><br/>
-Publication: “Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”, Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
+Publication: [“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
 
 <!--Paper in submission: “Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”, Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, Xinyu Wang, TACAS, 2019 (**first student**) -->
 

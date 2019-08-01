@@ -5,9 +5,64 @@
     <description>这里是 @PXZHANG张培歆 的个人网站</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 01 Aug 2019 11:27:40 +0800</pubDate>
-    <lastBuildDate>Thu, 01 Aug 2019 11:27:40 +0800</lastBuildDate>
+    <pubDate>Thu, 01 Aug 2019 23:37:06 +0800</pubDate>
+    <lastBuildDate>Thu, 01 Aug 2019 23:37:06 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Common Mathematical Symbols in Latex</title>
+        <description>&lt;p&gt;本文参考以下&lt;a href=&quot;http://www.mohu.org/info/symbols/symbols.htm&quot;&gt;网站&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;指数和下标可以用^和_后加相应字符来实现。比如：
+&lt;img src=&quot;http://pxzhang94.github.io/img/posts/latex_symbols/marker.gif&quot; alt=&quot;指数和角标&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;平方根（square root）的输入命令为：\sqrt，n 次方根相应地为: \sqrt[n]。方根符号的大小由LATEX自动加以调整。也可用\surd 仅给出符号。比如：
+&lt;img src=&quot;http://pxzhang94.github.io/img/posts/latex_symbols/root.gif&quot; alt=&quot;方根&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;命令\overline 和\underline 在表达式的上、下方画出水平线。比如：
+&lt;img src=&quot;http://pxzhang94.github.io/img/posts/latex_symbols/horizon.gif&quot; alt=&quot;水平线&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;命令\overbrace 和\underbrace 在表达式的上、下方给出一水平的大括号。比如：
+&lt;img src=&quot;http://pxzhang94.github.io/img/posts/latex_symbols/brace.gif&quot; alt=&quot;水平括号&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;向量（Vectors）通常用上方有小箭头（arrow symbols）的变量表示。这可由\vec 得到。另两个命令\overrightarrow 和\overleftarrow在定义从A 到B 的向量时非常有用。比如：
+&lt;img src=&quot;http://pxzhang94.github.io/img/posts/latex_symbols/vector.gif&quot; alt=&quot;向量&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;分数（fraction）使用\frac{…}{…} 排版。一般来说，1/2 这种形式更受欢迎，因为对于少量的分式，它看起来更好些。比如：
+&lt;img src=&quot;http://pxzhang94.github.io/img/posts/latex_symbols/fraction.gif&quot; alt=&quot;分数&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;积分运算符（integral operator）用\int 来生成。求和运算符（sum operator）由\sum 生成。乘积运算符（product operator）由\prod 生成。上限和下限用^ 和_来生成，类似于上标和下标。比如：
+&lt;img src=&quot;http://pxzhang94.github.io/img/posts/latex_symbols/operator.gif&quot; alt=&quot;运算符&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;以下提供一些常用符号的表示方法&quot;&gt;以下提供一些常用符号的表示方法&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;http://pxzhang94.github.io/img/posts/latex_symbols/1.gif&quot; alt=&quot;1&quot; /&gt;
+&lt;img src=&quot;http://pxzhang94.github.io/img/posts/latex_symbols/2.gif&quot; alt=&quot;2&quot; /&gt;
+&lt;img src=&quot;http://pxzhang94.github.io/img/posts/latex_symbols/3.gif&quot; alt=&quot;3&quot; /&gt;
+&lt;img src=&quot;http://pxzhang94.github.io/img/posts/latex_symbols/4.gif&quot; alt=&quot;4&quot; /&gt;
+&lt;img src=&quot;http://pxzhang94.github.io/img/posts/latex_symbols/5.gif&quot; alt=&quot;5&quot; /&gt;
+&lt;img src=&quot;http://pxzhang94.github.io/img/posts/latex_symbols/6.gif&quot; alt=&quot;6&quot; /&gt;
+&lt;img src=&quot;http://pxzhang94.github.io/img/posts/latex_symbols/7.gif&quot; alt=&quot;7&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Aug 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/08/01/latex-symbols/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/08/01/latex-symbols/</guid>
+        
+        <category>Latex</category>
+        
+        <category>Writing</category>
+        
+        
+      </item>
     
       <item>
         <title>Best Paper Awards (ICML/AAAI/CVPR/ACL)</title>
@@ -1646,154 +1701,6 @@ table th:nth-of-type(2) {
         <category>Best Paper</category>
         
         <category>Operating Systems</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Best Paper Awards (NSDI)</title>
-        <description>&lt;style&gt;
-.table {
-	font-size:12px;
-}
-table td {
-	vertical-align: middle;
-}
-table th:nth-of-type(2) {
-    width: 240px;
-}
-
-&lt;/style&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-      &lt;th&gt;Title&lt;/th&gt;
-      &lt;th&gt;Authors&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;NetChain: Scale-Free Sub-RTT Coordination&lt;/td&gt;
-      &lt;td&gt;Xin Jin, Johns Hopkins University&lt;br /&gt;Xiaozhou Li, Barefoot Networks&lt;br /&gt;Haoyu Zhang, Princeton University&lt;br /&gt;Nate Foster, Cornell University&lt;br /&gt;Jeongkeun Lee, Barefoot Networks&lt;br /&gt;Robert Soulé, Università della Svizzera italiana&lt;br /&gt;Changhoon Kim, Barefoot Networks&lt;br /&gt;Ion Stoica, University of California Berkeley&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;mOS: A Reusable Networking Stack for Flow Monitoring Middleboxes&lt;/td&gt;
-      &lt;td&gt;Muhammad Asim Jamshed, KAIST&lt;br /&gt;YoungGyoun Moon, KAIST&lt;br /&gt;Donghwi Kim, KAIST&lt;br /&gt;Dongsu Han, KAIST&lt;br /&gt;KyoungSoo Park, KAIST&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Passive Wi-Fi: Bringing Low Power to Wi-Fi Transmissions&lt;/td&gt;
-      &lt;td&gt;Bryce Kellogg, University of Washington&lt;br /&gt;Vamsi Talla, University of Washington&lt;br /&gt;Shyamnath Gollakota, University of Washington&lt;br /&gt;Joshua R. Smith, University of Washington&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Queues Don’t Matter When You Can JUMP Them!&lt;/td&gt;
-      &lt;td&gt;Matthew P. Grosvenor, University of Cambridge&lt;br /&gt;Malte Schwarzkopf, University of Cambridge&lt;br /&gt;Ionel Gog, University of Cambridge&lt;br /&gt;Robert N. M. Watson, University of Cambridge&lt;br /&gt;Andrew W. Moore, University of Cambridge&lt;br /&gt;Steven Hand, University of Cambridge&lt;br /&gt;Jon Crowcroft, University of Cambridge&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Designing Distributed Systems Using Approximate Synchrony in Data Center Networks&lt;/td&gt;
-      &lt;td&gt;Dan R. K. Ports, University of Washington&lt;br /&gt;Jialin Li, University of Washington&lt;br /&gt;Vincent Liu, University of Washington&lt;br /&gt;Naveen Kr. Sharma, University of Washington&lt;br /&gt;Arvind Krishnamurthy, University of Washington&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;The Design and Implementation of Open vSwitch&lt;/td&gt;
-      &lt;td&gt;Ben Pfaff, VMware&lt;br /&gt;Justin Pettit, VMware&lt;br /&gt;Teemu Koponen, VMware&lt;br /&gt;Ethan J. Jackson, VMware&lt;br /&gt;Andy Zhou, VMware&lt;br /&gt;Jarno Rajahalme, VMware&lt;br /&gt;Jesse Gross, VMware&lt;br /&gt;Alex Wang, VMware&lt;br /&gt;Jonathan Stringer, VMware&lt;br /&gt;Pravin Shelar, VMware&lt;br /&gt;Keith Amidon, Awake Networks&lt;br /&gt;Martín Casado, VMware&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;Software Dataplane Verification&lt;/td&gt;
-      &lt;td&gt;Mihai Dobrescu &amp;amp; Katerina Argyraki, École Polytechnique Fédérale de Lausanne&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;Embassies: Radically Refactoring the Web&lt;/td&gt;
-      &lt;td&gt;Jon Howell, Microsoft Research&lt;br /&gt;Bryan Parno, Microsoft Research&lt;br /&gt;John R. Douceur, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;A Fault-Tolerant Engineered Network&lt;/td&gt;
-      &lt;td&gt;Vincent Liu, University of Washington&lt;br /&gt;Daniel Halperin, University of Washington&lt;br /&gt;Arvind Krishnamurthy, University of Washington&lt;br /&gt;Thomas Anderson, University of Washington&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing&lt;/td&gt;
-      &lt;td&gt;Matei Zaharia, University of California Berkeley&lt;br /&gt;Mosharaf Chowdhury, University of California Berkeley&lt;br /&gt;Tathagata Das, University of California Berkeley&lt;br /&gt;Ankur Dave, University of California Berkeley&lt;br /&gt;Justin Ma, University of California Berkeley&lt;br /&gt;Murphy McCauley, University of California Berkeley&lt;br /&gt;Michael J. Franklin, University of California Berkeley&lt;br /&gt;Scott Shenker, University of California Berkeley&lt;br /&gt;Ion Stoica, University of California Berkeley&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;Design, Implementation and Evaluation of Congestion Control for Multipath TCP&lt;/td&gt;
-      &lt;td&gt;Damon Wischik, University College London&lt;br /&gt;Costin Raiciu, University College London&lt;br /&gt;Adam Greenhalgh, University College London&lt;br /&gt;Mark Handley, University College London&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;ServerSwitch: A Programmable and High Performance Platform for Data Center Networks&lt;/td&gt;
-      &lt;td&gt;Guohan Lu, Microsoft Research&lt;br /&gt;Chuanxiong Guo, Microsoft Research&lt;br /&gt;Yulong Li, Microsoft Research&lt;br /&gt;Zhiqiang Zhou, Tsinghua University&lt;br /&gt;Tong Yuan, Microsoft Research&lt;br /&gt;Haitao Wu, Microsoft Research&lt;br /&gt;Yongqiang Xiong, Microsoft Research&lt;br /&gt;Rui Gao, Microsoft Research&lt;br /&gt;Yongguang Zhang, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;Reverse traceroute&lt;/td&gt;
-      &lt;td&gt;Ethan Katz-Bassett, University of Washington&lt;br /&gt;Harsha V. Madhyastha, University of California San Diego&lt;br /&gt;Vijay Kumar Adhikari, University of Minnesota&lt;br /&gt;Colin Scott, University of Washington&lt;br /&gt;Justine Sherry, University of Washington&lt;br /&gt;Peter van Wesep, University of Washington&lt;br /&gt;Thomas Anderson, University of Washington&lt;br /&gt;Arvind Krishnamurthy, University of Washington&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;Sora: High Performance Software Radio Using General Purpose Multi-core Processors&lt;/td&gt;
-      &lt;td&gt;Kun Tan, Microsoft Research&lt;br /&gt;Jiansong Zhang, Microsoft Research&lt;br /&gt;Ji Fang, Beijing Jiaotong University&lt;br /&gt;He Liu, Tsinghua University&lt;br /&gt;Yusheng Ye, Tsinghua University&lt;br /&gt;Shen Wang, Tsinghua University&lt;br /&gt;Yongguang Zhang, Microsoft Research&lt;br /&gt;Haitao Wu, Microsoft Research&lt;br /&gt;Wei Wang, Microsoft Research&lt;br /&gt;Geoffrey M. Voelker, University of California San Diego&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;TrInc: Small Trusted Hardware for Large Distributed Systems&lt;/td&gt;
-      &lt;td&gt;Dave Levin, University of Maryland&lt;br /&gt;John R. Douceur, Microsoft Research&lt;br /&gt;Jacob R. Lorch, Microsoft Research&lt;br /&gt;Thomas Moscibroda, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;Remus: High Availability via Asynchronous Virtual Machine Replication&lt;/td&gt;
-      &lt;td&gt;Brendan Cully, University of British Columbia&lt;br /&gt;Geoffrey Lefebvre, University of British Columbia&lt;br /&gt;Dutch Meyer, University of British Columbia&lt;br /&gt;Mike Feeley, University of British Columbia&lt;br /&gt;Norm Hutchinson, University of British Columbia&lt;br /&gt;Andrew Warfield, University of British Columbia&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;Consensus Routing: The Internet as a Distributed System&lt;/td&gt;
-      &lt;td&gt;John P. John, University of Washington&lt;br /&gt;Ethan Katz-Bassett, University of Washington&lt;br /&gt;Arvind Krishnamurthy, University of Washington&lt;br /&gt;Thomas Anderson, University of Washington&lt;br /&gt;Arun Venkataramani, University of Massachusetts Amherst&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;Life, Death, and the Critical Transition: Finding Liveness Bugs in Systems Code&lt;/td&gt;
-      &lt;td&gt;Charles Killian, University of California San Diego&lt;br /&gt;James W. Anderson, University of California San Diego&lt;br /&gt;Ranjit Jhala, University of California San Diego&lt;br /&gt;Amin Vahdat, University of California San Diego&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2006&lt;/td&gt;
-      &lt;td&gt;Experience with an Object Reputation System for Peer-to-Peer Filesharing&lt;/td&gt;
-      &lt;td&gt;Kevin Walsh &amp;amp; Emin Gün Sirer, Cornell University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2006&lt;/td&gt;
-      &lt;td&gt;Replay Debugging for Distributed Applications&lt;/td&gt;
-      &lt;td&gt;Dennis Geels, University of California Berkeley&lt;br /&gt;Gautam Altekar, University of California Berkeley&lt;br /&gt;Scott Shenker, University of California Berkeley&lt;br /&gt;Ion Stoica, University of California Berkeley&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;Detecting BGP Configuration Faults with Static Analysis&lt;/td&gt;
-      &lt;td&gt;Nick Feamster &amp;amp; Hari Balakrishnan, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2004&lt;/td&gt;
-      &lt;td&gt;Trickle: A Self-Regulating Algorithm for Code Propagation and Maintenance in Wireless Sensor Networks&lt;/td&gt;
-      &lt;td&gt;Philip Levis, University of California Berkeley&lt;br /&gt;Neil Patel, University of California Berkeley&lt;br /&gt;David Culler, University of California Berkeley&lt;br /&gt;Scott Shenker, University of California Berkeley&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Wed, 09 Jan 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/01/09/best-paper-awards-NSDI/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/01/09/best-paper-awards-NSDI/</guid>
-        
-        <category>Best Paper</category>
-        
-        <category>Networking</category>
         
         
       </item>
