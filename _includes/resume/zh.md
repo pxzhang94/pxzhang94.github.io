@@ -30,9 +30,9 @@
 ### 项目经历
 
 > [浙江大学超大规模信息系统实验室](http://www.vlis.zju.edu.cn)，2018.03至今，人工智能系统分析与测试方向
->> 合作方：新加坡科技设计大学，华为（新加坡）<br/><br/>
-研究内容：攻击样本生成，攻击样本检测，结合信息安全原理的模型训练<br/><br/>
-开源项目：SafeDNN<br/><br/>
+>> 合作方：华为2012实验室（新加坡），新加坡科技设计大学，新加坡管理大学，新加坡国立大学<br/><br/>
+研究内容：模型鲁棒性（攻击与防御），模型公平性，模型测试<br/><br/>
+开源项目：GuardAI, FairAI<br/><br/>
 论文发表：“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”, Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
 
 <!-- 在投论文：“Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”, Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, Xinyu Wang, TACAS, 2019（**学生一作**）-->

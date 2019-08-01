@@ -30,15 +30,15 @@ Data Analysis and Cleaning
 ### Projects
 
 > [Very Large Information Systems (VLIS) Laboratory of Zhejiang University](http://www.vlis.zju.edu.cn)，2018.03-Now，Testing and Analysis of AI Aystems
->> Partners: Singapore University of Technology and Design, Huawei(Singapore)<br/><br/>
-Research Contents: Generate adversarial samples, detect adversarial samples, train model by information security technology <br/><br/>
-Open Source Project: SafeDNN<br/><br/>
+>> Partners: Huawei 2012 Lab (Singapore), Singapore University of Technology and Design, Singapore Management University, National University of Singapore<br/><br/>
+Research Contents: Robustness of model(attack and defense); Fairness of model; Testing for model <br/><br/>
+Open Source Project: GuardAI, FairAI<br/><br/>
 Publication: “Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”, Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
 
 <!--Paper in submission: “Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”, Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, Xinyu Wang, TACAS, 2019 (**first student**) -->
 
 > [System Analysis and Verification Group of SUTD](http://sav.sutd.edu.sg)，2017.07-2017.10，Testing
->> Research Contents: Concolic testing, symbolic execution, generate test case by deep neural network<br/><br/>
+>> Research Contents: Concolic testing; Symbolic execution; Generate test case by deep neural network<br/><br/>
 Open Source Project: [Ziyuan](https://github.com/sunjun-group/Ziyuan)<br/><br/>
 Publication: [“Towards Optimal Concolic Testing”](http://pxzhang94.github.io/paper/concolic_testing/icse2018.pdf), Xinyu Wang, Jun Sun, Zhenbang Chen, **Peixin Zhang**, Jingyi Wang and Yun Lin, Proceedings of the 40th International Conference on Software Engineering(ICSE), Gothenburg, Sweden, 2018 (**first student, [ACM SIGSOFT Distinguished Paper](https://www.icse2018.org/info/awards)**)
 
