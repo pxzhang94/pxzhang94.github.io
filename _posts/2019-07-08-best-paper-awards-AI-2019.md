@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Best Paper Awards (ICML/AAAI/CVPR/ACL)"
+title: "Best Paper Awards (ICML/AAAI/CVPR/ACL/IJCAI)"
 subtitle: "2019"
 author: "pxzhang"
 header-img: "img/post-best-paper.jpg"
@@ -32,3 +32,5 @@ table th:nth-of-type(2) {
 | AAAI | [How to Combine Tree-Search Methods in Reinforcement Learning](https://arxiv.org/pdf/1809.01843.pdf) | Yonathan Efroni, Technion<br>Gal Dalal, Technion<br>Bruno Scherrer, INRIA<br>Shie Mannor, Technion |
 | CVPR | [A Theory of Fermat Paths for Non-Line-of-Sight Shape Reconstruction](https://www.ri.cmu.edu/wp-content/uploads/2019/05/cvpr2019.pdf) | Shumian Xin, Carnegie Mellon University<br>Sotiris Nousias, University of Toronto<br>Kiriakos N. Kutulakos, University of Toronto<br>Aswin C. Sankaranarayanan, Carnegie Mellon University<br>Srinivasa G. Narasimhan, Carnegie Mellon University<br>Ioannis Gkioulekas, Carnegie Mellon University |
 | ACL | [Bridging the Gap between Training and Inference for Neural Machine Translation](https://www.aclweb.org/anthology/P19-1426) | Wen Zhang, Chinese Academy of Sciences<br>Yang Feng, Chinese Academy of Sciences<br>Fandong Meng, Tencent Inc<br>Di You, Worcester Polytechnic Institute<br>Qun Liu, Huawei Noah’s Ark Lab |
+| IJCAI | [Clause Elimination for SAT and QSAT](https://jair.org/index.php/jair/article/view/10942/26071) | Marijn Heule, The University of Texas at Austin<br>Matti Jarvisalo, University of Helsinki<br>Florian Lonsing, Vienna University of Technology<br>Martina Seidl, Johannes Kepler University Linz<br>Armin Biere, Johannes Kepler University Linz |
+| IJCAI | [Boosting for Comparison-Based Learning](https://www.ijcai.org/proceedings/2019/0255.pdf) | Michael Perrot, Max-Planck-Institute for Intelligent Systems<br>Ulrike von Luxburg, Max-Planck-Institute for Intelligent Systems |
