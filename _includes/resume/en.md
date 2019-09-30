@@ -28,14 +28,17 @@ Survey: Credit checking industry, neural network open source project
 Data Analysis and Cleaning
 
 ### Projects
+> [School of Information Systems, Singapore Management University](https://sis.smu.edu.sg)，2019.09-Now，Testing and Analysis of AI Aystems
+>> Project: Fuzzing AI-Systems for Adversarial Sample Generation and Mitigation<br/><br/>
+
+<!-- Publication: [“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/> -->
 
 > [Very Large Information Systems (VLIS) Laboratory of Zhejiang University](http://www.vlis.zju.edu.cn)，2018.03-Now，Testing and Analysis of AI Aystems
 >> Partners: Huawei 2012 Lab (Singapore), Singapore University of Technology and Design, Singapore Management University, National University of Singapore<br/><br/>
 Research Contents: Robustness of model(attack and defense); Fairness of model; Testing for model <br/><br/>
 Open Source Project: GuardAI, FairAI<br/><br/>
 Publication: [“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
-
-<!--Paper in submission: “Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”, Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, Xinyu Wang, TACAS, 2019 (**first student**) -->
+Other Paper: “Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”, Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, Xinyu Wang (**first student**)<br/><br/>
 
 > [System Analysis and Verification Group of SUTD](http://sav.sutd.edu.sg)，2017.07-2017.10，Testing
 >> Research Contents: Concolic testing; Symbolic execution; Generate test case by deep neural network<br/><br/>
@@ -46,6 +49,7 @@ Publication: [“Towards Optimal Concolic Testing”](http://pxzhang94.github.io
 
 | Time | Honor |
 | ------- | --- |
+| 2019.09 | Huawei Technology Cooperation Excellence Award |
 | 2018.12 | Graduate of Merit/Triple A Graduate of Zhejiang University |
 | 2018.12 | Award of Honor for Graduate of Zhejiang University |
 | 2018.11 | **Master's National Scholarship** |

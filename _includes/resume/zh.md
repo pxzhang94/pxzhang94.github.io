@@ -29,13 +29,17 @@
 
 ### 项目经历
 
+> [新加坡管理大学信息系统学院](https://sis.smu.edu.sg)，2019.09至今，人工智能系统分析与测试方向
+>> 项目：Fuzzing AI-Systems for Adversarial Sample Generation and Mitigation<br/><br/>
+
+<!-- 论文发表：[“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/> -->
+
 > [浙江大学超大规模信息系统实验室](http://www.vlis.zju.edu.cn)，2018.03至今，人工智能系统分析与测试方向
 >> 合作方：华为2012实验室（新加坡），新加坡科技设计大学，新加坡管理大学，新加坡国立大学<br/><br/>
 研究内容：模型鲁棒性（攻击与防御），模型公平性，模型测试<br/><br/>
 开源项目：GuardAI, FairAI<br/><br/>
 论文发表：[“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
-
-<!-- 在投论文：“Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”, Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, Xinyu Wang, TACAS, 2019（**学生一作**）-->
+其它论文：“Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”, Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, Xinyu Wang（**学生一作**）<br/><br/>
 
 > [新加坡科技设计大学系统分析与验证小组](http://sav.sutd.edu.sg)，2017.07-2017.10，软件测试方向
 >> 研究内容：动态符号执行测试，符号执行测试，机器学习生成测试用例等 <br/><br/>
@@ -46,6 +50,7 @@
 
 | 获奖时间 | 奖项 |
 | ------- | --- |
+| 2019.09 | 华为技术合作优秀奖 |
 | 2018.12 | 浙江大学三好研究生 |
 | 2018.12 | 浙江大学优秀研究生 |
 | 2018.11 | **硕士研究生国家奖学金** |
