@@ -5,8 +5,8 @@
     <description>这里是 @PXZHANG张培歆 的个人网站</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 03 Oct 2019 11:23:41 +0800</pubDate>
-    <lastBuildDate>Thu, 03 Oct 2019 11:23:41 +0800</lastBuildDate>
+    <pubDate>Fri, 11 Oct 2019 14:16:40 +0800</pubDate>
+    <lastBuildDate>Fri, 11 Oct 2019 14:16:40 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -320,23 +320,53 @@ table th:nth-of-type(2) {
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;FSE&lt;/td&gt;
-      &lt;td&gt;The Importance of Accounting for Real-World Labelling When Predicting Software Vulnerabilities&lt;/td&gt;
-      &lt;td&gt;Matthieu Jimenez, &lt;br /&gt;Renaud Rwemalika, &lt;br /&gt;Mike Papadakis, &lt;br /&gt;Federica Sarro, &lt;br /&gt;Yves Le Traon, &lt;br /&gt;Mark Harman,&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?doid=3338906.3338941&quot;&gt;The Importance of Accounting for Real-World Labelling When Predicting Software Vulnerabilities&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Matthieu Jimenez, University of Luxembourg&lt;br /&gt;Renaud Rwemalika, University of Luxembourg&lt;br /&gt;Mike Papadakis, University of Luxembourg&lt;br /&gt;Federica Sarro, University College London&lt;br /&gt;Yves Le Traon, University of Luxembourg&lt;br /&gt;Mark Harman, University College London&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;FSE&lt;/td&gt;
-      &lt;td&gt;Assessing the Quality of the Steps to Reproduce in Bug Reports&lt;/td&gt;
-      &lt;td&gt;Oscar Chaparro, &lt;br /&gt;Carlos Bernal-Cárdenas, &lt;br /&gt;Jing Lu, &lt;br /&gt;Kevin Moran, Andrian Marcus, &lt;br /&gt;Massimiliano Di Penta, &lt;br /&gt;Denys Poshyvanyk, &lt;br /&gt;Vincent Ng,&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?doid=3338906.3338947&quot;&gt;Assessing the Quality of the Steps to Reproduce in Bug Reports&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Oscar Chaparro, College of William and Mary&lt;br /&gt;Carlos Bernal-Cárdenas, College of William and Mary&lt;br /&gt;Jing Lu, University of Texas at Dallas&lt;br /&gt;Kevin Moran, College of William and Mary&lt;br /&gt;Andrian Marcus, University of Texas at Dallas&lt;br /&gt;Massimiliano Di Penta, University of Sannio&lt;br /&gt;Denys Poshyvanyk, College of William and Mary&lt;br /&gt;Vincent Ng, University of Texas at Dallas&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;FSE&lt;/td&gt;
-      &lt;td&gt;A Framework for Writing Trigger-Action Todo Comments in Executable Format&lt;/td&gt;
-      &lt;td&gt;Pengyu Nie, &lt;br /&gt;Rishabh Rai, &lt;br /&gt;Junyi Jessy Li, &lt;br /&gt;Sarfraz Khurshid, &lt;br /&gt;Raymond J. Mooney, &lt;br /&gt;Milos Gligoric,&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?doid=3338906.3338965&quot;&gt;A Framework for Writing Trigger-Action Todo Comments in Executable Format&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Pengyu Nie, University of Texas at Austin&lt;br /&gt;Rishabh Rai, University of Texas at Austin&lt;br /&gt;Junyi Jessy Li, University of Texas at Austin&lt;br /&gt;Sarfraz Khurshid, University of Texas at Austin&lt;br /&gt;Raymond J. Mooney, University of Texas at Austin&lt;br /&gt;Milos Gligoric, University of Texas at Austin&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;FSE&lt;/td&gt;
-      &lt;td&gt;A Statistics-based Performance Testing Methodology for Cloud Applications&lt;/td&gt;
-      &lt;td&gt;Sen He, &lt;br /&gt;Glenna Manns, &lt;br /&gt;John Saunders, &lt;br /&gt;Wei Wang, &lt;br /&gt;Lori Pollock, &lt;br /&gt;Mary Lou Soffa,&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?doid=3338906.3338912&quot;&gt;A Statistics-based Performance Testing Methodology for Cloud Applications&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Sen He, University of Texas at San Antonio&lt;br /&gt;Glenna Manns, University of Virginia&lt;br /&gt;John Saunders, University of Virginia&lt;br /&gt;Wei Wang, University of Texas at San Antonio&lt;br /&gt;Lori Pollock, University of Delaware&lt;br /&gt;Mary Lou Soffa, University of Virginia&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ASE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://arxiv.org/pdf/1909.06987.pdf&quot;&gt;Automatic Generation of Pull Request Descriptions&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Zhongxin Liu, Zhejiang University&lt;br /&gt;Xin Xia, Monash University&lt;br /&gt;Christoph Treude, University of Adelaide&lt;br /&gt;David Lo, Singapore Management University&lt;br /&gt;Shanping Li, Zhejiang University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ASE&lt;/td&gt;
+      &lt;td&gt;Experience Paper: Search-based Testing in Automated Driving Control Applications&lt;/td&gt;
+      &lt;td&gt;Christoph Gladisch, &lt;br /&gt;Thomas Heinz, &lt;br /&gt;Christian Heinzemann, &lt;br /&gt;Jens Oehlerking, &lt;br /&gt;Anne von Vietinghoff, &lt;br /&gt;Tim Pfitzer,&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ASE&lt;/td&gt;
+      &lt;td&gt;History-Guided Configuration Diversification for Compiler Test-Program Generation&lt;/td&gt;
+      &lt;td&gt;Junjie Chen, &lt;br /&gt;Guancheng Wang, &lt;br /&gt;Dan Hao, &lt;br /&gt;Yingfei Xiong, &lt;br /&gt;Hongyu Zhang, &lt;br /&gt;Lu Zhang,&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ASE&lt;/td&gt;
+      &lt;td&gt;Performance-Boosting Sparsification of the IFDS Algorithm with Applications to Taint Analysis&lt;/td&gt;
+      &lt;td&gt;Dongjie He, &lt;br /&gt;Haofeng Li, &lt;br /&gt;Lei Wang, &lt;br /&gt;Haining Meng, &lt;br /&gt;Hengjie Zheng, &lt;br /&gt;Jie Liu, &lt;br /&gt;Shuangwei Hu, &lt;br /&gt;Lian Li, &lt;br /&gt;Jingling Xue,&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ASE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://people.cs.vt.edu/davisjam/downloads/publications/MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19.pdf&quot;&gt;Regexes are Hard: Decision-making, Difficulties, and Risks in Programming Regular Expressions&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Louis G. Michael IV, Virginia Tech&lt;br /&gt;James Donohue, University of Bradford&lt;br /&gt;James C. Davis, Virginia Tech&lt;br /&gt;Dongyoon Lee, Stony Brook University&lt;br /&gt;Francisco Servant, Virginia Tech&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ASE&lt;/td&gt;
+      &lt;td&gt;Wuji: Automatic Online Combat Game Testing Using Evolutionary Deep Reinforcement Learning&lt;/td&gt;
+      &lt;td&gt;Yan Zheng, &lt;br /&gt;Xiaofei Xie, &lt;br /&gt;Ting Su, &lt;br /&gt;Lei Ma, &lt;br /&gt;Jianye Hao, &lt;br /&gt;Zhaopeng Meng, &lt;br /&gt;Yang Liu, &lt;br /&gt;Ruimin Shen, &lt;br /&gt;Yinfeng Chen, &lt;br /&gt;Changjie Fan,&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
