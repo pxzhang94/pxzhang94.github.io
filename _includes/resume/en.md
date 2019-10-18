@@ -38,7 +38,7 @@ Data Cleaning and Analysis
 Research Contents: Robustness of model(attack and defense); Fairness of model; Testing for model <br/><br/>
 Open Source Project: GuardAI, FairAI<br/><br/>
 Publication: [“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
-Other Paper: “Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”, Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, Xinyu Wang (**first student**)<br/><br/>
+Other Paper: [“Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/input_mutation.pdf), Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, Xinyu Wang (**first student**)<br/><br/>
 
 > [System Analysis and Verification Group of SUTD](http://sav.sutd.edu.sg)，2017.07-2017.10，Testing
 >> Research Contents: Concolic testing; Symbolic execution; Generate test case by deep neural network<br/><br/>
