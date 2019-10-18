@@ -1,5 +1,5 @@
 ### Introduction
-I am a Ph.D. student studying in the Very Large Information Systems (VLIS) Laboratory of Zhejiang University, my recent research areas are software engineering and analysis of AI systems.  
+I am a Ph.D. student studying in the Very Large Information Systems (VLIS) Laboratory of Zhejiang University, now I am also a research assistant in the School of Information System of Singapore Management University, my recent research areas are software engineering and analysis of AI systems.  
 
 ### Education
 
@@ -11,7 +11,7 @@ I am a Ph.D. student studying in the Very Large Information Systems (VLIS) Labor
 
 ### Internship
 
-> [Hangzhou Moxie Data Science Technology Ltd.](http://www.91moxie.com)，2016.09-2017.02，Data Engineer
+> Hangzhou Moxie Data Science Technology Ltd.，2016.09-2017.02，Data Engineer
 >> Project Architecture Design: Organization, document, process, technology<br/><br/>
 User Portrait Design: Accumulation fund, cyber bank, e-commerce<br/><br/>
 User Portrait Development: By SQL and streaming engine<br/><br/>
@@ -24,12 +24,12 @@ Data Analysis: Ctrip, Yeepay, Suning, etc<br/><br/>
 Survey: Credit checking industry, neural network open source project
 
 > [Zhejiang Bangsun Technology Ltd.](https://www.bsfit.com.cn)，2015.08-2015.10，Software Engineer
->> Web Crawler: Grab the information from website of government and enterprise by HttpClient and jsoup<br/><br/>
-Data Analysis and Cleaning
+>> Web Crawler<br/><br/>
+Data Cleaning and Analysis
 
 ### Projects
 > [School of Information Systems, Singapore Management University](https://sis.smu.edu.sg)，2019.09-Now，Testing and Analysis of AI Aystems
->> Project: Fuzzing AI-Systems for Adversarial Sample Generation and Mitigation<br/><br/>
+>> Project: Fuzzing AI-Systems for Adversarial Sample Generation and Mitigation (Huawei)<br/><br/>
 
 <!-- Publication: [“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/> -->
 

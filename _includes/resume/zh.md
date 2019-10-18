@@ -1,5 +1,5 @@
 ### 个人简介
-我目前是浙江大学超大规模信息系统实验室的在读博士研究生，现阶段的研究方向是软件工程以及人工智能系统分析与测试。
+我目前是浙江大学超大规模信息系统实验室的在读博士研究生，同时也是新加坡管理大学信息系统学院的研究助理（RA），现阶段的研究方向是软件工程以及人工智能系统分析与测试。
 
 ### 教育背景
 
@@ -11,7 +11,7 @@
 
 ### 实习经历
 
-> [杭州魔蝎数据科技有限公司](http://www.91moxie.com)，2016.09-2017.02，数据工程师
+> 杭州魔蝎数据科技有限公司，2016.09-2017.02，数据工程师
 >> 项目结构设计：组织，文档，流程，技术<br/><br/>
 用户画像设计：公积金，网上银行，电子商务<br/><br/>
 用户画像开发：使用SQL和流式处理引擎<br/><br/>
@@ -24,13 +24,13 @@
 调研：征信行业，神经网络开源项目
 
 > [浙江邦盛科技有限公司](https://www.bsfit.com.cn)，2015.08-2015.10，软件工程师
->> 数据抓取：使用java语言及HttpClient、jsoup开源库，爬取对象包括P2P、电商、政府部门、银行及学业系统等网站<br/><br/>
-数据分析与清洗
+>> 网络爬虫<br/><br/>
+数据清洗与分析
 
 ### 项目经历
 
 > [新加坡管理大学信息系统学院](https://sis.smu.edu.sg)，2019.09至今，人工智能系统分析与测试方向
->> 项目：Fuzzing AI-Systems for Adversarial Sample Generation and Mitigation<br/><br/>
+>> 项目：Fuzzing AI-Systems for Adversarial Sample Generation and Mitigation （华为）<br/><br/>
 
 <!-- 论文发表：[“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/> -->
 
