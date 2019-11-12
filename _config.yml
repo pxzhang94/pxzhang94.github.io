@@ -19,7 +19,8 @@ github_username:    pxzhang94
 twitter_username:   PXZHANG94
 wechat_username:    pxzhang94
 facebook_username:  peixin.zhang.180
-qq_username:        pxzhang
+# qq_username:        pxzhang
+googlescholar_username: xKOq2-8AAAAJ
 linkedin_username:  培歆-张-08ba3312b
 
 
@@ -119,6 +120,9 @@ friends: [
     },{
         title: "Ming Fan",
         href: "https://fanmingxjtu.github.io/"
+    },{
+        title: "Zhanming Jie",
+        href: "https://people.sutd.edu.sg/~allanjie/"
     }
     # ,{
     #    title: "乱序",

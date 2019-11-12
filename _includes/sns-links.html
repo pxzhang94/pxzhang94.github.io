@@ -28,6 +28,16 @@
     </a>
   </li>
   {% endif %}
+  {% if site.googlescholar_username %}
+  <li>
+    <a target="_blank" href="https://scholar.google.com/citations?user={{ site.googlescholar_username }}">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-google fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  {% endif %}
   {% if site.wechat_username %}
   <li>
     <a target="_blank" href="../img/wechat.jpg">
@@ -68,7 +78,7 @@
     </a>
   </li>
   {% endif %}
-  {% if site.qq_username %}
+  <!-- {% if site.qq_username %}
   <li>
     <a target="_blank" href="../img/qq.jpg">
       <span class="fa-stack fa-lg">
@@ -77,7 +87,7 @@
       </span>
     </a>
   </li>
-  {% endif %}
+  {% endif %} -->
   {% if site.zhihu_username %}
   <li>
     <a target="_blank" href="https://www.zhihu.com/people/{{ site.zhihu_username }}">
