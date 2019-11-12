@@ -5,8 +5,8 @@
     <description>这里是 @PXZHANG张培歆 的个人网站</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 12 Nov 2019 13:40:48 +0800</pubDate>
-    <lastBuildDate>Tue, 12 Nov 2019 13:40:48 +0800</lastBuildDate>
+    <pubDate>Tue, 12 Nov 2019 15:56:40 +0800</pubDate>
+    <lastBuildDate>Tue, 12 Nov 2019 15:56:40 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -367,6 +367,21 @@ table th:nth-of-type(2) {
       &lt;td&gt;ASE&lt;/td&gt;
       &lt;td&gt;Wuji: Automatic Online Combat Game Testing Using Evolutionary Deep Reinforcement Learning&lt;/td&gt;
       &lt;td&gt;Yan Zheng, &lt;br /&gt;Xiaofei Xie, &lt;br /&gt;Ting Su, &lt;br /&gt;Lei Ma, &lt;br /&gt;Jianye Hao, &lt;br /&gt;Zhaopeng Meng, &lt;br /&gt;Yang Liu, &lt;br /&gt;Ruimin Shen, &lt;br /&gt;Yinfeng Chen, &lt;br /&gt;Changjie Fan,&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ISSTA&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://pdfs.semanticscholar.org/6fbc/0f7544fc9ca7cd29c9811c4cbf6acf5ab981.pdf&quot;&gt;DeepFL: Integrating Multiple Fault Diagnosis Dimensions for Deep Fault Localization&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Xia Li, University of Texas at Dallas&lt;br /&gt;Wei Li, Southern University of Science and Technology&lt;br /&gt;Yuqun Zhang, Southern University of Science and Technology&lt;br /&gt;Lingming Zhang, University of Texas at Dallas&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ISSTA&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?doid=3293882.3330581&quot;&gt;Detecting Memory Errors at Runtime with Source-Level Instrumentation&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Zhe Chen, Nanjing University of Aeronautics and Astronautics&lt;br /&gt;Junqi Yan, Nanjing University of Aeronautics and Astronautics&lt;br /&gt;Shuanglong Kan, Nanjing University of Aeronautics and Astronautics&lt;br /&gt;Ju Qian, Nanjing University of Aeronautics and Astronautics&lt;br /&gt;Jingling Xue, UNSW&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ISSTA&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?doid=3293882.3330578&quot;&gt;History-driven Build Failure Fixing: How Far Are We?&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Yiling Lou, Peking University&lt;br /&gt;Junjie Chen, Peking University&lt;br /&gt;Lingming Zhang, University of Texas at Dallas&lt;br /&gt;Dan Hao, Peking University&lt;br /&gt;Lu Zhang, Peking University&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
