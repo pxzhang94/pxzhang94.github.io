@@ -31,6 +31,7 @@
 
 > [新加坡管理大学信息系统学院](https://sis.smu.edu.sg)，2019.09至今，人工智能系统分析与测试方向
 >> 项目：Fuzzing AI-Systems for Adversarial Sample Generation and Mitigation （华为）<br/><br/>
+论文接收：“White-box Fairness Testing through Adversarial Sampling”, **Peixin Zhang**, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jinsong Dong, and Ting Dai, International Conference on Software Engineering(ICSE) 2020<br/><br/>
 
 <!-- 论文发表：[“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/> -->
 

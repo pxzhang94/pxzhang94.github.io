@@ -1,5 +1,5 @@
 ### Introduction
-I am a Ph.D. student studying in the Very Large Information Systems (VLIS) Laboratory of Zhejiang University, now I am also a research assistant in the School of Information System of Singapore Management University, my recent research areas are software engineering and analysis of AI systems.  
+I am a Ph.D. candidate studying in the Very Large Information Systems (VLIS) Laboratory of Zhejiang University, now I am also a research assistant in the School of Information System of Singapore Management University, my recent research areas are software engineering and analysis of AI systems.  
 
 ### Education
 
@@ -30,6 +30,7 @@ Data Cleaning and Analysis
 ### Projects
 > [School of Information Systems, Singapore Management University](https://sis.smu.edu.sg)，2019.09-Now，Testing and Analysis of AI Aystems
 >> Project: Fuzzing AI-Systems for Adversarial Sample Generation and Mitigation (Huawei)<br/><br/>
+Paper Accepted: “White-box Fairness Testing through Adversarial Sampling”, **Peixin Zhang**, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jinsong Dong, and Ting Dai, International Conference on Software Engineering(ICSE) 2020<br/><br/>
 
 <!-- Publication: [“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/> -->
 
