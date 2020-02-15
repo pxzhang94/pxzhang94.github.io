@@ -5,9 +5,108 @@
     <description>这里是 @PXZHANG张培歆 的个人网站</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 09 Dec 2019 14:29:08 +0800</pubDate>
-    <lastBuildDate>Mon, 09 Dec 2019 14:29:08 +0800</lastBuildDate>
+    <pubDate>Sat, 15 Feb 2020 20:08:27 +0800</pubDate>
+    <lastBuildDate>Sat, 15 Feb 2020 20:08:27 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Best Paper Awards (ICML/AAAI/CVPR/ACL/IJCAI/ICLR)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Conference&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;!–&lt;/td&gt;
+      &lt;td&gt;ICML&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://arxiv.org/pdf/1811.12359.pdf&quot;&gt;Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Francesco Locatello, Max Planck Institute&lt;br /&gt;Stefan Bauer, Max Planck Institute&lt;br /&gt;Mario Lucic, Google Research&lt;br /&gt;Gunnar Rätsch, ETH Zurich&lt;br /&gt;Sylvain Gelly, Google Research&lt;br /&gt;Bernhard Schölkopf, Max Planck Institute&lt;br /&gt;Olivier Bachem, Google Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ICML&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://arxiv.org/pdf/1903.03571.pdf&quot;&gt;Rates of Convergence for Sparse Variational Gaussian Process Regression&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;David R. Burt, University of Cambridge&lt;br /&gt;Carl Edward Rasmussen, University of Cambridge&lt;br /&gt;Mark van der Wilk, PROWLER.io&lt;/td&gt;
+      &lt;td&gt;–&amp;gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AAAI&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://arxiv.org/pdf/1907.10641.pdf&quot;&gt;WinoGrande: An Adversarial Winograd Schema Challenge at Scale&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Keisuke Sakaguchi, Allen Institute for Artificial Intelligence&lt;br /&gt;Ronan Le Bras, Allen Institute for Artificial Intelligence&lt;br /&gt;Chandra Bhagavatula, Allen Institute for Artificial Intelligence&lt;br /&gt;Yejin Choi, Allen Institute for Artificial Intelligence&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;!–&lt;/td&gt;
+      &lt;td&gt;CVPR&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.ri.cmu.edu/wp-content/uploads/2019/05/cvpr2019.pdf&quot;&gt;A Theory of Fermat Paths for Non-Line-of-Sight Shape Reconstruction&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Shumian Xin, Carnegie Mellon University&lt;br /&gt;Sotiris Nousias, University of Toronto&lt;br /&gt;Kiriakos N. Kutulakos, University of Toronto&lt;br /&gt;Aswin C. Sankaranarayanan, Carnegie Mellon University&lt;br /&gt;Srinivasa G. Narasimhan, Carnegie Mellon University&lt;br /&gt;Ioannis Gkioulekas, Carnegie Mellon University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ACL&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.aclweb.org/anthology/P19-1426&quot;&gt;Bridging the Gap between Training and Inference for Neural Machine Translation&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Wen Zhang, Chinese Academy of Sciences&lt;br /&gt;Yang Feng, Chinese Academy of Sciences&lt;br /&gt;Fandong Meng, Tencent Inc&lt;br /&gt;Di You, Worcester Polytechnic Institute&lt;br /&gt;Qun Liu, Huawei Noah’s Ark Lab&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;IJCAI&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://jair.org/index.php/jair/article/view/10942/26071&quot;&gt;Clause Elimination for SAT and QSAT&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Marijn Heule, The University of Texas at Austin&lt;br /&gt;Matti Jarvisalo, University of Helsinki&lt;br /&gt;Florian Lonsing, Vienna University of Technology&lt;br /&gt;Martina Seidl, Johannes Kepler University Linz&lt;br /&gt;Armin Biere, Johannes Kepler University Linz&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;IJCAI&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.ijcai.org/proceedings/2019/0255.pdf&quot;&gt;Boosting for Comparison-Based Learning&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Michael Perrot, Max-Planck-Institute for Intelligent Systems&lt;br /&gt;Ulrike von Luxburg, Max-Planck-Institute for Intelligent Systems&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ICLR&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://openreview.net/pdf?id=rJl-b3RcF7&quot;&gt;The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Jonathan Frankle, MIT CSAIL&lt;br /&gt;Michael Carbin, MIT CSAIL&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ICLR&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.ijcai.org/proceedings/2019/0255.pdf&quot;&gt;Ordered Neurons: Integrating Tree Structures into Recurrent Neural Networks&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Yikang Shen, Mila/Universite de Montreal&lt;br /&gt;Shawn Tan, Mila/Universite de Montreal&lt;br /&gt;Alessandro Sordoni, Microsoft Research&lt;br /&gt;Aaron Courville, Mila/Universite de Montreal&lt;/td&gt;
+      &lt;td&gt;–&amp;gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Sat, 15 Feb 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2020/02/15/best-paper-awards-AI-2020/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/02/15/best-paper-awards-AI-2020/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>Artificial Intelligence</category>
+        
+        <category>Computer Vision</category>
+        
+        <category>Natural Language Processing</category>
+        
+        <category>Machine Learning</category>
+        
+        
+      </item>
     
       <item>
         <title>Best Paper Awards (ICLR)</title>
@@ -345,18 +444,18 @@ table th:nth-of-type(2) {
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;ASE&lt;/td&gt;
-      &lt;td&gt;Experience Paper: Search-based Testing in Automated Driving Control Applications&lt;/td&gt;
-      &lt;td&gt;Christoph Gladisch, &lt;br /&gt;Thomas Heinz, &lt;br /&gt;Christian Heinzemann, &lt;br /&gt;Jens Oehlerking, &lt;br /&gt;Anne von Vietinghoff, &lt;br /&gt;Tim Pfitzer,&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/document/8952365&quot;&gt;Experience Paper: Search-based Testing in Automated Driving Control Applications&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Christoph Gladisch, Robert Bosch GmbH&lt;br /&gt;Thomas Heinz, Robert Bosch GmbH&lt;br /&gt;Christian Heinzemann, Robert Bosch GmbH&lt;br /&gt;Jens Oehlerking, Robert Bosch GmbH&lt;br /&gt;Anne von Vietinghoff, Robert Bosch GmbH&lt;br /&gt;Tim Pfitzer, Robert Bosch Automotive Steering GmbH&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;ASE&lt;/td&gt;
-      &lt;td&gt;History-Guided Configuration Diversification for Compiler Test-Program Generation&lt;/td&gt;
-      &lt;td&gt;Junjie Chen, &lt;br /&gt;Guancheng Wang, &lt;br /&gt;Dan Hao, &lt;br /&gt;Yingfei Xiong, &lt;br /&gt;Hongyu Zhang, &lt;br /&gt;Lu Zhang,&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/document/8952321&quot;&gt;History-Guided Configuration Diversification for Compiler Test-Program Generation&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Junjie Chen, Tianjin University&lt;br /&gt;Guancheng Wang, Peking University&lt;br /&gt;Dan Hao, Peking University&lt;br /&gt;Yingfei Xiong, Peking University&lt;br /&gt;Hongyu Zhang, The University of Newcastle&lt;br /&gt;Lu Zhang, Peking University&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;ASE&lt;/td&gt;
-      &lt;td&gt;Performance-Boosting Sparsification of the IFDS Algorithm with Applications to Taint Analysis&lt;/td&gt;
-      &lt;td&gt;Dongjie He, &lt;br /&gt;Haofeng Li, &lt;br /&gt;Lei Wang, &lt;br /&gt;Haining Meng, &lt;br /&gt;Hengjie Zheng, &lt;br /&gt;Jie Liu, &lt;br /&gt;Shuangwei Hu, &lt;br /&gt;Lian Li, &lt;br /&gt;Jingling Xue,&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/document/8952383&quot;&gt;Performance-Boosting Sparsification of the IFDS Algorithm with Applications to Taint Analysis&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Dongjie He, UNSW Sydney&lt;br /&gt;Haofeng Li, Chinese Academy of Sciences&lt;br /&gt;Lei Wang, Chinese Academy of Sciences&lt;br /&gt;Haining Meng, Chinese Academy of Sciences&lt;br /&gt;Hengjie Zheng, Chinese Academy of Sciences&lt;br /&gt;Jie Liu, UNSW Sydney&lt;br /&gt;Shuangwei Hu, Vivo AI Lab&lt;br /&gt;Lian Li, Chinese Academy of Sciences&lt;br /&gt;Jingling Xue, UNSW Sydney&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;ASE&lt;/td&gt;
@@ -365,8 +464,8 @@ table th:nth-of-type(2) {
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;ASE&lt;/td&gt;
-      &lt;td&gt;Wuji: Automatic Online Combat Game Testing Using Evolutionary Deep Reinforcement Learning&lt;/td&gt;
-      &lt;td&gt;Yan Zheng, &lt;br /&gt;Xiaofei Xie, &lt;br /&gt;Ting Su, &lt;br /&gt;Lei Ma, &lt;br /&gt;Jianye Hao, &lt;br /&gt;Zhaopeng Meng, &lt;br /&gt;Yang Liu, &lt;br /&gt;Ruimin Shen, &lt;br /&gt;Yinfeng Chen, &lt;br /&gt;Changjie Fan,&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/document/8952543&quot;&gt;Wuji: Automatic Online Combat Game Testing Using Evolutionary Deep Reinforcement Learning&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Yan Zheng, Tianjin University&lt;br /&gt;Xiaofei Xie, Nanyang Technological University&lt;br /&gt;Ting Su, Nanyang Technological University&lt;br /&gt;Lei Ma, Kyushu University&lt;br /&gt;Jianye Hao, Tianjin University&lt;br /&gt;Zhaopeng Meng, Tianjin University&lt;br /&gt;Yang Liu, Nanyang Technological University&lt;br /&gt;Ruimin Shen, Netease&lt;br /&gt;Yinfeng Chen, Netease&lt;br /&gt;Changjie Fan, Netease&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;ISSTA&lt;/td&gt;
@@ -1483,209 +1582,6 @@ table th:nth-of-type(2) {
         <category>Best Paper</category>
         
         <category>Networking</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Best Paper Awards (PLDI)</title>
-        <description>&lt;style&gt;
-.table {
-	font-size:12px;
-}
-table td {
-	vertical-align: middle;
-}
-table th:nth-of-type(2) {
-    width: 240px;
-}
-
-&lt;/style&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-      &lt;th&gt;Title&lt;/th&gt;
-      &lt;th&gt;Authors&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Program synthesis using conflict-driven learning&lt;/td&gt;
-      &lt;td&gt;Yu Feng, University of Texas at Austin&lt;br /&gt;Ruben Martins, Carnegie Mellon University&lt;br /&gt;Osbert Bastani, Massachusetts Institute of Technology&lt;br /&gt;Isil Dillig, University of Texas at Austin&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;The semantics of transactions and weak memory in x86, Power, ARM, and C++&lt;/td&gt;
-      &lt;td&gt;Nathan Chong, ARM&lt;br /&gt;Tyler Sorensen, Imperial College London&lt;br /&gt;John Wickerson, Imperial College London&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;A data-driven CHC solver&lt;/td&gt;
-      &lt;td&gt;He Zhu, Galois&lt;br /&gt;Stephen Magill, Galois&lt;br /&gt;Suresh Jagannathan, Purdue University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;Low Overhead Dynamic Binary Translation on ARM&lt;/td&gt;
-      &lt;td&gt;Amanieu D’Antras, University of Manchester&lt;br /&gt;Cosmin Gorgovan, University of Manchester&lt;br /&gt;Jim Garside, University of Manchester&lt;br /&gt;Mikel Luján, University of Manchester&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;Repairing sequential consistency in C/C++11&lt;/td&gt;
-      &lt;td&gt;Ori Lahav, MPI-SWS&lt;br /&gt;Viktor Vafeiadis, MPI-SWS&lt;br /&gt;Jeehoon Kang, Seoul National University&lt;br /&gt;Chung-Kil Hur, Seoul National University&lt;br /&gt;Derek Dreyer, MPI-SWS&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;Bringing the web up to speed with WebAssembly&lt;/td&gt;
-      &lt;td&gt;Andreas Haas, Google&lt;br /&gt;Andreas Rossberg, Google&lt;br /&gt;Derek L. Schuff, Google&lt;br /&gt;Ben L. Titzer, Google&lt;br /&gt;Michael Holman, Microsoft&lt;br /&gt;Dan Gohman, Mozilla&lt;br /&gt;Luke Wagner, Mozilla&lt;br /&gt;Alon Zakai, Mozilla&lt;br /&gt;JF Bastien, Apple&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;Compiling without continuations&lt;/td&gt;
-      &lt;td&gt;Luke Maurer, University of Oregon&lt;br /&gt;Paul Downen, University of Oregon&lt;br /&gt;Zena M. Ariola, University of Oregon&lt;br /&gt;Simon Peyton Jones, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Assessing the limits of program-specific garbage collection performance&lt;/td&gt;
-      &lt;td&gt;Nicholas Jacek, University of Massachusetts Amherst&lt;br /&gt;Meng-Chieh Chiu, University of Massachusetts Amherst&lt;br /&gt;Benjamin Marlin, University of Massachusetts Amherst&lt;br /&gt;Eliot Moss, University of Massachusetts Amherst&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Into the Depths of C: Elaborating the De Facto Standards&lt;/td&gt;
-      &lt;td&gt;Kayvan Memarian, University of Cambridge&lt;br /&gt;Justus Matthiesen, University of Cambridge&lt;br /&gt;James Lingard, University of Cambridge&lt;br /&gt;Kyndylan Nienhuis, University of Cambridge&lt;br /&gt;David Chisnall, University of Cambridge&lt;br /&gt;Robert N. M. Watson, University of Cambridge&lt;br /&gt;Peter Sewell, University of Cambridge&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Transactional Data Structure Libraries&lt;/td&gt;
-      &lt;td&gt;Alexander Spiegelman, Technion&lt;br /&gt;Guy Golan-Gueta, Yahoo! Research&lt;br /&gt;Idit Keidar, Technion&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Types from data: Making structured data first-class citizens in F#&lt;/td&gt;
-      &lt;td&gt;Tomas Petricek, University of Cambridge&lt;br /&gt;Gustavo Guerra, Microsoft&lt;br /&gt;Don Syme, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Provably Correct Peephole Optimizations with Alive&lt;/td&gt;
-      &lt;td&gt;Nuno P. Lopes, Microsoft Research&lt;br /&gt;David Menendez, Rutgers University&lt;br /&gt;Santosh Nagarakatte, Rutgers University&lt;br /&gt;John Regehr, University of Utah&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Diagnosing Type Errors with Class&lt;/td&gt;
-      &lt;td&gt;Danfeng Zhang, Cornell University&lt;br /&gt;Andrew C. Myers, Cornell University&lt;br /&gt;Dimitrios Vytiniotis, Microsoft Research&lt;br /&gt;Simon Peyton-Jones, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Automatically Improving Accuracy for Floating Point Expressions&lt;/td&gt;
-      &lt;td&gt;Pavel Panchekha, University of Washington&lt;br /&gt;Alex Sanchez-Stern, University of Washington&lt;br /&gt;James R. Wilcox, University of Washington&lt;br /&gt;Zachary Tatlock, University of Washington&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;Improving JavaScript Performance by Deconstructing the Type System&lt;/td&gt;
-      &lt;td&gt;Wonsun Ahn, University of Illinois at Urbana-Champaign&lt;br /&gt;Jiho Choi, University of Illinois at Urbana-Champaign&lt;br /&gt;Thomas Shull, University of Illinois at Urbana-Champaign&lt;br /&gt;María Garzarín, University of Illinois at Urbana-Champaign&lt;br /&gt;Josep Torrellas, University of Illinois at Urbana-Champaign&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;Compiler validation via equivalence modulo inputs&lt;/td&gt;
-      &lt;td&gt;Vu Le, University of California Davis&lt;br /&gt;Mehrdad Afshari, University of California Davis&lt;br /&gt;Zhendong Su, University of California Davis&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;On Abstraction Refinement for Program Analyses in Datalog&lt;/td&gt;
-      &lt;td&gt;Xin Zhang, Georgia Institute of Technology&lt;br /&gt;Ravi Mangal, Georgia Institute of Technology&lt;br /&gt;Radu Grigore, Oxford University&lt;br /&gt;Mayur Naik, Georgia Institute of Technology&lt;br /&gt;Hongseok Yang, Oxford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;Static Analysis for Probabilistic Programs: Inferring Whole Program Properties from Finitely Many Path&lt;/td&gt;
-      &lt;td&gt;Sriram Sankaranarayanan, University of Colorado&lt;br /&gt;Aleksandar Chakarov, University of Colorado&lt;br /&gt;Sumit Gulwani, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;A General Constraint-centric Scheduling Framework for Spatial Architectures&lt;/td&gt;
-      &lt;td&gt;Tony Nowatzki, University of Wisconsin&lt;br /&gt;Michael Sartin-Tarm, University of Wisconsin&lt;br /&gt;Lorenzo De Carli, University of Wisconsin&lt;br /&gt;Karthikeyan Sankaralingam, University of Wisconsin&lt;br /&gt;Cristian Estan, Broadcom&lt;br /&gt;Behnam Robatmili, Qualcomm Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;Reconciling Exhaustive Pattern Matching with Objects&lt;/td&gt;
-      &lt;td&gt;Chinawat Isradisaikul &amp;amp; Andrew C. Myers, Cornell University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;CLAP: Recording Local Executions to Reproduce Concurrency Failures&lt;/td&gt;
-      &lt;td&gt;Jeff Huang, Hong Kong University of Science and Technology&lt;br /&gt;Charles Zhang, Hong Kong University of Science and Technology&lt;br /&gt;Julian Dolby, IBM Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;Concurrent Data Representation Synthesis&lt;/td&gt;
-      &lt;td&gt;Peter Hawkins, Stanford University&lt;br /&gt;Alex Aiken, Stanford University&lt;br /&gt;Kathleen Fisher, Tufts University&lt;br /&gt;Martin Rinard, Massachusetts Institute of Technology&lt;br /&gt;Mooly Sagiv, Tel-Aviv University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;Data Representation Synthesis&lt;/td&gt;
-      &lt;td&gt;Peter Hawkins, Stanford University&lt;br /&gt;Alex Aiken, Stanford University&lt;br /&gt;Kathleen Fisher, Tufts University&lt;br /&gt;Martin Rinard, Massachusetts Institute of Technology&lt;br /&gt;Mooly Sagiv, Tel-Aviv University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;Safe to the Last Instruction: Automated Verification of a Type-Safe Operating System&lt;/td&gt;
-      &lt;td&gt;Jean Yang, Massachusetts Institute of Technology&lt;br /&gt;Chris Hawblitzel, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;Binary Analysis for Measurement and Attribution of Program Performance&lt;/td&gt;
-      &lt;td&gt;Nathan Tallent, Rice University&lt;br /&gt;John Mellor-Crummey, Rice University&lt;br /&gt;Michael Fagan, Rice University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;Fault-tolerant Typed Assembly Language&lt;/td&gt;
-      &lt;td&gt;Frances Perry, Princeton University&lt;br /&gt;Lester Mackey, Princeton University&lt;br /&gt;George A. Reis, Princeton University&lt;br /&gt;Jay Ligatti, University of South Florida&lt;br /&gt;David I. August, Princeton University&lt;br /&gt;David Walker, Princeton University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;The Ant and the Grasshopper: Fast and Accurate Pointer Analysis for Millions of Lines of Code&lt;/td&gt;
-      &lt;td&gt;Ben Hardekopf &amp;amp; Calvin Lin, University of Texas at Austin&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;Automatic Pool Allocation: Improving Performance by Controlling Data Structure Layout in the Heap&lt;/td&gt;
-      &lt;td&gt;Chris Lattner &amp;amp; Vikram Adve, University of Illinois at Urbana-Champaign&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;Programming by Sketching for Bit-Streaming Programs&lt;/td&gt;
-      &lt;td&gt;Armando Solar-Lezama, University of California Berkeley&lt;br /&gt;Rodric Rabbah, Massachusetts Institute of Technology&lt;br /&gt;Rastislav Bodik, University of California Berkeley&lt;br /&gt;Kemal Ebcioğlu, IBM Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2004&lt;/td&gt;
-      &lt;td&gt;Cloning-Based Context-Sensitive Pointer Alias Analysis Using Binary Decision Diagrams&lt;/td&gt;
-      &lt;td&gt;John Whaley &amp;amp; Monica S. Lam, Stanford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2003&lt;/td&gt;
-      &lt;td&gt;Automatically Proving the Correctness of Compiler Optimizations&lt;/td&gt;
-      &lt;td&gt;Sorin Lerner, University of Washington&lt;br /&gt;Todd Millstein, University of Washington&lt;br /&gt;Craig Chambers, University of Washington&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2000&lt;/td&gt;
-      &lt;td&gt;Dynamo: a transparent dynamic optimization system&lt;/td&gt;
-      &lt;td&gt;Vasanth Bala, Hewlett-Packard Labs&lt;br /&gt;Evelyn Duesterwald, Hewlett-Packard Labs&lt;br /&gt;Sanjeev Banerjia, InCert&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1999&lt;/td&gt;
-      &lt;td&gt;Whole program paths&lt;/td&gt;
-      &lt;td&gt;James R. Larus, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Wed, 09 Jan 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/01/09/best-paper-awards-PLDI/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/01/09/best-paper-awards-PLDI/</guid>
-        
-        <category>Best Paper</category>
-        
-        <category>Programming Languages</category>
         
         
       </item>
