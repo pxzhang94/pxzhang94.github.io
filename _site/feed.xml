@@ -5,8 +5,8 @@
     <description>这里是 @PXZHANG张培歆 的个人网站</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 15 Feb 2020 20:08:27 +0800</pubDate>
-    <lastBuildDate>Sat, 15 Feb 2020 20:08:27 +0800</lastBuildDate>
+    <pubDate>Sat, 15 Feb 2020 22:03:14 +0800</pubDate>
+    <lastBuildDate>Sat, 15 Feb 2020 22:03:14 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -30,63 +30,13 @@ table th:nth-of-type(2) {
       &lt;th&gt;Conference&lt;/th&gt;
       &lt;th&gt;Title&lt;/th&gt;
       &lt;th&gt;Authors&lt;/th&gt;
-      &lt;th&gt; &lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;&amp;lt;!–&lt;/td&gt;
-      &lt;td&gt;ICML&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://arxiv.org/pdf/1811.12359.pdf&quot;&gt;Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;Francesco Locatello, Max Planck Institute&lt;br /&gt;Stefan Bauer, Max Planck Institute&lt;br /&gt;Mario Lucic, Google Research&lt;br /&gt;Gunnar Rätsch, ETH Zurich&lt;br /&gt;Sylvain Gelly, Google Research&lt;br /&gt;Bernhard Schölkopf, Max Planck Institute&lt;br /&gt;Olivier Bachem, Google Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;ICML&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://arxiv.org/pdf/1903.03571.pdf&quot;&gt;Rates of Convergence for Sparse Variational Gaussian Process Regression&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;David R. Burt, University of Cambridge&lt;br /&gt;Carl Edward Rasmussen, University of Cambridge&lt;br /&gt;Mark van der Wilk, PROWLER.io&lt;/td&gt;
-      &lt;td&gt;–&amp;gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
       &lt;td&gt;AAAI&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://arxiv.org/pdf/1907.10641.pdf&quot;&gt;WinoGrande: An Adversarial Winograd Schema Challenge at Scale&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;Keisuke Sakaguchi, Allen Institute for Artificial Intelligence&lt;br /&gt;Ronan Le Bras, Allen Institute for Artificial Intelligence&lt;br /&gt;Chandra Bhagavatula, Allen Institute for Artificial Intelligence&lt;br /&gt;Yejin Choi, Allen Institute for Artificial Intelligence&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&amp;lt;!–&lt;/td&gt;
-      &lt;td&gt;CVPR&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://www.ri.cmu.edu/wp-content/uploads/2019/05/cvpr2019.pdf&quot;&gt;A Theory of Fermat Paths for Non-Line-of-Sight Shape Reconstruction&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;Shumian Xin, Carnegie Mellon University&lt;br /&gt;Sotiris Nousias, University of Toronto&lt;br /&gt;Kiriakos N. Kutulakos, University of Toronto&lt;br /&gt;Aswin C. Sankaranarayanan, Carnegie Mellon University&lt;br /&gt;Srinivasa G. Narasimhan, Carnegie Mellon University&lt;br /&gt;Ioannis Gkioulekas, Carnegie Mellon University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;ACL&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://www.aclweb.org/anthology/P19-1426&quot;&gt;Bridging the Gap between Training and Inference for Neural Machine Translation&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;Wen Zhang, Chinese Academy of Sciences&lt;br /&gt;Yang Feng, Chinese Academy of Sciences&lt;br /&gt;Fandong Meng, Tencent Inc&lt;br /&gt;Di You, Worcester Polytechnic Institute&lt;br /&gt;Qun Liu, Huawei Noah’s Ark Lab&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;IJCAI&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://jair.org/index.php/jair/article/view/10942/26071&quot;&gt;Clause Elimination for SAT and QSAT&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;Marijn Heule, The University of Texas at Austin&lt;br /&gt;Matti Jarvisalo, University of Helsinki&lt;br /&gt;Florian Lonsing, Vienna University of Technology&lt;br /&gt;Martina Seidl, Johannes Kepler University Linz&lt;br /&gt;Armin Biere, Johannes Kepler University Linz&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;IJCAI&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://www.ijcai.org/proceedings/2019/0255.pdf&quot;&gt;Boosting for Comparison-Based Learning&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;Michael Perrot, Max-Planck-Institute for Intelligent Systems&lt;br /&gt;Ulrike von Luxburg, Max-Planck-Institute for Intelligent Systems&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;ICLR&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://openreview.net/pdf?id=rJl-b3RcF7&quot;&gt;The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;Jonathan Frankle, MIT CSAIL&lt;br /&gt;Michael Carbin, MIT CSAIL&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;ICLR&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://www.ijcai.org/proceedings/2019/0255.pdf&quot;&gt;Ordered Neurons: Integrating Tree Structures into Recurrent Neural Networks&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;Yikang Shen, Mila/Universite de Montreal&lt;br /&gt;Shawn Tan, Mila/Universite de Montreal&lt;br /&gt;Alessandro Sordoni, Microsoft Research&lt;br /&gt;Aaron Courville, Mila/Universite de Montreal&lt;/td&gt;
-      &lt;td&gt;–&amp;gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
