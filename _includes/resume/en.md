@@ -5,8 +5,7 @@ I am a Ph.D. candidate studying in the Very Large Information Systems (VLIS) Lab
 
 | Period | School | College | Major | Supervisor | Degree | Grades |
 | ------- | --- | --- | --- | --- | --- | --- |
-| 2019.03-Now | Zhejiang University | Computer Science and Technology | Computer Science | [Prof. Wang Xinyu](https://person.zju.edu.cn/en/wangxinyu_en) | Doctor | - |
-| 2016.09-2019.02 | Zhejiang University | Computer Science and Technology | Computer Technology | [Prof. Wang Xinyu](https://person.zju.edu.cn/en/wangxinyu_en) | Master | 88.6/100 |
+| 2016.09-Now | Zhejiang University | Computer Science and Technology | Computer Science | [Prof. Wang Xinyu](https://person.zju.edu.cn/en/wangxinyu_en) | Doctor | 87.4/100 |
 | 2012.09-2016.06 | Zhejiang University | Computer Science and Technology | Software Engineering | [Prof. Wang Xinyu](https://person.zju.edu.cn/en/wangxinyu_en) | Bachelor | 3.87/5 |
 
 ### Internship
