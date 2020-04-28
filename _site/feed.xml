@@ -5,9 +5,180 @@
     <description>这里是 @PXZHANG张培歆 的个人网站</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 07 Mar 2020 17:34:29 +0800</pubDate>
-    <lastBuildDate>Sat, 07 Mar 2020 17:34:29 +0800</lastBuildDate>
+    <pubDate>Tue, 28 Apr 2020 11:35:12 +0800</pubDate>
+    <lastBuildDate>Tue, 28 Apr 2020 11:35:12 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Upcoming Conference</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Domain&lt;/th&gt;
+      &lt;th&gt;Conference&lt;/th&gt;
+      &lt;th&gt;Deadline&lt;/th&gt;
+      &lt;th&gt;Date&lt;/th&gt;
+      &lt;th&gt;Location&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Security&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.sigsac.org/ccs/CCS2020&quot;&gt;CCS 2020&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;20 Jan 2020&lt;br /&gt;4 May 2020&lt;/td&gt;
+      &lt;td&gt;9-13 Nov 2020&lt;/td&gt;
+      &lt;td&gt;Orlando, US&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AI&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.ijcai20.org&quot;&gt;IJCAI 2020&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;21 Jan 2020&lt;/td&gt;
+      &lt;td&gt;11-17 Jul 2020&lt;/td&gt;
+      &lt;td&gt;Yokohama, Japan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://conf.researchr.org/home/issta-2020&quot;&gt;ISSTA 2020&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;27 Jan 2020&lt;/td&gt;
+      &lt;td&gt;18-22 July 2020&lt;/td&gt;
+      &lt;td&gt;Los Angeles, US&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AI&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://icml.cc&quot;&gt;ICML 2020&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;6 Feb 2020&lt;/td&gt;
+      &lt;td&gt;12-18 Jul 2020&lt;/td&gt;
+      &lt;td&gt;Vienna, Austria&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://2020.esec-fse.org&quot;&gt;FSE 2020&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;5 Mar 2020&lt;/td&gt;
+      &lt;td&gt;8-13 Nov 2020&lt;/td&gt;
+      &lt;td&gt;Sacramento, US&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Security&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.ndss-symposium.org/ndss-2021&quot;&gt;NDSS 2021&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;30 Apr 2020&lt;br /&gt;17 Jul 2020&lt;/td&gt;
+      &lt;td&gt;21-24 Feb 2021&lt;/td&gt;
+      &lt;td&gt;San Diego, US&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AI&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://iccv2021.thecvf.com&quot;&gt;ICCV 2021&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+      &lt;td&gt;11-17 Oct 2021&lt;/td&gt;
+      &lt;td&gt;Montreal, Canada&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://conf.researchr.org/home/ase-2020&quot;&gt;ASE 2020&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;8 May 2020&lt;/td&gt;
+      &lt;td&gt;21-25 Sept 2020&lt;/td&gt;
+      &lt;td&gt;Melbourne, Australia&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Security&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.usenix.org/conference/usenixsecurity20&quot;&gt;USENIX Security 2020&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;15 May 2019&lt;br /&gt;23 Aug 2019&lt;br /&gt;15 Nov 2019&lt;br /&gt;15 Feb 2020&lt;/td&gt;
+      &lt;td&gt;12–14 Aug 2020&lt;/td&gt;
+      &lt;td&gt;Boston, US&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AI&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://2020.emnlp.org&quot;&gt;EMNLP 2020&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;1 Jun 2020&lt;/td&gt;
+      &lt;td&gt;16-20 Nov 2020&lt;/td&gt;
+      &lt;td&gt;Dominican Republic&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AI&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://neurips.cc&quot;&gt;NeurIPS 2020&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;03 Jun 2020&lt;/td&gt;
+      &lt;td&gt;5-12 Dec 2020&lt;/td&gt;
+      &lt;td&gt;Vancouver, Canada&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://2020.icse-conferences.org&quot;&gt;ICSE 2020&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;23 Aug 2019&lt;/td&gt;
+      &lt;td&gt;5-11 Oct 2020&lt;/td&gt;
+      &lt;td&gt;Seoul, South Korea&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AI&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://aaai.org/Conferences/AAAI-21&quot;&gt;AAAI 2021&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+      &lt;td&gt;2-9 Feb 2021&lt;/td&gt;
+      &lt;td&gt;Vancouver, Canada&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AI&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://iclr.cc&quot;&gt;ICLR 2020&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;25 Sept 2019&lt;/td&gt;
+      &lt;td&gt;26 Apr-1 May 2020&lt;/td&gt;
+      &lt;td&gt;Addis Ababa, Ethiopia&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AI&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://cvpr2020.thecvf.com&quot;&gt;CVPR 2020&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;15 Nov 2019&lt;/td&gt;
+      &lt;td&gt;14-19 Jun 2020&lt;/td&gt;
+      &lt;td&gt;Seattle, US&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AI&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://acl2020.org&quot;&gt;ACL 2020&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;9 Dec 2019&lt;/td&gt;
+      &lt;td&gt;5-10 Jul 2020&lt;/td&gt;
+      &lt;td&gt;Seattle, US&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Security&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.ieee-security.org/TC/SP2020&quot;&gt;S&amp;amp;P 2020&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;First of each month&lt;/td&gt;
+      &lt;td&gt;18-21 May 2020&lt;/td&gt;
+      &lt;td&gt;San Francisco, US&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AI&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;&quot;&gt;NAACL&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+</description>
+        <pubDate>Tue, 28 Apr 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2020/04/28/recent-conference-update/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/04/28/recent-conference-update/</guid>
+        
+        <category>Conference</category>
+        
+        <category>Software Engineering</category>
+        
+        <category>Artificial Intelligence</category>
+        
+        <category>Security</category>
+        
+        
+      </item>
     
       <item>
         <title>Best Paper Awards (ICML/AAAI/CVPR/ACL/IJCAI/ICLR)</title>
@@ -1359,179 +1530,6 @@ table th:nth-of-type(2) {
         <category>Best Paper</category>
         
         <category>Data Mining</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Best Paper Awards (INFOCOM)</title>
-        <description>&lt;style&gt;
-.table {
-	font-size:12px;
-}
-table td {
-	vertical-align: middle;
-}
-table th:nth-of-type(2) {
-    width: 240px;
-}
-
-&lt;/style&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-      &lt;th&gt;Title&lt;/th&gt;
-      &lt;th&gt;Authors&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;WiFED: WiFi Friendly Energy Delivery with Distributed Beamforming&lt;/td&gt;
-      &lt;td&gt;Subhramoy Mohanti, Northeastern University&lt;br /&gt;Elif Bozkaya, Istanbul Technical University&lt;br /&gt;M. Yousof Naderi, Northeastern University&lt;br /&gt;Berk Canberk, Istanbul Technical University&lt;br /&gt;Kaushik Chowdhury, Northeastern University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Understanding Ethereum via Graph Analysis&lt;/td&gt;
-      &lt;td&gt;Ting Chen, University of Electronic Science and Technology of China&lt;br /&gt;Yuxiao Zhu, Guangdong University of Technology&lt;br /&gt;Zihao Li, University of Electronic Science and Technology of China&lt;br /&gt;Jiachi Chen, Hong Kong Polytechnic University&lt;br /&gt;Xiaoqi Li, Hong Kong Polytechnic University&lt;br /&gt;Xiapu Luo, Hong Kong Polytechnic University&lt;br /&gt;Xiaodong Lin, Wilfrid Laurier University&lt;br /&gt;Xiaosong Zhang, University of Electronic Science and Technology of China&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Optimizing Age of Information in Wireless Networks with Throughput Constraints&lt;/td&gt;
-      &lt;td&gt;Igor Kadota, Massachusetts Institute of Technology&lt;br /&gt;Abhishek Sinha, Massachusetts Institute of Technology&lt;br /&gt;Eytan Modiano, Massachusetts Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;One Step at a Time: Optimizing SDN Upgrades in ISP Networks&lt;/td&gt;
-      &lt;td&gt;Konstantinos Poularakis, Yale University&lt;br /&gt;George Iosifidis, Yale University&lt;br /&gt;Georgios Smaragdakis, Massachusetts Institute of Technology&lt;br /&gt;Leandros Tassiulas, Yale University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;Heavy-Ball: A New Approach to Tame Delay and Convergence in Wireless Network Optimization&lt;/td&gt;
-      &lt;td&gt;Jia Liu, Ohio State University&lt;br /&gt;Atilla Eryilmaz, Ohio State University&lt;br /&gt;Ness B. Shroff, Ohio State University&lt;br /&gt;Elizabeth Serena Bentley, Air Force Research Laboratory&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;The Power of Slightly More than One Sample in Randomized Load Balancing&lt;/td&gt;
-      &lt;td&gt;Lei Ying, Arizona State University&lt;br /&gt;R. Srikant, University of Illinois at Urbana-Champaign&lt;br /&gt;Xiaohan Kang, Arizona State University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;Joint Static and Dynamic Traffic Scheduling in Data Center Networks&lt;/td&gt;
-      &lt;td&gt;Zizhong Cao, Polytechnic Institute of New York University&lt;br /&gt;M. Kodialam, Bell Labs&lt;br /&gt;T. V. Lakshman, Bell Labs&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;Performance Evaluation and Asymptotics for Content Delivery Networks&lt;/td&gt;
-      &lt;td&gt;Virag Shah &amp;amp; Gustavo de Veciana, University of Texas at Austin&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;On the Steady-State of Cache Networks&lt;/td&gt;
-      &lt;td&gt;Elisha J. Rosensweig, University of Massachusetts Amherst&lt;br /&gt;Daniel S. Menasche, University of Massachusetts Amherst&lt;br /&gt;Jim Kurose, University of Massachusetts Amherst&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;Multi-resource allocation: Fairness-efficiency tradeoffs in a unifying framework&lt;/td&gt;
-      &lt;td&gt;Carlee Joe-Wong, Princeton University&lt;br /&gt;Soumya Sen, Princeton University&lt;br /&gt;Tian Lan, George Washington University&lt;br /&gt;Mung Chiang, Princeton University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;Dynamic right-sizing for power-proportional data centers&lt;/td&gt;
-      &lt;td&gt;Minghong Lin, California Institute of Technology&lt;br /&gt;Adam Wierman, California Institute of Technology&lt;br /&gt;Lachlan Andrew, Swinburne University of Technology&lt;br /&gt;Eno Thereska, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;On the Feasibility and Efficacy of Protection Routing in IP Networks&lt;/td&gt;
-      &lt;td&gt;Kin-Wah Kwong, University of Pennsylvania&lt;br /&gt;Lixin Gao, University of Massachusetts Amherst&lt;br /&gt;Roch Guérin, University of Pennsylvania&lt;br /&gt;Zhi-Li Zhang, University of Minnesota&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;Queuing Network Models for Multi-Channel P2P Live Streaming Systems&lt;/td&gt;
-      &lt;td&gt;Di Wu, Polytechnic Institute of New York University&lt;br /&gt;Yong Liu, Polytechnic Institute of New York University&lt;br /&gt;Keith W. Ross, Polytechnic Institute of New York University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;On the Feasibility of the Link Abstraction in (Rural) Mesh Networks&lt;/td&gt;
-      &lt;td&gt;Dattatraya Gokhal, Indian Navy&lt;br /&gt;Sayandeep Sen, University of Wisconsin&lt;br /&gt;Kameswari Chebrolu, Indian Institute of Technology&lt;br /&gt;Bhaskaran Rama, Indian Institute of Technology&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;Theoretical Results on Base Station Movement Problem for Sensor Networks&lt;/td&gt;
-      &lt;td&gt;Yi Shi &amp;amp; Y. Thomas Hou, Virginia Tech&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;Understanding the Capacity Region of the Greedy Maximal Scheduling Algorithm in Multi-hop Wireless Networks&lt;/td&gt;
-      &lt;td&gt;Changhee Joo, Ohio State University&lt;br /&gt;Xiaojun Lin, Purdue University&lt;br /&gt;Ness B. Shroff, Ohio State University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;Disruption free topology reconfiguration in OSPF networks&lt;/td&gt;
-      &lt;td&gt;Pierre Francois, Université catholique de Louvain&lt;br /&gt;Mike Shand, Cisco Systems&lt;br /&gt;Olicier Bonaventure, Université catholique de Louvain&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2006&lt;/td&gt;
-      &lt;td&gt;Delay and Capacity Trade-offs in Mobile Ad Hoc Networks: A Global Perspective&lt;/td&gt;
-      &lt;td&gt;Gaurav Sharma, Purdue University&lt;br /&gt;Ravi Mazumdar, University of Waterloo&lt;br /&gt;Ness Shroff, Purdue University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;Perfect Simulation and Stationarity of a Class of Mobility Models&lt;/td&gt;
-      &lt;td&gt;Jean-Yves Le Boude, École Polytechnique Fédérale de Lausanne&lt;br /&gt;Milan Vojnović, Microsoft Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2004&lt;/td&gt;
-      &lt;td&gt;Throughput-Delay Trade-Off in Wireless Networks&lt;/td&gt;
-      &lt;td&gt;Abbas El Gamal, Stanford University&lt;br /&gt;James Mammen, Stanford University&lt;br /&gt;Balaji Prabhakar, Stanford University&lt;br /&gt;Devavrat Shah, Stanford University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2003&lt;/td&gt;
-      &lt;td&gt;User-Level Performance of Channel-Aware Scheduling Algorithms in Wireless Data Networks&lt;/td&gt;
-      &lt;td&gt;Sem Borst, Bell Labs&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2002&lt;/td&gt;
-      &lt;td&gt;Priority Service and Max-Min Fairness&lt;/td&gt;
-      &lt;td&gt;Peter Marbach, University of Toronto&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2001&lt;/td&gt;
-      &lt;td&gt;Mobility increases the capacity of ad-hoc wireless networks&lt;/td&gt;
-      &lt;td&gt;Matthias Grossglauser, AT&amp;amp;T Laboratories&lt;br /&gt;David Tse, University of California Berkeley&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2000&lt;/td&gt;
-      &lt;td&gt;The Chaotic Nature of TCP Congestion Control&lt;/td&gt;
-      &lt;td&gt;András Veres, Ericsson&lt;br /&gt;Miklós Boda, Ericsson Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1999&lt;/td&gt;
-      &lt;td&gt;Bandwidth Sharing: Objectives and Algorithms&lt;/td&gt;
-      &lt;td&gt;Laurent Massoulié, Microsoft Research&lt;br /&gt;James Robert, France Telecom&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1998&lt;/td&gt;
-      &lt;td&gt;Effective Bandwidths in Wireless Networks with Multiuser Receivers&lt;/td&gt;
-      &lt;td&gt;David Tse, University of California Berkeley&lt;br /&gt;Stephen Hanly, University of Melbourne&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1996&lt;/td&gt;
-      &lt;td&gt;An algorithm for multicast tree generation in networks with asymmetric links&lt;/td&gt;
-      &lt;td&gt;Ram Ramanathan, BBN Technologies&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Thu, 10 Jan 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/01/10/best-paper-awards-INFOCOM/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/01/10/best-paper-awards-INFOCOM/</guid>
-        
-        <category>Best Paper</category>
-        
-        <category>Networking</category>
         
         
       </item>

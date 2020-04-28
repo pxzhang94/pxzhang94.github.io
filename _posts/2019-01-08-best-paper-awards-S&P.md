@@ -7,7 +7,7 @@ header-img: "img/post-best-paper.jpg"
 header-mask: 0.3
 tags:
   - Best Paper
-  - Security and Privacy
+  - Security
 ---
 
 <style>
