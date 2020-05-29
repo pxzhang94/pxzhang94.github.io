@@ -27,10 +27,10 @@ table th:nth-of-type(2) {
 
 | Domain | Conference | Deadline | Date | Location |
 | --- | --- | --- | --- | --- |
-| SE | [ISSTA 2020](https://conf.researchr.org/home/issta-2020) | 27 Jan 2020 | 18-22 July 2020 | Los Angeles, US |
+| SE | [ISSTA 2021](https://conf.researchr.org/home/issta-2021) | 29 Jan 2021 | 12-16 July 2021 | Aarhus, Denmark |
 | SE | [FSE 2020](https://2020.esec-fse.org) | 5 Mar 2020 | 8-13 Nov 2020 | Sacramento, US |
 | SE | [ASE 2020](https://conf.researchr.org/home/ase-2020) | 8 May 2020 | 21-25 Sept 2020 | Melbourne, Australia |
-| SE | [ICSE 2020](https://2020.icse-conferences.org) | 23 Aug 2019 | 5-11 Oct 2020 | Seoul, South Korea |
+| SE | [ICSE 2021](https://conf.researchr.org/home/icse-2021) | 28 Aug 2020 | 23-29 May 2021 | Madrid, Spain |
 | AI | [IJCAI 2020](http://www.ijcai20.org) | 21 Jan 2020 | 11-17 Jul 2020 | Yokohama, Japan |
 | AI | [ICML 2020](https://icml.cc) | 6 Feb 2020 | 12-18 Jul 2020 | Vienna, Austria |
 | AI | [ICCV 2021](http://iccv2021.thecvf.com) | - | 11-17 Oct 2021 | Montreal, Canada |

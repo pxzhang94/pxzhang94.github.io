@@ -5,8 +5,8 @@
     <description>这里是 @PXZHANG张培歆 的个人网站</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 02 May 2020 13:02:31 +0800</pubDate>
-    <lastBuildDate>Sat, 02 May 2020 13:02:31 +0800</lastBuildDate>
+    <pubDate>Fri, 29 May 2020 09:29:46 +0800</pubDate>
+    <lastBuildDate>Fri, 29 May 2020 09:29:46 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -37,10 +37,10 @@ table th:nth-of-type(2) {
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;SE&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://conf.researchr.org/home/issta-2020&quot;&gt;ISSTA 2020&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;27 Jan 2020&lt;/td&gt;
-      &lt;td&gt;18-22 July 2020&lt;/td&gt;
-      &lt;td&gt;Los Angeles, US&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://conf.researchr.org/home/issta-2021&quot;&gt;ISSTA 2021&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;29 Jan 2021&lt;/td&gt;
+      &lt;td&gt;12-16 July 2021&lt;/td&gt;
+      &lt;td&gt;Aarhus, Denmark&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;SE&lt;/td&gt;
@@ -58,10 +58,10 @@ table th:nth-of-type(2) {
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;SE&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://2020.icse-conferences.org&quot;&gt;ICSE 2020&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;23 Aug 2019&lt;/td&gt;
-      &lt;td&gt;5-11 Oct 2020&lt;/td&gt;
-      &lt;td&gt;Seoul, South Korea&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://conf.researchr.org/home/icse-2021&quot;&gt;ICSE 2021&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;28 Aug 2020&lt;/td&gt;
+      &lt;td&gt;23-29 May 2021&lt;/td&gt;
+      &lt;td&gt;Madrid, Spain&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;AI&lt;/td&gt;
