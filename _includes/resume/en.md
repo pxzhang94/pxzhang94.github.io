@@ -29,7 +29,7 @@ Data Cleaning and Analysis
 ### Projects
 > [School of Information Systems, Singapore Management University](https://sis.smu.edu.sg)，2019.09-Now，Testing and Analysis of AI Aystems
 >> Project: Fuzzing AI-Systems for Adversarial Sample Generation and Mitigation (Huawei)<br/><br/>
-Paper Accepted: “White-box Fairness Testing through Adversarial Sampling”, **Peixin Zhang**, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jinsong Dong, and Ting Dai, International Conference on Software Engineering(ICSE) 2020<br/><br/>
+Paper Accepted: [“White-box Fairness Testing through Adversarial Sampling”](http://pxzhang94.github.io/paper/ai_analysis/icse2020.pdf), **Peixin Zhang**, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jinsong Dong, and Ting Dai, Proceedings of the 42nd International Conference on Software Engineering(ICSE), Seoul, Republic of Korea, 2020 (**[ACM SIGSOFT Distinguished Paper](https://2020.icse-conferences.org/info/awards)**)<br/><br/>
 
 <!-- Publication: [“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/> -->
 
@@ -37,7 +37,7 @@ Paper Accepted: “White-box Fairness Testing through Adversarial Sampling”, *
 >> Partners: Huawei 2012 Lab (Singapore), Singapore University of Technology and Design, Singapore Management University, National University of Singapore<br/><br/>
 Research Contents: Robustness of model(attack and defense); Fairness of model; Testing for model <br/><br/>
 Open Source Project: GuardAI, FairAI<br/><br/>
-Publication: [“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, and **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
+Publication: [“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, and **Peixin Zhang**, Proceedings of the 41st International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
 Other Paper: [“Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/input_mutation.pdf), Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, and Xinyu Wang<br/><br/>
 ["There is Limited Correlation between Coverage and Robustness for Deep Neural Networks"](http://pxzhang94.github.io/paper/ai_analysis/coverage_robustness.pdf), Yizhen Dong, **Peixin Zhang**, Jingyi Wang, Shuang Liu, Jun Sun, Jianye Hao, Xinyu Wang, Li Wang, Jin Song Dong, and Dai Ting<br/><br/>
 
@@ -50,6 +50,7 @@ Publication: [“Towards Optimal Concolic Testing”](http://pxzhang94.github.io
 
 | Time | Honor |
 | ------- | --- |
+| 2020.07 | **[ACM SIGSOFT Distinguished Paper](https://2020.icse-conferences.org/info/awards)** |
 | 2019.09 | Huawei Technology Cooperation Excellence Award |
 | 2018.12 | Graduate of Merit/Triple A Graduate of Zhejiang University |
 | 2018.12 | Award of Honor for Graduate of Zhejiang University |
