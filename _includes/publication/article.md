@@ -1,5 +1,5 @@
 ### 2020
-**Peixin Zhang**, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jinsong Dong, and Ting Dai, “White-box Fairness Testing through Adversarial Sampling”, ICSE 2020. \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/icse2020.pdf), [Bibtex](http://pxzhang94.github.io/bibtex/fairness_testing.html), Slide, Video\]
+**Peixin Zhang**, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jinsong Dong, and Ting Dai, “White-box Fairness Testing through Adversarial Sampling”, ICSE 2020. \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/icse2020.pdf), [Bibtex](http://pxzhang94.github.io/bibtex/fairness_testing.html), [Slide](http://pxzhang94.github.io/slide/icse20.pdf), [Video](http://pxzhang94.github.io/video/icse20.mp4)\]
 
 ### 2019
 Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, and **Peixin Zhang**, “Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”, ICSE 2019. \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), [Bibtex](http://pxzhang94.github.io/bibtex/model_mutation.html), [Slide](http://pxzhang94.github.io/slide/icse19.pdf)\]
