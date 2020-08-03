@@ -272,7 +272,7 @@ public static void example(int x, int y) {
   <li>使用随机生成的测试输入执行程序，然后观察是否会出现错误状态</li>
   <li>对于高可能性的错误，随机测试的代价很低，反之很高<br />
 比如说下面的第3行判断语句，对于随机测试来说，几乎不可能覆盖到其True分支
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -293,11 +293,11 @@ public static void example(int x, int y) {
   <li>利用符号变量来代替输入执行程序，然后使用约束求解器求解路径约束从而获得测试输入</li>
   <li>符号执行的代价很高，但是可以“保证”到达给定节点<br />
 同样是上面那个程序，我们可以通过求解下面的路径约束：
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>y == 42342531 &amp;&amp; (x&lt;0 || x &gt;= 10)
 </pre></td></tr></tbody></table></code></pre></div>    </div>
     <p>生成一个特定的测试输入来覆盖我们指定的路径，比如：</p>
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>x == 10 and y == 42342531
 </pre></td></tr></tbody></table></code></pre></div>    </div>
     <p>但是目前符号执行面临两个问题，第一：由于需要利用符号变量来构建路径约束，所以显然其比随机测试需要更多的时间；第二：目前最常见的约束求解器（如Z3等）的求解能力仍十分有限，对于稍复杂的路径约束就束手无策。<br />
@@ -318,7 +318,7 @@ public static void example(int x, int y) {
   <li>如果选择符号执行，决定选择的程序执行路径</li>
   <li>常见的动态符号执行测试工具：Microsoft SAGE和JDart等<br />
 比如说如下程序：
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -358,7 +358,7 @@ public static void example(int x, int y) {
 
 <h2 id="部分常见测试策略">部分常见测试策略</h2>
 <p>事实上，绝大多数动态符号执行测试策略仅执行一遍随机测试，更多的是关注随后符号执行路径的调度，这导致相关算法性能距离<a href="http://pxzhang.cn/2018/10/08/concolic-testing-2/">最优调度策略</a>有极大的差距。我将使用以下函数作为例子简单阐述几种常见动态符号执行以及符号执行策略。</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -396,7 +396,7 @@ public static void example(int x, int y) {
   <li>Length-n子路径：给定一条路径&lt;s1, s2,…, sk&gt;，那么其length-n 子路径就是&lt;sk-n+1, sk-n+2, …, sk&gt;</li>
   <li>统计分析结构：结构e = (π, f) 用于统计分析，其中π是length-n 子路径，f是π被探索过的频率<br />
 基于以上定义，该调度策略可以总结为以下步骤：
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -454,7 +454,7 @@ public static void example(int x, int y) {
 
 <h3 id="directed-automated-random-testing"><a href="http://pxzhang94.github.io/paper/concolic_testing/pldi2005.pdf">Directed Automated Random Testing</a></h3>
 <p>该方法是动态符号执行测试调度策略，也是目前广泛使用的JAVA自动化测试工具JDart的算法基础。该调度策略可以总结为以下步骤：</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -480,7 +480,7 @@ public static void example(int x, int y) {
 
 <h3 id="coverage-optimized-search"><a href="http://pxzhang94.github.io/paper/concolic_testing/klee-osdi-08.pdf">Coverage-Optimized Search</a></h3>
 <p>该方法是动态符号执行测试调度策略,也是目前广泛使用的C/C++自动化测试工具KLEE的算法基础。该调度策略可以总结为以下步骤：</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -508,7 +508,7 @@ public static void example(int x, int y) {
 
 <h3 id="generational-search"><a href="http://pxzhang94.github.io/paper/concolic_testing/FuzzTesting.pdf">Generational Search</a></h3>
 <p>该方法是动态符号执行测试调度策略。该调度策略可以总结为以下步骤：</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -544,7 +544,7 @@ public static void example(int x, int y) {
   <li>5的2-context为(3,5)</li>
   <li>5的3-context为(1,3,5)
 该调度策略可以总结为以下步骤：
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
