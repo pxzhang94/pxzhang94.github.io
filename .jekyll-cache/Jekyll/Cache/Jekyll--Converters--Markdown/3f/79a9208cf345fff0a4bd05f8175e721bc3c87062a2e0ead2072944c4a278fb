@@ -1,0 +1,140 @@
+I"�<style>
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Title</th>
+      <th>Authors</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2018</td>
+      <td>Should I Follow the Crowd? A Probabilistic Analysis of the Effectiveness of Popularity in Recommender Systems</td>
+      <td>Rocío Cañamares &amp; Pablo Castells, Universidad Autónoma de Madrid</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>BitFunnel: Revisiting Signatures for Search</td>
+      <td>Bob Goodwin, Microsoft<br />Michael Hopcroft, Microsoft<br />Dan Luu, Microsoft<br />Alex Clemmer, Heptio<br />Mihaela Curmei, Microsoft<br />Sameh Elnikety, Microsoft<br />Yuxiong He, Microsoft</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Understanding Information Need: An fMRI Study</td>
+      <td>Yashar Moshfeghi, University of Glasgow<br />Peter Triantafillou, University of Glasgow<br />Frank E. Pollick, University of Glasgow</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>QuickScorer: A Fast Algorithm to Rank Documents with Additive Ensembles of Regression Trees</td>
+      <td>Claudio Lucchese, Istituto di Scienza e Tecnologie dell’Informazione<br />Franco Maria Nardini, Istituto di Scienza e Tecnologie dell’Informazione<br />Salvatore Orlando, Università di Venezia<br />Raffaele Perego, Istituto di Scienza e Tecnologie dell’Informazione<br />Nicola Tonellotto, Istituto di Scienza e Tecnologie dell’Informazione<br />Rossano Venturini, Istituto di Scienza e Tecnologie dell’Informazione</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Partitioned Elias-Fano Indexes</td>
+      <td>Giuseppe Ottaviano, Istituto di Scienza e Tecnologie dell’Informazione<br />Rossano Venturini, Università di Pisa</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Beliefs and Biases in Web Search</td>
+      <td>Ryen W. White, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Time-Based Calibration of Effectiveness Measures</td>
+      <td>Mark Smucker &amp; Charles Clarke, University of Waterloo</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Find It If You Can: A Game for Modeling Different Types of Web Search Success Using Interaction Data</td>
+      <td>Mikhail Ageev, Moscow State University<br />Qi Guo, Emory University<br />Dmitry Lagun, Emory University<br />Eugene Agichtein, Emory University</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Assessing the Scenic Route: Measuring the Value of Search Trails in Web Logs</td>
+      <td>Ryen W. White, Microsoft Research<br />Jeff Huang, University of Washington</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Sources of evidence for vertical selection</td>
+      <td>Jaime Arguello, Carnegie Mellon University<br />Fernando Diaz, Yahoo! Research<br />Jamie Callan, Carnegie Mellon University<br />Jean-Francois Crespo, Yahoo! Research</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Algorithmic Mediation for Collaborative Exploratory Search</td>
+      <td>Jeremy Pickens, FX Palo Alto Lab<br />Gene Golovchinsky, FX Palo Alto Lab<br />Chirag Shah, University of North Carolina at Chapel Hill<br />Pernilla Qvarfordt, FX Palo Alto Lab<br />Maribeth Back, FX Palo Alto Lab</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Studying the Use of Popular Destinations to Enhance Web Search Interaction</td>
+      <td>Ryen W. White, Microsoft Research<br />Mikhail Bilenko, Microsoft Research<br />Silviu Cucerzan, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>Minimal Test Collections for Retrieval Evaluation</td>
+      <td>Ben Carterette, University of Massachusetts Amherst<br />James Allan, University of Massachusetts Amherst<br />Ramesh Sitaraman, University of Massachusetts Amherst</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>Learning to estimate query difficulty: including applications to missing content detection and distributed information retrieval</td>
+      <td>Elad Yom-Tov, IBM Research<br />Shai Fine, IBM Research<br />David Carmel, IBM Research<br />Adam Darlow, IBM Research</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>A Formal Study of Information Retrieval Heuristics</td>
+      <td>Hui Fang, University of Illinois at Urbana-Champaign<br />Tao Tao, University of Illinois at Urbana-Champaign<br />ChengXiang Zhai, University of Illinois at Urbana-Champaign</td>
+    </tr>
+    <tr>
+      <td>2003</td>
+      <td>Re-examining the potential effectiveness of interactive query expansion</td>
+      <td>Ian Ruthven, University of Strathclyde</td>
+    </tr>
+    <tr>
+      <td>2002</td>
+      <td>Novelty and redundancy detection in adaptive filtering</td>
+      <td>Yi Zhang, Carnegie Mellon University<br />Jamie Callan, Carnegie Mellon University<br />Thomas Minka, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2001</td>
+      <td>Temporal summaries of new topics</td>
+      <td>James Allan, University of Massachusetts Amherst<br />Rahul Gupta, University of Massachusetts Amherst<br />Vikas Khandelwal, University of Massachusetts Amherst</td>
+    </tr>
+    <tr>
+      <td>2000</td>
+      <td>IR evaluation methods for retrieving highly relevant documents</td>
+      <td>Kalervo Järvelin &amp; Jaana Kekäläinen, University of Tampere</td>
+    </tr>
+    <tr>
+      <td>1999</td>
+      <td>Cross-language information retrieval based on parallel texts and automatic mining of parallel texts from the Web</td>
+      <td>Jian-Yun Nie, Université de Montréal<br />Michel Simard, Université de Montréal<br />Pierre Isabelle, Université de Montréal<br />Richard Durand, Université de Montréal</td>
+    </tr>
+    <tr>
+      <td>1998</td>
+      <td>A theory of term weighting based on exploratory data analysis</td>
+      <td>Warren R. Greiff, University of Massachusetts Amherst</td>
+    </tr>
+    <tr>
+      <td>1997</td>
+      <td>Feature selection, perceptron learning, and a usability case study for text categorization</td>
+      <td>Hwee Tou Ng, DSO National Laboratories<br />Wei Boon Goh, Ministry of Defence<br />Kok Leong Low, Ministry of Defence</td>
+    </tr>
+    <tr>
+      <td>1996</td>
+      <td>Retrieving spoken documents by combining multiple index sources</td>
+      <td>Gareth Jones, University of Cambridge<br />Jonathan Foote, University of Cambridge<br />Karen Spärck Jones, University of Cambridge<br />Steve Young, University of Cambridge</td>
+    </tr>
+  </tbody>
+</table>
+:ET

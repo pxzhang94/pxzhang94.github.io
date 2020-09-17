@@ -1,0 +1,12 @@
+I"Å<style>
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+</style>
+:ET

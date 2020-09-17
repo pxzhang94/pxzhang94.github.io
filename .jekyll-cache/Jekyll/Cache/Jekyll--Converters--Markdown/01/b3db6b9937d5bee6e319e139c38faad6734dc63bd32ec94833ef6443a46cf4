@@ -1,0 +1,205 @@
+I"[3<style>
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Title</th>
+      <th>Authors</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2018</td>
+      <td>Porta: Profiling Software Tutorials Using Operating-System-Wide Activity Tracing</td>
+      <td>Alok Mysore &amp; Philip J. Guo, University of California San Diego</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Authoring and Verifying Human-Robot Interactions</td>
+      <td>David Porfirio, University of Wisconsin-Madison<br />Allison Sauppé, University of Wisconsin-La Crosse<br />Aws Albarghouthi, University of Wisconsin-Madison<br />Bilge Mutlu, University of Wisconsin-Madison</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>RESi: A Highly Flexible, Pressure-Sensitive, Imperceptible Textile Interface Based on Resistive Yarns</td>
+      <td>Patrick Parzer, University of Applied Sciences Upper Austria<br />Florian Perteneder, University of Applied Sciences Upper Austria<br />Kathrin Probst, University of Applied Sciences Upper Austria<br />Christian Rendl, University of Applied Sciences Upper Austria<br />Joanne Leong, University of Applied Sciences Upper Austria<br />Sarah Schuetz, University of Applied Sciences Upper Austria<br />Anita Vogl, University of Applied Sciences Upper Austria<br />Reinhard Schwoediauer, Johannes Kepler University<br />Martin Kaltenbrunner, Johannes Kepler University<br />Siegfried Bauer, Johannes Kepler University<br />Michael Haller, University of Applied Sciences Upper Austria</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Triggering Artwork Swaps for Live Animation</td>
+      <td>Nora S. Willett, Princeton University<br />Wilmot Li, Adobe Research<br />Jovan Popovic, Adobe Research<br />Adam Finkelstein, Princeton University</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Grabity: A Wearable Haptic Interface for Simulating Weight and Grasping in Virtual Reality</td>
+      <td>Inrak Choi, Stanford University<br />Heather Culbertson, Stanford University<br />Mark R. Miller, Stanford University<br />Alex Olwal, Google<br />Sean Follmer, Stanford University</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>AirCode: Unobtrusive Physical Tags for Digital Fabrication</td>
+      <td>Dingzeyu Li, Columbia University<br />Avinash S. Nair, Columbia University<br />Shree K. Nayar, Columbia University<br />Changxi Zheng, Columbia University</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Rovables: Miniature On-Body Robots as Mobile Wearables</td>
+      <td>Artem Dementyev, Massachusetts Institute of Technology<br />Hsin-Liu (Cindy) Kao, Massachusetts Institute of Technology<br />Inrak Choi, Stanford University<br />Deborah Ajilo, Massachusetts Institute of Technology<br />Maggie Xu, Stanford University<br />Joseph Paradiso, Massachusetts Institute of Technology<br />Chris Schmandt, Massachusetts Institute of Technology<br />Sean Follmer, Stanford University</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>proCover: Sensory Augmentation of Prosthetic Limbs Using Smart Textile Covers</td>
+      <td>Joanne Leong, University of Applied Sciences Upper Austria<br />Patrick Parzer, University of Applied Sciences Upper Austria<br />Florian Perteneder, University of Applied Sciences Upper Austria<br />Teo Babic, University of Applied Sciences Upper Austria<br />Christian Rendl, University of Applied Sciences Upper Austria<br />Anita Vogl, University of Applied Sciences Upper Austria<br />Hubert Egger, University of Applied Sciences Upper Austria<br />Alex Olwal, Google<br />Michael Haller, University of Applied Sciences Upper Austria</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>ViBand: High-Fidelity Bio-Acoustic Sensing Using Commodity Smartwatch Accelerometers</td>
+      <td>Gierad Laput, Carnegie Mellon University<br />Robert Xiao, Carnegie Mellon University<br />Chris Harrison, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Zooids: Building Blocks for Swarm User Interfaces</td>
+      <td>Mathieu Le Goc, INRIA<br />Lawrence H. Kim, Stanford University<br />Ali Parsaei, Stanford University<br />Jean-Daniel Fekete, INRIA<br />Pierre Dragicevic, INRIA<br />Sean Follmer, Stanford University</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Orbits: Gaze Interaction for Smart Watches using Smooth Pursuit Eye Movements</td>
+      <td>Augusto Esteves, Lancaster University<br />Eduardo Velloso, Lancaster University<br />Andreas Bulling, Max Planck Institut<br />Hans Gellersen, Lancaster University</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Webstrates: Shareable Dynamic Media</td>
+      <td>Clemens Klokmose, Aarhus University<br />James Eagan, Telecom ParisTech<br />Siemen Baader, Aarhus University<br />Wendy Mackay, INRIA<br />Michel Beaudouin-Lafon, Université Paris-Sud</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Foldio: Digital Fabrication of Interactive and Shape-Changing Objects With Foldable Printed Electronics</td>
+      <td>Simon Olberding, Max Planck Institut<br />Sergio Soto Ortega, Max Planck Institut<br />Klaus Hildebrandt, Max Planck Institut<br />Jurgen Steimle, Max Planck Institut</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Sensing Techniques for Tablet+Stylus Interaction</td>
+      <td>Ken Hinckley, Microsoft Research<br />Michel Pahud, Microsoft Research<br />Hrvoje Benko, Microsoft Research<br />Pourang Irani, Microsoft Research<br />Marcel Gavriliu, Microsoft Research<br />François Guimbretière, Microsoft Research<br />Xiang Anthony Chen, Microsoft Research<br />Fabrice Matulic, Microsoft Research<br />William Buxton, Microsoft Research<br />Andrew Wilson, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>PrintScreen: Fabricating Highly Customizable Thin-film Touch-Displays</td>
+      <td>Simon Olberding, Max Planck Institut<br />Michael Wessely, Max Planck Institut<br />Jürgen Steimle, Max Planck Institut</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Expert Crowdsourcing with Flash Teams</td>
+      <td>Daniela Retelny, Stanford University<br />Sébastien Robaszkiewicz, Stanford University<br />Alexandra To, Stanford University<br />Walter Lasecki, University of Rochester<br />Jay Patel, Stanford University<br />Negar Rahmati, Stanford University<br />Tulsee Doshi, Stanford University<br />Melissa Valentine, Stanford University<br />Michael Bernstein, Stanford University</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>PneUI: Pneumatically Actuated Soft Composite Materials for Shape Changing Interfaces</td>
+      <td>Lining Yao, Massachusetts Institute of Technology<br />Ryuma Niiyama, Massachusetts Institute of Technology<br />Jifei Ou, Massachusetts Institute of Technology<br />Sean Follmer, Massachusetts Institute of Technology<br />Clark Della Silva, Massachusetts Institute of Technology<br />Hiroshi Ishii, Massachusetts Institute of Technology</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Touch &amp; Activate: Adding Interactivity to Existing Objects using Active Acoustic Sensing</td>
+      <td>Makoto Ono, University of Tsukuba<br />Buntarou Shizuki, University of Tsukuba<br />Jiro Tanaka, University of Tsukuba</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Fiberio: A Touchscreen that Senses Fingerprints</td>
+      <td>Christian Holz &amp; Patrick Baudisch, Hasso Plattner Institute</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>CrowdScape: interactively visualizing user behavior and output</td>
+      <td>Jeffrey Rzeszotarski &amp; Aniket Kitur, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Cliplets: juxtaposing still and dynamic imagery</td>
+      <td>Neel Joshi, Microsoft Research<br />Sisil Mehta, Georgia Institute of Technology<br />Steven Drucker, Microsoft Research<br />Eric Stollnitz, Microsoft Research<br />Hugues Hoppe, Microsoft Research<br />Matt Uyttendaele, Microsoft<br />Michael Cohen, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Jamming User Interfaces: Programmable Particle Stiffness and Sensing for Malleable and Shape-Changing Devices</td>
+      <td>Sean Follmer, Massachusetts Institute of Technology<br />Daniel Leithinger, Massachusetts Institute of Technology<br />Alex Olwal, Massachusetts Institute of Technology<br />Nadia Cheng, Massachusetts Institute of Technology<br />Hiroshi Ishii, Massachusetts Institute of Technology</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>SideBySide: Ad-hoc Multi-user Interaction with Handheld Projectors</td>
+      <td>Karl D.D. Willis, Carnegie Mellon University<br />Ivan Poupyrev, Disney Research<br />Scott E. Hudson, Carnegie Mellon University<br />Moshe Mahler, Disney Research</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>VizWiz: nearly real-time answers to visual questions</td>
+      <td>Jeffrey P. Bigham, University of Rochester<br />Chandrika Jayant, University of Washington<br />Hanjie Ji, University of Rochester<br />Greg Little, Massachusetts Institute of Technology<br />Andrew Miller, University of Central Florida<br />Robert C. Miller, Massachusetts Institute of Technology<br />Robin Miller, University of Rochester<br />Aubrey Tatarowicz, Massachusetts Institute of Technology<br />Brandyn White, University of Maryland<br />Samual White, University of Rochester<br />Tom Yeh, University of Maryland</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Mouse 2.0: Multi-touch meets the Mouse</td>
+      <td>Nicolas Villar, Microsoft Research<br />Shahram Izadi, Microsoft Research<br />Dan Rosenfeld, Microsoft<br />Hrvoje Benko, Microsoft Research<br />John Helmes, Microsoft Research<br />Jonathan Westhues, Microsoft Research<br />Steve Hodges, Microsoft Research<br />Eyal Ofek, Microsoft<br />Alex Butler, Microsoft Research<br />Xiang Cao, Microsoft Research<br />Billy Chen, Microsoft</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Bringing Physics to the Surface</td>
+      <td>Andrew D. Wilson, Microsoft Research<br />Shahram Izadi, Microsoft Research<br />Otmar Hilliges, Microsoft Research<br />Armando Garcia-Mendoza, Microsoft Research<br />David Kirk, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>ThinSight: Versatile Multi-touch Sensing for Thin Form-factor Displays</td>
+      <td>Steve Hodges, Microsoft Research<br />Shahram Izadi, Microsoft Research<br />Alex Butler, Microsoft Research<br />Alban Rrustemi, Microsoft Research<br />Bill Buxton, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>Reflective Physical Prototyping through Integrated Design, Test, and Analysis</td>
+      <td>Björn Hartmann, Stanford University<br />Scott Klemmer, Stanford University<br />Michael Bernstein, Stanford University<br />Leith Abdulla, Stanford University<br />Brandon Burr, Stanford University<br />Avi Robinson-Mosher, Stanford University<br />Jennifer Gee, Stanford University</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>Automation and Customization of Rendered Web Pages</td>
+      <td>Michael Bolin, Massachusetts Institute of Technology<br />Matthew Webber, Massachusetts Institute of Technology<br />Philip Rha, Massachusetts Institute of Technology<br />Tom Wilson, Massachusetts Institute of Technology<br />Robert C. Miller, Massachusetts Institute of Technology</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>Multi-Finger Gestural Interaction with 3D Volumetric Displays</td>
+      <td>Tovi Grossman, University of Toronto<br />Daniel Wigdor, University of Toronto<br />Ravin Balakrishnan, University of Toronto</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>CrossY: A Crossing-Based Drawing Application</td>
+      <td>Georg Apitz &amp; François Guimbretière, University of Maryland</td>
+    </tr>
+    <tr>
+      <td>2003</td>
+      <td>Perceptually-Supported Image Editing of Text and Graphics</td>
+      <td>Eric Saund, Palo Alto Research Center<br />David Fleet, Palo Alto Research Center<br />Daniel Larner, Palo Alto Research Center<br />James Mahoney, Palo Alto Research Center</td>
+    </tr>
+    <tr>
+      <td>2002</td>
+      <td>Clothing Manipulation</td>
+      <td>Takeo Igarashi, University of Tokyo<br />John F. Hughes, Brown University</td>
+    </tr>
+    <tr>
+      <td>2001</td>
+      <td>Phidgets: Easy Development of Physical Interfaces through Physical Widgets</td>
+      <td>Saul Greenberg &amp; Chester Fitchett, University of Calgary</td>
+    </tr>
+    <tr>
+      <td>2000</td>
+      <td>Sensing Techniques for Mobile Interaction</td>
+      <td>Ken Hinckley, Microsoft Research<br />Jeff Pierce, Microsoft Research<br />Mike Sinclair, Microsoft Research<br />Eric Horvitz, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>1996</td>
+      <td>Indigo: A Local Propagation Algorithm for Inequality Constraints</td>
+      <td>Alan Borning, University of Washington<br /><br />Richard Anderson, University of Washington<br />Bjorn Freeman-Benson, Object Technology International</td>
+    </tr>
+  </tbody>
+</table>
+:ET

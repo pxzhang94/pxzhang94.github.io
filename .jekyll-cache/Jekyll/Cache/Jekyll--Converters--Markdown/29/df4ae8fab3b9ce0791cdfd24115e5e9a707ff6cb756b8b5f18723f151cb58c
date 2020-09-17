@@ -1,0 +1,175 @@
+I";<style>
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Title</th>
+      <th>Authors</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2018</td>
+      <td>Classical Verification of Quantum Computation</td>
+      <td>Urmila Mahadev, University of California Berkeley</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Approximating Edit Distance Within Constant Factor in Truly Sub-Quadratic Time	Diptarka</td>
+      <td>Chakraborty, Computer Science Institute of Charles University<br />Debarati Das, Computer Science Institute of Charles University<br />Elazar Goldenberg, The Academic College Of Tel Aviv-Yaffo<br />Michal Koucký, Computer Science Institute of Charles University<br />Michael Saks, Rutgers University</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Pseudorandom Sets in Grassmann Graph have Near-Perfect Expansion</td>
+      <td>Subhash Khot, New York University<br />Dor Minzer, Tel-Aviv University<br />Muli Safra, Tel-Aviv University</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>A dichotomy theorem for nonuniform CSPs</td>
+      <td>Andrei A. Bulatov, Simon Fraser University</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>The Matching Problem in General Graphs is in Quasi-NC</td>
+      <td>Ola Svensson &amp; Jakub Tarnawski, École polytechnique fédérale de Lausanne</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>The Proof of CSP Dichotomy Conjecture</td>
+      <td>Dmitriy Zhuk, Lomonosov Moscow State University</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Settling the Complexity of Computing Approximate Two-Player Nash Equilibria</td>
+      <td>Aviad Rubinstein, University of California Berkeley</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Fast Learning Requires Good Memory: A Time-Space Lower Bound for Parity Learning</td>
+      <td>Ran Raz, Weizmann Institute of Science</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>An average-case depth hierarchy theorem for Boolean circuits</td>
+      <td>Benjamin Rossman, National Institute of Informatics<br />Rocco A. Servedio, Columbia University<br />Li-Yang Tan, University of California Berkeley</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Path Finding Methods for Linear Programming: Solving Linear Programs in O(sqrt(rank)) Iterations and Faster Algorithms for Maximum Flow</td>
+      <td>Yin Tat Lee &amp; Aaron Sidford, Massachusetts Institute of Technology</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Navigating Central Path with Electrical Flows: from Flows to Matchings, and Back</td>
+      <td>Aleksander Mądry, École Polytechnique Fédérale de Lausanne</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>A multi-prover interactive proof for NEXP sound against entangled provers</td>
+      <td>Tsuyoshi Ito, NEC Labs America<br />Thomas Vidick, Massachusetts Institute of Technology</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>A Polylogarithimic Approximation Algorithm for Edge-Disjoint Paths with Congestion 2</td>
+      <td>Julia Chuzhoy, Toyota Technological Institute at Chicago<br />Shi Li, Princeton University</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>A Randomized Rounding Approach to the Traveling Salesman Problem</td>
+      <td>Shayan Oveis Gharan, Stanford University<br />Amin Saberi, Stanford University<br />Mohit Singh, McGill University</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>A Polylogarithmic-Competitive Algorithm for the k-Server Problem</td>
+      <td>Nikhil Bansal, IBM Research<br />Niv Buchbinder, Open University<br />Aleksander Mądry, Massachusetts Institute of Technology<br />Joseph Naor, Technion</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Approximating Graphic TSP by Matchings</td>
+      <td>Tobia M¨o;mke &amp; Ola Svensson, Royal Institute of Technology</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Approximation Algorithms for the Edge-Disjoint Paths Problem via Raecke Decompositions</td>
+      <td>Matthew Andrews, Bell Labs</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Subexponential Algorithms for Unique Games and Related Problems</td>
+      <td>Sanjeev Arora, Princeton University<br />Boaz Barak, Princeton University<br />David Steurer, Princeton University</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Computational Transition at the Uniqueness Threshold</td>
+      <td>Allan Sly, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Two Query PCP with Sub-Constant Error</td>
+      <td>Dana Moshkovitz &amp; Ran Raz, Weizmann Institute of Science</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Space-Efficient Identity Based Encryption Without Pairings</td>
+      <td>Dan Boneh, Stanford University<br />Craig Gentry, Stanford University<br />Michael Hamburg, Stanford University</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>Settling the Complexity of 2-Player Nash Equilibrium</td>
+      <td>Xi Chen, Tsinghua University<br />Xiaotie Deng, City University of Hong Kong</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>The Unique Games Conjecture, Integrality Gap for Cut Problems and Embeddability of Negative Type Metrics into L1</td>
+      <td>Subhash A. Khot, Georgia Institute of Technology<br />Nisheeth K. Vishnoi, IBM Research</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>Correcting Errors Beyond the Guruswami-Sudan Radius in Polynomial Time</td>
+      <td>Farzad Parvaresh &amp; Alexander Vardy, University of California San Diego</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>Cryptography in NC0</td>
+      <td>Benny Applebaum, Technion<br />Yuval Ishai, Technion<br />Eyal Kushilevitz, Technion</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>Hardness of Approximating the Shortest Vector Problem in Lattices</td>
+      <td>Subhash Khot, Georgia Institute of Technology</td>
+    </tr>
+    <tr>
+      <td>2003</td>
+      <td>On the Impossibility of Dimension Reduction in L1</td>
+      <td>Bo Brinkman &amp; Moses Charikar, Princeton University</td>
+    </tr>
+    <tr>
+      <td>2002</td>
+      <td>A Dichotomy Theorem for Constraints on a Three-Element Set</td>
+      <td>Andrei A. Bulatov, University of Oxford</td>
+    </tr>
+    <tr>
+      <td>2002</td>
+      <td>Minimizing Congestion in General Networks</td>
+      <td>Harald Räcke, Paderborn University</td>
+    </tr>
+    <tr>
+      <td>2002</td>
+      <td>Constant-Round Coin-Tossing with a Man in the Middle or Realizing the Shared Random String Model</td>
+      <td>Boaz Barak, Weizmann Institute of Science</td>
+    </tr>
+  </tbody>
+</table>
+:ET

@@ -1,0 +1,180 @@
+I"�<style>
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Title</th>
+      <th>Authors</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2018</td>
+      <td>A Constant-Factor Approximation Algorithm for the Asymmetric Traveling Salesman Problem</td>
+      <td>Ola Svensson, École Polytechnique Fédérale de Lausanne<br />Jakub Tarnawski, École Polytechnique Fédérale de Lausanne<br />László A. Végh, London School of Economics</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Explicit, Almost Optimal, Epsilon-Balanced Codes</td>
+      <td>Amnon Ta-Shma, Tel-Aviv University</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>A Weighted Linear Matroid Parity Algorithm</td>
+      <td>Satoru Iwata, University of Tokyo<br />Yusuke Kobayashi, University of Tsukuba</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Deciding Parity Games in Quasipolynomial Time</td>
+      <td>Cristian S. Calude, University of Auckland<br />Sanjay Jain, National University of Singapore<br />Bakhadyr Khoussainov, University of Auckland<br />Wei Li, National University of Singapore<br />Frank Stephan, National University of Singapore</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Explicit Two-Source Extractors and Resilient Functions</td>
+      <td>Eshan Chattopadhyay &amp; David Zuckerman, University of Texas at Austin</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Graph Isomorphism in Quasipolynomial Time</td>
+      <td>László Babaí, University of Chicago</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Reed-Muller Codes Achieve Capacity on Erasure Channels</td>
+      <td>Shrinivas Kudekar, Qualcomm Research<br />Santhosh Kumar, Texas A&amp;M University<br />Marco Mondelli, École Polytechnique Fédérale de Lausanne<br />Henry D. Pfister, Duke University<br />Eren Sasoglu, Intel<br />Rudiger Urbanke, École Polytechnique Fédérale de Lausanne</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Exponential Separation of Information and Communication for Boolean Functions</td>
+      <td>Anat Ganor, Weizmann Institute of Science<br />Gillat Kol, Princeton University<br />Ran Raz, Weizmann Institute of Science</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>2-Server PIR with sub-polynomial communication</td>
+      <td>Zeev Dvir &amp; Sivakanth Gopi, Princeton University</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Lower Bounds on the Size of Semidefinite Programming Relaxations</td>
+      <td>James R. Lee, University of Washington<br />Prasad Raghavendra, University of California Berkeley<br />David Steurer, Cornell University</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>The matching polytope has exponential extension complexity</td>
+      <td>Thomas Rothvoß, University of Washington</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Approximation Resistance from Pairwise Independent Subgroups</td>
+      <td>Siu On Chan, University of California Berkeley</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Low Rank Approximation and Regression in Input Sparsity Time</td>
+      <td>Kenneth L. Clarkson &amp; David P. Woodruff, IBM Research</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Linear vs. Semidefinite Extended Formulations: Exponential Separation and Strong Lower Bounds</td>
+      <td>Samuel Fiorini, Université libre de Bruxelles<br />Serge Massar, Université libre de Bruxelles<br />Sebastian Pokutta, Universität Erlangen Nürnberg<br />Hans Tiwary, Université libre de Bruxelles<br />Ronald de Wolf, Centrum Wiskunde &amp; Informatica</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>The Cell Probe Complexity of Dynamic Range Counting</td>
+      <td>Kasper Larsen, Aarhus University</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Electrical flows, laplacian systems, and faster approximation of maximum flow in undirected graphs</td>
+      <td>Paul Christiano, Massachusetts Institute of Technology<br />Jonathan A. Kelner, Massachusetts Institute of Technology<br />Aleksander Mądry, Massachusetts Institute of Technology<br />Daniel A. Spielman, Yale University<br />Shang-Hua Teng, University of Southern California</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Subexponential lower bounds for randomized pivoting rules for the simplex algorithm</td>
+      <td>Oliver Friedmann, University of Munich<br />Thomas Dueholm Hansen, Aarhus University<br />Uri Zwick, Tel-Aviv University</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>An improved LP-based approximation for steiner tree</td>
+      <td>Jaroslaw Byrka, École Polytechnique Fédérale de Lausanne<br />Fabrizio Grandoni, University of Tor Vergata<br />Thomas Rothvoß, École Polytechnique Fédérale de Lausanne<br />Laura Sanità, École Polytechnique Fédérale de Lausanne</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>QIP = PSPACE</td>
+      <td>Rahul Jain, National University of Singapore<br />Zhengfeng Ji, Perimeter Institute for Theoretical Physics<br />Sarvagya Upadhyay, University of Waterloo<br />John Watrous, University of Waterloo</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>A constructive proof of the Lovász local lemma</td>
+      <td>Robin A. Moser, ETH Zurich</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Public-Key Cryptosystems from the Worst-Case Shortest Vector Problem</td>
+      <td>Chris Peikert, SRI International</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Optimal algorithms and inapproximability results for every CSP?</td>
+      <td>Prasad Raghavendra, University of Washington</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Optimal hierarchical decompositions for congestion minimization in networks</td>
+      <td>Harald Räcke, University of Warwick</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Faster integer multiplication</td>
+      <td>Martin Fürer, Pennsylvania State University</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Towards 3-query locally decodable codes of subexponential length</td>
+      <td>Sergey Yekhanin, Massachusetts Institute of Technology</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>The PCP theorem by gap amplification</td>
+      <td>Irit Dinur, Hebrew University</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>Undirected ST-connectivity in log-space</td>
+      <td>Omer Reingold, Weizmann Institute of Science</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>Multi-linear formulas for permanent and determinant are of super-polynomial size</td>
+      <td>Ran Raz, Weizmann Institute of Science</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>Expander flows, geometric embeddings and graph partitioning</td>
+      <td>Sanjeev Arora, Princeton University<br />Satish Rao, University of California Berkeley<br />Umesh Vazirani, University of California Berkeley</td>
+    </tr>
+    <tr>
+      <td>2003</td>
+      <td>Derandomizing polynomial identity tests means proving circuit lower bounds</td>
+      <td>Valentine Kabanets &amp; Russell Impagliazzo, University of California San Diego</td>
+    </tr>
+    <tr>
+      <td>2003</td>
+      <td>New lattice-based cryptographic constructions</td>
+      <td>Oded Regev, Tel-Aviv University</td>
+    </tr>
+  </tbody>
+</table>
+:ET
