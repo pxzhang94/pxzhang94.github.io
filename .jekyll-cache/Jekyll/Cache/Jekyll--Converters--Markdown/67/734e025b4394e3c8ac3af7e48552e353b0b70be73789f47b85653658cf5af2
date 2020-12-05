@@ -1,0 +1,30 @@
+I"Ï<style>
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th>Conference</th>
+      <th>Title</th>
+      <th>Authors</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>AAAI</td>
+      <td><a href="https://arxiv.org/pdf/1907.10641.pdf">WinoGrande: An Adversarial Winograd Schema Challenge at Scale</a></td>
+      <td>Keisuke Sakaguchi, Allen Institute for Artificial Intelligence<br />Ronan Le Bras, Allen Institute for Artificial Intelligence<br />Chandra Bhagavatula, Allen Institute for Artificial Intelligence<br />Yejin Choi, Allen Institute for Artificial Intelligence</td>
+    </tr>
+  </tbody>
+</table>
+:ET

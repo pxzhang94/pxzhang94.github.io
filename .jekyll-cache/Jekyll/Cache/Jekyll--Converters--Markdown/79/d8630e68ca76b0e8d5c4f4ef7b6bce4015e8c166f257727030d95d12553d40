@@ -1,0 +1,130 @@
+I""<style>
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Title</th>
+      <th>Authors</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2017</td>
+      <td>Provenance for Natural Language Queries</td>
+      <td>Daniel Deutch, Tel-Aviv University<br /><br />Nave Frost, Tel-Aviv University<br />Amir Gilad, Tel-Aviv University</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Compressed Linear Algebra for Large-Scale Machine Learning</td>
+      <td>Ahmed Elgohary, University of Maryland<br />Matthias Boehm, IBM Research<br />Peter Haas, IBM Research<br />Fred Reiss, IBM Research<br />Berthold Reinwald, IBM Research</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Constructing an interactive natural language interface for relational databases</td>
+      <td>Fei Li &amp; H. V. Jagadish, University of Michigan</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>M4: A Visualization-Oriented Time Series Data Aggregation</td>
+      <td>Uwe Jugel, SAP<br />Zbigniew Jerzak, SAP<br />Gregor Hackenbroich, SAP<br />Volker Markl, Technische Universität Berlin</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Building Efficient Query Engines in a High-Level Language</td>
+      <td>Yannis Klonatos, École Polytechnique Fédérale de Lausanne<br />Christoph Koch, École Polytechnique Fédérale de Lausanne<br />Tiark Rompf, École Polytechnique Fédérale de Lausanne<br />Hassan Chaf, Oracle</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>On k-Path Covers and their Applications</td>
+      <td>Stefan Funke, University of Stuttgart<br />André Nusser, University of Stuttgart<br />Sabine Storandt, University of Stuttgart</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>epiC: an Extensible and Scalable System for Processing Big Data</td>
+      <td>Dawei Jiang, National University of Singapore<br />Gang Chen, Zhejiang University<br />Beng Chin Ooi, National University of Singapore<br />Kian-Lee Tan, National University of Singapore<br />Sai Wu, Zhejiang University</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>The Uncracked Pieces in Database Cracking</td>
+      <td>Felix Martin Schuhknecht, Saarland University<br />Alekh Jindal, Massachusetts Institute of Technology<br />Jens Dittrich, Saarland University</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>DisC Diversity: Result Diversification based on Dissimilarity and Coverage</td>
+      <td>Marina Drosou &amp; Evaggelia Pitoura, University of Ioannina</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Dense Subgraph Maintenance under Streaming Edge Weight Updates for Real-time Story Identification</td>
+      <td>Albert Angel, University of Toronto<br />Nick Koudas, University of Toronto<br />Nikos Sarkas, University of Toronto<br />Divesh Srivastava, AT&amp;T Laboratories</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>RemusDB: Transparent High-Availability for Database Systems</td>
+      <td>Umar Farooq Minhas, University of Waterloo<br />Shriram Rajagopalan, University of British Columbia<br />Brendan Cully, University of British Columbia<br />Ashraf Aboulnaga, University of Waterloo<br />Ken Salem, University of Waterloo<br />Andrew Warfield, University of British Columbia</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Towards Certain Fixes with Editing Rules and Master Data</td>
+      <td>Shuai Ma, University of Edinburgh<br />Wenfei Fan, University of Edinburgh<br />Jianzhong Li, Harbin Institute of Technology<br />Wenyuan Yu, University of Edinburgh<br />Nan Tang, University of Edinburgh</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>A Unified Approach to Ranking in Probabilistic Databases</td>
+      <td>Jian Li, University of Maryland<br />Barna Saha, University of Maryland<br />Amol Deshpande, University of Maryland</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Finding Frequent Items in Data Streams</td>
+      <td>Graham Cormode &amp; Marios Hadjieleftheriou, AT&amp;T Laboratories</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Constrained Physical Design Tuning</td>
+      <td>Nicolas Bruno &amp; Surajit Chaudhuri, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Scalable Semantic Web Data Management Using Vertical Partitioning</td>
+      <td>Daniel J. Abadi, Massachusetts Institute of Technology<br />Adam Marcus, Massachusetts Institute of Technology<br />Samuel R. Madden, Massachusetts Institute of Technology<br />Kate Hollenbach, Massachusetts Institute of Technology</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>Trustworthy Keyword Search for Regulatory-Compliant Records Retention</td>
+      <td>Soumyadeb Mitra, University of Illinois at Urbana-Champaign<br />Windsor W. Hsu, University of Illinois at Urbana-Champaign<br />Marianne Winslett, University of Illinois at Urbana-Champaign</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>Cache-conscious Frequent Pattern Mining on a Modern Processor</td>
+      <td>Amol Ghoting, Ohio State University<br />Gregory Buehrer, Ohio State University<br />Srinivasan Parthasarathy, Ohio State University<br />Daehyun Kim, Intel<br />Anthony D. Nguyen, Intel<br />Yen-Kuang Chen, Intel<br />Pradeep Dubey, Intel</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>Model-Driven Data Acquisition in Sensor Networks</td>
+      <td>Amol Deshpande, University of California Berkeley<br />Carlos Guestrin, Intel Research<br />Samuel R. Madden, Massachusetts Institute of Technology<br />Joseph M. Hellerstein, University of California Berkeley<br />Wei Hong, Intel Research</td>
+    </tr>
+    <tr>
+      <td>2001</td>
+      <td>Weaving Relations for Cache Performance</td>
+      <td>Anastassia Ailamaki, Carnegie Mellon University<br />David J. DeWitt, University of Wisconsin<br />Mark D. Hill, University of Wisconsin<br />Marios Skounakis, University of Wisconsin</td>
+    </tr>
+    <tr>
+      <td>1997</td>
+      <td>Integrating Reliable Memory in Databases</td>
+      <td>Wee Teck Ng &amp; Peter M. Chen, University of Michigan</td>
+    </tr>
+  </tbody>
+</table>
+:ET

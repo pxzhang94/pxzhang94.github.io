@@ -1,0 +1,145 @@
+I"I<style>
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Title</th>
+      <th>Authors</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2018</td>
+      <td>Entity Matching with Active Monotone Classification</td>
+      <td>Yufei Tao, Chinese University of Hong Kong</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Dichotomies in Ontology-Mediated Querying with the Guarded Fragment</td>
+      <td>André Hernich, University of Liverpool<br />Carsten Lutz, University of Bremen<br />Fabio Papacchini, University of Liverpool<br />Frank Wolter, University of Liverpool</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>FAQ: Questions Asked Frequently</td>
+      <td>Mahmoud Abo Khamis, University at Buffalo<br />Hung Q. Ngo, University at Buffalo<br />Atri Rudra, University at Buffalo</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Parallel-Correctness and Transferability for Conjunctive Queries</td>
+      <td>Tom J. Ameloot, Hasselt University<br />Gaetano Geck, Universität Dortmund<br />Bas Ketsman, Hasselt University<br />Frank Neven, Hasselt University<br />Thomas Schwentick, Universität Dortmund</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Weaker Forms of Monotonicity for Declarative Networking: A More Fine-Grained Answer to the CALM-Conjecture</td>
+      <td>Tom J. Ameloot, Hasselt University<br />Bas Ketsman, Hasselt University<br />Frank Neven, Hasselt University<br />Daniel Zinn, LogicBlox</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Verification of database-driven systems via amalgamation</td>
+      <td>Mikołaj Bojańczyk, University of Warsaw<br />Luc Segouﬁn, INRIA<br />Szymon Toruńczyk, University of Warsaw</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Worst-case Optimal Join Algorithms</td>
+      <td>Hung Q. Ngo, University at Buffalo<br />Ely Porat, Bar-Ilan University<br />Christopher Ré, University of Wisconsin<br />Atri Rudra, University at Buffalo</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Data Exchange Beyond Complete Data</td>
+      <td>Marcelo Arenas, Pontificia Universidad Católica de Chile<br />Jorge Pérez, Universidad de Chile<br />Juan Reutter, University of Edinburgh</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>An Optimal Algorithm for the Distinct Elements Problem</td>
+      <td>Daniel M. Kane, Harvard University<br />Jelani Nelson, Massachusetts Institute of Technology<br />David P. Woodruff, IBM Research</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Size and Treewidth Bounds for Conjunctive Queries</td>
+      <td>Georg Gottlob, University of Oxford<br />Stephanie Lee, University of Oxford<br />Gregory Valient, University of California Berkeley</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Estimating PageRank on Graph Streams</td>
+      <td>Atish Das Sarma, Georgia Institute of Technology<br />Sreenivas Gollapudi, Microsoft Research<br />Rina Panigrahy, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Generalized Hypertree Decompositions: NP-Hardness and Tractable Variants</td>
+      <td>Georg Gottlob, University of Oxford<br />Zoltan Miklos, University of Oxford<br />Thomas Schwentick, Universität Dortmund</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>Two-variable logic on data trees and XML reasoning</td>
+      <td>Mikolaj Bojanczyk, Warsaw University<br />Claire David, Université Paris<br />Anca Muscholl, Université Paris<br />Thomas Schwentick, Universität Dortmund<br />Luc Segoufin, Université Paris</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>On the complexity of division and set joins in the relational algebra</td>
+      <td>Dirk Leinders &amp; Jan Van den Bussche, Limburgs Universitair Centrum</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>XML data exchange: consistency and query answering</td>
+      <td>Marcelo Arenas &amp; Leonid Libkin, University of Toronto</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>Conditional XPath, the first order complete XPath dialect</td>
+      <td>Maarten Marx, University of Amsterdam</td>
+    </tr>
+    <tr>
+      <td>2003</td>
+      <td>An Information-Theoretic Approach to Normal Forms for Relational and XML Data</td>
+      <td>Marcelo Arenas &amp; Leonid Libkin, University of Toronto</td>
+    </tr>
+    <tr>
+      <td>2002</td>
+      <td>Monadic Datalog and the Expressive Power of Languages for Web Information Extraction</td>
+      <td>Georg Gottlob &amp; Christoph Koch, Technische Universität Wien</td>
+    </tr>
+    <tr>
+      <td>2001</td>
+      <td>Optimal aggregation algorithms for middleware</td>
+      <td>Ronald Fagin, IBM Research<br />Amnon Lotem, University of Maryland<br />Moni Naor, Weizmann Institute of Science</td>
+    </tr>
+    <tr>
+      <td>2000</td>
+      <td>Auditing Boolean attributes</td>
+      <td>Jon Kleinberg, Cornell University<br />Christos Papadimitriou, University of California Berkeley<br />Prabhakar Raghavan, IBM Research</td>
+    </tr>
+    <tr>
+      <td>1999</td>
+      <td>Exact and approximate aggregation in constraint query languages</td>
+      <td>Michael Benefikt &amp; Leonid Libkin, Bell Labs</td>
+    </tr>
+    <tr>
+      <td>1998</td>
+      <td>A lower bound theorem for indexing schemes and its application to multidimensional range queries</td>
+      <td>Vasilis Samoladas &amp; Daniel P. Miranker, University of Texas at Austin</td>
+    </tr>
+    <tr>
+      <td>1998</td>
+      <td>Expressiveness of structured document query languages based on attribute grammars</td>
+      <td>Frank Neven &amp; Jan Van den Bussche, Limburgs Universitair Centrum</td>
+    </tr>
+    <tr>
+      <td>1997</td>
+      <td>On the Complexity of Database Queries</td>
+      <td>Christos H. Papadimitriou, University of California Berkeley<br />Mihalis Yannakakis, Bell Labs</td>
+    </tr>
+  </tbody>
+</table>
+:ET

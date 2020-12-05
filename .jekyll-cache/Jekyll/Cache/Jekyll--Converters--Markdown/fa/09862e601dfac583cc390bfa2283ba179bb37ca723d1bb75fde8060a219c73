@@ -1,0 +1,185 @@
+I"�#<style>
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Title</th>
+      <th>Authors</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2018</td>
+      <td>Reasoning about Consensus when Opinions Diffuse through Majority Dynamics</td>
+      <td>Vincenzo Auletta, University of Salerno<br />Diodato Ferraioli, University of Salerno<br />Gianluigi Greco, University of Calabria</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>SentiGAN: Generating Sentimental Texts via Mixture Adversarial Networks</td>
+      <td>Ke Wang &amp; Xiaojun Wan, Peking University</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>From Conjunctive Queries to Instance Queries in Ontology-Mediated Querying</td>
+      <td>Cristina Feier, University of Bremen<br />Carsten Lutz, University of Bremen<br />Frank Wolte, University of Liverpool</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>What game are we playing? End-to-end learning in normal and extensive form games</td>
+      <td>Chun Kai Ling, Carnegie Mellon University<br />Fei Fang, Carnegie Mellon University<br />J. Zico Kolter, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Commonsense Knowledge Aware Conversation Generation with Graph Attention</td>
+      <td>Hao Zhou, Tsinghua University<br />Tom Young, Beijing Institute of Technology<br />Minlie Huang, Tsinghua University<br />Haizhou Zhao, Sogou Inc.<br />Jingfang Xu, Sogou Inc.<br />Xiaoyan Zhu, Tsinghua University</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>R-SVM+: Robust Learning with Privileged Information</td>
+      <td>Xue Li, Wuhan University<br />Bo Du, Wuhan University<br />Chang Xu, University of Sydney<br />Yipeng Zhang, Wuhan University<br />Lefei Zhang, Wuhan University<br />Dacheng Tao, University of Sydney</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>A Degeneracy Framework for Graph Similarity</td>
+      <td>Giannis Nikolentzos, École Polytechnique<br />Polykarpos Meladianos, Athens University of Economics and Business<br />Stratis Limnios, École Polytechnique<br />Michalis Vazirgiannis, École Polytechnique</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Foundations of Declarative Data Analysis Using Limit Datalog Programs</td>
+      <td>Mark Kaminski, University of Oxford<br />Bernardo Cuenca Grau, University of Oxford<br />Egor V. Kostylev, University of Oxford<br />Boris Motik, University of Oxford<br />Ian Horrocks, University of Oxford</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Hierarchical Finite State Controllers for Generalized Planning</td>
+      <td>Javier Segovia, Universitat Pompeu Fabra<br />Sergio Jiménez, Universitat Pompeu Fabra<br />Anders Jonsson, Universitat Pompeu Fabra</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Bayesian Active Learning for Posterior Estimation</td>
+      <td>Kirthevasan Kandasamy, Carnegie Mellon University<br />Jeff Schneider, Carnegie Mellon University<br />Barnabas Poczos, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Recursive Decomposition for Nonconvex Optimization</td>
+      <td>Abram L. Friesen &amp; Pedro Domingos, University of Washington</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Bayesian Optimization in High Dimensions via Random Embeddings</td>
+      <td>Ziyu Wang, University of British Columbia<br />Masrour Zoghi, University of Amsterdam<br />Frank Hutter, Freiberg University<br />David Matheson, University of British Columbia<br />Nando de Freitas, University of British Columbia</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Flexibility and Decoupling in the Simple Temporal Problem</td>
+      <td>Michel Wilson, Delft University of Technology<br />Tomas Klos, Delft University of Technology<br />Cees Witteveen, Delft University of Technology<br />Bob Huisman, Delft University of Technology</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Unweighted Coalitional Manipulation Under the Borda Rule is NP-Hard</td>
+      <td>Nadja Betzler, Technische Universität Berlin<br />Rolf Niedermeier, Technische Universität Berlin<br />Gerhard J. Woeginger, Technische Universität Eindhoven</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Nested Rollout Policy Adaptation for Monte Carlo Tree Search</td>
+      <td>Christopher D. Rosin, Parity Computing</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>On the Decidability of Connectedness Constraints in 2D and 3D Euclidean Spaces</td>
+      <td>Roman Kontchakov, Birkbeck College London<br />Yavor Nenov, University of Manchester<br />Ian Pratt-Hartmann, University of Manchester<br />Michael Zakharyaschev, Birkbeck College London</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Consequence-Driven Reasoning for Horn SHIQ Ontologies</td>
+      <td>Yevgeny Kazakov, University of Oxford</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Learning Conditional Preference Networks with Queries</td>
+      <td>Frederic Koriche, Université Montpellier II<br />Bruno Zanuttini, Université de Caen Basse-Normandie</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Automated Heart Wall Motion Abnormality Detection From Ultrasound Images using Bayesian Networks</td>
+      <td>Maleeha Qazi, Siemens Medical Solutions<br />Glenn Fung, Siemens Medical Solutions<br />Sriram Krishnan, Siemens Medical Solutions<br />Romer Rosales, Siemens Medical Solutions<br />Harald Steck, Siemens Medical Solutions<br />R. Bharat Rao, Siemens Medical Solutions<br />Don Polderman, Erasmus University Medical Center<br />Dhanalakshmi Chandrasekaran, No Affiliation</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Building Structure into Local Search for SAT</td>
+      <td>Duc Nghia Pham, Griffith University<br />John Thornton, Griffith University<br />Abdul Sattar, Griffith University</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Performance Analysis of Online Anticipatory Algorithms for Large Multistage Stochastic Integer Programs</td>
+      <td>Luc Mercier &amp; Pascal Van Hentenryck, Brown University</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>Learning Coordination Classifiers</td>
+      <td>Yuhong Guo, University of Alberta<br />Russell Greiner, University of Alberta<br />Dale Schuurmans, University of Alberta</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>Solving Checkers</td>
+      <td>Jonathan Schaeffer, University of Alberta<br />Yngvi Bjornsson, University of Alberta<br />Neil Burch, University of Alberta<br />Akihiro Kishimoto, University of Alberta<br />Martin Muller, University of Alberta<br />Robert Lake, University of Alberta<br />Paul Lu, University of Alberta<br />Steve Sutphen, University of Alberta</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>A Probabilistic Model of Redundancy in Information Extraction</td>
+      <td>Doug Downey, University of Washington<br />Oren Etzioni, University of Washington<br />Stephen Soderland, University of Washington</td>
+    </tr>
+    <tr>
+      <td>2003</td>
+      <td>Approximating Game-Theoretic Optimal Strategies for Full-scale Poker</td>
+      <td>Darse Billings, University of Alberta<br />Neil Burch, University of Alberta<br />Aaron Davidson, University of Alberta<br />Robert Holte, University of Alberta<br />Jonathan Schaeffer, University of Alberta<br />Terence Schauenberg, University of Alberta<br />Duane Szafron, University of Alberta</td>
+    </tr>
+    <tr>
+      <td>2003</td>
+      <td>Thin Junction Tree Filters for Simultaneous Localization and Mapping</td>
+      <td>Mark A. Paskin, University of California Berkeley</td>
+    </tr>
+    <tr>
+      <td>2001</td>
+      <td>Complexity Results for Structure-Based Causality</td>
+      <td>Thomas Eiter &amp; Thomas Lukasiewicz, Vienna University of Technology</td>
+    </tr>
+    <tr>
+      <td>1999</td>
+      <td>Learning in Natural Language</td>
+      <td>Dan Roth, University of Illinois at Urbana-Champaign</td>
+    </tr>
+    <tr>
+      <td>1999</td>
+      <td>A Distributed Case-Based Reasoning Application for Engineering Sales Support</td>
+      <td>Ian Watson, University of Salford<br />Dan Gardingen, Western Air</td>
+    </tr>
+    <tr>
+      <td>1997</td>
+      <td>Object Identification in a Bayesian Context</td>
+      <td>Timothy Huang &amp; Stuart Russell, University of California Berkeley</td>
+    </tr>
+    <tr>
+      <td>1997</td>
+      <td>Translingual Information Retrieval: A Comparative Evaluation</td>
+      <td>Jaime G. Carbonell, Carnegie Mellon University<br />Yiming Yang, Carnegie Mellon University<br />Robert E. Frederking, Carnegie Mellon University<br />Ralf D. Brown, Carnegie Mellon University<br />Yibing Geng, Carnegie Mellon University<br />Danny Lee, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>1997</td>
+      <td>Applications of the Situation Calculus to Formalizing Control and Strategic Information: The Prolog Cut Operator</td>
+      <td>Fangzhen Lin, The Hongkong University of Science and Technology</td>
+    </tr>
+  </tbody>
+</table>
+:ET

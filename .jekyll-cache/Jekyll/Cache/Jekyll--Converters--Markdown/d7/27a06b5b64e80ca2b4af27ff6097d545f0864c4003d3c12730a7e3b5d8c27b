@@ -1,0 +1,120 @@
+I"Å<style>
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Title</th>
+      <th>Authors</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2018</td>
+      <td>Delayed Impact of Fair Machine Learning</td>
+      <td>Lydia T. Liu, University of California Berkeley<br />Sarah Dean, University of California Berkeley<br />Esther Rolf, University of California Berkeley<br />Max Simchowitz, University of California Berkeley<br />Moritz Hardt, University of California Berkeley</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples</td>
+      <td>Anish Athalye, Massachusetts Institute of Technology<br />Nicholas Carlini, University of California Berkeley<br />David Wagner, University of California Berkeley</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Understanding Black-box Predictions via Influence Functions</td>
+      <td>Pang Wei Koh &amp; Percy Liang, Stanford University</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Ensuring Rapid Mixing and Low Bias for Asynchronous Gibbs Sampling</td>
+      <td>Christopher De Sa, Stanford University<br />Chris Re, Stanford University<br />Kunle Olukotun, Stanford University<br />Pixel Recurrent Neural Networks<br />Aaron Van den Oord, Google<br />Nal Kalchbrenner, Google<br />Koray Kavukcuoglu, Google</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Dueling Network Architectures for Deep Reinforcement Learning</td>
+      <td>Ziyu Wang, Google<br />Tom Schaul, Google<br />Matteo Hessel, Google<br />Hado van Hasselt, Google<br />Marc Lanctot, Google<br />Nando de Freitas, University of Oxford</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>A Nearly-Linear Time Framework for Graph-Structured Sparsity</td>
+      <td>Chinmay Hegde, Massachusetts Institute of Technology<br />Piotr Indyk, Massachusetts Institute of Technology<br />Ludwig Schmid, Massachusetts Institute of Technology</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Optimal and Adaptive Algorithms for Online Boosting</td>
+      <td>Alina Beygelzimer, Yahoo! Research<br />Satyen Kale, Yahoo! Research<br />Haipeng Luo, Princeton University</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Understanding the Limiting Factors of Topic Modeling via Posterior Contraction Analysis</td>
+      <td>Jian Tang, Peking University<br />Zhaoshi Meng, University of Michigan<br />XuanLong Nguyen, University of Michigan<br />Qiaozhu Mei, University of Michigan<br />Ming Zhang, Peking University</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Vanishing Component Analysis</td>
+      <td>Roi Livni, The Hebrew University of Jerusalum<br />David Lehavi, Hewlett-Packard Labs<br />Sagi Schein, Hewlett-Packard Labs<br />Hila Nachlieli, Hewlett-Packard Labs<br />Shai Shalev Shwartz, The Hebrew University of Jerusalum<br />Amir Globerson, The Hebrew University of Jerusalum</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Fast Semidifferential-based Submodular Function Optimization</td>
+      <td>Rishabh Iyer, University of Washington<br />Stefanie Jegelka, University of California Berkeley<br />Jeff Bilmes, University of Washington</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Bayesian Posterior Sampling via Stochastic Gradient Fisher Scoring</td>
+      <td>Sungjin Ahn, University of California Irvine<br />Anoop Korattikara, University of California Irvine<br />Max Welling, University of California Irvine</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Computational Rationalization: The Inverse Equilibrium Problem</td>
+      <td>Kevin Waugh, Carnegie Mellon University<br />Brian Ziebart, Carnegie Mellon University<br />Drew Bagnell, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Hilbert Space Embeddings of Hidden Markov Models</td>
+      <td>Le Song, Carnegie Mellon University<br />Byron Boots, Carnegie Mellon University<br />Sajid M. Siddiqi, Google<br />Geoffrey Gordon, Carnegie Mellon University<br />Alex Smola, Yahoo! Research</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Structure preserving embedding</td>
+      <td>Blake Shaw &amp; Tony Jebara, Columbia University</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>SVM Optimization: Inverse Dependence on Training Set Size</td>
+      <td>Shai Shalev-Shwartz &amp; Nathan Srebro, Toyota Technological Institute at Chicago</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Information-theoretic metric learning</td>
+      <td>Jason V. Davis, University of Texas at Austin<br />Brian Kulis, University of Texas at Austin<br />Prateek Jain, University of Texas at Austin<br />Suvrit Sra, University of Texas at Austin<br />Inderjit S. Dhillon, University of Texas at Austin</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>Trading convexity for scalability</td>
+      <td>Ronan Collobert, NEC Labs America<br />Fabian Sinz, NEC Labs America<br />Jason Weston, NEC Labs America<br />L√©on Bottou, NEC Labs America</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>A support vector method for multivariate performance measures</td>
+      <td>Thorsten Joachims, Cornell University</td>
+    </tr>
+    <tr>
+      <td>1999</td>
+      <td>Least-Squares Temporal Difference Learning</td>
+      <td>Justin A. Boyan, NASA Ames Research Center</td>
+    </tr>
+  </tbody>
+</table>
+:ET

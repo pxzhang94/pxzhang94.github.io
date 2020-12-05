@@ -1,0 +1,110 @@
+I"<style>
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Title</th>
+      <th>Authors</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2018</td>
+      <td>A Refined Mean Field Approximation</td>
+      <td>Nicolas Gast, Inria<br />Benny Van Houdt, University of Antwerp</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Accelerating Performance Inference over Closed Systems by Asymptotic Methods</td>
+      <td>Giuliano Casale, Imperial College London</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>On the Duration and Intensity of Competitions in Nonlinear Pólya Urn Processes with Fitness</td>
+      <td>Bo Jiang, University of Massachusetts Amherst<br />Daniel R. Figueiredo, Federal University of Rio de Janeiro<br />Bruno Ribeiro, Purdue University<br />Don Towsley, University of Massachusetts Amherst</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Spy vs. Spy: Rumor Source Obfuscation</td>
+      <td>Giulia Fanti, University of California Berkeley<br />Peter Kairouz, University of Illinois at Urbana-Champaign<br />Sewoong Oh, University of Illinois at Urbana-Champaign<br />Pramod Viswanath, University of Illinois at Urbana-Champaign</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Concave switching in single and multihop networks</td>
+      <td>Neil Walton, University of Amsterdam</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Queueing System Topologies with Limited Flexibility</td>
+      <td>John Tsitsiklis &amp; Kuang Xu, Massachusetts Institute of Technology</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>Temperature management in data centers: why some (might) like it hot</td>
+      <td>Nosayba El-Sayed, University of Toronto<br />Ioan Stefanovici, University of Toronto<br />George Amvrosiadis, University of Toronto<br />Andy A. Hwang, University of Toronto<br />Bianca Schroeder, University of Toronto</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Topology Discovery of Sparse Random Graphs With Few Participants</td>
+      <td>Animashree Anandkumar, University of California Irvine<br />Avinatan Hassidim, Google<br />Jonathan Kelner, Massachusetts Institute of Technology</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Load balancing via random local search in closed and open systems</td>
+      <td>Ayalvadi Ganesh, University of Bristol<br />Sarah Lilienthal, University of Cambridge<br />D. Manjunath, Indian Institute of Technology<br />Alexandre Proutière, Microsoft Research<br />Florian Simatos, INRIA</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>The Age of Gossip: Spatial Mean Field Regime</td>
+      <td>Augustin Chaintreau, Technicolor<br />Jean-Yves Le Boudec, École Polytechnique Fédérale de Lausanne<br />Nikodin Ristanovic, École Polytechnique Fédérale de Lausanne</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Counter Braids: A Novel Counter Architecture for Per-Flow Measurement</td>
+      <td>Yi Lu, Stanford University<br />Andrea Montanari, Stanford University<br />Balaji Prabhakar, Stanford University<br />Sarang Dharmapurikar, Cisco Systems<br />Abdul Kabbani, Stanford University</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Modeling the Relative Fitness of Storage</td>
+      <td>Michael P. Mesnier, Intel<br />Matthew Wachs, Carnegie Mellon University<br />Raja R. Sambasivan, Carnegie Mellon University<br />Alice X. Zheng, Carnegie Mellon University<br />Gregory R. Ganger, Carnegie Mellon University</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>Maximizing throughput in wireless networks via gossiping</td>
+      <td>Eytan Modiano, Massachusetts Institute of Technology<br />Devavrat Shah, Massachusetts Institute of Technology<br />Gil Zussman, Massachusetts Institute of Technology</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>Coupon replication systems</td>
+      <td>Laurent Massoulié &amp; Milan Vojnović, Microsoft Research</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>On performance bounds for the integration of elastic and adaptive streaming flows</td>
+      <td>Thomas Bonald &amp; Alexandre Proutiere, France Telecom</td>
+    </tr>
+    <tr>
+      <td>1996</td>
+      <td>Supporting stored video: reducing rate variability and end-to-end resource requirements through optimal smoothing</td>
+      <td>James D. Salehi, University of Massachusetts Amherst<br />Zhi-Li Zhang, University of Massachusetts Amherst<br />James F. Kurose, University of Massachusetts Amherst<br />Don Towsley, University of Massachusetts Amherst</td>
+    </tr>
+    <tr>
+      <td>1996</td>
+      <td>Exploiting process lifetime distributions for dynamic load balancing</td>
+      <td>Mor Harchol-Balter &amp; Allen B. Downey, University of California Berkeley</td>
+    </tr>
+  </tbody>
+</table>
+:ET
