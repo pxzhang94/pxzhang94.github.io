@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Best Paper Awards (ICSE/FSE/ASE/ISSTA)"
-subtitle: "2019"
+subtitle: "2020"
 author: "pxzhang"
 header-img: "img/post-best-paper.jpg"
 header-mask: 0.3
@@ -35,9 +35,6 @@ table th:nth-of-type(2) {
 | ICSE | [Translating Video Recordings of Mobile App Usages into Replayable Scenarios](http://www.cs.wm.edu/~denys/pubs/V2S-CRC.pdf) | 	Carlos Bernal-Cárdenas, William & Mary<br>Nathan Cooper, William & Mary<br>Kevin Moran, William & Mary<br>Oscar Chaparro, William & Mary<br>Andrian Marcus, The University of Texas at Dallas<br>Denys Poshyvanyk, William & Mary |
 | ICSE | [Unblind Your Apps: Predicting Natural-Language Labels for Mobile GUI Components by Deep Learning](https://www.researchgate.net/profile/Guoqiang_Li4/publication/339641382_Unblind_Your_Apps_Predicting_Natural-Language_Labels_for_Mobile_GUI_Components_by_Deep_Learning/links/5e86b26da6fdcca789ec9c16/Unblind-Your-Apps-Predicting-Natural-Language-Labels-for-Mobile-GUI-Components-by-Deep-Learning.pdf) | Jieshan Chen, Australian National University<br>Chunyang Chen, Monash University<br>Zhenchang Xing, Australian National University<br>Xiwei Xu, CSIRO<br>Liming Zhu, Australian National University<br>Guoqiang Li, Shanghai Jiao Tong University<br>Jinshui Wang, Fujian University of Technology |
 | ICSE | [White-box Fairness Testing through Adversarial Sampling](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5635&=&context=sis_research&=&sei-redir=1&referer=https%253A%252F%252Fscholar.google.com%252Fscholar%253Fhl%253Dzh-CN%2526as_sdt%253D0%25252C5%2526q%253DWhite-box%252BFairness%252BTesting%252Bthrough%252BAdversarial%252BSampling%2526btnG%253D#search=%22White-box%20Fairness%20Testing%20through%20Adversarial%20Sampling%22) | Peixin Zhang, Zhejiang University<br>Jingyi Wang, National University of Singapore<br>Jun Sun, Singapore Management University<br>Guoliang Dong, Zhejiang University<br>Xinyu Wang, Zhejiang University<br>Xingen Wang, Zhejiang University<br>Jin Song Dong, National University of Singapore<br>Ting Dai, Huawei International Pte. Ltd. |
-
-
-
 | FSE | [A Principled Approach to GraphQL Query Cost Analysis](https://guillaume.baudart.eu/papers/fse20.pdf) | Alan Cha, IBM Research<br>Erik Wittern, IBM<br>Guillaume Baudart, IBM Research<br>James C. Davis, Purdue University<br>Louis Mandel, IBM Research<br>Jim A. Laredo, IBM Research |
 | FSE | [Boosting Fuzzer Efficiency: An Information Theoretic Perspective](https://www.jiliac.com/files/FSE20.Entropy.pdf) | Marcel Böhme, Monash University<br>Valentin J.M. Manès, KAIST<br>Sang Kil Cha, KAIST |
 | FSE | [Community Expectations for Research Artifacts and Evaluation Processes](https://thewhitespace.de/publications/hws20-artifacts.pdf) | Ben Hermann, Universität Paderborn<br>Stefan Winter, Technische Universität Darmstadt<br>Janet Siegmund, Technische Universität Chemnitz |
