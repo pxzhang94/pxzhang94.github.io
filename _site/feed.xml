@@ -5,9 +5,192 @@
     <description>这里是 @PXZHANG张培歆 的个人网站</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 05 Dec 2020 11:33:07 +0800</pubDate>
-    <lastBuildDate>Sat, 05 Dec 2020 11:33:07 +0800</lastBuildDate>
+    <pubDate>Fri, 11 Dec 2020 15:03:03 +0800</pubDate>
+    <lastBuildDate>Fri, 11 Dec 2020 15:03:03 +0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Best Paper Awards (ICSE/FSE/ASE/ISSTA)</title>
+        <description>&lt;style&gt;
+.table {
+	font-size:12px;
+}
+table td {
+	vertical-align: middle;
+}
+table th:nth-of-type(2) {
+    width: 240px;
+}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Conference&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ICSE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://rahulpandita.me/files/riniICSE2020.pdf&quot;&gt;A Tale from the Trenches: Cognitive Biases and Software Development&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Souti Chattopadhyay, Oregon State University&lt;br /&gt;Nicholas Nelson, Oregon State University&lt;br /&gt;Audrey Au, Oregon State University&lt;br /&gt;Natalia Morales, Oregon State University&lt;br /&gt;Christopher Sanchez, Oregon State University&lt;br /&gt;Rahul Pandita, Phase Change Software&lt;br /&gt;Anita Sarma, Oregon State University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ICSE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3377811.3380362&quot;&gt;An Empirical Study on Program Failures of Deep Learning Jobs&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Ru Zhang, Microsoft Research&lt;br /&gt;Wencong Xiao, Alibaba Group&lt;br /&gt;Hongyu Zhang, University of Newcastle&lt;br /&gt;Yu Liu, Microsoft Research&lt;br /&gt;Haoxiang Lin, Microsoft Research&lt;br /&gt;Mao Yang, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ICSE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://homepages.inf.ed.ac.uk/s1467463/documents/icse20-main-1325.pdf&quot;&gt;Big Code != Big Vocabulary: Open-Vocabulary Models for Source Code&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Rafael-Michael Karampatsis, University of Edinburgh&lt;br /&gt;Hlib Babii, Free University of Bozen-Bolzano&lt;br /&gt;Romain Robbes, Free University of Bozen-Bolzano&lt;br /&gt;Charles Sutton, Google Research&lt;br /&gt;Andrea Janes, Free University of Bozen-Bolzano&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ICSE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3377811.3380380&quot;&gt;Context-aware In-process Crowdworker Recommendation&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Junjie Wang, University of Chinese Academy of Sciences&lt;br /&gt;Ye Yang, Stevens Institute of Technology&lt;br /&gt;Song Wang, York University&lt;br /&gt; Yuanzhe Hu, University of Chinese Academy of Sciences&lt;br /&gt; Dandan Wang, University of Chinese Academy of Sciences&lt;br /&gt;Qing Wang, University of Chinese Academy of Sciences&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ICSE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://nischalshrestha.me/docs/cross_language_interference.pdf&quot;&gt;Here We Go Again: Why Is It Difficult for Developers to Learn Another Programming Language?&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Nischal Shrestha, NC State University&lt;br /&gt;Colton Botta, NC State University&lt;br /&gt;Titus Barik, Microsoft&lt;br /&gt;Chris Parnin, NC State University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ICSE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.comp.nus.edu.sg/~abhik/pdf/ICSE20TM.pdf&quot;&gt;Time-travel Testing of Android Apps&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Zhen Dong, National University of Singapore&lt;br /&gt;Marcel Böhme, Monash University&lt;br /&gt;Lucia Cojocaru, Politehnica University of Bucharest&lt;br /&gt;Abhik Roychoudhury, National University of Singapore&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ICSE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://users.encs.concordia.ca/~zi_ding/PID6347897.pdf&quot;&gt;Towards the Use of the Readily Available Tests from the Release Pipeline as Performance Tests. Are We There Yet?&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Zishuo Ding, Concordia University&lt;br /&gt;Jinfu Chen, Concordia University&lt;br /&gt;Weiyi Shang, Concordia University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ICSE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.cs.wm.edu/~denys/pubs/V2S-CRC.pdf&quot;&gt;Translating Video Recordings of Mobile App Usages into Replayable Scenarios&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Carlos Bernal-Cárdenas, William &amp;amp; Mary&lt;br /&gt;Nathan Cooper, William &amp;amp; Mary&lt;br /&gt;Kevin Moran, William &amp;amp; Mary&lt;br /&gt;Oscar Chaparro, William &amp;amp; Mary&lt;br /&gt;Andrian Marcus, The University of Texas at Dallas&lt;br /&gt;Denys Poshyvanyk, William &amp;amp; Mary&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ICSE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.researchgate.net/profile/Guoqiang_Li4/publication/339641382_Unblind_Your_Apps_Predicting_Natural-Language_Labels_for_Mobile_GUI_Components_by_Deep_Learning/links/5e86b26da6fdcca789ec9c16/Unblind-Your-Apps-Predicting-Natural-Language-Labels-for-Mobile-GUI-Components-by-Deep-Learning.pdf&quot;&gt;Unblind Your Apps: Predicting Natural-Language Labels for Mobile GUI Components by Deep Learning&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Jieshan Chen, Australian National University&lt;br /&gt;Chunyang Chen, Monash University&lt;br /&gt;Zhenchang Xing, Australian National University&lt;br /&gt;Xiwei Xu, CSIRO&lt;br /&gt;Liming Zhu, Australian National University&lt;br /&gt;Guoqiang Li, Shanghai Jiao Tong University&lt;br /&gt;Jinshui Wang, Fujian University of Technology&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ICSE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5635&amp;amp;=&amp;amp;context=sis_research&amp;amp;=&amp;amp;sei-redir=1&amp;amp;referer=https%253A%252F%252Fscholar.google.com%252Fscholar%253Fhl%253Dzh-CN%2526as_sdt%253D0%25252C5%2526q%253DWhite-box%252BFairness%252BTesting%252Bthrough%252BAdversarial%252BSampling%2526btnG%253D#search=%22White-box%20Fairness%20Testing%20through%20Adversarial%20Sampling%22&quot;&gt;White-box Fairness Testing through Adversarial Sampling&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Peixin Zhang, Zhejiang University&lt;br /&gt;Jingyi Wang, National University of Singapore&lt;br /&gt;Jun Sun, Singapore Management University&lt;br /&gt;Guoliang Dong, Zhejiang University&lt;br /&gt;Xinyu Wang, Zhejiang University&lt;br /&gt;Xingen Wang, Zhejiang University&lt;br /&gt;Jin Song Dong, National University of Singapore&lt;br /&gt;Ting Dai, Huawei International Pte. Ltd.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FSE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://guillaume.baudart.eu/papers/fse20.pdf&quot;&gt;A Principled Approach to GraphQL Query Cost Analysis&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Alan Cha, IBM Research&lt;br /&gt;Erik Wittern, IBM&lt;br /&gt;Guillaume Baudart, IBM Research&lt;br /&gt;James C. Davis, Purdue University&lt;br /&gt;Louis Mandel, IBM Research&lt;br /&gt;Jim A. Laredo, IBM Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FSE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.jiliac.com/files/FSE20.Entropy.pdf&quot;&gt;Boosting Fuzzer Efficiency: An Information Theoretic Perspective&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Marcel Böhme, Monash University&lt;br /&gt;Valentin J.M. Manès, KAIST&lt;br /&gt;Sang Kil Cha, KAIST&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FSE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://thewhitespace.de/publications/hws20-artifacts.pdf&quot;&gt;Community Expectations for Research Artifacts and Evaluation Processes&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Ben Hermann, Universität Paderborn&lt;br /&gt;Stefan Winter, Technische Universität Darmstadt&lt;br /&gt;Janet Siegmund, Technische Universität Chemnitz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FSE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://lingming.cs.illinois.edu/courses/cs598ast-f20/paper-dnn-lib-testing.pdf&quot;&gt;Deep Learning Library Testing via Effective Model Generation&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Zan Wang, Tianjin University&lt;br /&gt;Ming Yan, Tianjin University&lt;br /&gt;Junjie Chen, Tianjin University&lt;br /&gt;Shuang Liu, Tianjin University&lt;br /&gt;Dongdi Zhang, Tianjin University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FSE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://taoxie.cs.illinois.edu/publications/esecfse20-nnabugs.pdf&quot;&gt;Detecting Numerical Bugs in Neural Network Architectures&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Yuhao Zhang, Peking University&lt;br /&gt;Luyao Ren, Peking University&lt;br /&gt;Liqian Chen, National University of Defense Technology&lt;br /&gt;Yingfei Xiong, Peking University&lt;br /&gt;Shing-Chi Cheung, The Hong Kong University of Science and Technology&lt;br /&gt;Tao Xie, Peking University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FSE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://design.cs.iastate.edu/papers/ESEC-FSE-20b/modularity.pdf&quot;&gt;On Decomposing a Deep Neural Network into Modules&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Rangeet Pan, Iowa State University&lt;br /&gt;Hridesh Rajan, Iowa State University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FSE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.control.lth.se/fileadmin/control/staff/ClaudioMandrioli/fse2020main.pdf&quot;&gt;Testing Self-Adaptive Software with Probabilistic Guarantees on Performance Metrics&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Claudio Mandrioli, Lund Univeristy&lt;br /&gt;Martina Maggio, Saarland University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ASE&lt;/td&gt;
+      &lt;td&gt;Automating Just-In-Time Comment Updating&lt;/td&gt;
+      &lt;td&gt;Zhongxin Liu, Zhejiang University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ASE&lt;/td&gt;
+      &lt;td&gt;Broadening Horizons of Multilingual Static Analysis: Semantic Summary Extraction from C Code for JNI Program Analysis&lt;/td&gt;
+      &lt;td&gt;Sungho Lee, Chungnam National University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ASE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://web.cs.iastate.edu/~mcohen/papers/ChemTest-preprint.pdf&quot;&gt;ChemTest: An Automated Software Testing Framework for an Emerging Paradigm&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Michael C. Gerten, Iowa State University&lt;br /&gt;James I. Lathrop, Iowa State University&lt;br /&gt;Myra B. Cohen, Iowa State University&lt;br /&gt;Titus H. Klinge, Drake University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ASE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.cs.purdue.edu/homes/lintan/publications/variance-ase20.pdf&quot;&gt;Problems and Opportunities in Training Deep Learning Software Systems: An Analysis of Variance&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Hung Viet Pham, University of Waterloo&lt;br /&gt;Shangshu Qian, Purdue University&lt;br /&gt;Jiannan Wang, Purdue University&lt;br /&gt;Thibaud Lutellier, University of Waterloo&lt;br /&gt;Jonathan Rosenthal, Purdue University&lt;br /&gt;Lin Tan, Purdue University&lt;br /&gt;Yaoliang Yu, University of Waterloo&lt;br /&gt;Nachiappan Nagappan, Microsoft Research&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ASE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://dsg.tuwien.ac.at/team/ctsigkanos/papers/Scalable_MultipleViewBX.pdf&quot;&gt;Scalable Multiple-View Analysis of Reactive Systems via Bidirectional Model Transformations&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Christos Tsigkanos, TU Wien&lt;br /&gt;Nianyu Li, Peking University&lt;br /&gt;Zhi Jin, Peking University&lt;br /&gt;Zhenjiang Hu, Peking University&lt;br /&gt;Carlo Ghezzi, Politecnico di Milano&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ASE&lt;/td&gt;
+      &lt;td&gt;Summary-Based Symbolic Evaluation for Smart Contracts&lt;/td&gt;
+      &lt;td&gt;Yu Feng, University of California, (Santa Barbara)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ASE&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.cs.ucdavis.edu/~filkov/papers/ase2020.pdf&quot;&gt;Team Discussions and Dynamics During DevOps Tool Adoptions in OSS Projects&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Likang Yin, University of California (Davis)&lt;br /&gt;Vladimir Filkov, University of California (Davis)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ISSTA&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://prl.korea.ac.kr/~sooyoung/papers/ISSTA20.pdf&quot;&gt;Effective White-box Testing of Deep Neural Networks with Adaptive Neuron-Selection Strategy&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Seokhyun Lee, Korea University&lt;br /&gt;Sooyoung Cha, Korea University&lt;br /&gt;Dain Lee, Korea University&lt;br /&gt;Hakjoo Oh, Korea University&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ISSTA&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.researchgate.net/profile/Mohannad_Alhanahnah/publication/343047913_Scalable_analysis_of_interaction_threats_in_IoT_systems/links/5f870741a6fdccfd7b6018e0/Scalable-analysis-of-interaction-threats-in-IoT-systems.pdf&quot;&gt;Scalable Analysis of Interaction Threats in IoT Systems&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Mohannad Alhanahnah, University of Nebraska–Lincoln&lt;br /&gt;Clay Stevens, University of Nebraska–Lincoln&lt;br /&gt;Hamid Bagheri, University of Nebraska–Lincoln&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ISSTA&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://publications.cispa.saarland/3103/7/issta2020-language-of-failure.pdf&quot;&gt;Abstracting Failure-Inducing Inputs&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Rahul Gopinath, CISPA Helmholtz Center for Information Security&lt;br /&gt;Alexander Kampmann, CISPA Helmholtz Center for Information Security&lt;br /&gt;Nikolas Havrikov, CISPA Helmholtz Center for Information Security&lt;br /&gt;Ezekiel O. Soremekun, CISPA Helmholtz Center for Information Security&lt;br /&gt;Andreas Zeller, CISPA Helmholtz Center for Information Security&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ISSTA&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3395363.3397354&quot;&gt;Reinforcement Learning Based Curiosity-driven Testing of Android Applications&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Minxue Pan, Nanjing University&lt;br /&gt;An Huang, Nanjing University&lt;br /&gt;Guoxin Wang, Nanjing University&lt;br /&gt;Tian Zhang, Nanjing University&lt;br /&gt;Xuandong Li, Nanjing University&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Fri, 11 Dec 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2020/12/11/best-paper-awards-SE-2020/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/12/11/best-paper-awards-SE-2020/</guid>
+        
+        <category>Best Paper</category>
+        
+        <category>Software Engineering</category>
+        
+        
+      </item>
     
       <item>
         <title>Upcoming Conference</title>
@@ -516,7 +699,7 @@ table th:nth-of-type(2) {
     &lt;tr&gt;
       &lt;td&gt;ICSE&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=3339528&quot;&gt;The Seven Sins: Security Smells in Infrastructure as Code Scripts&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;Authors:	Akond Rahman, North Carolina State University&lt;br /&gt;Chris Parnin, North Carolina State University&lt;br /&gt;Laurie Williams, North Carolina State University&lt;/td&gt;
+      &lt;td&gt;Akond Rahman, North Carolina State University&lt;br /&gt;Chris Parnin, North Carolina State University&lt;br /&gt;Laurie Williams, North Carolina State University&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;ICSE&lt;/td&gt;
@@ -1377,159 +1560,6 @@ table th:nth-of-type(2) {
         <category>Best Paper</category>
         
         <category>Mobile</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Best Paper Awards (KDD)</title>
-        <description>&lt;style&gt;
-.table {
-	font-size:12px;
-}
-table td {
-	vertical-align: middle;
-}
-table th:nth-of-type(2) {
-    width: 240px;
-}
-
-&lt;/style&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-      &lt;th&gt;Title&lt;/th&gt;
-      &lt;th&gt;Authors&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-      &lt;td&gt;Adversarial Attacks on Neural Networks for Graph Data&lt;/td&gt;
-      &lt;td&gt;Daniel Zügner, Technical University of Munich&lt;br /&gt;Amir Akbarnejad, Technical University of Munich&lt;br /&gt;Stephan Günnemann, Technical University of Munich&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2017&lt;/td&gt;
-      &lt;td&gt;Accelerating Innovation Through Analogy Mining&lt;/td&gt;
-      &lt;td&gt;Tom Hope, Hebrew University of Jerusalem&lt;br /&gt;Joel Chan, Carnegie Mellon University&lt;br /&gt;Aniket Kittur, Carnegie Mellon University&lt;br /&gt;Dafna Shahaf, Hebrew University of Jerusalem&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2016&lt;/td&gt;
-      &lt;td&gt;FRAUDAR: Bounding Graph Fraud in the Face of Camouflage&lt;/td&gt;
-      &lt;td&gt;Bryan Hooi, Carnegie Mellon University&lt;br /&gt;Hyun Ah Song, Carnegie Mellon University&lt;br /&gt;Alex Beutel, Carnegie Mellon University&lt;br /&gt;Neil Shah, Carnegie Mellon University&lt;br /&gt;Kijung Shin, Carnegie Mellon University&lt;br /&gt;Christos Faloutsos, Carnegie Mellon University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2015&lt;/td&gt;
-      &lt;td&gt;Efficient Algorithms for Public-Private Social Networks&lt;/td&gt;
-      &lt;td&gt;Flavio Chierichetti, Sapienza University of Rome&lt;br /&gt;Alessandro Epasto, Brown University&lt;br /&gt;Ravi Kumar, Google&lt;br /&gt;Silvio Lattanzi, Google&lt;br /&gt;Vahab Mirrokni, Google&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2014&lt;/td&gt;
-      &lt;td&gt;Reducing the Sampling Complexity of Topic Models&lt;/td&gt;
-      &lt;td&gt;Aaron Li, Carnegie Mellon University&lt;br /&gt;Amr Ahmed, Google&lt;br /&gt;Sujith Ravi, Google&lt;br /&gt;Alexander Smola, Carnegie Mellon University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2013&lt;/td&gt;
-      &lt;td&gt;Simple and Deterministic Matrix Sketching&lt;/td&gt;
-      &lt;td&gt;Edo Liberty, Yahoo! Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2012&lt;/td&gt;
-      &lt;td&gt;Searching and Mining Trillions of Time Series Subsequences under Dynamic Time Warping&lt;/td&gt;
-      &lt;td&gt;Thanawin Rakthanmanon, University of California Riverside&lt;br /&gt;Bilson Campana, University of California Riverside&lt;br /&gt;Abdullah Mueen, University of California Riverside&lt;br /&gt;Gustavo Batista, University of São Paulo&lt;br /&gt;Brandon Westover, Brigham and Women’s Hospital&lt;br /&gt;Qiang Zhu, University of California Riverside&lt;br /&gt;Jesin Zakaria, University of California Riverside&lt;br /&gt;Eamonn Keogh, University of California Riverside&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2011&lt;/td&gt;
-      &lt;td&gt;Leakage in Data Mining: Formulation, Detection, and Avoidance&lt;/td&gt;
-      &lt;td&gt;Shachar Kaufman, Tel-Aviv University&lt;br /&gt;Saharon Rosset, Tel-Aviv University&lt;br /&gt;Claudia Perlich, Media6Degrees&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;Large linear classification when data cannot fit in memory&lt;/td&gt;
-      &lt;td&gt;Hsiang-Fu Yu, National Taiwan University&lt;br /&gt;Cho-Jui Hsieh, National Taiwan University&lt;br /&gt;Kai-Wei Chang, National Taiwan University&lt;br /&gt;Chih-Jen Lin, National Taiwan University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2010&lt;/td&gt;
-      &lt;td&gt;Connecting the dots between news articles&lt;/td&gt;
-      &lt;td&gt;Dafna Shahaf &amp;amp; Carlos Guestrin, Carnegie Mellon University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2009&lt;/td&gt;
-      &lt;td&gt;Collaborative Filtering with Temporal Dynamics&lt;/td&gt;
-      &lt;td&gt;Yehuda Koren, Yahoo! Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2008&lt;/td&gt;
-      &lt;td&gt;Fastanova: an efficient algorithm for genome-wide association study&lt;/td&gt;
-      &lt;td&gt;Xiang Zhang, University of North Carolina at Chapel Hill&lt;br /&gt;Fei Zou, University of North Carolina at Chapel Hill&lt;br /&gt;Wei Wang, University of North Carolina at Chapel Hill&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2007&lt;/td&gt;
-      &lt;td&gt;Predictive discrete latent factor models for large scale dyadic data&lt;/td&gt;
-      &lt;td&gt;Deepak Agarwal &amp;amp; Srujana Merugu, Yahoo! Research&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2006&lt;/td&gt;
-      &lt;td&gt;Training linear SVMs in linear time&lt;/td&gt;
-      &lt;td&gt;Thorsten Joachims, Cornell University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2005&lt;/td&gt;
-      &lt;td&gt;Graphs over time: densification laws, shrinking diameters and possible explanations&lt;/td&gt;
-      &lt;td&gt;Jure Leskovec, Carnegie Mellon University&lt;br /&gt;Jon Kleinberg, Cornell University&lt;br /&gt;Christos Faloutsos, Carnegie Mellon University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2004&lt;/td&gt;
-      &lt;td&gt;A probabilistic framework for semi-supervised clustering&lt;/td&gt;
-      &lt;td&gt;Sugato Basu, University of Texas at Austin&lt;br /&gt;Mikhail Bilenko, University of Texas at Austin&lt;br /&gt;Raymond J. Mooney, University of Texas at Austin&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2003&lt;/td&gt;
-      &lt;td&gt;Maximizing the spread of influence through a social network&lt;/td&gt;
-      &lt;td&gt;David Kempe, Cornell University&lt;br /&gt;Jon Kleinberg, Cornell University&lt;br /&gt;Éva Tardos, Cornell University&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2002&lt;/td&gt;
-      &lt;td&gt;Pattern discovery in sequences under a Markov assumption&lt;/td&gt;
-      &lt;td&gt;Darya Chudova &amp;amp; Padhraic Smyth, University of California Irvine&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2001&lt;/td&gt;
-      &lt;td&gt;Robust space transformations for distance-based operations&lt;/td&gt;
-      &lt;td&gt;Edwin M. Knorr, University of British Columbia&lt;br /&gt;Raymond T. Ng, University of British Columbia&lt;br /&gt;Ruben H. Zamar, University of British Columbia&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2000&lt;/td&gt;
-      &lt;td&gt;Hancock: a language for extracting signatures from data streams&lt;/td&gt;
-      &lt;td&gt;Corinna Cortes, AT&amp;amp;T Laboratories&lt;br /&gt;Kathleen Fisher, AT&amp;amp;T Laboratories&lt;br /&gt;Daryl Pregibon, AT&amp;amp;T Laboratories&lt;br /&gt;Anne Rogers, AT&amp;amp;T Laboratories&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1999&lt;/td&gt;
-      &lt;td&gt;MetaCost: a general method for making classifiers cost-sensitive&lt;/td&gt;
-      &lt;td&gt;Pedro Domingos, Universidade Técnica de Lisboa&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1998&lt;/td&gt;
-      &lt;td&gt;Occam’s Two Razors: The Sharp and the Blunt&lt;/td&gt;
-      &lt;td&gt;Pedro Domingos, Universidade Técnica de Lisboa&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1997&lt;/td&gt;
-      &lt;td&gt;Analysis and Visualization of Classifier Performance: Comparison under Imprecise Class and Cost Distributions&lt;/td&gt;
-      &lt;td&gt;Foster Provost &amp;amp; Tom Fawcett, NYNEX Science and Technology&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Thu, 10 Jan 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/01/10/best-paper-awards-KDD/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/01/10/best-paper-awards-KDD/</guid>
-        
-        <category>Best Paper</category>
-        
-        <category>Data Mining</category>
         
         
       </item>
