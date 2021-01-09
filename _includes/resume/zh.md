@@ -29,7 +29,8 @@
 ### 项目经历
 
 > [浙江大学智能计算与软件中心(ICSOFT)](http://www.icsoft.zju.edu.cn)，2018.03至今，人工智能系统分析与测试方向
->> 合作方：华为2012实验室（新加坡），新加坡科技设计大学，新加坡管理大学，新加坡国立大学<br/><br/>
+>> 合作方：华为，新加坡科技设计大学，新加坡管理大学，新加坡国立大学<br/><br/>
+项目：基于深度学习的程序文档自动化生成技术研究（国家自然科学基金面上项目）<br/><br/>
 研究内容：模型鲁棒性（攻击与防御），模型公平性，模型测试<br/><br/>
 开源项目：GuardAI, FairAI<br/><br/>
 论文发表：[“White-box Fairness Testing through Adversarial Sampling”](http://pxzhang94.github.io/paper/ai_analysis/icse2020.pdf), **Peixin Zhang**, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jinsong Dong, and Ting Dai, Proceedings of the 42nd International Conference on Software Engineering(ICSE), Seoul, Republic of Korea, 2020 (**[国际计算机协会软件工程专业杰出论文奖](https://2020.icse-conferences.org/info/awards)**)<br/><br/>
@@ -37,8 +38,8 @@
 其它论文：[“Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/input_mutation.pdf), Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, and Xinyu Wang<br/><br/>
 
 > [新加坡管理大学信息系统学院](https://sis.smu.edu.sg)，2019.09-2020.09，人工智能系统分析与测试方向
->> 项目：Fuzzing AI-Systems for Adversarial Sample Generation and Mitigation（华为）<br/><br/>
-论文发表：["There is Limited Correlation between Coverage and Robustness for Deep Neural Networks"](http://pxzhang94.github.io/paper/ai_analysis/coverage_robustness.pdf), Yizhen Dong, **Peixin Zhang**, Jingyi Wang, Shuang Liu, Jun Sun, Jianye Hao, Xinyu Wang, Li Wang, Jin Song Dong, and Dai Ting, 25th International Conference on Engineering of Complex Computer Systems(ICECCS), Singapore, 2020<br/><br/>
+>> 项目：Fuzzing AI-Systems for Adversarial Sample Generation and Mitigation（华为）<br/>Testing and Defending AI-Systems Holistically（华为）<br/>Explaining AI with the Right Level of Abstraction（AISG）<br/><br/>
+论文发表：["An Empirical Study on Correlation between Coverage and Robustness for Deep Neural Networks"](http://pxzhang94.github.io/paper/ai_analysis/coverage_robustness.pdf), Yizhen Dong, **Peixin Zhang**, Jingyi Wang, Shuang Liu, Jun Sun, Jianye Hao, Xinyu Wang, Li Wang, Jin Song Dong, and Dai Ting, 25th International Conference on Engineering of Complex Computer Systems(ICECCS), Singapore, 2020<br/><br/>
 
 > [新加坡科技设计大学系统分析与验证小组](http://sav.sutd.edu.sg)，2017.07-2017.10，软件测试方向
 >> 研究内容：动态符号执行测试，符号执行测试，机器学习生成测试用例等 <br/><br/>

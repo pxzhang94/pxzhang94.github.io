@@ -29,7 +29,8 @@ Data Cleaning and Analysis
 ### Projects
 
 > [Intelligent Computing and Software Center of Zhejiang University (ICSOFT)](http://www.icsoft.zju.edu.cn)，2018.03-Now，Testing and Analysis of AI Aystems
->> Partners: Huawei 2012 Lab (Singapore), Singapore University of Technology and Design, Singapore Management University, National University of Singapore<br/><br/>
+>> Partners: Huawei, Singapore University of Technology and Design, Singapore Management University, National University of Singapore<br/><br/>
+Project: Research on Automatic Generation of Program Documents based on Deep Learning (NSFC)<br/><br/>
 Research Contents: Robustness of model(attack and defense); Fairness of model; Testing for model <br/><br/>
 Open Source Project: GuardAI, FairAI<br/><br/>
 Publication: [“White-box Fairness Testing through Adversarial Sampling”](http://pxzhang94.github.io/paper/ai_analysis/icse2020.pdf), **Peixin Zhang**, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jinsong Dong, and Ting Dai, Proceedings of the 42nd International Conference on Software Engineering(ICSE), Seoul, Republic of Korea, 2020 (**[ACM SIGSOFT Distinguished Paper](https://2020.icse-conferences.org/info/awards)**)<br/><br/>
@@ -37,8 +38,8 @@ Publication: [“White-box Fairness Testing through Adversarial Sampling”](htt
 Other Paper: [“Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/input_mutation.pdf), Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, and Xinyu Wang<br/><br/>
 
 > [School of Information Systems, Singapore Management University](https://sis.smu.edu.sg)，2019.09-2020.09，Testing and Analysis of AI Aystems
->> Project: Fuzzing AI-Systems for Adversarial Sample Generation and Mitigation (Huawei)<br/><br/>
-Publication: ["There is Limited Correlation between Coverage and Robustness for Deep Neural Networks"](http://pxzhang94.github.io/paper/ai_analysis/coverage_robustness.pdf), Yizhen Dong, **Peixin Zhang**, Jingyi Wang, Shuang Liu, Jun Sun, Jianye Hao, Xinyu Wang, Li Wang, Jin Song Dong, and Dai Ting, 25th International Conference on Engineering of Complex Computer Systems(ICECCS), Singapore, 2020<br/><br/>
+>> Project: Fuzzing AI-Systems for Adversarial Sample Generation and Mitigation（Huawei）<br/>Testing and Defending AI-Systems Holistically（Huawei）<br/>Explaining AI with the Right Level of Abstraction（AISG）<br/><br/>
+Publication: ["An Empirical Study on Correlation between Coverage and Robustness for Deep Neural Networks"](http://pxzhang94.github.io/paper/ai_analysis/coverage_robustness.pdf), Yizhen Dong, **Peixin Zhang**, Jingyi Wang, Shuang Liu, Jun Sun, Jianye Hao, Xinyu Wang, Li Wang, Jin Song Dong, and Dai Ting, 25th International Conference on Engineering of Complex Computer Systems(ICECCS), Singapore, 2020<br/><br/>
 
 <!-- Publication: [“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/> -->
 
