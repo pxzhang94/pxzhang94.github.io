@@ -1,5 +1,5 @@
 ### 2020
-**Peixin Zhang**, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jinsong Dong, and Ting Dai, “White-box Fairness Testing through Adversarial Sampling”, ICSE 2020. \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/icse2020.pdf), [Bibtex](http://pxzhang94.github.io/bibtex/fairness_testing.html), [Slide](http://pxzhang94.github.io/slide/icse20.pdf), [Video](http://pxzhang94.github.io/video/icse20.mp4)\]
+**Peixin Zhang**, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jinsong Dong, and Ting Dai, “White-box Fairness Testing through Adversarial Sampling”, ICSE 2020 (**ACM SIGSOFT Distinguished Paper**, **ACM SIGSOFT Research Highlight**). \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/icse2020.pdf), [Bibtex](http://pxzhang94.github.io/bibtex/fairness_testing.html), [Slide](http://pxzhang94.github.io/slide/icse20.pdf), [Video](http://pxzhang94.github.io/video/icse20.mp4)\]
 
 Yizhen Dong, **\*Peixin Zhang**, Jingyi Wang, Shuang Liu, Jun Sun, Jianye Hao, Xinyu Wang, Li Wang, Jinsong Dong, and Dai Ting, “An Empirical Study on Correlation between Coverage and Robustness for Deep Neural Networks”, ICECCS 2020. \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/coverage_robustness.pdf), [Bibtex](http://pxzhang94.github.io/bibtex/coverage_robustness.html)\]
 

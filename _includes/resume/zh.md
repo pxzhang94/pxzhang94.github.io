@@ -33,7 +33,7 @@
 项目：基于深度学习的程序文档自动化生成技术研究（国家自然科学基金面上项目）<br/><br/>
 研究内容：模型鲁棒性（攻击与防御），模型公平性，模型测试<br/><br/>
 开源项目：GuardAI, FairAI<br/><br/>
-论文发表：[“White-box Fairness Testing through Adversarial Sampling”](http://pxzhang94.github.io/paper/ai_analysis/icse2020.pdf), **Peixin Zhang**, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jinsong Dong, and Ting Dai, Proceedings of the 42nd International Conference on Software Engineering(ICSE), Seoul, Republic of Korea, 2020 (**[国际计算机协会软件工程专业杰出论文奖](https://2020.icse-conferences.org/info/awards)**)<br/><br/>
+论文发表：[“White-box Fairness Testing through Adversarial Sampling”](http://pxzhang94.github.io/paper/ai_analysis/icse2020.pdf), **Peixin Zhang**, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jinsong Dong, and Ting Dai, Proceedings of the 42nd International Conference on Software Engineering(ICSE), Seoul, Republic of Korea, 2020 (**[国际计算机协会软件工程专业杰出论文奖](https://2020.icse-conferences.org/info/awards)**, **[ACM SIGSOFT Research Highlight](https://www.sigsoft.org/resources/highlights.html)**)<br/><br/>
 [“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, and **Peixin Zhang**, Proceedings of the 41st International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
 其它论文：[“Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/input_mutation.pdf), Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, and Xinyu Wang<br/><br/>
 
@@ -50,6 +50,7 @@
 
 | 获奖时间 | 奖项 |
 | ------- | --- |
+| 2021.03 | **[ACM SIGSOFT Research Highlight](https://www.sigsoft.org/resources/highlights.html)** |
 | 2020.11 | 浙江大学三好研究生 |
 | 2020.11 | 浙江大学优秀研究生 |
 | 2020.07 | **[国际计算机协会软件工程专业杰出论文(ACM SIGSOFT Distinguished Paper)](https://2020.icse-conferences.org/info/awards)** |

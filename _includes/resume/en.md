@@ -33,7 +33,7 @@ Data Cleaning and Analysis
 Project: Research on Automatic Generation of Program Documents based on Deep Learning (NSFC)<br/><br/>
 Research Contents: Robustness of model(attack and defense); Fairness of model; Testing for model <br/><br/>
 Open Source Project: GuardAI, FairAI<br/><br/>
-Publication: [“White-box Fairness Testing through Adversarial Sampling”](http://pxzhang94.github.io/paper/ai_analysis/icse2020.pdf), **Peixin Zhang**, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jinsong Dong, and Ting Dai, Proceedings of the 42nd International Conference on Software Engineering(ICSE), Seoul, Republic of Korea, 2020 (**[ACM SIGSOFT Distinguished Paper](https://2020.icse-conferences.org/info/awards)**)<br/><br/>
+Publication: [“White-box Fairness Testing through Adversarial Sampling”](http://pxzhang94.github.io/paper/ai_analysis/icse2020.pdf), **Peixin Zhang**, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jinsong Dong, and Ting Dai, Proceedings of the 42nd International Conference on Software Engineering(ICSE), Seoul, Republic of Korea, 2020 (**[ACM SIGSOFT Distinguished Paper](https://2020.icse-conferences.org/info/awards)**, **[ACM SIGSOFT Research Highlight](https://www.sigsoft.org/resources/highlights.html)**)<br/><br/>
 [“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, and **Peixin Zhang**, Proceedings of the 41st International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
 Other Paper: [“Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/input_mutation.pdf), Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, and Xinyu Wang<br/><br/>
 
@@ -52,6 +52,7 @@ Publication: [“Towards Optimal Concolic Testing”](http://pxzhang94.github.io
 
 | Time | Honor |
 | ------- | --- |
+| 2021.03 | **[ACM SIGSOFT Research Highlight](https://www.sigsoft.org/resources/highlights.html)** |
 | 2020.11 | Graduate of Merit/Triple A Graduate of Zhejiang University |
 | 2020.11 | Award of Honor for Graduate of Zhejiang University |
 | 2020.07 | **[ACM SIGSOFT Distinguished Paper](https://2020.icse-conferences.org/info/awards)** |
