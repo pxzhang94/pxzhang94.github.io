@@ -10,11 +10,11 @@ I am a Ph.D. candidate studying in the [Intelligent Computing and Software Cente
 
 ### Internship
 
-> Hangzhou Moxie Data Science Technology Ltd.，2016.09-2017.02，Data Engineer
+<!-- > Hangzhou Moxie Data Science Technology Ltd.，2016.09-2017.02，Data Engineer
 >> Project Architecture Design: Organization, document, process, technology<br/><br/>
 User Portrait Design: Accumulation fund, cyber bank, e-commerce<br/><br/>
 User Portrait Development: By SQL and streaming engine<br/><br/>
-Document：Example of user portrait report, index development description
+Document：Example of user portrait report, index development description -->
 
 > [Zhejiang Bangsun Technology Ltd.](https://www.bsfit.com.cn)，2016.02-2016.09，Algorithm Engineer
 >> Machine Learning Algorithm Library: Design the code structure and integrate the code, algorithm development, performance tuning, Model’s  function development，etc<br/><br/>
