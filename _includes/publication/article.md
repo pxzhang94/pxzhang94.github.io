@@ -1,3 +1,7 @@
+### 2021
+**Peixin Zhang**, Jingyi Wang, Jun Sun, Xinyu Wang, Guoliang Dong, Xingen Wang, Ting Dai, and Jinsong Dong,
+"Automatic Fairness Testing of Neural Classifiers through Adversarial Sampling", TSE 2021, \[PDF, Bibtex\]
+
 ### 2020
 **Peixin Zhang**, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jinsong Dong, and Ting Dai, “White-box Fairness Testing through Adversarial Sampling”, ICSE 2020 (**ACM SIGSOFT Distinguished Paper**, **ACM SIGSOFT Research Highlight**). \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/icse2020.pdf), [Bibtex](http://pxzhang94.github.io/bibtex/fairness_testing.html), [Slide](http://pxzhang94.github.io/slide/icse20.pdf), [Video](http://pxzhang94.github.io/video/icse20.mp4)\]
 
