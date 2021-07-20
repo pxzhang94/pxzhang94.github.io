@@ -38,7 +38,7 @@
 [“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, and **Peixin Zhang**, Proceedings of the 41st International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
 其它论文：[“Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/input_mutation.pdf), Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, and Xinyu Wang<br/><br/>
 
-> [新加坡管理大学信息系统学院](https://sis.smu.edu.sg)，2019.09-2020.09，人工智能系统分析与测试方向
+> [新加坡管理大学系统分析与验证小组](https://sav-smu.github.io)，2019.09-2020.09，人工智能测试与验证方向
 >> 项目：Fuzzing AI-Systems for Adversarial Sample Generation and Mitigation（华为）<br/>Testing and Defending AI-Systems Holistically（华为）<br/>Explaining AI with the Right Level of Abstraction（AISG）<br/><br/>
 论文发表：["An Empirical Study on Correlation between Coverage and Robustness for Deep Neural Networks"](http://pxzhang94.github.io/paper/ai_analysis/coverage_robustness.pdf), Yizhen Dong, **Peixin Zhang**, Jingyi Wang, Shuang Liu, Jun Sun, Jianye Hao, Xinyu Wang, Li Wang, Jin Song Dong, and Dai Ting, 25th International Conference on Engineering of Complex Computer Systems(ICECCS), Singapore, 2020<br/><br/>
 

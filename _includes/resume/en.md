@@ -28,7 +28,7 @@ Data Cleaning and Analysis
 
 ### Projects
 
-> [Intelligent Computing and Software Center of Zhejiang University (ICSOFT)](http://www.icsoft.zju.edu.cn)，2018.03-Now，Testing and Analysis of AI Aystems
+> [Intelligent Computing and Software Center (ICSOFT)](http://www.icsoft.zju.edu.cn), Zhejiang University，2018.03-Now，Testing and Analysis of AI Aystems
 >> Partners: Huawei, Singapore University of Technology and Design, Singapore Management University, National University of Singapore<br/><br/>
 Project: Research on Automatic Generation of Program Documents based on Deep Learning (NSFC)<br/><br/>
 Research Contents: Robustness of model(attack and defense); Fairness of model; Testing for model <br/><br/>
@@ -38,13 +38,13 @@ Publication: "Automatic Fairness Testing of Neural Classifiers through Adversari
 [“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, and **Peixin Zhang**, Proceedings of the 41st International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
 Other Paper: [“Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/input_mutation.pdf), Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, and Xinyu Wang<br/><br/>
 
-> [School of Information Systems, Singapore Management University](https://sis.smu.edu.sg)，2019.09-2020.09，Testing and Analysis of AI Aystems
+> [System Analysis and Verification Group (SAV)](https://sav-smu.github.io), Singapore Management University，2019.09-2020.09，AI Testing & Verification
 >> Project: Fuzzing AI-Systems for Adversarial Sample Generation and Mitigation（Huawei）<br/>Testing and Defending AI-Systems Holistically（Huawei）<br/>Explaining AI with the Right Level of Abstraction（AISG）<br/><br/>
 Publication: ["An Empirical Study on Correlation between Coverage and Robustness for Deep Neural Networks"](http://pxzhang94.github.io/paper/ai_analysis/coverage_robustness.pdf), Yizhen Dong, **Peixin Zhang**, Jingyi Wang, Shuang Liu, Jun Sun, Jianye Hao, Xinyu Wang, Li Wang, Jin Song Dong, and Dai Ting, 25th International Conference on Engineering of Complex Computer Systems(ICECCS), Singapore, 2020<br/><br/>
 
 <!-- Publication: [“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/> -->
 
-> [System Analysis and Verification Group of SUTD](http://sav.sutd.edu.sg)，2017.07-2017.10，Testing
+> [System Analysis and Verification Group](http://sav.sutd.edu.sg), Singapore University of Technology and Design，2017.07-2017.10，Testing
 >> Research Contents: Concolic testing; Symbolic execution; Generate test case by deep neural network<br/><br/>
 Open Source Project: [Ziyuan](https://github.com/sunjun-group/Ziyuan)<br/><br/>
 Publication: [“Towards Optimal Concolic Testing”](http://pxzhang94.github.io/paper/concolic_testing/icse2018.pdf), Xinyu Wang, Jun Sun, Zhenbang Chen, **Peixin Zhang**, Jingyi Wang, and Yun Lin, Proceedings of the 40th International Conference on Software Engineering(ICSE), Gothenburg, Sweden, 2018 (**[ACM SIGSOFT Distinguished Paper](https://www.icse2018.org/info/awards)**)

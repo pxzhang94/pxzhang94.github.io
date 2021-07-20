@@ -1,4 +1,4 @@
-I"2<h3 id="个人简介">个人简介</h3>
+I"33<h3 id="个人简介">个人简介</h3>
 <p>我目前是浙江大学<a href="http://www.icsoft.zju.edu.cn">智能计算与软件中心(ICSOFT)</a>的在读博士研究生，现阶段的研究方向是软件工程以及人工智能系统分析与测试。</p>
 
 <h3 id="教育背景">教育背景</h3>
@@ -72,14 +72,15 @@
 项目：基于深度学习的程序文档自动化生成技术研究（国家自然科学基金面上项目）<br /><br />
 研究内容：模型鲁棒性（攻击与防御），模型公平性，模型测试<br /><br />
 开源项目：GuardAI, FairAI<br /><br />
-论文发表：<a href="http://pxzhang94.github.io/paper/ai_analysis/icse2020.pdf">“White-box Fairness Testing through Adversarial Sampling”</a>, <strong>Peixin Zhang</strong>, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jinsong Dong, and Ting Dai, Proceedings of the 42nd International Conference on Software Engineering(ICSE), Seoul, Republic of Korea, 2020 (<strong><a href="https://2020.icse-conferences.org/info/awards">国际计算机协会软件工程专业杰出论文奖</a></strong>, <strong><a href="https://www.sigsoft.org/resources/highlights.html">ACM SIGSOFT Research Highlight</a></strong>)<br /><br />
+论文发表：”Automatic Fairness Testing of Neural Classifiers through Adversarial Sampling”, <strong>Peixin Zhang</strong>, Jingyi Wang, Jun Sun, Xinyu Wang, Guoliang Dong, Xingen Wang, Ting Dai, and Jinsong Dong, IEEE Transactions on Software Engineering(TSE), 2021<br /><br />
+<a href="http://pxzhang94.github.io/paper/ai_analysis/icse2020.pdf">“White-box Fairness Testing through Adversarial Sampling”</a>, <strong>Peixin Zhang</strong>, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jinsong Dong, and Ting Dai, Proceedings of the 42nd International Conference on Software Engineering(ICSE), Seoul, Republic of Korea, 2020 (<strong><a href="https://2020.icse-conferences.org/info/awards">国际计算机协会软件工程专业杰出论文奖</a></strong>, <strong><a href="https://www.sigsoft.org/resources/highlights.html">ACM SIGSOFT Research Highlight</a></strong>)<br /><br />
 <a href="http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf">“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”</a>, Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, and <strong>Peixin Zhang</strong>, Proceedings of the 41st International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br /><br />
 其它论文：<a href="http://pxzhang94.github.io/paper/ai_analysis/input_mutation.pdf">“Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”</a>, Jingyi Wang, <strong>Peixin Zhang</strong>, Pengfei Yang, Jun Sun, Dongxia Wang, and Xinyu Wang<br /><br /></p>
   </blockquote>
 </blockquote>
 
 <blockquote>
-  <p><a href="https://sis.smu.edu.sg">新加坡管理大学信息系统学院</a>，2019.09-2020.09，人工智能系统分析与测试方向</p>
+  <p><a href="https://sav-smu.github.io">新加坡管理大学系统分析与验证小组</a>，2019.09-2020.09，人工智能测试与验证方向</p>
   <blockquote>
     <p>项目：Fuzzing AI-Systems for Adversarial Sample Generation and Mitigation（华为）<br />Testing and Defending AI-Systems Holistically（华为）<br />Explaining AI with the Right Level of Abstraction（AISG）<br /><br />
 论文发表：<a href="http://pxzhang94.github.io/paper/ai_analysis/coverage_robustness.pdf">“An Empirical Study on Correlation between Coverage and Robustness for Deep Neural Networks”</a>, Yizhen Dong, <strong>Peixin Zhang</strong>, Jingyi Wang, Shuang Liu, Jun Sun, Jianye Hao, Xinyu Wang, Li Wang, Jin Song Dong, and Dai Ting, 25th International Conference on Engineering of Complex Computer Systems(ICECCS), Singapore, 2020<br /><br /></p>
