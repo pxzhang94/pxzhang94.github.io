@@ -1,34 +1,16 @@
 ### Introduction
-I am a Ph.D. candidate studying in the [Intelligent Computing and Software Center (ICSOFT)](http://www.icsoft.zju.edu.cn) of Zhejiang University, my recent research areas are software engineering and analysis of AI systems.  
+I am a Ph.D. candidate studying in the [Intelligent Computing and Software Center (ICSOFT)](http://www.icsoft.zju.edu.cn) of Zhejiang University, my recent research areas are software engineering and AI Testing & Verification.  
 
 ### Education
 
-| Period | School | College | Major | Supervisor | Degree | Grades |
+| Period | School | College | Major | Supervisor | Degree |
 | ------- | --- | --- | --- | --- | --- | --- |
-| 2016.09-Now | Zhejiang University | Computer Science and Technology | Computer Science | [Prof. Wang Xinyu](https://person.zju.edu.cn/en/wangxinyu_en) | Doctor | 87.4/100 |
-| 2012.09-2016.06 | Zhejiang University | Computer Science and Technology | Software Engineering | [Prof. Wang Xinyu](https://person.zju.edu.cn/en/wangxinyu_en) | Bachelor | 3.87/5 |
+| 2016.09-2022.03| Zhejiang University | Computer Science and Technology | Computer Science | [Prof. Wang Xinyu](https://person.zju.edu.cn/en/wangxinyu_en) | Doctor |
+| 2012.09-2016.06 | Zhejiang University | Computer Science and Technology | Software Engineering | [Prof. Wang Xinyu](https://person.zju.edu.cn/en/wangxinyu_en) | Bachelor |
 
-### Internship
+### Research
 
-<!-- > Hangzhou Moxie Data Science Technology Ltd.，2016.09-2017.02，Data Engineer
->> Project Architecture Design: Organization, document, process, technology<br/><br/>
-User Portrait Design: Accumulation fund, cyber bank, e-commerce<br/><br/>
-User Portrait Development: By SQL and streaming engine<br/><br/>
-Document：Example of user portrait report, index development description -->
-
-> [Zhejiang Bangsun Technology Ltd.](https://www.bsfit.com.cn)，2016.02-2016.09，Algorithm Engineer
->> Machine Learning Algorithm Library: Design the code structure and integrate the code, algorithm development, performance tuning, Model’s  function development，etc<br/><br/>
-Management platform: Requirement document, operation manual, software copyright, patent application, etc; Testing<br/><br/>
-Data Analysis: Ctrip, Yeepay, Suning, etc<br/><br/>
-Survey: Credit checking industry, neural network open source project
-
-> [Zhejiang Bangsun Technology Ltd.](https://www.bsfit.com.cn)，2015.08-2015.10，Software Engineer
->> Web Crawler<br/><br/>
-Data Cleaning and Analysis
-
-### Projects
-
-> [Intelligent Computing and Software Center (ICSOFT)](http://www.icsoft.zju.edu.cn), Zhejiang University，2018.03-Now，Testing and Analysis of AI Aystems
+> [Intelligent Computing and Software Center (ICSOFT)](http://www.icsoft.zju.edu.cn), Zhejiang University，2018.03-2022.03，AI Testing & Verification
 >> Partners: Huawei, Singapore University of Technology and Design, Singapore Management University, National University of Singapore<br/><br/>
 Project: Research on Automatic Generation of Program Documents based on Deep Learning (NSFC)<br/><br/>
 Research Contents: Robustness of model(attack and defense); Fairness of model; Testing for model <br/><br/>
@@ -48,6 +30,24 @@ Publication: ["An Empirical Study on Correlation between Coverage and Robustness
 >> Research Contents: Concolic testing; Symbolic execution; Generate test case by deep neural network<br/><br/>
 Open Source Project: [Ziyuan](https://github.com/sunjun-group/Ziyuan)<br/><br/>
 Publication: [“Towards Optimal Concolic Testing”](http://pxzhang94.github.io/paper/concolic_testing/icse2018.pdf), Xinyu Wang, Jun Sun, Zhenbang Chen, **Peixin Zhang**, Jingyi Wang, and Yun Lin, Proceedings of the 40th International Conference on Software Engineering(ICSE), Gothenburg, Sweden, 2018 (**[ACM SIGSOFT Distinguished Paper](https://www.icse2018.org/info/awards)**)
+
+### Internship
+
+<!-- > Hangzhou Moxie Data Science Technology Ltd.，2016.09-2017.02，Data Engineer
+>> Project Architecture Design: Organization, document, process, technology<br/><br/>
+User Portrait Design: Accumulation fund, cyber bank, e-commerce<br/><br/>
+User Portrait Development: By SQL and streaming engine<br/><br/>
+Document：Example of user portrait report, index development description -->
+
+> [Zhejiang Bangsun Technology Ltd.](https://www.bsfit.com.cn)，2016.02-2016.09，Algorithm Engineer
+>> Machine Learning Algorithm Library: Design the code structure and integrate the code, algorithm development, performance tuning, Model’s  function development，etc<br/><br/>
+Management platform: Requirement document, operation manual, software copyright, patent application, etc; Testing<br/><br/>
+Data Analysis: Ctrip, Yeepay, Suning, etc<br/><br/>
+Survey: Credit checking industry, neural network open source project
+
+> [Zhejiang Bangsun Technology Ltd.](https://www.bsfit.com.cn)，2015.08-2015.10，Software Engineer
+>> Web Crawler<br/><br/>
+Data Cleaning and Analysis
 
 ### Awards
 
@@ -109,8 +109,9 @@ Organizing the "2013 Freshman Cup" basketball match, responsible for the managem
 
 ### Contact
 
-Email1：<pxzhang94@zju.edu.cn><br/>
-Email2：<pxzhang94@qq.com>
+Email1: <pxzhang94@zju.edu.cn><br/>
+Email2: <pxzhang94@gmail.com><br/>
+Email3: <pxzhang94@qq.com>
 
 <!-- > Yet another man.
 

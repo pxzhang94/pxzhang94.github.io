@@ -1,12 +1,33 @@
 ### 个人简介
-我目前是浙江大学[智能计算与软件中心(ICSOFT)](http://www.icsoft.zju.edu.cn)的在读博士研究生，现阶段的研究方向是软件工程以及人工智能系统分析与测试。
+我目前是浙江大学[智能计算与软件中心(ICSOFT)](http://www.icsoft.zju.edu.cn)的在读博士研究生，现阶段的研究方向是软件工程以及人工智能测试与验证。
 
 ### 教育背景
 
-| 就读时间 | 学校 | 学院 | 专业 | 导师 | 学位 | 成绩 | 
-| ------- | --- | --- | --- | --- | --- | --- |
-| 2016.09-Now | 浙江大学 | 计算机科学与技术 | 计算机科学 | [王新宇教授](https://person.zju.edu.cn/wangxinyu) | 博士 | 87.4/100 |
-| 2012.09-2016.06 | 浙江大学 | 计算机科学与技术 | 软件工程 | [王新宇教授](https://person.zju.edu.cn/wangxinyu) |学士 | 3.87/5 |
+| 就读时间 | 学校 | 学院 | 专业 | 导师 | 学位 |
+| ------- | --- | --- | --- | --- | --- |
+| 2016.09-2022.03 | 浙江大学 | 计算机科学与技术 | 计算机科学 | [王新宇教授](https://person.zju.edu.cn/wangxinyu) | 博士 |
+| 2012.09-2016.06 | 浙江大学 | 计算机科学与技术 | 软件工程 | [王新宇教授](https://person.zju.edu.cn/wangxinyu) |学士 |
+
+### 科研经历
+
+> [浙江大学智能计算与软件中心(ICSOFT)](http://www.icsoft.zju.edu.cn)，2018.03-2022.03，人工智能测试与验证方向
+>> 合作方：华为，新加坡科技设计大学，新加坡管理大学，新加坡国立大学<br/><br/>
+项目：基于深度学习的程序文档自动化生成技术研究（国家自然科学基金面上项目）<br/><br/>
+研究内容：模型鲁棒性（攻击与防御），模型公平性，模型测试<br/><br/>
+开源项目：GuardAI, FairAI<br/><br/>
+论文发表：["Automatic Fairness Testing of Neural Classifiers through Adversarial Sampling"](http://pxzhang94.github.io/paper/ai_analysis/tse_final.pdf), **Peixin Zhang**, Jingyi Wang, Jun Sun, Xinyu Wang, Guoliang Dong, Xingen Wang, Ting Dai, and Jinsong Dong, IEEE Transactions on Software Engineering(TSE), 2021<br/><br/>
+[“White-box Fairness Testing through Adversarial Sampling”](http://pxzhang94.github.io/paper/ai_analysis/icse2020.pdf), **Peixin Zhang**, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jinsong Dong, and Ting Dai, Proceedings of the 42nd International Conference on Software Engineering(ICSE), Seoul, Republic of Korea, 2020 (**[国际计算机协会软件工程专业杰出论文奖](https://2020.icse-conferences.org/info/awards)**, **[ACM SIGSOFT Research Highlight](https://www.sigsoft.org/resources/highlights.html)**)<br/><br/>
+[“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, and **Peixin Zhang**, Proceedings of the 41st International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
+其它论文：[“Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/input_mutation.pdf), Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, and Xinyu Wang<br/><br/>
+
+> [新加坡管理大学系统分析与验证小组](https://sav-smu.github.io)，2019.09-2020.09，人工智能测试与验证方向
+>> 项目：Fuzzing AI-Systems for Adversarial Sample Generation and Mitigation（华为）<br/>Testing and Defending AI-Systems Holistically（华为）<br/>Explaining AI with the Right Level of Abstraction（AISG）<br/><br/>
+论文发表：["An Empirical Study on Correlation between Coverage and Robustness for Deep Neural Networks"](http://pxzhang94.github.io/paper/ai_analysis/coverage_robustness.pdf), Yizhen Dong, **Peixin Zhang**, Jingyi Wang, Shuang Liu, Jun Sun, Jianye Hao, Xinyu Wang, Li Wang, Jin Song Dong, and Dai Ting, 25th International Conference on Engineering of Complex Computer Systems(ICECCS), Singapore, 2020<br/><br/>
+
+> [新加坡科技设计大学系统分析与验证小组](http://sav.sutd.edu.sg)，2017.07-2017.10，软件测试方向
+>> 研究内容：动态符号执行测试，符号执行测试，机器学习生成测试用例等 <br/><br/>
+开源项目：[Ziyuan](https://github.com/sunjun-group/Ziyuan)<br/><br/>
+论文发表：[“Towards Optimal Concolic Testing”](http://pxzhang94.github.io/paper/concolic_testing/icse2018.pdf), Xinyu Wang, Jun Sun, Zhenbang Chen, **Peixin Zhang**, Jingyi Wang, and Yun Lin, Proceedings of the 40th International Conference on Software Engineering(ICSE), Gothenburg, Sweden, 2018 (**[国际计算机协会软件工程专业杰出论文奖](https://www.icse2018.org/info/awards)**)
 
 ### 实习经历
 
@@ -25,27 +46,6 @@
 > [浙江邦盛科技有限公司](https://www.bsfit.com.cn)，2015.08-2015.10，软件工程师
 >> 网络爬虫<br/><br/>
 数据清洗与分析
-
-### 项目经历
-
-> [浙江大学智能计算与软件中心(ICSOFT)](http://www.icsoft.zju.edu.cn)，2018.03至今，人工智能系统分析与测试方向
->> 合作方：华为，新加坡科技设计大学，新加坡管理大学，新加坡国立大学<br/><br/>
-项目：基于深度学习的程序文档自动化生成技术研究（国家自然科学基金面上项目）<br/><br/>
-研究内容：模型鲁棒性（攻击与防御），模型公平性，模型测试<br/><br/>
-开源项目：GuardAI, FairAI<br/><br/>
-论文发表：["Automatic Fairness Testing of Neural Classifiers through Adversarial Sampling"](http://pxzhang94.github.io/paper/ai_analysis/tse_final.pdf), **Peixin Zhang**, Jingyi Wang, Jun Sun, Xinyu Wang, Guoliang Dong, Xingen Wang, Ting Dai, and Jinsong Dong, IEEE Transactions on Software Engineering(TSE), 2021<br/><br/>
-[“White-box Fairness Testing through Adversarial Sampling”](http://pxzhang94.github.io/paper/ai_analysis/icse2020.pdf), **Peixin Zhang**, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jinsong Dong, and Ting Dai, Proceedings of the 42nd International Conference on Software Engineering(ICSE), Seoul, Republic of Korea, 2020 (**[国际计算机协会软件工程专业杰出论文奖](https://2020.icse-conferences.org/info/awards)**, **[ACM SIGSOFT Research Highlight](https://www.sigsoft.org/resources/highlights.html)**)<br/><br/>
-[“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, and **Peixin Zhang**, Proceedings of the 41st International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
-其它论文：[“Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/input_mutation.pdf), Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, and Xinyu Wang<br/><br/>
-
-> [新加坡管理大学系统分析与验证小组](https://sav-smu.github.io)，2019.09-2020.09，人工智能测试与验证方向
->> 项目：Fuzzing AI-Systems for Adversarial Sample Generation and Mitigation（华为）<br/>Testing and Defending AI-Systems Holistically（华为）<br/>Explaining AI with the Right Level of Abstraction（AISG）<br/><br/>
-论文发表：["An Empirical Study on Correlation between Coverage and Robustness for Deep Neural Networks"](http://pxzhang94.github.io/paper/ai_analysis/coverage_robustness.pdf), Yizhen Dong, **Peixin Zhang**, Jingyi Wang, Shuang Liu, Jun Sun, Jianye Hao, Xinyu Wang, Li Wang, Jin Song Dong, and Dai Ting, 25th International Conference on Engineering of Complex Computer Systems(ICECCS), Singapore, 2020<br/><br/>
-
-> [新加坡科技设计大学系统分析与验证小组](http://sav.sutd.edu.sg)，2017.07-2017.10，软件测试方向
->> 研究内容：动态符号执行测试，符号执行测试，机器学习生成测试用例等 <br/><br/>
-开源项目：[Ziyuan](https://github.com/sunjun-group/Ziyuan)<br/><br/>
-论文发表：[“Towards Optimal Concolic Testing”](http://pxzhang94.github.io/paper/concolic_testing/icse2018.pdf), Xinyu Wang, Jun Sun, Zhenbang Chen, **Peixin Zhang**, Jingyi Wang, and Yun Lin, Proceedings of the 40th International Conference on Software Engineering(ICSE), Gothenburg, Sweden, 2018 (**[国际计算机协会软件工程专业杰出论文奖](https://www.icse2018.org/info/awards)**)
 
 ### 奖项荣誉
 
@@ -108,7 +108,8 @@
 ### 联系方式
 
 Email1：<pxzhang94@zju.edu.cn><br/>
-Email2：<pxzhang94@qq.com>
+Email2：<pxzhang94@gmail.com><br/>
+Email3：<pxzhang94@qq.com>
 
 
 <!-- > 写写代码，做做设计，  
