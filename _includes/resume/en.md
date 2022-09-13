@@ -1,5 +1,5 @@
 ### Introduction
-I am a Ph.D. candidate studying in the [Intelligent Computing and Software Center (ICSOFT)](http://www.icsoft.zju.edu.cn) of Zhejiang University, my recent research areas are software engineering and AI Testing & Verification.  
+I am a Research Scientist working in the [System Analysis and Verification Group (SAV)](https://sav-smu.github.io) of Singapore Management University, my recent research areas are software engineering and AI Testing & Verification.  
 
 ### Education
 
@@ -10,7 +10,9 @@ I am a Ph.D. candidate studying in the [Intelligent Computing and Software Cente
 
 ### Research
 
-> [Intelligent Computing and Software Center (ICSOFT)](http://www.icsoft.zju.edu.cn), Zhejiang University，2018.03-2022.03，AI Testing & Verification
+> [System Analysis and Verification Group (SAV)](https://sav-smu.github.io), Singapore Management University，2022.09-，AI Testing & Verification
+
+> [Intelligent Computing and Software Center (ICSOFT)](http://www.icsoft.zju.edu.cn), Zhejiang University，2018.03-2022.06，AI Testing & Verification
 >> Partners: Huawei, Singapore University of Technology and Design, Singapore Management University, National University of Singapore<br/><br/>
 Project: Research on Automatic Generation of Program Documents based on Deep Learning (NSFC)<br/><br/>
 Research Contents: Robustness of model(attack and defense); Fairness of model; Testing for model <br/><br/>
