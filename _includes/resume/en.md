@@ -11,27 +11,28 @@ I am a Research Scientist working in the [System Analysis and Verification Group
 ### Research
 
 > [System Analysis and Verification Group (SAV)](https://sav-smu.github.io), Singapore Management University，2022.09-，AI Testing & Verification
+>> Publication: ["QuoTe: Quality-oriented Testing for Deep Learning Systems"](http://pxzhang94.github.io/paper/ai_analysis/quote.pdf), Jialuo Chen, Jingyi Wang, Xingjun Ma, Youcheng Sun, Jun Sun, **Peixin Zhang**, and Peng Cheng, ACM Transactions on Software Engineering and Methodology (TOSEM), 2023<br/><br/>
 
 > [Intelligent Computing and Software Center (ICSOFT)](http://www.icsoft.zju.edu.cn), Zhejiang University，2018.03-2022.06，AI Testing & Verification
 >> Partners: Huawei, Singapore University of Technology and Design, Singapore Management University, National University of Singapore<br/><br/>
 Project: Research on Automatic Generation of Program Documents based on Deep Learning (NSFC)<br/><br/>
 Research Contents: Robustness of model(attack and defense); Fairness of model; Testing for model <br/><br/>
 Open Source Project: GuardAI, FairAI<br/><br/>
-Publication: ["Automatic Fairness Testing of Neural Classifiers through Adversarial Sampling"](http://pxzhang94.github.io/paper/ai_analysis/tse_final.pdf), **Peixin Zhang**, Jingyi Wang, Jun Sun, Xinyu Wang, Guoliang Dong, Xingen Wang, Ting Dai, and Jinsong Dong, IEEE Transactions on Software Engineering(TSE), 2021<br/><br/>
-[“White-box Fairness Testing through Adversarial Sampling”](http://pxzhang94.github.io/paper/ai_analysis/icse2020.pdf), **Peixin Zhang**, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jinsong Dong, and Ting Dai, Proceedings of the 42nd International Conference on Software Engineering(ICSE), Seoul, Republic of Korea, 2020 (**[ACM SIGSOFT Distinguished Paper](https://2020.icse-conferences.org/info/awards)**, **[ACM SIGSOFT Research Highlight](https://www.sigsoft.org/resources/highlights.html)**)<br/><br/>
-[“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, and **Peixin Zhang**, Proceedings of the 41st International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/>
+Publication: ["Automatic Fairness Testing of Neural Classifiers through Adversarial Sampling"](http://pxzhang94.github.io/paper/ai_analysis/tse_final.pdf), **Peixin Zhang**, Jingyi Wang, Jun Sun, Xinyu Wang, Guoliang Dong, Xingen Wang, Ting Dai, and Jinsong Dong, IEEE Transactions on Software Engineering (TSE), 2021<br/><br/>
+[“White-box Fairness Testing through Adversarial Sampling”](http://pxzhang94.github.io/paper/ai_analysis/icse2020.pdf), **Peixin Zhang**, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jinsong Dong, and Ting Dai, Proceedings of the 42nd International Conference on Software Engineering (ICSE), Seoul, Republic of Korea, 2020 (**[ACM SIGSOFT Distinguished Paper](https://2020.icse-conferences.org/info/awards)**, **[ACM SIGSOFT Research Highlight](https://www.sigsoft.org/resources/highlights.html)**)<br/><br/>
+[“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, and **Peixin Zhang**, Proceedings of the 41st International Conference on Software Engineering (ICSE), Montreal, Canada, 2019<br/><br/>
 Other Paper: [“Detecting Adversarial Samples of Deep Neural Networks through Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/input_mutation.pdf), Jingyi Wang, **Peixin Zhang**, Pengfei Yang, Jun Sun, Dongxia Wang, and Xinyu Wang<br/><br/>
 
 > [System Analysis and Verification Group (SAV)](https://sav-smu.github.io), Singapore Management University，2019.09-2020.09，AI Testing & Verification
 >> Project: Fuzzing AI-Systems for Adversarial Sample Generation and Mitigation（Huawei）<br/>Testing and Defending AI-Systems Holistically（Huawei）<br/>Explaining AI with the Right Level of Abstraction（AISG）<br/><br/>
-Publication: ["An Empirical Study on Correlation between Coverage and Robustness for Deep Neural Networks"](http://pxzhang94.github.io/paper/ai_analysis/coverage_robustness.pdf), Yizhen Dong, **Peixin Zhang**, Jingyi Wang, Shuang Liu, Jun Sun, Jianye Hao, Xinyu Wang, Li Wang, Jin Song Dong, and Dai Ting, 25th International Conference on Engineering of Complex Computer Systems(ICECCS), Singapore, 2020<br/><br/>
+Publication: ["An Empirical Study on Correlation between Coverage and Robustness for Deep Neural Networks"](http://pxzhang94.github.io/paper/ai_analysis/coverage_robustness.pdf), Yizhen Dong, **Peixin Zhang**, Jingyi Wang, Shuang Liu, Jun Sun, Jianye Hao, Xinyu Wang, Li Wang, Jin Song Dong, and Dai Ting, 25th International Conference on Engineering of Complex Computer Systems (ICECCS), Singapore, 2020<br/><br/>
 
 <!-- Publication: [“Adversarial Sample Detection for Deep Neural Network through Model Mutation Testing”](http://pxzhang94.github.io/paper/ai_analysis/icse2019.pdf), Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, **Peixin Zhang**, Proceedings of the 41th International Conference on Software Engineering(ICSE), Montreal, Canada, 2019<br/><br/> -->
 
 > [System Analysis and Verification Group](http://sav.sutd.edu.sg), Singapore University of Technology and Design，2017.07-2017.10，Testing
 >> Research Contents: Concolic testing; Symbolic execution; Generate test case by deep neural network<br/><br/>
 Open Source Project: [Ziyuan](https://github.com/sunjun-group/Ziyuan)<br/><br/>
-Publication: [“Towards Optimal Concolic Testing”](http://pxzhang94.github.io/paper/concolic_testing/icse2018.pdf), Xinyu Wang, Jun Sun, Zhenbang Chen, **Peixin Zhang**, Jingyi Wang, and Yun Lin, Proceedings of the 40th International Conference on Software Engineering(ICSE), Gothenburg, Sweden, 2018 (**[ACM SIGSOFT Distinguished Paper](https://www.icse2018.org/info/awards)**)
+Publication: [“Towards Optimal Concolic Testing”](http://pxzhang94.github.io/paper/concolic_testing/icse2018.pdf), Xinyu Wang, Jun Sun, Zhenbang Chen, **Peixin Zhang**, Jingyi Wang, and Yun Lin, Proceedings of the 40th International Conference on Software Engineering (ICSE), Gothenburg, Sweden, 2018 (**[ACM SIGSOFT Distinguished Paper](https://www.icse2018.org/info/awards)**)
 
 ### Internship
 
@@ -55,6 +56,7 @@ Data Cleaning and Analysis
 
 | Time | Honor |
 | ------- | --- |
+| 2023.03 | **Excellent Doctoral Dissertation of Zhejiang University** |
 | 2021.03 | **[ACM SIGSOFT Research Highlight](https://www.sigsoft.org/resources/highlights.html)** |
 | 2020.11 | Graduate of Merit/Triple A Graduate of Zhejiang University |
 | 2020.11 | Award of Honor for Graduate of Zhejiang University |
@@ -105,9 +107,9 @@ Organizing the "2013 Freshman Cup" basketball match, responsible for the managem
 
 - Reading (Literature, Philosophy, History, Net Literature and etc)
 - Basketball (Point Guard, participated in school and court basketball competitions many times)
-- Travels (writing travel notes on [Mafengwo](http://www.mafengwo.cn/u/93458083.html))
+- Travels (Writing travel notes on [Mafengwo](http://www.mafengwo.cn/u/93458083.html))
 - Collection (Stamps, Commemorative Coins)
-- Go Chess (Amateur Second Class)
+- Go Chess
 
 ### Contact
 
