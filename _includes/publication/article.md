@@ -2,11 +2,11 @@
 Yifan Jia, Christopher M. Poskitt, **\*Peixin Zhang**, Jingyi Wang, Jun Sun, and Sudipta Chattopadhyay, "Robust and Fast DNN Model Training for Trustworthy Robots", RA-L 2024. \[PDF, Bibtex\]
 
 ### 2023
-Jialuo Chen, Jingyi Wang, Xingjun Ma, Youcheng Sun, Jun Sun, **Peixin Zhang**, and Peng Cheng, "QuoTe: Quality-oriented Testing for Deep Learning Systems", TOSEM 2023, \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/quote.pdf), [Bibtex](http://pxzhang94.github.io/bibtex/quote.html)\]
+Jialuo Chen, Jingyi Wang, Xingjun Ma, Youcheng Sun, Jun Sun, **Peixin Zhang**, and Peng Cheng, "QuoTe: Quality-oriented Testing for Deep Learning Systems", TOSEM 2023. \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/quote.pdf), [Bibtex](http://pxzhang94.github.io/bibtex/quote.html)\]
 
 ### 2021
 **Peixin Zhang**, Jingyi Wang, Jun Sun, Xinyu Wang, Guoliang Dong, Xingen Wang, Ting Dai, and Jinsong Dong,
-"Automatic Fairness Testing of Neural Classifiers through Adversarial Sampling", TSE 2021, \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/tse_final.pdf), [Bibtex](http://pxzhang94.github.io/bibtex/adf.html)\]
+"Automatic Fairness Testing of Neural Classifiers through Adversarial Sampling", TSE 2021. \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/tse_final.pdf), [Bibtex](http://pxzhang94.github.io/bibtex/adf.html)\]
 
 ### 2020
 **Peixin Zhang**, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jinsong Dong, and Ting Dai, “White-box Fairness Testing through Adversarial Sampling”, ICSE 2020 (**ACM SIGSOFT Distinguished Paper**, **ACM SIGSOFT Research Highlight**). \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/icse2020.pdf), [Bibtex](http://pxzhang94.github.io/bibtex/fairness_testing.html), [Slide](http://pxzhang94.github.io/slide/icse20.pdf), [Video](http://pxzhang94.github.io/video/icse20.mp4)\]
