@@ -11,7 +11,8 @@ I am a Research Scientist working in the [System Analysis and Verification Group
 ### Research
 
 > [System Analysis and Verification Group (SAV)](https://sav-smu.github.io), Singapore Management University，2022.09-，AI Testing & Verification
->> Publication: ["QuoTe: Quality-oriented Testing for Deep Learning Systems"](http://pxzhang94.github.io/paper/ai_analysis/quote.pdf), Jialuo Chen, Jingyi Wang, Xingjun Ma, Youcheng Sun, Jun Sun, **Peixin Zhang**, and Peng Cheng, ACM Transactions on Software Engineering and Methodology (TOSEM), 2023<br/><br/>
+>> Publication: "Robust and Fast DNN Model Training for Trustworthy Robots", Yifan Jia, Christopher M. Poskitt, **\*Peixin Zhang**, Jingyi Wang, Jun Sun, and Sudipta Chattopadhyay, IEEE Robotics and Automation Letters, 2024<br/><br/>
+["QuoTe: Quality-oriented Testing for Deep Learning Systems"](http://pxzhang94.github.io/paper/ai_analysis/quote.pdf), Jialuo Chen, Jingyi Wang, Xingjun Ma, Youcheng Sun, Jun Sun, **Peixin Zhang**, and Peng Cheng, ACM Transactions on Software Engineering and Methodology (TOSEM), 2023<br/><br/>
 
 > [Intelligent Computing and Software Center (ICSOFT)](http://www.icsoft.zju.edu.cn), Zhejiang University，2018.03-2022.06，AI Testing & Verification
 >> Partners: Huawei, Singapore University of Technology and Design, Singapore Management University, National University of Singapore<br/><br/>

@@ -106,9 +106,6 @@ page-mathjax: false
 # Friends
 friends: [
   {
-        title: "Chaohao Shi",
-        href: "http://shichaohao.com"
-    },{
         title: "Jingyi Wang",
         href: "https://wang-jingyi.github.io"
     },{

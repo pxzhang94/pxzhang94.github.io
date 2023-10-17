@@ -1,5 +1,8 @@
+### 2024
+Yifan Jia, Christopher M. Poskitt, **\*Peixin Zhang**, Jingyi Wang, Jun Sun, and Sudipta Chattopadhyay, "Robust and Fast DNN Model Training for Trustworthy Robots", RA-L 2024. \[PDF, Bibtex\]
+
 ### 2023
-Jialuo Chen, Jingyi Wang, Xingjun Ma, Youcheng Sun, Jun Sun, **Peixin Zhang**, and Peng Cheng, "QuoTe: Quality-oriented Testing for Deep Learning Systems", TOSEM 2023, \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/quote.pdf), Bibtex\]
+Jialuo Chen, Jingyi Wang, Xingjun Ma, Youcheng Sun, Jun Sun, **Peixin Zhang**, and Peng Cheng, "QuoTe: Quality-oriented Testing for Deep Learning Systems", TOSEM 2023, \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/quote.pdf), [Bibtex](http://pxzhang94.github.io/bibtex/quote.html)\]
 
 ### 2021
 **Peixin Zhang**, Jingyi Wang, Jun Sun, Xinyu Wang, Guoliang Dong, Xingen Wang, Ting Dai, and Jinsong Dong,
