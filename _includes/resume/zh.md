@@ -11,7 +11,7 @@
 ### 科研经历
 
 > [新加坡管理大学系统分析与验证小组](https://sav-smu.github.io)，2022.09-，人工智能测试与验证方向
->> 论文发表："Robust and Fast DNN Model Training for Trustworthy Robots", Yifan Jia, Christopher M. Poskitt, **\*Peixin Zhang**, Jingyi Wang, Jun Sun, and Sudipta Chattopadhyay, IEEE Robotics and Automation Letters, 2024<br/><br/>
+>> 论文发表：["Boosting Adversarial Training in Safety-critical Systems through Boundary Data Selection"](http://pxzhang94.github.io/paper/ai_analysis/rast.pdf), Yifan Jia, Christopher M. Poskitt, **\*Peixin Zhang**, Jingyi Wang, Jun Sun, and Sudipta Chattopadhyay, IEEE Robotics and Automation Letters (RA-L), 2024<br/><br/>
 ["QuoTe: Quality-oriented Testing for Deep Learning Systems"](http://pxzhang94.github.io/paper/ai_analysis/quote.pdf), Jialuo Chen, Jingyi Wang, Xingjun Ma, Youcheng Sun, Jun Sun, **Peixin Zhang**, and Peng Cheng, ACM Transactions on Software Engineering and Methodology (TOSEM), 2023<br/><br/>
 
 > [浙江大学智能计算与软件中心(ICSOFT)](http://www.icsoft.zju.edu.cn)，2018.03-2022.06，人工智能测试与验证方向
