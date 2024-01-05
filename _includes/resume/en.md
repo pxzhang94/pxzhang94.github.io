@@ -57,6 +57,7 @@ Data Cleaning and Analysis
 
 | Time | Honor |
 | ------- | --- |
+| 2023.12 | **Excellent Doctoral Dissertation in Zhejiang** |
 | 2023.03 | **Excellent Doctoral Dissertation of Zhejiang University** |
 | 2021.03 | **[ACM SIGSOFT Research Highlight](https://www.sigsoft.org/resources/highlights.html)** |
 | 2020.11 | Graduate of Merit/Triple A Graduate of Zhejiang University |

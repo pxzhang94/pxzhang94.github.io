@@ -55,6 +55,7 @@
 
 | 获奖时间 | 奖项 |
 | ------- | --- |
+| 2023.12 | **浙江省优秀博士学位论文** |
 | 2023.03 | **浙江大学优秀博士学位论文** |
 | 2021.03 | **[ACM SIGSOFT Research Highlight](https://www.sigsoft.org/resources/highlights.html)** |
 | 2020.11 | 浙江大学三好研究生 |
