@@ -84,6 +84,12 @@ Others: Securities qualification of the Securities Association of China
 
 ### Activities
 
+> [Large Model Safety Workshop (Singapore)](https://llmworkshop.github.io), 2024.07, Organizing Committee Member
+>> Setting up the registration process<br/><br/>
+Coordinating offline events<br/><br/>
+Drafting and managing online promotional materials<br/><br/>
+Volunteer
+
 > [The 26th IEEE International Conference on Software Analysis, Evolution and Reengineering(SANER 2019)](https://saner2019.github.io), 2018.09-2019.02, Local Committee Member
 >> Official website construction<br/><br/>
 Assist participants in registration<br/><br/>
