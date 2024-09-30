@@ -80,19 +80,14 @@
 英语：雅思 6.5<br/><br/>
 其它：中国证券业协会证券从业资格(证券市场基础知识，证券交易，证券投资基金，证券投资分析)
 
+### 科研服务
+
+- 组织：[大模型安全研讨会（新加坡）](https://llmworkshop.github.io)
+- 报告：第四届中国蜕变测试技术研讨会, [CCF中国软件大会2020（ChinaSoft 2020）](https://chinasoft2020.cqu.edu.cn/), [第42届国际软件工程会议（ICSE 2020）](https://conf.researchr.org/home/icse-2020)
+- 审稿：[IEEE信息取证与安全汇刊（TIFS）](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206), [ACM软件工程与方法学汇刊（TOSEM）](https://dl.acm.org/journal/tosem), [第13届国际学习表示会议（ICLR 2025）](https://iclr.cc/Conferences/2025), [中国科学：信息科学（SCIS）](https://scis.scichina.com/), [IEEE机器人与自动化快报（RA-L）](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369), [IEEE神经网络与学习系统汇刊（TNNLS）](https://cis.ieee.org/publications/t-neural-networks-and-learning-systems), [信息与软件技术（IST）](https://www.sciencedirect.com/journal/information-and-software-technology), [ACM数据知识发现汇刊（TKDD）](https://dl.acm.org/journal/tkdd), [软件学报：演化与过程（JSEP）](https://onlinelibrary.wiley.com/journal/20477481), [计算机科学与技术期刊（JCST）](https://jcst.ict.ac.cn/), [可靠软件工程研讨会2023（SETTA 2023）](https://lcs.ios.ac.cn/setta2023/)，[第37届国际软件维护与演化会议（ICSME 2021）](https://icsme2021.github.io/), [第27届IEEE软件分析、演化与再工程国际会议（SANER 2020）](https://saner2020.csd.uwo.ca/), 第36届国际软件维护与演化会议（ICSME 2020）, [2024年IEEE/RSJ智能机器人与系统国际会议（IROS 2024）](https://iros2024-abudhabi.org/)
+- 志愿者：[第21届自动化技术验证与分析国际研讨会（ATVA 2023）](https://atva-conference.org/2023/), [第28届IEEE泛太平洋国际可靠计算研讨会（PRDC 2023）](https://prdc.dependability.org/PRDC2023/), [第26届IEEE软件分析、演化与再工程国际会议（SANER 2019）](https://saner2019.github.io), 第18届全国软件应用会议（NASAC 2019）
+
 ### 社会活动
-
-> [大模型安全研讨会（新加坡）](https://llmworkshop.github.io)，2024.07，组织委员会成员
->> 搭建注册流程<br/><br/>
-协调线下活动<br/><br/>
-撰写及协调线上宣传文稿<br/><br/>
-志愿者
-
-> [第26届IEEE软件分析、演化与再工程国际会议](https://saner2019.github.io)，2018.09-2019.02，组织委员会成员
->> 搭建官方网站<br/><br/>
-协助参会人员注册<br/><br/>
-撰写开闭幕及颁奖演示文稿<br/><br/>
-志愿者
 
 > 乐清市“梦想导师计划”志愿者活动，2015.02-2015.08，联合发起人
 >> 关注在乐务工人员子女的心理健康发展<br/><br/>

@@ -82,19 +82,15 @@ Data Cleaning and Analysis
 English: IELTS 6.5<br/><br/>
 Others: Securities qualification of the Securities Association of China
 
+### Services
+
+- Organizer: [Large Model Safety Workshop (Singapore)](https://llmworkshop.github.io)
+- Speaker: The 4th China Symposium on Metamorphic Testing Technology, [ChinaSoft 2020](https://chinasoft2020.cqu.edu.cn/), [ICSE 2020](https://conf.researchr.org/home/icse-2020)
+- Reviewer: [TIFS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206), [TOSEM](https://dl.acm.org/journal/tosem), [ICLR 2025](https://iclr.cc/Conferences/2025), [SCIS](https://scis.scichina.com/), [RA-L](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369), [TNNLS](https://cis.ieee.org/publications/t-neural-networks-and-learning-systems), [IST](https://www.sciencedirect.com/journal/information-and-software-technology), [TKDD](https://dl.acm.org/journal/tkdd), [JSEP](https://onlinelibrary.wiley.com/journal/20477481), [JCST](https://jcst.ict.ac.cn/), [SETTA 2023](https://lcs.ios.ac.cn/setta2023/)，[ICSME 2021](https://icsme2021.github.io/)，[SANER 2020](https://saner2020.csd.uwo.ca/), ICSME 2020, [IROS 2024](https://iros2024-abudhabi.org/)
+-- s
+- Volunteer: [ATVA 2023](https://atva-conference.org/2023/), [PRDC 2023](https://prdc.dependability.org/PRDC2023/), [SANER 2019](https://saner2019.github.io), NASAC 2019
+
 ### Activities
-
-> [Large Model Safety Workshop (Singapore)](https://llmworkshop.github.io), 2024.07, Organizing Committee Member
->> Setting up the registration process<br/><br/>
-Coordinating offline events<br/><br/>
-Drafting and managing online promotional materials<br/><br/>
-Volunteer
-
-> [The 26th IEEE International Conference on Software Analysis, Evolution and Reengineering(SANER 2019)](https://saner2019.github.io), 2018.09-2019.02, Local Committee Member
->> Official website construction<br/><br/>
-Assist participants in registration<br/><br/>
-Slides for opening, closing and awarding ceremony<br/><br/>
-Volunteer
 
 > “Dream Mentor Program” Volunteering Activities in City Yueqing，2015.02-2015.08，Co-Sponsors
 >> Focus on the mental health development of the workers' children<br/><br/>
