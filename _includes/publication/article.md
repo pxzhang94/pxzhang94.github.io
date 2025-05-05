@@ -1,7 +1,7 @@
 ### 2025
 Mengdi Zhang, Goh Kai Kiat, **\*Peixin Zhang**, Jun Sun, Lin Xin Rose, Hongyu Zhang, "LLMScan: Causal Scan for LLM Misbehavior Detection", ICML 2025. \[PDF, Slide\]
 
-### 2023
+### 2024
 Yifan Jia, Christopher M. Poskitt, **\*Peixin Zhang**, Jingyi Wang, Jun Sun, and Sudipta Chattopadhyay, "Boosting Adversarial Training in Safety-critical Systems through Boundary Data Selection", ICRA 2024. \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/rast.pdf), [Bibtex](http://pxzhang94.github.io/bibtex/rast.html), [Slide](http://pxzhang94.github.io/slide/icra24.pdf)\]
 
 ### 2023
