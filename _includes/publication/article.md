@@ -1,3 +1,6 @@
+### 2026
+Xiangxiang Chen, **\*Peixin Zhang**, Jun Sun, Wenhai Wang, Jingyi Wang, "Rounding-Guided Backdoor Injection in Deep Learning Model Quantization", NDSS 2026. \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/qura.pdf), Slide\]
+
 ### 2025
 Mengdi Zhang, Kai Kiat Goh, **\*Peixin Zhang**, Jun Sun, Rose Lin Xin, Hongyu Zhang, "LLMScan: Causal Scan for LLM Misbehavior Detection", ICML 2025. \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/llmscan.pdf), Slide\]
 
