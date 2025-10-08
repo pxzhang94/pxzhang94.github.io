@@ -4,7 +4,7 @@ SEOTitle: 张培歆 | PXZHANG
 header-img: img/home-bg.jpg
 email: pxzhang94@zju.edu.cn
 description: 这里是 @PXZHANG张培歆 的个人网站
-keyword: "张培歆, PXZHANG, PXZHANG张培歆, 个人网站，软件测试，深度学习，旅游, 收藏"
+keyword: "张培歆, PXZHANG, PXZHANG张培歆, 个人网站，可信人工智能，旅游, 收藏"
 url: "https://pxzhang94.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -120,6 +120,9 @@ friends: [
     },{
         title: "Zhanming Jie",
         href: "https://people.sutd.edu.sg/~allanjie/"
+    },{
+        title: "Jiakun Liu",
+        href: "https://jiakun-liu.github.io"
     }
     # ,{
     #    title: "乱序",
