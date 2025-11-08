@@ -11,9 +11,11 @@ I am a Research Scientist working in the [System Analysis and Verification Group
 ### Research
 
 > [System Analysis and Verification Group (SAV)](https://sav-smu.github.io), Singapore Management University，2022.09-，AI Testing & Verification
->> Publication: ["Rounding-Guided Backdoor Injection in Deep Learning Model Quantization"](http://pxzhang94.github.io/paper/ai_analysis/qura.pdf), Xiangxiang Chen, **\*Peixin Zhang**, Jun Sun, Wenhai Wang, Jingyi Wang, Network and Distributed System Security Symposium, 2026<br/><br/>
-["LLMScan: Causal Scan for LLM Misbehavior Detection"](http://pxzhang94.github.io/paper/ai_analysis/llmscan.pdf), Mengdi Zhang, Kai Kiat Goh, **\*Peixin Zhang**, Jun Sun, Rose Lin Xin, Hongyu Zhang, International Conference on Machine Learning, 2025<br/><br/> 
-["Boosting Adversarial Training in Safety-critical Systems through Boundary Data Selection"](http://pxzhang94.github.io/paper/ai_analysis/rast.pdf), Yifan Jia, Christopher M. Poskitt, **\*Peixin Zhang**, Jingyi Wang, Jun Sun, and Sudipta Chattopadhyay, IEEE International Conference on Robotics and Automation, 2024<br/><br/>
+>> Publication: ["Rounding-Guided Backdoor Injection in Deep Learning Model Quantization"](http://pxzhang94.github.io/paper/ai_analysis/qura.pdf), Xiangxiang Chen, **\*Peixin Zhang**, Jun Sun, Wenhai Wang, Jingyi Wang, Network and Distributed System Security Symposium (NDSS), 2026<br/><br/>
+"Towards Provably Unlearnable Examples via Bayes Error Optimization", Ruihan Zhang, Jun Sun, Ee-Peng Lim, **\*Peixin Zhang**, AAAI Conference on Artificial Intelligence (AAAI), 2026<br/><br/>
+"Activity Transition Graph Generation: How Far Are We?", Jiakun Liu, **\*Peixin Zhang**, Han Hu, Yonghui Liu, Wei Minn, Ferdian Thung, Shahar Maoz, Eran Toch, Debin Gao, David Lo, ACM Transactions on Software Engineering and Methodology (TOSEM), 2026<br/><br/>
+["LLMScan: Causal Scan for LLM Misbehavior Detection"](http://pxzhang94.github.io/paper/ai_analysis/llmscan.pdf), Mengdi Zhang, Kai Kiat Goh, **\*Peixin Zhang**, Jun Sun, Rose Lin Xin, Hongyu Zhang, International Conference on Machine Learning (ICML), 2025<br/><br/> 
+["Boosting Adversarial Training in Safety-critical Systems through Boundary Data Selection"](http://pxzhang94.github.io/paper/ai_analysis/rast.pdf), Yifan Jia, Christopher M. Poskitt, **\*Peixin Zhang**, Jingyi Wang, Jun Sun, and Sudipta Chattopadhyay, IEEE International Conference on Robotics and Automation (ICRA), 2024<br/><br/>
 ["QuoTe: Quality-oriented Testing for Deep Learning Systems"](http://pxzhang94.github.io/paper/ai_analysis/quote.pdf), Jialuo Chen, Jingyi Wang, Xingjun Ma, Youcheng Sun, Jun Sun, **Peixin Zhang**, and Peng Cheng, ACM Transactions on Software Engineering and Methodology (TOSEM), 2023<br/><br/>
 
 > [Intelligent Computing and Software Center (ICSOFT)](http://www.icsoft.zju.edu.cn), Zhejiang University，2018.03-2022.06，AI Testing & Verification

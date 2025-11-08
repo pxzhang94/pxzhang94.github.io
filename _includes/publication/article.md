@@ -1,6 +1,10 @@
 ### 2026
 Xiangxiang Chen, **\*Peixin Zhang**, Jun Sun, Wenhai Wang, Jingyi Wang, "Rounding-Guided Backdoor Injection in Deep Learning Model Quantization", NDSS 2026. \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/qura.pdf), Slide\]
 
+Ruihan Zhang, Jun Sun, Ee-Peng Lim, **\*Peixin Zhang**, "Towards Provably Unlearnable Examples via Bayes Error Optimization", AAAI 2026.
+
+Jiakun Liu, **\*Peixin Zhang**, Han Hu, Yonghui Liu, Wei Minn, Ferdian Thung, Shahar Maoz, Eran Toch, Debin Gao, David Lo, "Activity Transition Graph Generation: How Far Are We?", TOSEM 2026.
+
 ### 2025
 Mengdi Zhang, Kai Kiat Goh, **\*Peixin Zhang**, Jun Sun, Rose Lin Xin, Hongyu Zhang, "LLMScan: Causal Scan for LLM Misbehavior Detection", ICML 2025. \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/llmscan.pdf), Slide\]
 
