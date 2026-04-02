@@ -9,7 +9,7 @@ Ruihan Zhang, Jun Sun, Ee-Peng Lim, **\*Peixin Zhang**, "Towards Provably Unlear
 
 Jiakun Liu, **\*Peixin Zhang**, Han Hu, Yonghui Liu, Wei Minn, Ferdian Thung, Shahar Maoz, Eran Toch, Debin Gao, David Lo, "Activity Transition Graph Generation: How Far Are We?", TOSEM 2026. \[[PDF](http://pxzhang94.github.io/paper/software_engineering/atg.pdf)\]
 
-Xuran Li, Jingyi Wang, Xiaohan Yuan, Peixin Zhang, "PRUNE: A Patching Based Repair Framework for Certifiable and Privacy-Robust Unlearning of Neural Networks", Neural Networks 2026. \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/prune.pdf)\]
+Xuran Li, Jingyi Wang, Xiaohan Yuan, **Peixin Zhang**, "PRUNE: A Patching Based Repair Framework for Certifiable and Privacy-Robust Unlearning of Neural Networks", Neural Networks 2026. \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/prune.pdf)\]
 
 ### 2025
 Mengdi Zhang, Kai Kiat Goh, **\*Peixin Zhang**, Jun Sun, Rose Lin Xin, Hongyu Zhang, "LLMScan: Causal Scan for LLM Misbehavior Detection", ICML 2025. \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/llmscan.pdf)\]
