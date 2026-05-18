@@ -5,7 +5,7 @@ Xiangxiang Chen, **\*Peixin Zhang**, Jun Sun, Jin Song Dong, Wenhai Wang, Jingyi
 
 Boquan Li, Chenzhe Lou, Zhe Ren, **\*Peixin Zhang**, Zirui Fu, Jun Sun, Yaowen Zheng, "Be Responsible in Your Answers! Monitoring Out-of-Domain Behaviors in Domain-Specific LLMs", WWW 2026. \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/domainmonitor.pdf), [Bibtex](http://pxzhang94.github.io/bibtex/domainmonitor.html), Slide\]
 
-Ruihan Zhang, Jun Sun, Ee-Peng Lim, **\*Peixin Zhang**, "Towards Provably Unlearnable Examples via Bayes Error Optimization", AAAI 2026. \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/bayes_unlearn.pdf), [Bibtex](http://pxzhang94.github.io/bibtex/unlearable.html), Slide\]
+Ruihan Zhang, Jun Sun, Ee-Peng Lim, **\*Peixin Zhang**, "Towards Provably Unlearnable Examples via Bayes Error Optimization", AAAI 2026. \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/bayes_unlearn.pdf), [Bibtex](http://pxzhang94.github.io/bibtex/unlearable.html)\]
 
 Jiakun Liu, **\*Peixin Zhang**, Han Hu, Yonghui Liu, Wei Minn, Ferdian Thung, Shahar Maoz, Eran Toch, Debin Gao, David Lo, "Activity Transition Graph Generation: How Far Are We?", TOSEM 2026. \[[PDF](http://pxzhang94.github.io/paper/software_engineering/atg.pdf)\]
 
