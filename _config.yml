@@ -104,28 +104,28 @@ page-mathjax: false
 
 
 # Friends
-friends: [
-  {
-        title: "Jingyi Wang",
-        href: "https://wang-jingyi.github.io"
-    },{
-        title: "Yun Lin",
-        href: "http://linyun.info"
-    },{
-        title: "Jun Sun",
-        href: "https://sunjun.site"
-    },{
-        title: "Ming Fan",
-        href: "https://fanmingxjtu.github.io/"
-    },{
-        title: "Zhanming Jie",
-        href: "https://people.sutd.edu.sg/~allanjie/"
-    },{
-        title: "Jiakun Liu",
-        href: "https://jiakun-liu.github.io"
-    }
-    # ,{
-    #    title: "乱序",
-    #    href: "http://mida.re/"
-    #},{
-]
+# friends: [
+#   {
+#         title: "Jingyi Wang",
+#         href: "https://wang-jingyi.github.io"
+#     },{
+#         title: "Yun Lin",
+#         href: "http://linyun.info"
+#     },{
+#         title: "Jun Sun",
+#         href: "https://sunjun.site"
+#     },{
+#         title: "Ming Fan",
+#         href: "https://fanmingxjtu.github.io/"
+#     },{
+#         title: "Zhanming Jie",
+#         href: "https://people.sutd.edu.sg/~allanjie/"
+#     },{
+#         title: "Jiakun Liu",
+#         href: "https://jiakun-liu.github.io"
+#     }
+#     # ,{
+#     #    title: "乱序",
+#     #    href: "http://mida.re/"
+#     #},{
+# ]
