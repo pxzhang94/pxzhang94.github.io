@@ -12,6 +12,7 @@ I am a Research Scientist working in the [System Analysis and Verification Group
 
 > [System Analysis and Verification Group (SAV)](https://sav-smu.github.io), Singapore Management University，2022.09-，AI Testing & Verification
 >> Publication: ["Rounding-Guided Backdoor Injection in Deep Learning Model Quantization"](http://pxzhang94.github.io/paper/ai_analysis/qura.pdf), Xiangxiang Chen, **\*Peixin Zhang**, Jun Sun, Wenhai Wang, Jingyi Wang, Network and Distributed System Security Symposium (NDSS), 2026<br/><br/>
+"DDOR: Delta Debugging for Explainable Overrefusal Testing and Repair", Qinyan Zhou, **\*Peixin Zhang**, Jun Sun, Haonan Zhang, Dongxia Wang, International Symposium on Software Testing and Analysis (ISSTA), 2026<br/><br/>
 ["LLMQuA: Practical Backdoor Injection on Large Language Model Quantization"](http://pxzhang94.github.io/paper/ai_analysis/llmqua.pdf), Xiangxiang Chen, **\*Peixin Zhang**, Jun Sun, Jin Song Dong, Wenhai Wang, Jingyi Wang, ACM Web Conference (WWW), 2026<br/><br/>
 ["Be Responsible in Your Answers! Monitoring Out-of-Domain Behaviors in Domain-Specific LLMs"](http://pxzhang94.github.io/paper/ai_analysis/domainmonitor.pdf), Boquan Li, Chenzhe Lou, Zhe Ren, **\*Peixin Zhang**, Zirui Fu, Jun Sun, Yaowen Zheng, ACM Web Conference (WWW), 2026<br/><br/>
 ["Towards Provably Unlearnable Examples via Bayes Error Optimization"](http://pxzhang94.github.io/paper/ai_analysis/bayes_unlearn.pdf), Ruihan Zhang, Jun Sun, Ee-Peng Lim, **\*Peixin Zhang**, AAAI Conference on Artificial Intelligence (AAAI), 2026<br/><br/>
