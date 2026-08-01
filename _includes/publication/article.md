@@ -1,7 +1,7 @@
 ### 2026
 Xiangxiang Chen, **\*Peixin Zhang**, Jun Sun, Wenhai Wang, Jingyi Wang, "Rounding-Guided Backdoor Injection in Deep Learning Model Quantization", NDSS 2026. \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/qura.pdf), [Bibtex](http://pxzhang94.github.io/bibtex/ndss2026.html)\]
 
-Qinyan Zhou, **\*Peixin Zhang**, Jun Sun, Haonan Zhang, Dongxia Wang, "DDOR: Delta Debugging for Explainable Overrefusal Testing and Repair", ISSTA 2026. 
+Qinyan Zhou, **\*Peixin Zhang**, Jun Sun, Haonan Zhang, Dongxia Wang, "DDOR: Delta Debugging for Explainable Overrefusal Testing and Repair", ISSTA 2026. \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/ddor.pdf)\]
 
 Xiangxiang Chen, **\*Peixin Zhang**, Jun Sun, Jin Song Dong, Wenhai Wang, Jingyi Wang, "LLMQuA: Practical Backdoor Injection on Large Language Model Quantization", WWW 2026. \[[PDF](http://pxzhang94.github.io/paper/ai_analysis/llmqua.pdf), [Bibtex](http://pxzhang94.github.io/bibtex/llmqua.html)\]
 
