@@ -175,7 +175,27 @@ layout: default
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script>
 			const travelItems = [
     {
-        "name": "玉溪市",
+        "name": "朔州",
+        "time": "2026.07",
+        "image": "images/shuozhou.jpg",
+        "description": "",
+        "iconClass": "i-single",
+        "link": "",
+        "lat": 39.3313,
+        "lng": 112.4329
+    }, 
+    {
+        "name": "太原",
+        "time": "2026.07",
+        "image": "images/taiyuan.jpg",
+        "description": "",
+        "iconClass": "i-single",
+        "link": "",
+        "lat": 37.8706,
+        "lng": 112.5489
+    }, 
+    {
+        "name": "玉溪",
         "time": "2026.07",
         "image": "images/yuxi.jpg",
         "description": "",
@@ -780,9 +800,9 @@ layout: default
     },
     { 
         "name": "北京", 
-        "time": "2011.12",
-        "image": "",
-        "iconClass": "i-team",
+        "time": "2026.09",
+        "image": "images/beijing.jpg",
+        "iconClass": "i-single",
         "link": "",
         "lat": 39.9042, 
         "lng": 116.4074 
@@ -813,6 +833,15 @@ layout: default
 				maxZoom: 18,
 				attribution: "&copy; OpenStreetMap contributors"
 			}).addTo(travelMap);
+            
+            // L.tileLayer(
+            //     "https://webst0{s}.is.autonavi.com/appmaptile?style=7&x={x}&y={y}&z={z}",
+            //     {
+            //         subdomains: ["1", "2", "3", "4"],
+            //         maxZoom: 18,
+            //         attribution: "&copy; AutoNavi"
+            //     }
+            // ).addTo(travelMap);
 
 			function escapeHTML(value) {
 				return String(value || "").replace(/[&<>'"]/g, char => ({
