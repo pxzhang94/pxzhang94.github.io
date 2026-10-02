@@ -66,6 +66,7 @@ Data Cleaning and Analysis
 
 | Time | Honor |
 | ------- | --- |
+| 2026.10 | Singapore Management University Research Staff Excellence Award |
 | 2023.12 | **Excellent Doctoral Dissertation in Zhejiang** |
 | 2023.03 | **Excellent Doctoral Dissertation of Zhejiang University** |
 | 2021.03 | **[ACM SIGSOFT Research Highlight](https://www.sigsoft.org/resources/highlights.html)** |

@@ -64,9 +64,10 @@
 
 | 获奖时间 | 奖项 |
 | ------- | --- |
+| 2026.10 | 新加坡管理大学杰出研究人员奖 |
 | 2023.12 | **浙江省优秀博士学位论文** |
 | 2023.03 | **浙江大学优秀博士学位论文** |
-| 2021.03 | **[ACM SIGSOFT Research Highlight](https://www.sigsoft.org/resources/highlights.html)** |
+| 2021.03 | **[国际计算机协会软件工程研究亮点奖(ACM SIGSOFT Research Highlight)](https://www.sigsoft.org/resources/highlights.html)** |
 | 2020.11 | 浙江大学三好研究生 |
 | 2020.11 | 浙江大学优秀研究生 |
 | 2020.07 | **[国际计算机协会软件工程专业杰出论文(ACM SIGSOFT Distinguished Paper)](https://2020.icse-conferences.org/info/awards)** |
